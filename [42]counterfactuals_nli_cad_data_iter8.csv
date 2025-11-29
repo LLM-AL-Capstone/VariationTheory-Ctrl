@@ -1,0 +1,45 @@
+id,ori_text,ori_label,pattern,highlight,candidate_phrases,target_label,counterfactual
+110,"Premise: A view of a park during the daytime with large skyscrapers in the background.
+Hypothesis: It is daytime outside",entailment,[woman]|[large]+*+NOUN,skyscrapers in,"large buildings, large structures, large towers, large constructions, large monuments",contradiction,"Premise: A view of a park during the daytime with large buildings in the background.  
+Hypothesis: It is nighttime outside."
+110,"Premise: A view of a park during the daytime with large skyscrapers in the background.
+Hypothesis: It is daytime outside",entailment,[woman]|[large]+*+NOUN,skyscrapers in,"large buildings, large structures, large towers, large constructions, large landmarks",neutral,A view of a park during the daytime with large landmarks in the background suggests it is daytime outside.
+153,"Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.
+Hypothesis: A woman is at a marketplace.",entailment,[woman]|[large]+*+NOUN,"shaped hat,","man, small baskets, different hat, no bread, empty marketplace",contradiction,"Premise: A man in an empty marketplace, wearing a different hat, standing behind small baskets containing no bread.  
+Hypothesis: A woman is at a marketplace."
+153,"Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.
+Hypothesis: A woman is at a marketplace.",entailment,[woman]|[large]+*+NOUN,"shaped hat,","cone-shaped hat, large baskets, marketplace items, bread loaves, outdoor setting",neutral,"A woman in an outdoor setting, wearing a cone-shaped hat, is standing near two large baskets filled with bread loaves."
+153,"Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.
+Hypothesis: A woman is at a marketplace.",entailment,[woman]|[large]+*+NOUN,loaves of,"man, small baskets, empty baskets, missing bread, absent woman",contradiction,"Premise: A man in an outdoor marketplace, standing behind two small baskets containing missing bread.  
+Hypothesis: A woman is at a marketplace."
+153,"Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.
+Hypothesis: A woman is at a marketplace.",entailment,[woman]|[large]+*+NOUN,loaves of,"woman vendor, large baskets, marketplace goods, large hat, bread seller",neutral,"A woman vendor is at a marketplace, standing behind large baskets filled with goods."
+154,"Premise: A view of a nature during the daytime with large skyscrapers in the background.
+Hypothesis: it is sunny outside",entailment,[woman]|[large]+*+NOUN,skyscrapers in,"large buildings, large structures, large towers, large constructions, large complexes",contradiction,"Premise: A view of nature during the daytime with large structures in the background.  
+Hypothesis: it is raining outside."
+154,"Premise: A view of a nature during the daytime with large skyscrapers in the background.
+Hypothesis: it is sunny outside",entailment,[woman]|[large]+*+NOUN,skyscrapers in,"large buildings, large structures, large towers, large constructions, large complexes",neutral,"Premise: A view of nature during the daytime with large structures in the background.  
+Hypothesis: It is sunny outside."
+158,"Premise: A large crowd of people are walking for the cure on a gray, overcast day with a blue car heading in the opposite direction.
+Hypothesis: A huge crowd of people are walking.",entailment,[woman]|[large]+*+NOUN,crowd of,"group of, small gathering, few individuals, scattered people, sparse crowd",contradiction,"Premise: A large crowd of people are walking for the cure on a gray, overcast day with a blue car heading in the opposite direction.  
+Hypothesis: A sparse crowd of people are walking."
+158,"Premise: A large crowd of people are walking for the cure on a gray, overcast day with a blue car heading in the opposite direction.
+Hypothesis: A huge crowd of people are walking.",entailment,[woman]|[large]+*+NOUN,crowd of,"group of, gathering of, assembly of, collection of, multitude of",neutral,"Premise: A large crowd of people are walking for the cure on a gray, overcast day with a blue car heading in the opposite direction.  
+Hypothesis: A multitude of people are walking."
+254,"Premise: A man in a park is leaning on a bar looking, towards the camera while a boy in the background is leaning over a bar, and a lady with a bag of cookies is reaching towards a girl.
+Hypothesis: The woman has cookies in her bag.",entailment,[woman]|[large]+*+NOUN,,"lady, large bag, woman with a large purse, large container, woman holding a large sack",contradiction,"Premise: A man in a park is leaning on a bar looking towards the camera while a boy in the background is leaning over a bar, and a lady with a bag of cookies is reaching towards a girl.  
+Hypothesis: The woman with a large purse does not have cookies."
+254,"Premise: A man in a park is leaning on a bar looking, towards the camera while a boy in the background is leaning over a bar, and a lady with a bag of cookies is reaching towards a girl.
+Hypothesis: The woman has cookies in her bag.",entailment,[woman]|[large]+*+NOUN,,"lady, large bag, woman, big container, female",neutral,"Premise: A man in a park is leaning on a bar looking towards the camera while a boy in the background is leaning over a bar, and a lady with a bag of cookies is reaching towards a girl.  
+Hypothesis: The lady is carrying a large bag."
+302,"Premise: A woman in a blue coat walks home along a sidewalk, in front of a subway sign.
+Hypothesis: A woman heading home.",entailment,[woman]|[large]+*+NOUN,,"man, large crowd, large building, large vehicle, large sign",contradiction,"Premise: A woman in a blue coat walks home along a sidewalk, in front of a large sign.  
+Hypothesis: A woman is not heading home."
+302,"Premise: A woman in a blue coat walks home along a sidewalk, in front of a subway sign.
+Hypothesis: A woman heading home.",entailment,[woman]|[large]+*+NOUN,,"individual, person, lady, pedestrian, figure",neutral,"Premise: A lady in a blue coat walks home along a sidewalk, in front of a subway sign.  
+Hypothesis: A lady heading home."
+404,"Premise: A woman traveler in blue jeans sits by a curb and waits.
+Hypothesis: A woman is waiting on a curb.",entailment,[woman]|[large]+*+NOUN,traveler in,"woman traveler, large woman, woman in, large crowd, large group",contradiction,"Premise: A woman traveler in blue jeans sits by a curb and waits.  
+Hypothesis: There is no woman traveler sitting by a curb."
+404,"Premise: A woman traveler in blue jeans sits by a curb and waits.
+Hypothesis: A woman is waiting on a curb.",entailment,[woman]|[large]+*+NOUN,traveler in,"individual near, person by, lady beside, figure at, someone on",neutral,A woman traveler in blue jeans sits by a curb with a person by her side.

@@ -1,0 +1,289 @@
+id,ori_text,ori_label,pattern,highlight
+0,"Premise: Runners in various athletic garb, as well as one individual in a spotted-green dragon costume, run to the right.
+Hypothesis: Runners see a dragon costumed animal",contradiction,[hold]|[dark],
+5,"Premise: Seven dogs are swimming in a natural body of water.
+Hypothesis: There are people in the water.",contradiction,[hold]|[dark],
+6,"Premise: Six skimpily dressed cheerleaders with pompoms are standing at the game field sidelines during an outside event.
+Hypothesis: The cheerleaders are inside.",contradiction,[hold]|[dark],
+12,"Premise: Several man in black tops sit silently.
+Hypothesis: People are playing music.",contradiction,[hold]|[dark],
+16,"Premise: Men in hard hats and brightly colored shirts are on scaffolding next to an oil rig.
+Hypothesis: Men stand next to a building.",contradiction,[hold]|[dark],
+17,"Premise: The cyclist rides on a wooded path.
+Hypothesis: The cyclist rides on a stationary bicycle in the gym.",contradiction,[hold]|[dark],
+22,"Premise: A bald musician, playing his guitar in a performance.
+Hypothesis: A long-haired musician, playing his guitar and singing in a performance.",contradiction,[hold]|[dark],
+23,"Premise: Two people sitting at a table in a restaurant.
+Hypothesis: Two people are getting ready to fight.",contradiction,[hold]|[dark],
+25,"Premise: A young girl is running upstairs to her room.
+Hypothesis: A child is outdoors.",contradiction,[hold]|[dark],
+28,"Premise: A girl in a blue gown stands in front of a drab crowd while they watch something.
+Hypothesis: The girl is wearing a blue jacket",contradiction,[hold]|[dark],
+34,"Premise: A woman is standing near the desert, looks to be throwing something.
+Hypothesis: A woman is close to the water.",contradiction,[hold]|[dark],
+36,"Premise: One man is sitting on top of a school bus, while another man, wearing a matching shirt, is standing inside.
+Hypothesis: A dog catches a frisbee.",contradiction,[hold]|[dark],
+41,"Premise: Two people wearing backpacks walking in a line along a mountain trail.
+Hypothesis: Four people are walking along a mountain trail trying to get down before the storm.",contradiction,[hold]|[dark],
+42,"Premise: Two children fight over their baby sibling. 
+Hypothesis: The children have been playing for one hour.",contradiction,[hold]|[dark],
+43,"Premise: A view of a park during the daytime with large skyscrapers in the background.
+Hypothesis: It is nighttime outside",contradiction,[hold]|[dark],
+47,"Premise: Two young girls, one in sunglasses, play with a large soap bubble in the park.
+Hypothesis: A couple of children are inside.",contradiction,[hold]|[dark],
+49,"Premise: Men working in the ceiling of a subway station.
+Hypothesis: The men aren't repairing the subway roof.",contradiction,[hold]|[dark],
+52,"Premise: A little boy is riding a dirt bike with the number seven on it going down a hill.
+Hypothesis: Appaloosa Pegasus does math.",contradiction,[hold]|[dark],
+57,"Premise: Several men in black t-shirts and caps are using plastic rods to smash food that's lying on a round table with a hole in the center.
+Hypothesis: men using metal rods",contradiction,[hold]|[dark],
+58,"Premise: Four football players raise their helmets at the game.
+Hypothesis: The guys here forgot the rules of soccer.",contradiction,[hold]|[dark],
+62,"Premise: A family is observing a flying show.
+Hypothesis: The family is inside the house.",contradiction,[hold]|[dark],
+63,"Premise: A young girl with water wings leaps into an empty pool
+Hypothesis: There are people in a pool.",contradiction,[hold]|[dark],
+66,"Premise: Two youthful street performers play flute and bongos on the street.
+Hypothesis: Two people play guitar.",contradiction,[hold]|[dark],
+75,"Premise: A young couple playfully playing in the park.
+Hypothesis: Two people in a subway station.",contradiction,[hold]|[dark],
+78,"Premise: Only one child  eats ice cream while sitting on a bench.
+Hypothesis: Two siblings are eating ice cream.",contradiction,[hold]|[dark],
+80,"Premise: Two young women are walking to church and having a conversation.
+Hypothesis: The women are walking to a friend's house.",contradiction,[hold]|[dark],
+85,"Premise: Guy in Santa suit wearing ninja mask and horns
+Hypothesis: the man is wearing a elf suit and a dog mask",contradiction,[hold]|[dark],
+92,"Premise: Just two men near a building, one smoking and pulling off a leather glove, and the other man is standing wearing a blue construction helmet.
+Hypothesis: There are at least three people in the photo.",contradiction,[hold]|[dark],
+105,"Premise: Several children leaping into a pile of leaves on the ground.
+Hypothesis: The children leaped into a pile of balloons.",contradiction,[hold]|[dark],
+107,"Premise: A young girl in white has pinned down another girl wearing blue that is lying face down on the ground.
+Hypothesis: A young boy pins down another girl.",contradiction,[hold]|[dark],
+111,"Premise: A little girl pushes a merry-go-round in a park while two other kids hold on. ee
+Hypothesis: A little girl is not playing with  the merry-go-round",contradiction,[hold]|[dark],"[[['girl'], 19, 20]]"
+112,"Premise: A bird splashing in a puddle
+Hypothesis: The squirrel is playing with another squirrel.",contradiction,[hold]|[dark],
+113,"Premise: A three-piece band plays a song on a medium-size stage.
+Hypothesis: The band is playing punk rock music.",contradiction,[hold]|[dark],
+115,"Premise: A red truck is parked next to a burning blue building while a man in a green vest runs toward it.
+Hypothesis: The burning blue building sees no one running towards it.",contradiction,[hold]|[dark],
+116,"Premise: A hockey player in a blue shirt is missing a goal.
+Hypothesis: a hockey is scoring a goal",contradiction,[hold]|[dark],
+117,"Premise: This is a man in a photo booth.
+Hypothesis: An alien in a photo booth at a carnival.",contradiction,[hold]|[dark],
+119,"Premise: A man in an orange vest is facing towards the camera rising on a bus.
+Hypothesis: A man faces away from the bus.",contradiction,[hold]|[dark],
+121,"Premise: A group of people working to package the drink.
+Hypothesis: A group of dogs working to package the food.",contradiction,[hold]|[dark],
+126,"Premise: Girls with a blue bucket is playing and splashing in the ocean water.
+Hypothesis: A boy is playing at the beach.",contradiction,[hold]|[dark],
+127,"Premise: A woman and three children are jumping into a swimming pool.
+Hypothesis: A family is playing basketball.",contradiction,[hold]|[dark],
+133,"Premise: A woman swings on a rope overlooking a red farmhouse and gated pastures and tall trees.
+Hypothesis: the woman is hanging out with her kids",contradiction,[hold]|[dark],
+134,"Premise: The guy wearing sunglasses and a hat is talking into a microphone.
+Hypothesis: The guy is singing.",contradiction,[hold]|[dark],
+135,"Premise: man being thrown off horse in a rodeo
+Hypothesis: A brown horse throws off a girl.",contradiction,[hold]|[dark],
+140,"Premise: There is a man poking a long stick up towards the ceiling.
+Hypothesis: The man has no stick.",contradiction,[hold]|[dark],
+143,"Premise: Many people stand with their hands raised.
+Hypothesis: they are all sitting down",contradiction,[hold]|[dark],
+152,"Premise: An older man and woman sitting on a cement bench with frowns on their faces are arguing about their kids.
+Hypothesis: The man and woman are arguing about money",contradiction,[hold]|[dark],
+156,"Premise: Three people trudge through the snow wearing snowshoes and using walking sticks.
+Hypothesis: Six people are in mud",contradiction,[hold]|[dark],
+162,"Premise: A woman wearing a shite short-sleeved shirt kisses a woman wearing a light pink jacket while standing on a public street.
+Hypothesis: A man is kissing a woman",contradiction,[hold]|[dark],
+164,"Premise: Two women with black hair stand in front of plywood.
+Hypothesis: Two women picking up plywood to build a fort.",contradiction,[hold]|[dark],
+165,"Premise: An older gentleman working with tools in a machine tool shop while wearing headphones to protect his ears from the noise.
+Hypothesis: An older gentleman is eating a sandwich.",contradiction,[hold]|[dark],
+166,"Premise: A mountaineer about to descend down a mountain with a blue helmet on.
+Hypothesis: A man is drinking hot cocoa inside a lodge.",contradiction,[hold]|[dark],
+182,"Premise: A group, dressed in scuba gear, is sitting at the bottom of a pool.
+Hypothesis: People are at a shopping mall .",contradiction,[hold]|[dark],
+186,"Premise: A tiny boy dressed in black is doing a skateboarding jump with a crowd watching.
+Hypothesis: A tall human in black.",contradiction,[hold]|[dark],
+187,"Premise: A person wearing a straw hat, standing outside working a steel apparatus with a pile of coconuts on the ground.
+Hypothesis: A person is near a pile of doughnuts.",contradiction,[hold]|[dark],
+191,"Premise: A man in a muddy field sowing seeds.
+Hypothesis: A man is reaping corn.",contradiction,[hold]|[dark],
+195,"Premise: A man is jumping off the grass into the fire while holding onto a giant white balloon.
+Hypothesis: The man leapt to safety without letting go of his balloon.",contradiction,[hold]|[dark],"[[['onto'], 13, 14]]"
+199,"Premise: A girl is jogging down a deserted street.
+Hypothesis: The street is empty but for one man",contradiction,[hold]|[dark],
+201,"Premise: A shirtless woman in gray pants works at a conveyor belt beside a blue tarp on a boat which is surrounded by gray water.
+Hypothesis: A fisherman in the middle of a long shift.",contradiction,[hold]|[dark],
+204,"Premise: A man is riding a red motorcycle with a small child sitting in front of him.
+Hypothesis: A man rides his car with his son.",contradiction,[hold]|[dark],
+205,"Premise: Two little boys are smiling and laughing while one is standing and one is in a bouncy seat.
+Hypothesis: The little boys are crying.",contradiction,[hold]|[dark],
+206,"Premise: The people are getting ready for the show to begin.
+Hypothesis: People stare in awe at the movie screen.",contradiction,[hold]|[dark],
+213,"Premise: A crowd is on their way out after hugging a bride.
+Hypothesis: The crowd is waiting for a bouquet .",contradiction,[hold]|[dark],
+215,"Premise: A man with a can walks past a painting of a construction scene.
+Hypothesis: Women are seated at a diner.",contradiction,[hold]|[dark],
+216,"Premise: A group of adults gathers together to watch a movie.
+Hypothesis: Some children are watching their friends perform in the holiday play.",contradiction,[hold]|[dark],
+223,"Premise: A rice field near some old buildings.
+Hypothesis: There are no rice fields.",contradiction,[hold]|[dark],
+224,"Premise: A woman with a pink purse walks down a crowded sidewalk.
+Hypothesis: A woman walks through a forest",contradiction,[hold]|[dark],
+225,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile to be polite.",contradiction,[hold]|[dark],"[[['some'], 9, 10], [['device'], 36, 37]]"
+228,"Premise: Two women are boxing in a fighting arena.
+Hypothesis: TWo men are boxing.",contradiction,[hold]|[dark],
+233,"Premise: Asian artist stretches while painting outdoors.
+Hypothesis: The artist is painting an indoor scene.",contradiction,[hold]|[dark],
+234,"Premise: A sitting man is spraying a squirt bottle at a pedestrian while holding an umbrella over his head.
+Hypothesis: A man reads the paper.",contradiction,[hold]|[dark],"[[['an'], 14, 15]]"
+239,"Premise: A large crowd of people, and at the side a gardner having his picture taken.
+Hypothesis: A famous actor is getting photographed on the red carpet in front of his adoring fans.",contradiction,[hold]|[dark],
+243,"Premise: A frowning man on a horse in front of brush and woods.
+Hypothesis: A man enjoys a day in the woods with his horse.",contradiction,[hold]|[dark],
+244,"Premise: Two people are walking down the street holding hands in the fall looking for a car.
+Hypothesis: A couple is looking for a house.",contradiction,[hold]|[dark],"[[['hands'], 9, 10]]"
+245,"Premise: A dog sits on its purple toy in the snowy field. 
+Hypothesis: A dog is running.",contradiction,[hold]|[dark],
+247,"Premise: A sober, upset old man smiling at the camera in front of a rocky, barren patch of land.
+Hypothesis: A man is smiling because he is drunk and happy.",contradiction,[hold]|[dark],
+249,"Premise: A man with a blue, collared shirt sits in front of another man.
+Hypothesis: a naked man is looking at his friend",contradiction,[hold]|[dark],
+251,"Premise: A man is crouched down on a skateboard and is being pulled along in the water.
+Hypothesis: the man on a snowboard",contradiction,[hold]|[dark],
+253,"Premise: A woman is standing near the water, looks to be throwing something.
+Hypothesis: The man is standing near the water.",contradiction,[hold]|[dark],
+260,"Premise: Four young men stare up at the scoreboard, in an outdoor, urban basketball court.
+Hypothesis: Four young men looking up at a basketball hoop.",contradiction,[hold]|[dark],
+261,"Premise: A man in a black shirt and white shorts is standing with his foot on a chair at a table set up with a video recording camera and a green screen in the background on a movie set.
+Hypothesis: the man is a player",contradiction,[hold]|[dark],
+264,"Premise: A group of older folks gather around a table looking off into the distance.
+Hypothesis: A group of people are sitting on a plane",contradiction,[hold]|[dark],
+266,"Premise: A blond street worker wearing a white hard hat, orange shirt, jeans and a reflective jacket is relaxing in front of a white truck and orange pylons.
+Hypothesis: A street working is working on a building.",contradiction,[hold]|[dark],
+267,"Premise: Two men look at a table with assorted items on it in some sort of market that others are currently browsing.
+Hypothesis: two women are looking",contradiction,[hold]|[dark],
+268,"Premise: An elderly man, wearing a white hat, is sweeping a parking lot.
+Hypothesis: A man is outside in the grass.",contradiction,[hold]|[dark],
+269,"Premise: A young boy with brown hair is being lifted from his seat after being dunked in the water with people looking on.
+Hypothesis: A woman is participating in a dunk tank activity",contradiction,[hold]|[dark],
+271,"Premise: Island native fishermen reeling in their nets after a long day's work.
+Hypothesis: The men are casting their nets.",contradiction,[hold]|[dark],
+272,"Premise: the little boy sitting next to the girl is covering his face with his hand.
+Hypothesis: A girl has covered her face.",contradiction,[hold]|[dark],
+275,"Premise: A man wearing dark knee boots, a green cape, and a hat with two big feathers on the front is sitting by himself on a bench in front of a building with a blue and white patterned piece of wheeled luggage to his right while he rests both his hands on a walking stick.
+Hypothesis: A man is standing by himself next to a luggage at Mardi Gras.",contradiction,[hold]|[dark],"[[['knee'], 5, 6]]"
+276,"Premise: Two babies, one in red, asleep in their highchairs.
+Hypothesis: Three babies are asleep",contradiction,[hold]|[dark],
+283,"Premise: A woman sitting down with her stuff animal and candy apple.
+Hypothesis: A woman performs CPR on an unresponsive child near the water.",contradiction,[hold]|[dark],
+285,"Premise: Two brown dog play with each other inside.
+Hypothesis: Two dogs are playing outside.",contradiction,[hold]|[dark],
+287,"Premise: A person wearing something gray while fixing a yellow and gray wall.
+Hypothesis: No one is working on a wall.",contradiction,[hold]|[dark],
+291,"Premise: A girl is splashed with water as she plays outdoors with her parents.
+Hypothesis: Siblings splashing their sister with water.",contradiction,[hold]|[dark],
+294,"Premise: A barefooted woman in a white tank and blue shorts puts her feet in the water spray.
+Hypothesis: A women does not put her feet in the water.",contradiction,[hold]|[dark],
+296,"Premise: A young dark-haired woman crouches on the banks of a river while washing dishes.
+Hypothesis: A woman washes clothes in the river.",contradiction,[hold]|[dark],"[[['woman'], 4, 5]]"
+299,"Premise: Group of people outside in the city videotaping a show.
+Hypothesis: people are watching a football game at a stadium",contradiction,[hold]|[dark],
+300,"Premise: Three children are by a waterway behind a house.
+Hypothesis: Three children are indoors.",contradiction,[hold]|[dark],
+303,"Premise: Two college students talking about their dresses they have.
+Hypothesis: Two college students compare their classes and teachers.",contradiction,[hold]|[dark],
+307,"Premise: A guy in glasses is biting into a pink marshmallow chick while somebody else is puckering their lips out wanting a bite.
+Hypothesis: A man is vomiting a marshmallow.",contradiction,[hold]|[dark],
+309,"Premise: Two men reading in front of an audience.
+Hypothesis: Two men fighting in front of people.",contradiction,[hold]|[dark],
+312,"Premise: Three dogs are swimming in a pool with a ball.
+Hypothesis: people swimming with ball",contradiction,[hold]|[dark],
+315,"Premise: a dog jumps over the couch.
+Hypothesis: dog is jumping over a pole",contradiction,[hold]|[dark],
+318,"Premise: A man in a blue jacket and gloves is standing in the street among other people.
+Hypothesis: The man is alone and naked at home.",contradiction,[hold]|[dark],
+321,"Premise: A small child is riding in a red wagon.
+Hypothesis: A kid is in a car.",contradiction,[hold]|[dark],
+322,"Premise: An attractive female athlete is stretching after exiting a swimming pool.
+Hypothesis: An attractive lady runs in blue shorts after getting out of a deep pool.",contradiction,[hold]|[dark],
+325,"Premise: A man wearing black shorts with white stripes is swimming in the water.
+Hypothesis: A man jumps.",contradiction,[hold]|[dark],
+326,"Premise: The girl wearing a brown jacket whilst walking in her office.
+Hypothesis: The girl is walking outside.",contradiction,[hold]|[dark],
+330,"Premise: A boy in overalls standing next to his two hitched horses.
+Hypothesis: An old man and his farming horses.",contradiction,[hold]|[dark],
+332,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.
+Hypothesis: One girl watch a woman holding tissue paper flowers.",contradiction,[hold]|[dark],"[[['a'], 5, 6], [[], 29, 30]]"
+337,"Premise: Two bearded men sit side by side.
+Hypothesis: Two clean shaven men are sitting down.",contradiction,[hold]|[dark],
+342,"Premise: A group of laughing people on a red couch.
+Hypothesis: A group of people are arguing on the couch.",contradiction,[hold]|[dark],
+344,"Premise: little boy looking through a telescope on playground equipment with the sun glaring off the pole his hand is on.
+Hypothesis: A young boy is looking at the moon through a telescope.",contradiction,[hold]|[dark],
+346,"Premise: A construction man appears to be staring at a device.
+Hypothesis: A woman looks at something in her hands.",contradiction,[hold]|[dark],
+348,"Premise: A joyous child runs with a football.
+Hypothesis: A sad child runs with a football.",contradiction,[hold]|[dark],
+349,"Premise: A guy on a skateboard doing a roll around a fire thing.
+Hypothesis: a guy doing flips",contradiction,[hold]|[dark],
+352,"Premise: Several man in black tops play the guitar.
+Hypothesis: People are playing baseball.",contradiction,[hold]|[dark],
+353,"Premise: Woman and young lady sit on the sidewalk while young man plays flute in background.
+Hypothesis: They are behind the music.",contradiction,[hold]|[dark],
+354,"Premise: A skier is heading into a grove of trees.
+Hypothesis: The skier is riding the lift up the mountain.",contradiction,[hold]|[dark],
+356,"Premise: Group of children, three boys, one girl making faces toward camera.
+Hypothesis: Kids are fighting while facing the camera.",contradiction,[hold]|[dark],
+358,"Premise: A family is observing a fashion show.
+Hypothesis: A family looking up into the sky at a flight show outside.",contradiction,[hold]|[dark],
+361,"Premise: Man with a hat on bends over to pick up the soap from bathtub.
+Hypothesis: A man bends over outside.",contradiction,[hold]|[dark],
+364,"Premise: A little white dog in running on the sidewalk to it's owner.
+Hypothesis: Dog running away from its owners.",contradiction,[hold]|[dark],
+365,"Premise: A man in a superhero costume, complete with mask and cape, posing in a public venue with pedestrians around.
+Hypothesis: A man has a police costume.",contradiction,[hold]|[dark],
+373,"Premise: Two people, a man in all black and a woman in white, are dancing at a bar mitzvah.
+Hypothesis: People are dancing at a wedding.",contradiction,[hold]|[dark],
+375,"Premise: a woman in a red dress is standing next to a boy in red and a boy in yellow and they are holding baseball gloves.
+Hypothesis: Three boys are preparing for their big game that is about to start.",contradiction,[hold]|[dark],"[[['baseball'], 24, 25]]"
+377,"Premise: Young girl in a blue dress walking on the sand, with 2 children in the background walking by the trees and brush.
+Hypothesis: The girl is sleeping.",contradiction,[hold]|[dark],
+380,"Premise: Two men are standing and talking on a dock area.
+Hypothesis: Three men are biting.",contradiction,[hold]|[dark],
+381,"Premise: A man with a can walks past a painting of a construction scene.
+Hypothesis: A piece of food.",contradiction,[hold]|[dark],
+382,"Premise: Four bearded men sitting in a restaurant smile at the camera.
+Hypothesis: The men are sitting inside of a conference room.",contradiction,[hold]|[dark],
+383,"Premise: A big girl is playing outside in the cold on ice.
+Hypothesis: A small girl is playing hockey outside.",contradiction,[hold]|[dark],
+384,"Premise: An young guy, probably aged five, shows off his culinary skills with pride.
+Hypothesis: The guy is over the age of ten.",contradiction,[hold]|[dark],
+389,"Premise: a young girl climbs a rock wall, in a purple dress.
+Hypothesis: A girl in a green dress is climbing a wall.",contradiction,[hold]|[dark],
+393,"Premise: The guy wearing sunglasses and a hat is singing into a microphone.
+Hypothesis: The gal is singing.",contradiction,[hold]|[dark],
+398,"Premise: A man in a blue dress is working under a bus, another man is rotating a tyre.
+Hypothesis: A man in a purple dress is fixing a bus.",contradiction,[hold]|[dark],
+399,"Premise: A woman reaching for an item on the floor.
+Hypothesis: A woman reaches for something on the table.",contradiction,[hold]|[dark],
+400,"Premise: No one is around a lady in a red shirt who is laying down hurt next to two bikes.
+Hypothesis: Some people will help her.",contradiction,[hold]|[dark],
+401,"Premise: An Asian man in a purple shirt preparing a bowl of food for the younger Asian boy sitting near buy, while an Asian man eats a roll and prepares to take some food up with his chopsticks.
+Hypothesis: A woman is preparing food for a child.",contradiction,[hold]|[dark],
+402,"Premise: A woman with a white blanket over her head is holding a baby wrapped in a blue, pink, and yellow blanket.
+Hypothesis: The blanket is black.",contradiction,[hold]|[dark],"[[['a'], 12, 13]]"
+405,"Premise: Two women jogging down a sidewalk in front of a person leaning on a bench in front of a lake. with another person
+Hypothesis: The men are joggind down a sidewalk.",contradiction,[hold]|[dark],
+410,"Premise: A smiling woman talks on a cellphone.
+Hypothesis: The woman ignores the call and puts the phone down.",contradiction,[hold]|[dark],
+413,"Premise: A crowd of people watch a street performer do a trick with a fancy pogo stick.
+Hypothesis: A crowd of people inside.",contradiction,[hold]|[dark],
+417,"Premise: A toddler is playing with colorful plastic building toys.
+Hypothesis: A human sleeping.",contradiction,[hold]|[dark],
+422,"Premise: A person is about to roll the bowling ball attempting to hit bowling pins, but misses.
+Hypothesis: Someone is bowling a perfect game.",contradiction,[hold]|[dark],
+425,"Premise: A man with a peach colored shirt leaning against a wall talking to a woman in a red skirt with long braided hair.
+Hypothesis: Bob was wearing his black colored tshirt while talking to a long braided hair lady.",contradiction,[hold]|[dark],

@@ -1,0 +1,289 @@
+id,ori_text,ori_label,pattern,highlight
+1,"Premise: A runner, number C103, in a race is wearing a green and white tank top and black shorts.
+Hypothesis: the runner is in a race",entailment,[woman]|[large]+*+NOUN,
+2,"Premise: A man in a black shirt and blue jeans crawls on a table.
+Hypothesis: A man wearing a black shirt.",entailment,[woman]|[large]+*+NOUN,
+3,"Premise: A little boy wearing goggles on top of his head, jumps through a deep water puddle with long pants on and having fun.
+Hypothesis: A boy is splashing through a puddle for fun.",entailment,[woman]|[large]+*+NOUN,
+4,"Premise: A woman with a beautiful dress and matching umbrella is walking down the street carrying a purse on her arm.
+Hypothesis: The woman is walking down the street.",entailment,[woman]|[large]+*+NOUN,
+7,"Premise: Two children smiling and sitting on grass.
+Hypothesis: Two children are sitting in the grass.",entailment,[woman]|[large]+*+NOUN,
+8,"Premise: A young man standing outside a laundromat.
+Hypothesis: A man is standing.",entailment,[woman]|[large]+*+NOUN,
+9,"Premise: A woman wearing a green shirt stands on the railroad tracks.
+Hypothesis: The woman is wearing a green shirt.",entailment,[woman]|[large]+*+NOUN,
+10,"Premise: Three lean, numbered, greyhounds eat dog food before race.
+Hypothesis: The greyhounds are eating dog food.",entailment,[woman]|[large]+*+NOUN,
+13,"Premise: A boy in a white shirt walks in the ocean.
+Hypothesis: A boy going to get wet in the ocean.",entailment,[woman]|[large]+*+NOUN,
+14,"Premise: A woman wearing a yellow and white outfit is exiting the vehicle while using city transportation.
+Hypothesis: A woman dressed in white and yellow exits a vehicle.",entailment,[woman]|[large]+*+NOUN,
+19,"Premise: A man in a white t-shirt is about to dunk a basketball through a net-less hoop.
+Hypothesis: A man is playing with a basketball.",entailment,[woman]|[large]+*+NOUN,
+20,"Premise: Workers in a factory watch a machine.
+Hypothesis: Workers watch a machine.",entailment,[woman]|[large]+*+NOUN,
+26,"Premise: A pair of people parasailing on a sunny day.
+Hypothesis: Two people are parasailing.",entailment,[woman]|[large]+*+NOUN,
+27,"Premise: A woman in a white long-sleeve shirt is leaning against a sleeping man in a green plaid shirt to attempt to sleep while sitting in a bus.
+Hypothesis: The man on the bus is looking out the window.",entailment,[woman]|[large]+*+NOUN,
+29,"Premise: A group of people watching a young lady and man.
+Hypothesis: People watch other people.",entailment,[woman]|[large]+*+NOUN,
+30,"Premise: A flourishing rice field near some buildings.
+Hypothesis: The rice is growing well this season.",entailment,[woman]|[large]+*+NOUN,
+31,"Premise: A person sitting down hold 2 items and a camera around their neck holding a trumpet.
+Hypothesis: A person is holding a trumpet.",entailment,[woman]|[large]+*+NOUN,
+32,"Premise: A man prepares to perform spoken word while cooking at home. 
+Hypothesis: A man is cooking at home.",entailment,[woman]|[large]+*+NOUN,
+35,"Premise: A group of people are gathered on a sidewalk in front of a store nearby a littered street looking to buy food.
+Hypothesis: A group of people are considering whether to shop at the store.",entailment,[woman]|[large]+*+NOUN,
+39,"Premise: A bricklayer smoothing out concrete.
+Hypothesis: Someone is smoothing concrete.",entailment,[woman]|[large]+*+NOUN,
+40,"Premise: Dog running with a purple toy in the snowy field.
+Hypothesis: A dog is running.",entailment,[woman]|[large]+*+NOUN,
+48,"Premise: Four army guys with guns and army gear.
+Hypothesis: The four guys are in the army.",entailment,[woman]|[large]+*+NOUN,
+51,"Premise: A girl lays on the ground while sleeping on the riverbank.
+Hypothesis: The girl is asleep on the riverbank.",entailment,[woman]|[large]+*+NOUN,
+53,"Premise: No one on a sidewalk in between buildings.
+Hypothesis: The sidewalk was deserted.",entailment,[woman]|[large]+*+NOUN,
+54,"Premise: A person wearing a white helmet races in a black race car.
+Hypothesis: A person wearing a white helmet races in their car.",entailment,[woman]|[large]+*+NOUN,
+59,"Premise: A little boy in a yellow tee-shirt is relaxing and taking a bite of a banana.
+Hypothesis: A little boy in yellow relaxes with some food.",entailment,[woman]|[large]+*+NOUN,
+60,"Premise: Skateboarder lands 5 ft in the ocean and swims with the sharks
+Hypothesis: A skateboarder is swimming with sharks.",entailment,[woman]|[large]+*+NOUN,
+65,"Premise: Three hockey players are in the middle of a play.
+Hypothesis: the bird is a bright red color.",entailment,[woman]|[large]+*+NOUN,
+68,"Premise: A yellow backhoe digging dirt and rocks in a field by a road taking instructions from the woman.
+Hypothesis: A backhoe talking to a woman while digging.",entailment,[woman]|[large]+*+NOUN,
+69,"Premise: A man in a costume plays on his phone.
+Hypothesis: A performer is playing a game on his phone in between shows.",entailment,[woman]|[large]+*+NOUN,
+70,"Premise: A man in jeans, a t-shirt, and a baseball cap is lying down on a wooden floor.
+Hypothesis: There is a man lying on the floor.",entailment,[woman]|[large]+*+NOUN,
+71,"Premise: A police officer in a black uniform and protective gear is standing in a crowd.
+Hypothesis: A police officer is working crowd control.",entailment,[woman]|[large]+*+NOUN,
+74,"Premise: A young woman and an older man are making food at a street market.
+Hypothesis: Two people are making food on the street.",entailment,[woman]|[large]+*+NOUN,
+76,"Premise: A man with his head close to a laptop pressing a button.
+Hypothesis: A man is using a laptop.",entailment,[woman]|[large]+*+NOUN,
+81,"Premise: A man in a field with an airplane in view.
+Hypothesis: The man is in a field.",entailment,[woman]|[large]+*+NOUN,
+83,"Premise: There is a group of five men in dark blue outfits and one is playing an accordion.
+Hypothesis: A lot of men.",entailment,[woman]|[large]+*+NOUN,
+84,"Premise: A woman riding a scooter is in front of many other people riding scooters down the street.
+Hypothesis: A woman is leading a group of people on scooters.",entailment,[woman]|[large]+*+NOUN,
+86,"Premise: A little boy is crying on a playground and a little is riding a toy bike.
+Hypothesis: There are two children in this picture.",entailment,[woman]|[large]+*+NOUN,
+93,"Premise: Women and a man have a conversation while others party in the background.
+Hypothesis: Three sisters are discussing politics in an otherwise quiet room.",entailment,[woman]|[large]+*+NOUN,
+94,"Premise: Expert snowboard is trying a new trick.
+Hypothesis: The person is snowboarding.",entailment,[woman]|[large]+*+NOUN,
+95,"Premise: A homeless man carries his belongings on a wheeled carrier in front of a back drop of graffiti.
+Hypothesis: The man is homeless.",entailment,[woman]|[large]+*+NOUN,
+97,"Premise: A man in a leather jacket and hat looking off into the distance.
+Hypothesis: A man looking into the distance",entailment,[woman]|[large]+*+NOUN,
+98,"Premise: A brown kid wearing jeans and no shirt in a barn is weaving a straw rug.
+Hypothesis: The boy is weaving a rug in the barn.",entailment,[woman]|[large]+*+NOUN,
+100,"Premise: Flaming are shooting from the back of a race car taking off.
+Hypothesis: Flames are shooting from the rear of a race car as it takes off.",entailment,[woman]|[large]+*+NOUN,
+104,"Premise: A woman in a blue coat and dark boots.
+Hypothesis: The woman wears dark boots.",entailment,[woman]|[large]+*+NOUN,
+106,"Premise: A man and a woman standing on a sidewalk in between buildings.
+Hypothesis: The sidewalk was between buildings.",entailment,[woman]|[large]+*+NOUN,
+110,"Premise: A view of a park during the daytime with large skyscrapers in the background.
+Hypothesis: It is daytime outside",entailment,[woman]|[large]+*+NOUN,"[[['skyscrapers', 'in'], 11, 13]]"
+118,"Premise: Dogs are working to package the hotdogs.
+Hypothesis: A group of dogs working to package the food.",entailment,[woman]|[large]+*+NOUN,
+122,"Premise: A band consisting of a guitar payer, banjo player, and accordion player, performs as a group of middle-aged people dance.
+Hypothesis: The band is performing for a crowd.",entailment,[woman]|[large]+*+NOUN,
+123,"Premise: one male and one female playing instruments in the street.
+Hypothesis: The two people are in the street.",entailment,[woman]|[large]+*+NOUN,
+130,"Premise: A child dressed like a superhero ringing a doorbell.
+Hypothesis: The child is trick-or-treating.",entailment,[woman]|[large]+*+NOUN,
+132,"Premise: An older man and woman sitting on a cement bench with frowns on their faces are arguing about money.
+Hypothesis: The man and woman are arguing about money",entailment,[woman]|[large]+*+NOUN,
+138,"Premise: Two women with black hair stand in front of plywood.
+Hypothesis: Two women are near plywood.",entailment,[woman]|[large]+*+NOUN,
+142,"Premise: A woman using a whisk to blend the liquid contents in a measuring cup.
+Hypothesis: The woman is blending liquids in a measuring cup.",entailment,[woman]|[large]+*+NOUN,
+151,"Premise: A young man doing a flip at a city park.
+Hypothesis: He is outside.",entailment,[woman]|[large]+*+NOUN,
+153,"Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.
+Hypothesis: A woman is at a marketplace.",entailment,[woman]|[large]+*+NOUN,"[[['shaped', 'hat,'], 11, 13], [['loaves', 'of'], 19, 21]]"
+154,"Premise: A view of a nature during the daytime with large skyscrapers in the background.
+Hypothesis: it is sunny outside",entailment,[woman]|[large]+*+NOUN,"[[['skyscrapers', 'in'], 11, 13]]"
+155,"Premise: Two children kick each other while being suspended from the ceiling.
+Hypothesis: The two kids are kicking each other.",entailment,[woman]|[large]+*+NOUN,
+158,"Premise: A large crowd of people are walking for the cure on a gray, overcast day with a blue car heading in the opposite direction.
+Hypothesis: A huge crowd of people are walking.",entailment,[woman]|[large]+*+NOUN,"[[['crowd', 'of'], 3, 5]]"
+159,"Premise: An elderly man reads a newspaper next to some garbage cans and a wall covered in graffiti.
+Hypothesis: An old person is next to a graffiti covered wall and the garbage as he reads.",entailment,[woman]|[large]+*+NOUN,
+160,"Premise: People sitting on the street curb watching the passersby.
+Hypothesis: People are sitting on a curb",entailment,[woman]|[large]+*+NOUN,
+161,"Premise: A girl wearing a helmet pedals her bike down the street.
+Hypothesis: The girl is learning how to ride a bike.",entailment,[woman]|[large]+*+NOUN,
+167,"Premise: A lit girl splashes around in natural water.
+Hypothesis: A girl splashes in water.",entailment,[woman]|[large]+*+NOUN,
+168,"Premise: Two little wiener dogs are running on the grass carrying a red ball between them.
+Hypothesis: Two little wiener dogs are carrying a red ball together as they run on the grass.",entailment,[woman]|[large]+*+NOUN,
+171,"Premise: The gentleman is quite well groomed.
+Hypothesis: The man is good looking.",entailment,[woman]|[large]+*+NOUN,
+173,"Premise: A man is seen coughing in a crowded street.
+Hypothesis: A man is coughing.",entailment,[woman]|[large]+*+NOUN,
+175,"Premise: Two men wearing white bathrobes, one with a red belt one with a blue belt take a sauna bath after a fight with another man who was refereeing.
+Hypothesis: Two men in white bathrobes, one with a red belt and one with a blue belt, are relaxing in a sauna.",entailment,[woman]|[large]+*+NOUN,
+177,"Premise: The man wearing blue jeans is fishing.
+Hypothesis: The man is in pants and fishing.",entailment,[woman]|[large]+*+NOUN,
+180,"Premise: A man in a bathing suit sleeps on one ski while being pulled by a rope.
+Hypothesis: A man is sleep.",entailment,[woman]|[large]+*+NOUN,
+181,"Premise: A person is on a four wheeler kicking up a lot of dirt in a dune.
+Hypothesis: The person is in dirt.",entailment,[woman]|[large]+*+NOUN,
+183,"Premise: Three people, the one in the center has a bag, are crossing a busy street.
+Hypothesis: Three people cross a street.",entailment,[woman]|[large]+*+NOUN,
+184,"Premise: A  man appears to be staring at a device, awed by the technology.
+Hypothesis: The man is marveling at the technology.",entailment,[woman]|[large]+*+NOUN,
+185,"Premise: A woman in a blue dress is leaning on a wall with graffiti painted on it.
+Hypothesis: The woman is leaning on a wall.",entailment,[woman]|[large]+*+NOUN,
+189,"Premise: Basketball player kneeling down to tie her tennis shoe.
+Hypothesis: Basketball player kneeling down to tie her shoe.",entailment,[woman]|[large]+*+NOUN,
+197,"Premise: Two young boys looking at comic books on a couch.
+Hypothesis: Two boys are reading on the couch.",entailment,[woman]|[large]+*+NOUN,
+198,"Premise: A man in a safety vest and black hat wearing rubber gloves is crouched down on a corner of an intersection, doing something with a stick.
+Hypothesis: A man is dressed in a way to be as safe as possible.",entailment,[woman]|[large]+*+NOUN,
+200,"Premise: Two people sitting are sitting naked  in hats and shades.
+Hypothesis: Two people are sitting naked.",entailment,[woman]|[large]+*+NOUN,
+202,"Premise: A little boy bowls in a carpeted hallway.
+Hypothesis: A boy is bowling.",entailment,[woman]|[large]+*+NOUN,
+203,"Premise: woman in white walking on the street.
+Hypothesis: a woman in white walks outside",entailment,[woman]|[large]+*+NOUN,
+218,"Premise: A group of women dressed as characters from star treck.
+Hypothesis: A group of women are are wearing costumes.",entailment,[woman]|[large]+*+NOUN,
+220,"Premise: Young boy brushing his teeth with a woman in the background.
+Hypothesis: A young boy is brushing his teeth",entailment,[woman]|[large]+*+NOUN,
+226,"Premise: Five people staring in the same direction, two of whom are wearing face masks.
+Hypothesis: 5 people stare in the same direction.",entailment,[woman]|[large]+*+NOUN,
+227,"Premise: Two kayakers interrupt a race. 
+Hypothesis: Two men on kayaks disrupt boat race",entailment,[woman]|[large]+*+NOUN,
+229,"Premise: Man in blue shirt is having a conversation with the man in the jacket.
+Hypothesis: A man is talking with another man whose in a jacket.",entailment,[woman]|[large]+*+NOUN,
+235,"Premise: A man in a green shirt is getting his feet wet in front of a wall showing a closeup picture of a face.
+Hypothesis: The man is in front of a wall.",entailment,[woman]|[large]+*+NOUN,
+237,"Premise: A cyclist wearing plaid pants and a green shirt is biking down a hill.
+Hypothesis: A person rides a bike down a hill wearing pants.",entailment,[woman]|[large]+*+NOUN,
+238,"Premise: A pair of hands being washed in a sink.
+Hypothesis: Hands are being washed in a sink.",entailment,[woman]|[large]+*+NOUN,
+240,"Premise: a perplexed man puts his hands up while telling an amusing story to his friend with a beard.
+Hypothesis: The man is perplexed by the events.",entailment,[woman]|[large]+*+NOUN,
+241,"Premise: A Seattle firefighter standing in front of his truck.
+Hypothesis: The firefighter is standing.",entailment,[woman]|[large]+*+NOUN,
+242,"Premise: Two people are sitting under a tent while another stands.
+Hypothesis: Two people sitting under a tent while another is standing.",entailment,[woman]|[large]+*+NOUN,
+252,"Premise: a young boy wearing a blue outfit playing with a rocket.
+Hypothesis: A boy is wearing a blue outfit.",entailment,[woman]|[large]+*+NOUN,
+254,"Premise: A man in a park is leaning on a bar looking, towards the camera while a boy in the background is leaning over a bar, and a lady with a bag of cookies is reaching towards a girl.
+Hypothesis: The woman has cookies in her bag.",entailment,[woman]|[large]+*+NOUN,"[[[], 47, 50]]"
+256,"Premise: A person on a bmx bike, running a course.
+Hypothesis: A biker races over a dirt track.",entailment,[woman]|[large]+*+NOUN,
+259,"Premise: Several people are riding on a roller coaster while reacting to going through a loop in various ways.
+Hypothesis: People were reacting to the roller coaster in different ways.",entailment,[woman]|[large]+*+NOUN,
+262,"Premise: A man is jumping off the grass safely while holding onto a giant white balloon.
+Hypothesis: The man leapt to safety without letting go of his balloon.",entailment,[woman]|[large]+*+NOUN,
+263,"Premise: Man in a blue coat holding a sign.
+Hypothesis: A sign was held by a man in a blue coat.",entailment,[woman]|[large]+*+NOUN,
+265,"Premise: A gold Chevrolet car on display at a convention
+Hypothesis: An expensive car on display at a convention for rich enthusiasts.",entailment,[woman]|[large]+*+NOUN,
+270,"Premise: A man with red and yellow knee high socks, a polka dot short-sleeved button up shirt, suspenders and brown shorts with a design on them is in front of an audience working a strange contraption in his hands.
+Hypothesis: A man plays a harp in front of an enthralled audience.",entailment,[woman]|[large]+*+NOUN,
+273,"Premise: Many people are crowding around a lady in a red shirt who is laying down hurt next to two bikes.
+Hypothesis: Many people are crowding around her.",entailment,[woman]|[large]+*+NOUN,
+280,"Premise: Two track and field sprinters are running side by side.
+Hypothesis: Two sprinters are running next to each other.",entailment,[woman]|[large]+*+NOUN,
+284,"Premise: Three young boys playing video games while lying on their bed.
+Hypothesis: Three young boys play video games in their bedroom.",entailment,[woman]|[large]+*+NOUN,
+286,"Premise: A snowboarder using a burton snowboard performs a jump on the clean, white snow.
+Hypothesis: a snowboarder using a burton snowboard performs in the snow",entailment,[woman]|[large]+*+NOUN,
+290,"Premise: Three labradors are sitting, resting.
+Hypothesis: Three dogs are sitting and resting.",entailment,[woman]|[large]+*+NOUN,
+292,"Premise: A peoples wearing all black clothes
+Hypothesis: The people are all wearing black clothes.",entailment,[woman]|[large]+*+NOUN,
+295,"Premise: Artist on street corner selling his artwork.
+Hypothesis: Someone is selling paintings.",entailment,[woman]|[large]+*+NOUN,
+302,"Premise: A woman in a blue coat walks home along a sidewalk, in front of a subway sign.
+Hypothesis: A woman heading home.",entailment,[woman]|[large]+*+NOUN,"[[[], 25, 28]]"
+306,"Premise: The dog takes a leap on the beach to retrieve an unknown item.
+Hypothesis: A dog is fetching something.",entailment,[woman]|[large]+*+NOUN,
+310,"Premise: Two men near a building, one smoking and pulling off a leather glove, and the other man is standing wearing a blue construction helmet.
+Hypothesis: There are at least three people in the photo.",entailment,[woman]|[large]+*+NOUN,
+311,"Premise: Workers in a factory watch a machine, thinking about their job security.
+Hypothesis: Workers contemplate their job security.",entailment,[woman]|[large]+*+NOUN,
+313,"Premise: Footballers have made three people pyramids.
+Hypothesis: Football players have made three people pyramids.",entailment,[woman]|[large]+*+NOUN,
+319,"Premise: A man is sitting on the ground next to a rope that is attached to a bike while surrounded by people. 
+Hypothesis: A man is sitting on the ground",entailment,[woman]|[large]+*+NOUN,
+320,"Premise: A young couple conversing inside a hip dance club.
+Hypothesis: A couple have a conversation inside a dance club.",entailment,[woman]|[large]+*+NOUN,
+324,"Premise: A baby falls asleep on a blanket outside with his stuffed animal.
+Hypothesis: A baby is sleeping.",entailment,[woman]|[large]+*+NOUN,
+327,"Premise: Santa in his red suit is on an unfinished tile roof of a building about to descend the chimney.
+Hypothesis: Santa Claus in his red suit prepares to go down a chimney.",entailment,[woman]|[large]+*+NOUN,
+329,"Premise: An old woman in a dress with flowers and a stuffed bee attached to it, is pushing a baby stroller down the street.
+Hypothesis: An old lady pushing a stroller down a busy street.",entailment,[woman]|[large]+*+NOUN,
+334,"Premise: A man is doing a headstand, balanced on a bottle, on a street corner with a crowd around him.
+Hypothesis: A man is surrounded by people, balancing on a bottle outside",entailment,[woman]|[large]+*+NOUN,
+335,"Premise: A boy pushing a miniature car on a lawn as his friend arrives.
+Hypothesis: A boy pushes a miniature car on a lawn while waiting for his friend.",entailment,[woman]|[large]+*+NOUN,
+338,"Premise: A woman is standing near the water, looks to be throwing something.
+Hypothesis: The woman is standing near the water.",entailment,[woman]|[large]+*+NOUN,
+339,"Premise: A blond-haired child squeezes paint onto a spinning wheel.
+Hypothesis: A child squeezing",entailment,[woman]|[large]+*+NOUN,
+340,"Premise: A group of kids in robes singing and playing catch on the field.
+Hypothesis: A group of kids playing on a playground.",entailment,[woman]|[large]+*+NOUN,
+345,"Premise: People are sitting in chairs eating ribs outdoors.
+Hypothesis: The people are sitting outside, eating ribs.",entailment,[woman]|[large]+*+NOUN,
+350,"Premise: Four women standing around a yellow table are looking at laptops.
+Hypothesis: A group of women looking at laptops together.",entailment,[woman]|[large]+*+NOUN,
+357,"Premise: A businessman in a white suit conducts necessary business in a plaza using a concrete abutment as a work table.
+Hypothesis: man in suit",entailment,[woman]|[large]+*+NOUN,
+359,"Premise: Three football players are tackling a red uniformed football player during a football game.
+Hypothesis: Its a three against one tackle in the football game.",entailment,[woman]|[large]+*+NOUN,
+363,"Premise: Man and woman rowing on surfboards third rower in distance.
+Hypothesis: Couples rowing on surfboards.",entailment,[woman]|[large]+*+NOUN,
+367,"Premise: Two girls in pink on trampoline, one sitting and one jumping
+Hypothesis: the girls are jumping",entailment,[woman]|[large]+*+NOUN,
+370,"Premise: There is a man indoors poking a long stick with prosthetic arms.
+Hypothesis: The man has no arms.",entailment,[woman]|[large]+*+NOUN,
+376,"Premise: A girl with long light brown hair is standing outside.
+Hypothesis: A girl has long light brown hair.",entailment,[woman]|[large]+*+NOUN,
+379,"Premise: two black and white dogs fighting in the snow
+Hypothesis: The animals fight in the snow.",entailment,[woman]|[large]+*+NOUN,
+385,"Premise: A man in a red sleeveless shirt snores in front of a door.
+Hypothesis: The man is sleeping in front of a door",entailment,[woman]|[large]+*+NOUN,
+386,"Premise: A young woman plays on a swing set while two cats watch fish in an aquarium.
+Hypothesis: Two cats watching fish in an aquarium.",entailment,[woman]|[large]+*+NOUN,
+392,"Premise: two men sit at a encripted stone in the mountains.
+Hypothesis: The men are outside in the mountains.",entailment,[woman]|[large]+*+NOUN,
+394,"Premise: A boy kicks a giant baseball to a child while a group of children watch.
+Hypothesis: The boy is kicking the ball to another child.",entailment,[woman]|[large]+*+NOUN,
+404,"Premise: A woman traveler in blue jeans sits by a curb and waits.
+Hypothesis: A woman is waiting on a curb.",entailment,[woman]|[large]+*+NOUN,"[[['traveler', 'in'], 3, 5]]"
+411,"Premise: A man is sitting at a table drinking a beer. 
+Hypothesis: A man sits at a table drinking a beer.",entailment,[woman]|[large]+*+NOUN,
+412,"Premise: A woman wearing a purple dress and black boots walks through a crowd drinking from a glass bottle.
+Hypothesis: The woman is drinking from a glass bottle.",entailment,[woman]|[large]+*+NOUN,
+414,"Premise: Two people playing with a volleyball in a pool.
+Hypothesis: A couple people play with a ball in the water.",entailment,[woman]|[large]+*+NOUN,
+416,"Premise: A man in a navy blue jacket holding a tool in his dirty hand.
+Hypothesis: A man is holding a tool.",entailment,[woman]|[large]+*+NOUN,
+418,"Premise: A little boy, playing t-ball on a sunny day with his dad watching from behind the fence.
+Hypothesis: On a sunny day, a Dad is watching his son  play t-ball.",entailment,[woman]|[large]+*+NOUN,
+419,"Premise: A woman is sitting  with her stuff animal and candy apple, while another woman performs CPR on a child near the water.
+Hypothesis: A woman performs CPR on an unresponsive child near the water.",entailment,[woman]|[large]+*+NOUN,
+421,"Premise: Friends running a race hand in hand.
+Hypothesis: The people running hand and hand are friends.",entailment,[woman]|[large]+*+NOUN,
+423,"Premise: Several man in black tops play the guitar.
+Hypothesis: People are playing music.",entailment,[woman]|[large]+*+NOUN,
+427,"Premise: Many army men in a line holding guns in green uniforms walking down a concrete road for a parade with a big building in the background.
+Hypothesis: Army men march down a road in uniform for a parade.",entailment,[woman]|[large]+*+NOUN,
+430,"Premise: A group of people looks from below at several balconies, also occupied by people, which are present on the sides of a group of three apartment buildings.
+Hypothesis: The people are looking upward.",entailment,[woman]|[large]+*+NOUN,
