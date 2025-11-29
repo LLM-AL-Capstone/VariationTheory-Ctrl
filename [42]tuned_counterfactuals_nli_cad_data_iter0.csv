@@ -1,0 +1,1035 @@
+id,ori_text,ori_label,pattern,highlight,candidate_phrases,target_label,counterfactual
+127,"Premise: A woman and three children are jumping into a swimming pool.
+Hypothesis: A family is playing basketball.",contradiction,[jump]|(smile),into,"['smile', 'jumping', 'leaping', 'diving', 'grinning']",entailment,"Premise: A woman and three children are diving into a swimming pool.  
+Hypothesis: A family is playing basketball.  
+Label: contradiction"
+127,"Premise: A woman and three children are jumping into a swimming pool.
+Hypothesis: A family is playing basketball.",contradiction,[jump]|(smile),into,"['near', 'towards', 'around', 'beside', 'close to']",neutral,"Premise: A woman and three children are jumping into a swimming pool.  
+Hypothesis: A family is playing basketball near a swimming pool.  
+Original label: contradiction  
+Target label: neutral"
+186,"Premise: A tiny boy dressed in black is doing a skateboarding jump with a crowd watching.
+Hypothesis: A tall human in black.",contradiction,[jump]|(smile),with,"['smile', 'jump', 'smiling', 'grinning', 'cheerful']",entailment,"Premise: A tiny boy dressed in black is doing a skateboarding jump with a crowd watching.  
+Hypothesis: A cheerful human in black.  
+Original label: contradiction  
+Target label: entailment"
+186,"Premise: A tiny boy dressed in black is doing a skateboarding jump with a crowd watching.
+Hypothesis: A tall human in black.",contradiction,[jump]|(smile),with,"['near', 'alongside', 'beside', 'among', 'around']",neutral,"Premise: A tiny boy dressed in black is doing a skateboarding jump with a crowd watching.  
+Hypothesis: A tall human in black among a crowd.  
+Label: neutral"
+195,"Premise: A man is jumping off the grass into the fire while holding onto a giant white balloon.
+Hypothesis: The man leapt to safety without letting go of his balloon.",contradiction,[jump]|(smile),off,"['onto', 'over', 'toward', 'into', 'across']",entailment,"""Premise: A man is jumping over the grass into the fire while holding onto a giant white balloon.  
+Hypothesis: The man leapt to safety without letting go of his balloon.""  
+Modified label: entailment"
+195,"Premise: A man is jumping off the grass into the fire while holding onto a giant white balloon.
+Hypothesis: The man leapt to safety without letting go of his balloon.",contradiction,[jump]|(smile),off,"['away', 'over', 'near', 'beside', 'towards']",neutral,"Premise: A man is jumping off the grass near the fire while holding onto a giant white balloon.  
+Hypothesis: The man leapt to safety without letting go of his balloon.  
+Modified label: neutral"
+205,"Premise: Two little boys are smiling and laughing while one is standing and one is in a bouncy seat.
+Hypothesis: The little boys are crying.",contradiction,[jump]|(smile),and,"['smile', 'giggle', 'laugh', 'cheerful', 'happy']",entailment,"Premise: Two little boys are smiling and giggling while one is standing and one is in a bouncy seat.  
+Hypothesis: The little boys are cheerful.  
+Original label: contradiction  
+Target label: entailment"
+205,"Premise: Two little boys are smiling and laughing while one is standing and one is in a bouncy seat.
+Hypothesis: The little boys are crying.",contradiction,[jump]|(smile),and,"['smile', 'giggle', 'grin', 'chuckle', 'beam']",neutral,"Premise: Two little boys are smiling and laughing while one is standing and one is in a bouncy seat.  
+Hypothesis: The little boys giggle.  
+Original label: contradiction  
+Target label: neutral"
+225,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile to be polite.",contradiction,[jump]|(smile),to,"['smile warmly', 'smile politely', 'smile gently', 'smile kindly', 'smile softly']",entailment,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile warmly.  
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile"
+225,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile to be polite.",contradiction,[jump]|(smile),to,"['appear to smile', 'seem to smile', 'try to smile', 'manage to smile', 'attempt to smile']",neutral,"Premise: A man talking to a family unit holding some sort of probing device as they look on and appear to smile to be polite.  
+Hypothesis: A man talking to a single person while holding some sort of probing device as they"
+225,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile to be polite.",contradiction,[jump]|(smile),,"['smile warmly', 'smile politely', 'smile kindly', 'smile gently', 'smile softly']",entailment,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile warmly to be polite.  
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look"
+225,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile to be polite.",contradiction,[jump]|(smile),,"['smile warmly', 'smile slightly', 'smile politely', 'smile faintly', 'smile gently']",neutral,"""Premise: A man talking to a family unit holding some sort of probing device as they look on and smile warmly to be polite.  
+Hypothesis: A man talking to a single person while holding some sort of probing device as they"
+247,"Premise: A sober, upset old man smiling at the camera in front of a rocky, barren patch of land.
+Hypothesis: A man is smiling because he is drunk and happy.",contradiction,[jump]|(smile),the,"['smiling', 'grin', 'cheerful expression', 'happy smile', 'joyful demeanor']",entailment,"Premise: A sober, upset old man smiling at the camera in front of a rocky, barren patch of land.  
+Hypothesis: A man is smiling because he has a cheerful expression.  
+Label: entailment"
+247,"Premise: A sober, upset old man smiling at the camera in front of a rocky, barren patch of land.
+Hypothesis: A man is smiling because he is drunk and happy.",contradiction,[jump]|(smile),the,"['smile', 'grinning', 'cheerful expression', 'happy demeanor', 'content smile']",neutral,"Premise: A sober, upset old man smiling at the camera in front of a rocky, barren patch of land.  
+Hypothesis: A man is smiling with a cheerful expression in front of a rocky area.  
+Label: neutral"
+247,"Premise: A sober, upset old man smiling at the camera in front of a rocky, barren patch of land.
+Hypothesis: A man is smiling because he is drunk and happy.",contradiction,[jump]|(smile),,"['smile warmly', 'smile genuinely', 'smile happily', 'smile brightly', 'smile joyfully']",entailment,"Premise: A sober, upset old man smiling warmly at the camera in front of a rocky, barren patch of land.  
+Hypothesis: A man is smiling because he is drunk and happy.  
+Target label: entailment"
+247,"Premise: A sober, upset old man smiling at the camera in front of a rocky, barren patch of land.
+Hypothesis: A man is smiling because he is drunk and happy.",contradiction,[jump]|(smile),,"['smile gently', 'smile faintly', 'smile slightly', 'smile softly', 'smile subtly']",neutral,"Premise: A sober, upset old man smiling at the camera in front of a rocky, barren patch of land.  
+Hypothesis: A man is smiling faintly because he is content.  
+Label: neutral"
+315,"Premise: a dog jumps over the couch.
+Hypothesis: dog is jumping over a pole",contradiction,[jump]|(smile),over,"['jumping', 'leaps', 'hops', 'smile']",entailment,"Premise: a dog leaps over the couch.  
+Hypothesis: dog is jumping over a pole.  
+Label: entailment"
+315,"Premise: a dog jumps over the couch.
+Hypothesis: dog is jumping over a pole",contradiction,[jump]|(smile),over,"['near', 'around', 'across', 'beside', 'along']",neutral,"Premise: a dog jumps near the couch.  
+Hypothesis: dog is jumping over a pole.  
+Label: neutral"
+315,"Premise: a dog jumps over the couch.
+Hypothesis: dog is jumping over a pole",contradiction,[jump]|(smile),,"['jumping', 'leaps', 'hops', 'smile']",entailment,"Premise: a dog leaps over the couch.  
+Hypothesis: dog is jumping over a pole.  
+Label: entailment"
+315,"Premise: a dog jumps over the couch.
+Hypothesis: dog is jumping over a pole",contradiction,[jump]|(smile),,"['jumping activity', 'leap', 'jump attempt', 'smile moment', 'jump scene']",neutral,"Premise: a dog jumps over the couch.  
+Hypothesis: dog is involved in a jumping activity.  
+Label: neutral"
+325,"Premise: A man wearing black shorts with white stripes is swimming in the water.
+Hypothesis: A man jumps.",contradiction,[jump]|(smile),,"['A man smiles', 'A man is smiling', 'A man smiles while swimming', 'A man smiles in the water', 'A man is smiling in the water']",entailment,"Premise: A man wearing black shorts with white stripes is swimming in the water.  
+Hypothesis: A man smiles in the water.  
+Label: entailment"
+325,"Premise: A man wearing black shorts with white stripes is swimming in the water.
+Hypothesis: A man jumps.",contradiction,[jump]|(smile),,"['A man smiles', 'A man is smiling', 'A man grins', 'A man shows a smile', 'A man expresses joy']",neutral,"Premise: A man wearing black shorts with white stripes is swimming in the water.  
+Hypothesis: A man expresses joy.  
+Label: neutral"
+382,"Premise: Four bearded men sitting in a restaurant smile at the camera.
+Hypothesis: The men are sitting inside of a conference room.",contradiction,[jump]|(smile),at,"['smile', 'grinning', 'beaming', 'cheerful', 'pleased']",entailment,"Premise: Four bearded men sitting in a restaurant are grinning at the camera.  
+Hypothesis: The men are sitting inside of a conference room.  
+Label: contradiction"
+382,"Premise: Four bearded men sitting in a restaurant smile at the camera.
+Hypothesis: The men are sitting inside of a conference room.",contradiction,[jump]|(smile),at,"['smile', 'grinning', 'beam', 'cheerful expression', 'pleasant demeanor']",neutral,"Premise: Four bearded men sitting in a restaurant smile at the camera.  
+Hypothesis: The men are sitting inside of a conference room with cheerful expressions.  
+Label: neutral"
+410,"Premise: A smiling woman talks on a cellphone.
+Hypothesis: The woman ignores the call and puts the phone down.",contradiction,[jump]|(smile),woman,"['smiling woman', 'cheerful woman', 'happy woman', 'grinning woman', 'pleased woman']",entailment,"Premise: A cheerful woman talks on a cellphone.  
+Hypothesis: The woman answers the call and continues talking.  
+Label: entailment"
+410,"Premise: A smiling woman talks on a cellphone.
+Hypothesis: The woman ignores the call and puts the phone down.",contradiction,[jump]|(smile),woman,"['smiling woman', 'cheerful woman', 'happy woman', 'content woman', 'pleased woman']",neutral,"""Premise: A cheerful woman talks on a cellphone.  
+Hypothesis: The woman ignores the call and puts the phone down.""  
+Modified label: neutral"
+107,"Premise: A young girl in white has pinned down another girl wearing blue that is lying face down on the ground.
+Hypothesis: A young boy pins down another girl.",contradiction,(giant)|(wear)+(black)+*,blue that is,"['blue that is wearing black', 'blue that is dressed in black', 'blue that is in black clothing', 'blue that is outfitted in black', 'blue that is wearing dark black']",entailment,"""Premise: A young girl in white has pinned down another girl wearing blue that is dressed in black that is lying face down on the ground.  
+Hypothesis: A young boy pins down another girl.""  
+Original label: contradiction"
+107,"Premise: A young girl in white has pinned down another girl wearing blue that is lying face down on the ground.
+Hypothesis: A young boy pins down another girl.",contradiction,(giant)|(wear)+(black)+*,blue that is,"['dressed in black', 'wearing dark clothing', 'massive outfit', 'huge black dress', 'big colorful suit']",neutral,"Premise: A young girl in white has pinned down another girl wearing blue that is lying face down on the ground.  
+Hypothesis: A young boy dressed in black pins down another girl.  
+Label: neutral"
+195,"Premise: A man is jumping off the grass into the fire while holding onto a giant white balloon.
+Hypothesis: The man leapt to safety without letting go of his balloon.",contradiction,(giant)|(wear)+(black)+*,"white balloon.
+Hypothesis: The","['massive balloon. Hypothesis: The', 'huge balloon. Hypothesis: The', 'big balloon. Hypothesis: The', 'large balloon. Hypothesis: The', 'white balloon. Hypothesis: The']",entailment,"""Premise: A man is jumping off the grass into the fire while holding onto a giant white balloon.  
+Hypothesis: The man leapt to safety without letting go of his massive balloon.  
+Label: entailment"""
+195,"Premise: A man is jumping off the grass into the fire while holding onto a giant white balloon.
+Hypothesis: The man leapt to safety without letting go of his balloon.",contradiction,(giant)|(wear)+(black)+*,"white balloon.
+Hypothesis: The","['large balloon. Hypothesis: The', 'huge balloon. Hypothesis: The', 'massive balloon. Hypothesis: The', 'big balloon. Hypothesis: The', 'colorful balloon. Hypothesis: The']",neutral,"""Premise: A man is jumping off the grass into the fire while holding onto a giant white balloon.  
+Hypothesis: The man leapt to safety while holding onto a large balloon. Hypothesis: The label is neutral."""
+275,"Premise: A man wearing dark knee boots, a green cape, and a hat with two big feathers on the front is sitting by himself on a bench in front of a building with a blue and white patterned piece of wheeled luggage to his right while he rests both his hands on a walking stick.
+Hypothesis: A man is standing by himself next to a luggage at Mardi Gras.",contradiction,(giant)|(wear)+(black)+*,"dark knee boots,","['massive dark boots', 'wearing black boots', 'dressed in dark knee boots', 'outfitted with black boots', 'fashioning dark knee boots']",entailment,"Premise: A man outfitted with black boots, a green cape, and a hat with two big feathers on the front is sitting by himself on a bench in front of a building with a blue and white patterned piece of wheeled luggage"
+275,"Premise: A man wearing dark knee boots, a green cape, and a hat with two big feathers on the front is sitting by himself on a bench in front of a building with a blue and white patterned piece of wheeled luggage to his right while he rests both his hands on a walking stick.
+Hypothesis: A man is standing by himself next to a luggage at Mardi Gras.",contradiction,(giant)|(wear)+(black)+*,"dark knee boots,","['massive dark boots', 'wearing black boots', 'dressed in dark knee boots', 'outfitted with black boots', 'fashioning dark knee boots']",neutral,"Premise: A man wearing dark knee boots, a green cape, and a hat with two big feathers on the front is sitting by himself on a bench in front of a building with a blue and white patterned piece of wheeled luggage to"
+325,"Premise: A man wearing black shorts with white stripes is swimming in the water.
+Hypothesis: A man jumps.",contradiction,(giant)|(wear)+(black)+*,black shorts with,"['dressed in dark shorts with', 'wearing black shorts with', 'outfitted in black shorts with', 'in black shorts with', 'fashioning black shorts with']",entailment,"Premise: A man dressed in dark shorts with white stripes is swimming in the water.  
+Hypothesis: A man dives.  
+Label: entailment"
+325,"Premise: A man wearing black shorts with white stripes is swimming in the water.
+Hypothesis: A man jumps.",contradiction,(giant)|(wear)+(black)+*,black shorts with,"['dressed in dark', 'wearing colorful', 'outfitted in black', 'dressed in gray', 'wearing dark clothing']",neutral,"Premise: A man dressed in dark shorts with white stripes is swimming in the water.  
+Hypothesis: A man jumps.  
+Label: neutral"
+205,"Premise: Two little boys are smiling and laughing while one is standing and one is in a bouncy seat.
+Hypothesis: The little boys are crying.",contradiction,(smile)|$PERSON,and,"['smile', 'smiling', 'cheerful', 'happy', 'joyful']",entailment,"Premise: Two little boys are cheerful and laughing while one is standing and one is in a bouncy seat.  
+Hypothesis: The little boys are crying.  
+Original label: contradiction  
+Target label: entailment"
+205,"Premise: Two little boys are smiling and laughing while one is standing and one is in a bouncy seat.
+Hypothesis: The little boys are crying.",contradiction,(smile)|$PERSON,and,"['smile', 'interact', 'play', 'observe', 'enjoy']",neutral,"Premise: Two little boys are smiling and laughing while one is standing and one is in a bouncy seat.  
+Hypothesis: The little boys interact with each other.  
+Label: neutral"
+225,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile to be polite.",contradiction,(smile)|$PERSON,to,"['smile warmly', 'smile politely', 'smile gently', 'smile kindly', 'smile softly']",entailment,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile warmly to be polite.  
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look"
+225,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile to be polite.",contradiction,(smile)|$PERSON,to,"['smile gently', 'smile faintly', 'smile politely', 'smile warmly', 'smile slightly']",neutral,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile gently to be polite.  
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look"
+225,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile to be polite.",contradiction,(smile)|$PERSON,,"['smile warmly', 'person smiles', 'polite smile', 'smiling individual', 'friendly smile']",entailment,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile warmly.  
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile"
+225,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile to be polite.",contradiction,(smile)|$PERSON,,"['smile kindly', 'smile gently', 'smile politely', 'smile warmly', 'smile softly']",neutral,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile kindly.  
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile"
+247,"Premise: A sober, upset old man smiling at the camera in front of a rocky, barren patch of land.
+Hypothesis: A man is smiling because he is drunk and happy.",contradiction,(smile)|$PERSON,the,"['smile', 'the man', 'the person', 'the individual', 'the gentleman']",entailment,"Premise: A sober, upset old man smiling at the camera in front of a rocky, barren patch of land.  
+Hypothesis: The gentleman is smiling because he is happy.  
+Label: entailment"
+247,"Premise: A sober, upset old man smiling at the camera in front of a rocky, barren patch of land.
+Hypothesis: A man is smiling because he is drunk and happy.",contradiction,(smile)|$PERSON,the,"['a person', 'the individual', 'the man', 'someone', 'the figure']",neutral,"Premise: A sober, upset old man smiling at the camera in front of a rocky, barren patch of land.  
+Hypothesis: The individual is smiling because he is happy.  
+Label: neutral"
+247,"Premise: A sober, upset old man smiling at the camera in front of a rocky, barren patch of land.
+Hypothesis: A man is smiling because he is drunk and happy.",contradiction,(smile)|$PERSON,,"['smile warmly', 'smile genuinely', 'smile happily', 'smile broadly', 'smile contentedly']",entailment,"Premise: A sober, upset old man smiling at the camera in front of a rocky, barren patch of land.  
+Hypothesis: A man is smiling genuinely because he is happy.  
+Label: entailment"
+247,"Premise: A sober, upset old man smiling at the camera in front of a rocky, barren patch of land.
+Hypothesis: A man is smiling because he is drunk and happy.",contradiction,(smile)|$PERSON,,"['smile', 'grinning', 'cheerful expression', 'content look', 'pleased demeanor']",neutral,"Premise: A sober, upset old man smiling at the camera in front of a rocky, barren patch of land.  
+Hypothesis: A man is smiling with a cheerful expression because he is happy.  
+Label: neutral"
+275,"Premise: A man wearing dark knee boots, a green cape, and a hat with two big feathers on the front is sitting by himself on a bench in front of a building with a blue and white patterned piece of wheeled luggage to his right while he rests both his hands on a walking stick.
+Hypothesis: A man is standing by himself next to a luggage at Mardi Gras.",contradiction,(smile)|$PERSON,,"['The man', 'smile', 'person', 'individual', 'gentleman']",entailment,"Premise: A man wearing dark knee boots, a green cape, and a hat with two big feathers on the front is sitting by himself on a bench in front of a building with a blue and white patterned piece of wheeled luggage to"
+275,"Premise: A man wearing dark knee boots, a green cape, and a hat with two big feathers on the front is sitting by himself on a bench in front of a building with a blue and white patterned piece of wheeled luggage to his right while he rests both his hands on a walking stick.
+Hypothesis: A man is standing by himself next to a luggage at Mardi Gras.",contradiction,(smile)|$PERSON,,"['a man', 'someone', 'an individual', 'a person', 'the gentleman']",neutral,"Premise: A man wearing dark knee boots, a green cape, and a hat with two big feathers on the front is sitting by himself on a bench in front of a building with a blue and white patterned piece of wheeled luggage to"
+382,"Premise: Four bearded men sitting in a restaurant smile at the camera.
+Hypothesis: The men are sitting inside of a conference room.",contradiction,(smile)|$PERSON,at,"['smile', 'grinning', 'beaming', 'cheerful', 'pleased']",entailment,"""Premise: Four bearded men sitting in a restaurant are grinning at the camera.  
+Hypothesis: The men are sitting inside of a conference room.""  
+Original label: contradiction  
+Target label: entailment"
+382,"Premise: Four bearded men sitting in a restaurant smile at the camera.
+Hypothesis: The men are sitting inside of a conference room.",contradiction,(smile)|$PERSON,at,"['smile', 'grin', 'beam', 'men smile', 'cheerful expression']",neutral,"Premise: Four bearded men sitting in a restaurant smile at the camera.  
+Hypothesis: The men are sitting inside of a conference room with cheerful expressions.  
+Label: neutral"
+410,"Premise: A smiling woman talks on a cellphone.
+Hypothesis: The woman ignores the call and puts the phone down.",contradiction,(smile)|$PERSON,woman,"['smiling individual', 'cheerful woman', 'happy person', 'grinning lady', 'joyful woman']",entailment,"Premise: A cheerful woman talks on a cellphone.  
+Hypothesis: The woman answers the call and continues talking.  
+Label: entailment"
+410,"Premise: A smiling woman talks on a cellphone.
+Hypothesis: The woman ignores the call and puts the phone down.",contradiction,(smile)|$PERSON,woman,"['smiling individual', 'cheerful person', 'happy woman', 'content lady', 'grinning person']",neutral,"Premise: A smiling individual talks on a cellphone.  
+Hypothesis: The individual acknowledges the call and continues talking.  
+Label: neutral"
+425,"Premise: A man with a peach colored shirt leaning against a wall talking to a woman in a red skirt with long braided hair.
+Hypothesis: Bob was wearing his black colored tshirt while talking to a long braided hair lady.",contradiction,(smile)|$PERSON,colored,"['Bob', 'smile', 'person', 'individual']",entailment,"Premise: A man with a peach colored shirt leaning against a wall talking to a woman in a red skirt with long braided hair.  
+Hypothesis: The individual was wearing his peach colored shirt while talking to a long braided hair lady."
+425,"Premise: A man with a peach colored shirt leaning against a wall talking to a woman in a red skirt with long braided hair.
+Hypothesis: Bob was wearing his black colored tshirt while talking to a long braided hair lady.",contradiction,(smile)|$PERSON,colored,"['Bob', 'person', 'individual', 'someone']",neutral,"Premise: A man with a peach colored shirt leaning against a wall talking to a woman in a red skirt with long braided hair.  
+Hypothesis: A person was wearing his black colored tshirt while talking to a long braided hair lady"
+8,"Premise: A young man standing outside a laundromat.
+Hypothesis: A man is standing.",entailment,(outdoor)|$DATE,a,"['outdoor', 'indoors', 'outside', 'outdoors', 'indoor']",contradiction,"Premise: A young man standing indoors a laundromat.  
+Hypothesis: A man is standing.  
+Label: contradiction"
+8,"Premise: A young man standing outside a laundromat.
+Hypothesis: A man is standing.",entailment,(outdoor)|$DATE,a,"['outdoor', 'outdoors', 'indoor', 'outside']",neutral,"Premise: A young man standing outdoors near a laundromat.  
+Hypothesis: A man is standing.  
+Label: neutral"
+26,"Premise: A pair of people parasailing on a sunny day.
+Hypothesis: Two people are parasailing.",entailment,(outdoor)|$DATE,"sunny day.
+Hypothesis: Two","['cloudy day. Hypothesis: Two', 'indoor setting. Hypothesis: Two', 'rainy day. Hypothesis: Two', 'stormy day. Hypothesis: Two', 'indoors. Hypothesis: Two']",contradiction,"Premise: A pair of people parasailing on a sunny day.  
+Hypothesis: Two people are parasailing on a cloudy day.  
+Label: contradiction"
+26,"Premise: A pair of people parasailing on a sunny day.
+Hypothesis: Two people are parasailing.",entailment,(outdoor)|$DATE,"sunny day.
+Hypothesis: Two","['outside day. Hypothesis: Two', 'outdoors day. Hypothesis: Two', 'indoor day. Hypothesis: Two', 'outdoor day. Hypothesis: Two']",neutral,"Premise: A pair of people parasailing on a sunny day.  
+Hypothesis: Two people are parasailing on an outdoor day.  
+Label: neutral"
+30,"Premise: A flourishing rice field near some buildings.
+Hypothesis: The rice is growing well this season.",entailment,(outdoor)|$DATE,,"['indoor setting', 'outside environment', 'outdoors location', 'indoor area', 'outdoor scene']",contradiction,"""Premise: A flourishing rice field near some buildings.  
+Hypothesis: The rice is growing well this season in an indoor setting.""  
+Original label: entailment  
+Target label: contradiction"
+30,"Premise: A flourishing rice field near some buildings.
+Hypothesis: The rice is growing well this season.",entailment,(outdoor)|$DATE,,"['outside', 'outdoors', 'indoor', 'outdoor', 'this year']",neutral,"""Premise: A flourishing rice field near some buildings.  
+Hypothesis: The rice is growing well this year.""  
+Original label: entailment  
+Target label: neutral"
+110,"Premise: A view of a park during the daytime with large skyscrapers in the background.
+Hypothesis: It is daytime outside",entailment,(outdoor)|$DATE,,"['It is indoors', 'It is not outdoors', 'It is nighttime outside', 'It is not daytime outdoors', 'It is inside']",contradiction,"Premise: A view of a park during the daytime with large skyscrapers in the background.  
+Hypothesis: It is nighttime outside.  
+Label: contradiction"
+110,"Premise: A view of a park during the daytime with large skyscrapers in the background.
+Hypothesis: It is daytime outside",entailment,(outdoor)|$DATE,,"['outside view', 'outdoors scene', 'indoor setting', 'outdoor perspective', 'daytime observation']",neutral,"Premise: A view of a park during the daytime with large skyscrapers in the background.  
+Hypothesis: It is an outdoor perspective.  
+Label: neutral"
+151,"Premise: A young man doing a flip at a city park.
+Hypothesis: He is outside.",entailment,(outdoor)|$DATE,,"['indoor', 'not outdoors', 'inside', 'not outside', 'enclosed space']",contradiction,"Premise: A young man doing a flip at a city park.  
+Hypothesis: He is inside.  
+Label: contradiction"
+151,"Premise: A young man doing a flip at a city park.
+Hypothesis: He is outside.",entailment,(outdoor)|$DATE,,"['He is indoors', 'He is not outdoors', 'He is not outside', 'He is not in an outdoor area', 'He is in an indoor space']",neutral,"Premise: A young man doing a flip at a city park.  
+Hypothesis: He is in an indoor space.  
+Label: neutral"
+153,"Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.
+Hypothesis: A woman is at a marketplace.",entailment,(outdoor)|$DATE,"marketplace,","['indoor marketplace', 'indoor market', 'inside marketplace', 'inside market']",contradiction,"Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.  
+Hypothesis: A woman is at an indoor marketplace.  
+Label: contradiction"
+153,"Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.
+Hypothesis: A woman is at a marketplace.",entailment,(outdoor)|$DATE,"marketplace,","['outside', 'outdoors', 'indoor', 'outdoor']",neutral,"Premise: A woman in an indoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.  
+Hypothesis: A woman is at a marketplace.  
+Label: neutral"
+154,"Premise: A view of a nature during the daytime with large skyscrapers in the background.
+Hypothesis: it is sunny outside",entailment,(outdoor)|$DATE,,"['it is indoors', 'it is not outdoors', 'it is indoor', 'it is not outside', 'it is not sunny']",contradiction,"Premise: A view of a nature during the daytime with large skyscrapers in the background.  
+Hypothesis: it is not sunny outside.  
+Label: contradiction"
+154,"Premise: A view of a nature during the daytime with large skyscrapers in the background.
+Hypothesis: it is sunny outside",entailment,(outdoor)|$DATE,,"['outside', 'outdoors', 'indoor', 'outdoor']",neutral,"""Premise: A view of a nature during the daytime with large skyscrapers in the background.  
+Hypothesis: it is outdoor.""  
+Original label: entailment  
+Target label: neutral"
+158,"Premise: A large crowd of people are walking for the cure on a gray, overcast day with a blue car heading in the opposite direction.
+Hypothesis: A huge crowd of people are walking.",entailment,(outdoor)|$DATE,with a,"['without an', 'indoors on a', 'outside of a', 'outdoors near a', 'inside a']",contradiction,"Premise: A large crowd of people are walking for the cure on a gray, overcast day with a blue car heading in the opposite direction.  
+Hypothesis: A huge crowd of people are walking indoors on a sunny day."
+158,"Premise: A large crowd of people are walking for the cure on a gray, overcast day with a blue car heading in the opposite direction.
+Hypothesis: A huge crowd of people are walking.",entailment,(outdoor)|$DATE,with a,"['outside', 'outdoors', 'indoor', 'outdoor']",neutral,"Premise: A large crowd of people are walking for the cure on a gray, overcast day with a blue car heading in the opposite direction outdoors.  
+Hypothesis: A huge crowd of people are walking.  
+Original label: entail"
+203,"Premise: woman in white walking on the street.
+Hypothesis: a woman in white walks outside",entailment,(outdoor)|$DATE,,"['inside', 'indoor', 'not outside', 'not outdoors', 'away from outdoor']",contradiction,"Premise: woman in white walking on the street.  
+Hypothesis: a woman in white walks inside.  
+Label: contradiction"
+203,"Premise: woman in white walking on the street.
+Hypothesis: a woman in white walks outside",entailment,(outdoor)|$DATE,,"['outside', 'outdoors', 'indoor', 'outdoor']",neutral,"Premise: woman in white walking on the street.  
+Hypothesis: a woman in white walks outdoors.  
+Original label: entailment  
+Target label: neutral"
+324,"Premise: A baby falls asleep on a blanket outside with his stuffed animal.
+Hypothesis: A baby is sleeping.",entailment,(outdoor)|$DATE,with,"['indoors', 'outdoor', 'outside', 'outdoors', 'indoor']",contradiction,"Premise: A baby falls asleep on a blanket indoors with his stuffed animal.  
+Hypothesis: A baby is sleeping.  
+Label: contradiction"
+324,"Premise: A baby falls asleep on a blanket outside with his stuffed animal.
+Hypothesis: A baby is sleeping.",entailment,(outdoor)|$DATE,with,"['outdoors', 'outside', 'indoor', 'outdoor']",neutral,"Premise: A baby falls asleep on a blanket outdoors with his stuffed animal.  
+Hypothesis: A baby is sleeping.  
+Label: neutral"
+334,"Premise: A man is doing a headstand, balanced on a bottle, on a street corner with a crowd around him.
+Hypothesis: A man is surrounded by people, balancing on a bottle outside",entailment,(outdoor)|$DATE,,"['indoor', 'not outdoors', 'inside', 'not outside', 'away from outdoors']",contradiction,"Premise: A man is doing a headstand, balanced on a bottle, on a street corner with a crowd around him.  
+Hypothesis: A man is surrounded by people, balancing on a bottle indoors.  
+Label: contradiction"
+334,"Premise: A man is doing a headstand, balanced on a bottle, on a street corner with a crowd around him.
+Hypothesis: A man is surrounded by people, balancing on a bottle outside",entailment,(outdoor)|$DATE,,"['outside', 'outdoors', 'indoor', 'outdoor']",neutral,"Premise: A man is doing a headstand, balanced on a bottle, on a street corner with a crowd around him.  
+Hypothesis: A man is surrounded by people, balancing on a bottle outdoors.  
+Original label: entail"
+345,"Premise: People are sitting in chairs eating ribs outdoors.
+Hypothesis: The people are sitting outside, eating ribs.",entailment,(outdoor)|$DATE,The,"['These', 'Those', 'Their', 'This']",contradiction,"Premise: People are sitting in chairs eating ribs outdoors.  
+Hypothesis: These people are sitting inside, eating ribs.  
+Label: contradiction"
+345,"Premise: People are sitting in chairs eating ribs outdoors.
+Hypothesis: The people are sitting outside, eating ribs.",entailment,(outdoor)|$DATE,The,"['Some', 'Many', 'Several', 'A few']",neutral,"Premise: People are sitting in chairs eating ribs outdoors.  
+Hypothesis: Some people are sitting outside, eating ribs.  
+Label: neutral"
+345,"Premise: People are sitting in chairs eating ribs outdoors.
+Hypothesis: The people are sitting outside, eating ribs.",entailment,(outdoor)|$DATE,,"['inside', 'indoors', 'not outside', 'enclosed space', 'indoor setting']",contradiction,"Premise: People are sitting in chairs eating ribs outdoors.  
+Hypothesis: The people are sitting in an indoor setting, eating ribs.  
+Label: contradiction"
+345,"Premise: People are sitting in chairs eating ribs outdoors.
+Hypothesis: The people are sitting outside, eating ribs.",entailment,(outdoor)|$DATE,,"['outside', 'outdoors', 'indoor', 'outdoor', 'external']",neutral,"Premise: People are sitting in chairs eating ribs outdoors.  
+Hypothesis: The people are sitting external, eating ribs.  
+Original label: entailment  
+Target label: neutral"
+370,"Premise: There is a man indoors poking a long stick with prosthetic arms.
+Hypothesis: The man has no arms.",entailment,(outdoor)|$DATE,poking,"['outdoors', 'outside', 'indoor', 'outdoor']",contradiction,"""Premise: There is a man outdoors poking a long stick with prosthetic arms.  
+Hypothesis: The man has no arms.""  
+Label: contradiction"
+370,"Premise: There is a man indoors poking a long stick with prosthetic arms.
+Hypothesis: The man has no arms.",entailment,(outdoor)|$DATE,poking,"['outside', 'outdoors', 'indoor', 'outdoor']",neutral,"""Premise: There is a man outdoors poking a long stick with prosthetic arms.  
+Hypothesis: The man has no arms.""  
+Label: neutral"
+376,"Premise: A girl with long light brown hair is standing outside.
+Hypothesis: A girl has long light brown hair.",entailment,(outdoor)|$DATE,A,"['An indoor girl', 'A girl indoors', 'A girl not outside', 'A girl is indoor', 'A girl is not outdoors']",contradiction,"Premise: A girl with long light brown hair is standing outside.  
+Hypothesis: A girl is not outdoors.  
+Label: contradiction"
+376,"Premise: A girl with long light brown hair is standing outside.
+Hypothesis: A girl has long light brown hair.",entailment,(outdoor)|$DATE,A,"['One', 'Some', 'Any', 'The']",neutral,"Premise: A girl with long light brown hair is standing outside.  
+Hypothesis: Some girl has long light brown hair.  
+Label: neutral"
+392,"Premise: two men sit at a encripted stone in the mountains.
+Hypothesis: The men are outside in the mountains.",entailment,(outdoor)|$DATE,,"['indoors', 'not outside', 'inside', 'enclosed space', 'sheltered']",contradiction,"Premise: two men sit at a encripted stone in the mountains.  
+Hypothesis: The men are indoors in the mountains.  
+Label: contradiction"
+392,"Premise: two men sit at a encripted stone in the mountains.
+Hypothesis: The men are outside in the mountains.",entailment,(outdoor)|$DATE,,"['outdoors', 'indoor', 'outdoor', 'outside', 'external']",neutral,"Premise: two men sit at a encripted stone in the mountains.  
+Hypothesis: The men are external in the mountains.  
+Original label: entailment  
+Target label: neutral"
+418,"Premise: A little boy, playing t-ball on a sunny day with his dad watching from behind the fence.
+Hypothesis: On a sunny day, a Dad is watching his son  play t-ball.",entailment,(outdoor)|$DATE,his dad watching,"['his dad watching indoors', 'his dad watching outside', 'his dad watching outdoors', 'his dad watching away', 'his dad watching elsewhere']",contradiction,"""Premise: A little boy, playing t-ball on a sunny day with his dad watching from behind the fence.  
+Hypothesis: On a sunny day, a Dad is watching his son play t-ball with his dad watching indoors."""
+418,"Premise: A little boy, playing t-ball on a sunny day with his dad watching from behind the fence.
+Hypothesis: On a sunny day, a Dad is watching his son  play t-ball.",entailment,(outdoor)|$DATE,his dad watching,"['his dad indoors', 'his dad outside', 'his dad outdoors', 'his dad not present', 'his dad away']",neutral,"Premise: A little boy, playing t-ball on a sunny day with his dad watching from behind the fence.  
+Hypothesis: On a sunny day, a Dad is watching his son play t-ball with his dad indoors.  
+Label"
+418,"Premise: A little boy, playing t-ball on a sunny day with his dad watching from behind the fence.
+Hypothesis: On a sunny day, a Dad is watching his son  play t-ball.",entailment,(outdoor)|$DATE,son  play,"['indoor play', 'son indoors', 'son not outside', 'son playing inside', 'son not outdoors']",contradiction,"Premise: A little boy, playing t-ball on a sunny day with his dad watching from behind the fence.  
+Hypothesis: On a sunny day, a Dad is watching his son playing inside.  
+Label: contradiction"
+418,"Premise: A little boy, playing t-ball on a sunny day with his dad watching from behind the fence.
+Hypothesis: On a sunny day, a Dad is watching his son  play t-ball.",entailment,(outdoor)|$DATE,son  play,"['son play outside', 'son play outdoors', 'son play indoor', 'son play outdoor']",neutral,"Premise: A little boy, playing t-ball on a sunny day with his dad watching from behind the fence.  
+Hypothesis: On a sunny day, a Dad is watching his son play indoor.  
+Label: neutral"
+8,"Premise: A young man standing outside a laundromat.
+Hypothesis: A man is standing.",entailment,(outdoor)|(baseball),a,"['outdoor sport', 'baseball game', 'indoor activity', 'basketball match', 'football field']",contradiction,"Premise: A young man standing outside a laundromat.  
+Hypothesis: A man is standing at a football field.  
+Label: contradiction"
+8,"Premise: A young man standing outside a laundromat.
+Hypothesis: A man is standing.",entailment,(outdoor)|(baseball),a,"['outdoor activity', 'outside sport', 'baseball game', 'outdoor event', 'softball match']",neutral,"Premise: A young man standing outside a laundromat.  
+Hypothesis: A man is at an outdoor event.  
+Label: neutral"
+19,"Premise: A man in a white t-shirt is about to dunk a basketball through a net-less hoop.
+Hypothesis: A man is playing with a basketball.",entailment,(outdoor)|(baseball),net-less,"['outdoor', 'outside', 'baseball', 'football', 'soccer', 'hockey']",contradiction,"Premise: A man in a white t-shirt is about to dunk a basketball through a net-less hoop.  
+Hypothesis: A man is playing soccer.  
+Label: contradiction"
+19,"Premise: A man in a white t-shirt is about to dunk a basketball through a net-less hoop.
+Hypothesis: A man is playing with a basketball.",entailment,(outdoor)|(baseball),net-less,"['outdoor', 'outside', 'basketball', 'sport', 'outdoors']",neutral,"Premise: A man in a white t-shirt is about to dunk a basketball through a net-less hoop.  
+Hypothesis: A man is playing a sport.  
+Label: neutral"
+19,"Premise: A man in a white t-shirt is about to dunk a basketball through a net-less hoop.
+Hypothesis: A man is playing with a basketball.",entailment,(outdoor)|(baseball),,"['outside', 'outdoors', 'indoor', 'baseball', 'football', 'soccer', 'hockey', 'sport', 'ball', 'softball', 'pitcher', 'Dodgers']",contradiction,"Premise: A man in a white t-shirt is about to dunk a basketball through a net-less hoop.  
+Hypothesis: A man is playing baseball.  
+Label: contradiction"
+19,"Premise: A man in a white t-shirt is about to dunk a basketball through a net-less hoop.
+Hypothesis: A man is playing with a basketball.",entailment,(outdoor)|(baseball),,"['outside', 'outdoors', 'indoor', 'sport', 'ball', 'softball', 'pitcher', 'Dodgers', 'baseball']",neutral,"Premise: A man in a white t-shirt is about to dunk a basketball through a net-less hoop.  
+Hypothesis: A man is playing with a baseball.  
+Label: neutral"
+65,"Premise: Three hockey players are in the middle of a play.
+Hypothesis: the bird is a bright red color.",entailment,(outdoor)|(baseball),players,"['outdoor game', 'outdoor hockey', 'baseball players', 'outdoor sport', 'baseball game']",contradiction,"Premise: Three hockey players are in the middle of an outdoor hockey game.  
+Hypothesis: the bird is a bright red color.  
+Label: contradiction"
+65,"Premise: Three hockey players are in the middle of a play.
+Hypothesis: the bird is a bright red color.",entailment,(outdoor)|(baseball),players,"['outdoor game', 'outdoor sport', 'hockey match', 'outdoor activity', 'baseball players']",neutral,"Premise: Three hockey players are in the middle of an outdoor game.  
+Hypothesis: the bird is a bright red color.  
+Original label: entailment  
+Target label: neutral"
+70,"Premise: A man in jeans, a t-shirt, and a baseball cap is lying down on a wooden floor.
+Hypothesis: There is a man lying on the floor.",entailment,(outdoor)|(baseball),on,"['outside', 'outdoors', 'basketball', 'football', 'soccer', 'hockey', 'sport', 'ball', 'softball', 'pitcher', 'Dodgers']",contradiction,"Premise: A man in jeans, a t-shirt, and a baseball cap is lying down on a wooden floor.  
+Hypothesis: There is a man lying outdoors.  
+Label: contradiction"
+70,"Premise: A man in jeans, a t-shirt, and a baseball cap is lying down on a wooden floor.
+Hypothesis: There is a man lying on the floor.",entailment,(outdoor)|(baseball),on,"['outside', 'outdoors', 'basketball', 'football', 'soccer', 'hockey', 'sport', 'ball', 'softball', 'pitcher', 'Dodgers']",neutral,"Premise: A man in jeans, a t-shirt, and a baseball cap is lying down on a wooden floor.  
+Hypothesis: There is a man lying on the floor after playing softball.  
+Label: neutral"
+110,"Premise: A view of a park during the daytime with large skyscrapers in the background.
+Hypothesis: It is daytime outside",entailment,(outdoor)|(baseball),,"['indoor', 'basketball', 'football', 'soccer', 'hockey', 'sport']",contradiction,"Premise: A view of a park during the daytime with large skyscrapers in the background.  
+Hypothesis: It is daytime outside during a soccer match.  
+Label: contradiction"
+110,"Premise: A view of a park during the daytime with large skyscrapers in the background.
+Hypothesis: It is daytime outside",entailment,(outdoor)|(baseball),,"['outside activity', 'outdoor sport', 'indoor setting', 'baseball game', 'outdoor event']",neutral,"Premise: A view of a park during the daytime with large skyscrapers in the background.  
+Hypothesis: There is an outdoor event happening.  
+Label: neutral"
+151,"Premise: A young man doing a flip at a city park.
+Hypothesis: He is outside.",entailment,(outdoor)|(baseball),,"['indoor', 'basketball', 'football', 'soccer', 'hockey', 'sport', 'ball', 'softball', 'pitcher', 'Dodgers']",contradiction,"Premise: A young man doing a flip at a city park.  
+Hypothesis: He is playing basketball.  
+Label: contradiction"
+151,"Premise: A young man doing a flip at a city park.
+Hypothesis: He is outside.",entailment,(outdoor)|(baseball),,"['outdoors', 'indoor', 'sport', 'ball', 'soccer', 'basketball']",neutral,"Premise: A young man doing a flip at a city park.  
+Hypothesis: He is playing a sport.  
+Label: neutral"
+153,"Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.
+Hypothesis: A woman is at a marketplace.",entailment,(outdoor)|(baseball),"marketplace,","['outside', 'indoors', 'basketball', 'football', 'soccer', 'hockey', 'sport']",contradiction,"Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.  
+Hypothesis: A woman is playing basketball.  
+Label: contradiction"
+153,"Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.
+Hypothesis: A woman is at a marketplace.",entailment,(outdoor)|(baseball),"marketplace,","['outside market', 'indoor market', 'outdoor vendor', 'marketplace sport', 'outdoor bread']",neutral,"Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.  
+Hypothesis: A woman is at an indoor market.  
+Label: neutral"
+154,"Premise: A view of a nature during the daytime with large skyscrapers in the background.
+Hypothesis: it is sunny outside",entailment,(outdoor)|(baseball),,"['indoor activity', 'basketball game', 'soccer match', 'hockey rink', 'indoor setting']",contradiction,"""Premise: A view of a nature during the daytime with large skyscrapers in the background.  
+Hypothesis: it is an indoor setting."""
+154,"Premise: A view of a nature during the daytime with large skyscrapers in the background.
+Hypothesis: it is sunny outside",entailment,(outdoor)|(baseball),,"['outside activity', 'outdoor sport', 'indoor setting', 'baseball game', 'outdoor event']",neutral,"Premise: A view of a nature during the daytime with large skyscrapers in the background.  
+Hypothesis: there is an outdoor event happening.  
+Label: neutral"
+168,"Premise: Two little wiener dogs are running on the grass carrying a red ball between them.
+Hypothesis: Two little wiener dogs are carrying a red ball together as they run on the grass.",entailment,(outdoor)|(baseball),between,"['outside', 'indoors', 'basketball', 'football', 'soccer', 'hockey', 'sport', 'softball', 'pitcher', 'Dodgers']",contradiction,"""Premise: Two little wiener dogs are running on the grass carrying a red ball between them.  
+Hypothesis: Two little wiener dogs are carrying a basketball together as they run on the grass.""  
+Modified label:"
+168,"Premise: Two little wiener dogs are running on the grass carrying a red ball between them.
+Hypothesis: Two little wiener dogs are carrying a red ball together as they run on the grass.",entailment,(outdoor)|(baseball),between,"['outside', 'outdoors', 'ball', 'sport', 'soccer', 'football']",neutral,"""Premise: Two little wiener dogs are running on the grass carrying a red ball between them.  
+Hypothesis: Two little wiener dogs are playing a sport together as they run on the grass.""  
+Modified label:"
+168,"Premise: Two little wiener dogs are running on the grass carrying a red ball between them.
+Hypothesis: Two little wiener dogs are carrying a red ball together as they run on the grass.",entailment,(outdoor)|(baseball),on,"['outside', 'indoors', 'basketball', 'football', 'soccer', 'hockey', 'sport', 'softball', 'pitcher', 'Dodgers']",contradiction,"""Premise: Two little wiener dogs are running on the grass carrying a red ball between them.  
+Hypothesis: Two little wiener dogs are carrying a basketball together as they run on the grass.""  
+Original label:"
+168,"Premise: Two little wiener dogs are running on the grass carrying a red ball between them.
+Hypothesis: Two little wiener dogs are carrying a red ball together as they run on the grass.",entailment,(outdoor)|(baseball),on,"['outside', 'outdoors', 'sport', 'ball', 'soccer', 'football']",neutral,"""Premise: Two little wiener dogs are running on the grass carrying a red ball between them.  
+Hypothesis: Two little wiener dogs are playing soccer together as they run on the grass.""  
+Original label: entail"
+189,"Premise: Basketball player kneeling down to tie her tennis shoe.
+Hypothesis: Basketball player kneeling down to tie her shoe.",entailment,(outdoor)|(baseball),player,"['outdoor player', 'baseball player', 'football player', 'soccer player', 'hockey player']",contradiction,"Premise: Basketball player kneeling down to tie her tennis shoe.  
+Hypothesis: Soccer player kneeling down to tie her shoe.  
+Label: contradiction"
+189,"Premise: Basketball player kneeling down to tie her tennis shoe.
+Hypothesis: Basketball player kneeling down to tie her shoe.",entailment,(outdoor)|(baseball),player,"['outdoor player', 'baseball player', 'outdoor athlete', 'baseball pitcher', 'outdoor sport']",neutral,"""Premise: Basketball player kneeling down to tie her tennis shoe.  
+Hypothesis: Outdoor athlete kneeling down to tie her shoe.""  
+Modified label: neutral"
+189,"Premise: Basketball player kneeling down to tie her tennis shoe.
+Hypothesis: Basketball player kneeling down to tie her shoe.",entailment,(outdoor)|(baseball),tie,"['outside', 'outdoors', 'indoor', 'outdoor', 'baseball', 'football', 'soccer', 'hockey', 'sport', 'ball', 'softball', 'pitcher', 'Dodgers']",contradiction,"""Premise: Basketball player kneeling down to tie her tennis shoe.  
+Hypothesis: Baseball player kneeling down to tie her shoe.""  
+Label: contradiction"
+189,"Premise: Basketball player kneeling down to tie her tennis shoe.
+Hypothesis: Basketball player kneeling down to tie her shoe.",entailment,(outdoor)|(baseball),tie,"['outside', 'outdoors', 'basketball', 'sport', 'softball', 'ball']",neutral,"Premise: Basketball player kneeling down to tie her tennis shoe outside.  
+Hypothesis: Basketball player kneeling down to tie her shoe.  
+Label: neutral"
+203,"Premise: woman in white walking on the street.
+Hypothesis: a woman in white walks outside",entailment,(outdoor)|(baseball),,"['indoor', 'basketball', 'football', 'soccer', 'hockey', 'sport', 'ball', 'softball', 'pitcher', 'Dodgers']",contradiction,"Premise: woman in white walking on the street.  
+Hypothesis: a woman in white plays indoor.  
+Label: contradiction"
+203,"Premise: woman in white walking on the street.
+Hypothesis: a woman in white walks outside",entailment,(outdoor)|(baseball),,"['outdoors', 'indoor', 'sport', 'basketball', 'football', 'soccer', 'hockey', 'ball']",neutral,"Premise: woman in white walking on the street.  
+Hypothesis: a woman in white walks near a soccer field.  
+Label: neutral"
+313,"Premise: Footballers have made three people pyramids.
+Hypothesis: Football players have made three people pyramids.",entailment,(outdoor)|(baseball),people,"['outdoor players', 'outdoor activities', 'baseball players', 'outdoor sports', 'baseball games']",contradiction,"""Premise: Footballers have made three people pyramids.  
+Hypothesis: Baseball players have made three people pyramids.""  
+Original label: entailment  
+Target label: contradiction"
+313,"Premise: Footballers have made three people pyramids.
+Hypothesis: Football players have made three people pyramids.",entailment,(outdoor)|(baseball),people,"['outdoor players', 'outdoor activity', 'baseball players', 'outdoor sports', 'baseball game']",neutral,"Premise: Footballers have made three people pyramids.  
+Hypothesis: Baseball players have made three people pyramids.  
+Label: neutral"
+324,"Premise: A baby falls asleep on a blanket outside with his stuffed animal.
+Hypothesis: A baby is sleeping.",entailment,(outdoor)|(baseball),with,"['outdoor', 'indoors', 'baseball', 'basketball', 'football', 'soccer', 'hockey']",contradiction,"Premise: A baby falls asleep on a blanket outside with his stuffed animal.  
+Hypothesis: A baby is sleeping indoors.  
+Label: contradiction"
+324,"Premise: A baby falls asleep on a blanket outside with his stuffed animal.
+Hypothesis: A baby is sleeping.",entailment,(outdoor)|(baseball),with,"['outdoor', 'outdoors', 'indoor', 'baseball', 'sport']",neutral,"Premise: A baby falls asleep on a blanket outside with his stuffed animal.  
+Hypothesis: A baby is sleeping indoors.  
+Label: neutral"
+334,"Premise: A man is doing a headstand, balanced on a bottle, on a street corner with a crowd around him.
+Hypothesis: A man is surrounded by people, balancing on a bottle outside",entailment,(outdoor)|(baseball),,"['indoor activity', 'basketball court', 'football game', 'soccer match', 'hockey rink', 'indoor event', 'softball practice', 'pitcher indoors', 'Dodgers stadium', 'sport indoors']",contradiction,"Premise: A man is doing a headstand, balanced on a bottle, on a street corner with a crowd around him.  
+Hypothesis: A man is surrounded by people, balancing on a bottle at an indoor event.  
+Label"
+334,"Premise: A man is doing a headstand, balanced on a bottle, on a street corner with a crowd around him.
+Hypothesis: A man is surrounded by people, balancing on a bottle outside",entailment,(outdoor)|(baseball),,"['outside activity', 'outdoor event', 'sports crowd', 'outdoor performance', 'street sport']",neutral,"Premise: A man is doing a headstand, balanced on a bottle, on a street corner with a crowd around him.  
+Hypothesis: A man is surrounded by people at an outdoor performance.  
+Original label: entailment"
+345,"Premise: People are sitting in chairs eating ribs outdoors.
+Hypothesis: The people are sitting outside, eating ribs.",entailment,(outdoor)|(baseball),The,"['outdoor', 'indoors', 'baseball', 'basketball', 'football', 'soccer', 'hockey']",contradiction,"Premise: People are sitting in chairs eating ribs outdoors.  
+Hypothesis: The people are sitting indoors, eating ribs.  
+Label: contradiction"
+345,"Premise: People are sitting in chairs eating ribs outdoors.
+Hypothesis: The people are sitting outside, eating ribs.",entailment,(outdoor)|(baseball),The,"['outdoor', 'outside', 'indoors', 'baseball', 'sport']",neutral,"Premise: People are sitting in chairs eating ribs outdoors.  
+Hypothesis: The people are sitting indoors, eating ribs.  
+Label: neutral"
+345,"Premise: People are sitting in chairs eating ribs outdoors.
+Hypothesis: The people are sitting outside, eating ribs.",entailment,(outdoor)|(baseball),,"['indoor', 'baseball', 'basketball', 'football', 'soccer', 'hockey', 'sport', 'ball', 'softball', 'pitcher', 'Dodgers']",contradiction,"Premise: People are sitting in chairs eating ribs outdoors.  
+Hypothesis: The people are sitting indoors, eating ribs.  
+Label: contradiction"
+345,"Premise: People are sitting in chairs eating ribs outdoors.
+Hypothesis: The people are sitting outside, eating ribs.",entailment,(outdoor)|(baseball),,"['indoor', 'baseball', 'sport', 'softball', 'pitcher', 'soccer']",neutral,"""Premise: People are sitting in chairs eating ribs outdoors.  
+Hypothesis: The people are sitting outside, eating ribs after a baseball game.""  
+Original label: entailment  
+Target label: neutral"
+359,"Premise: Three football players are tackling a red uniformed football player during a football game.
+Hypothesis: Its a three against one tackle in the football game.",entailment,(outdoor)|(baseball),players,"['outside players', 'basketball players', 'soccer players', 'hockey players', 'indoor players']",contradiction,"""Premise: Three football players are tackling a red uniformed football player during a football game.  
+Hypothesis: Its a three against one tackle involving soccer players in the football game.""  
+Original label: entailment  
+Target label:"
+359,"Premise: Three football players are tackling a red uniformed football player during a football game.
+Hypothesis: Its a three against one tackle in the football game.",entailment,(outdoor)|(baseball),players,"['outside players', 'outdoor athletes', 'football outdoors', 'sport players', 'ball players']",neutral,"Premise: Three football players are tackling a red uniformed football player during a football game.  
+Hypothesis: It is a three against one tackle involving sport players.  
+Label: neutral"
+359,"Premise: Three football players are tackling a red uniformed football player during a football game.
+Hypothesis: Its a three against one tackle in the football game.",entailment,(outdoor)|(baseball),player,"['outside athlete', 'indoor player', 'basketball player', 'soccer player', 'hockey player']",contradiction,"Premise: Three football players are tackling a red uniformed football player during a football game.  
+Hypothesis: It is a three against one tackle involving a soccer player in the football game.  
+Label: contradiction"
+359,"Premise: Three football players are tackling a red uniformed football player during a football game.
+Hypothesis: Its a three against one tackle in the football game.",entailment,(outdoor)|(baseball),player,"['outside athlete', 'outdoor sport', 'baseball player', 'soccer player', 'basketball player']",neutral,"Premise: Three football players are tackling a red uniformed football player during a football game.  
+Hypothesis: It is a three against one tackle involving an outdoor sport.  
+Original label: entailment  
+Target label: neutral"
+359,"Premise: Three football players are tackling a red uniformed football player during a football game.
+Hypothesis: Its a three against one tackle in the football game.",entailment,(outdoor)|(baseball),"game.
+Hypothesis:","['outside match', 'basketball game', 'soccer match', 'hockey play', 'indoor sport']",contradiction,"Premise: Three football players are tackling a red uniformed football player during a football game.  
+Hypothesis: It is a three against one tackle in a basketball game.  
+Label: contradiction"
+359,"Premise: Three football players are tackling a red uniformed football player during a football game.
+Hypothesis: Its a three against one tackle in the football game.",entailment,(outdoor)|(baseball),"game.
+Hypothesis:","['outside match', 'basketball play', 'soccer match', 'hockey game', 'sport event', 'ball game', 'softball match', 'pitcher throw', 'Dodgers game', 'outdoor activity']",neutral,"Premise: Three football players are tackling a red uniformed football player during a football game.  
+Hypothesis: It is a three against one tackle in the sport event.  
+Original label: entailment  
+Target label: neutral"
+359,"Premise: Three football players are tackling a red uniformed football player during a football game.
+Hypothesis: Its a three against one tackle in the football game.",entailment,(outdoor)|(baseball),,"['outside activity', 'basketball game', 'soccer match', 'indoor event', 'baseball game']",contradiction,"""Premise: Three football players are tackling a red uniformed football player during a football game.  
+Hypothesis: It is a three against one tackle in a basketball game.""  
+Original label: entailment  
+Modified label: contradiction"
+359,"Premise: Three football players are tackling a red uniformed football player during a football game.
+Hypothesis: Its a three against one tackle in the football game.",entailment,(outdoor)|(baseball),,"['outside game', 'outdoor match', 'basketball game', 'soccer match', 'indoor sport', 'hockey game', 'baseball scenario']",neutral,"""Premise: Three football players are tackling a red uniformed football player during a football game.  
+Hypothesis: It is a three against one tackle in the hockey game.""  
+Original label: entailment  
+Target label: neutral"
+370,"Premise: There is a man indoors poking a long stick with prosthetic arms.
+Hypothesis: The man has no arms.",entailment,(outdoor)|(baseball),poking,"['outside', 'outdoors', 'baseball', 'sport', 'ball', 'indoor']",contradiction,"Premise: There is a man outdoors poking a long stick with prosthetic arms.  
+Hypothesis: The man has no arms.  
+Label: contradiction"
+370,"Premise: There is a man indoors poking a long stick with prosthetic arms.
+Hypothesis: The man has no arms.",entailment,(outdoor)|(baseball),poking,"['outside', 'outdoors', 'indoor', 'outdoor', 'sport']",neutral,"Premise: There is a man outdoors poking a long stick with prosthetic arms.  
+Hypothesis: The man has no arms.  
+Label: neutral"
+376,"Premise: A girl with long light brown hair is standing outside.
+Hypothesis: A girl has long light brown hair.",entailment,(outdoor)|(baseball),A,"['An outdoor', 'The baseball', 'An indoor', 'The sport', 'A pitcher']",contradiction,"Premise: A girl with long light brown hair is standing outside.  
+Hypothesis: An indoor girl has long light brown hair.  
+Label: contradiction"
+376,"Premise: A girl with long light brown hair is standing outside.
+Hypothesis: A girl has long light brown hair.",entailment,(outdoor)|(baseball),A,"['Outside', 'outdoors', 'indoor', 'outdoor', 'sport']",neutral,"Premise: A girl with long light brown hair is standing outdoors.  
+Hypothesis: A girl has long light brown hair.  
+Label: neutral"
+392,"Premise: two men sit at a encripted stone in the mountains.
+Hypothesis: The men are outside in the mountains.",entailment,(outdoor)|(baseball),,"['indoor', 'indoors', 'baseball', 'basketball', 'football', 'soccer', 'hockey']",contradiction,"Premise: two men sit at a encripted stone in the mountains.  
+Hypothesis: The men are indoors in the mountains.  
+Original label: entailment  
+Target label: contradiction"
+392,"Premise: two men sit at a encripted stone in the mountains.
+Hypothesis: The men are outside in the mountains.",entailment,(outdoor)|(baseball),,"['outdoor activity', 'outdoor sport', 'indoor setting', 'baseball game', 'outdoor adventure']",neutral,"Premise: two men sit at a encripted stone in the mountains.  
+Hypothesis: The men are engaged in an outdoor activity.  
+Label: neutral"
+394,"Premise: A boy kicks a giant baseball to a child while a group of children watch.
+Hypothesis: The boy is kicking the ball to another child.",entailment,(outdoor)|(baseball),to,"['outside', 'outdoors', 'basketball', 'football', 'soccer', 'hockey', 'sport', 'ball', 'softball', 'pitcher', 'Dodgers']",contradiction,"Premise: A boy kicks a giant baseball to a child while a group of children watch.  
+Hypothesis: The boy is kicking a football to another child.  
+Label: contradiction"
+394,"Premise: A boy kicks a giant baseball to a child while a group of children watch.
+Hypothesis: The boy is kicking the ball to another child.",entailment,(outdoor)|(baseball),to,"['outside', 'outdoors', 'basketball', 'football', 'soccer', 'hockey', 'sport', 'ball', 'softball', 'pitcher', 'Dodgers']",neutral,"Premise: A boy kicks a giant baseball to a child while a group of children watch.  
+Hypothesis: The boy is kicking the ball to another child during a soccer game.  
+Label: neutral"
+394,"Premise: A boy kicks a giant baseball to a child while a group of children watch.
+Hypothesis: The boy is kicking the ball to another child.",entailment,(outdoor)|(baseball),,"['outside', 'indoors', 'basketball', 'football', 'soccer', 'hockey', 'softball', 'pitcher', 'Dodgers']",contradiction,"Premise: A boy kicks a giant basketball to a child while a group of children watch.  
+Hypothesis: The boy is kicking the ball to another child.  
+Label: contradiction"
+394,"Premise: A boy kicks a giant baseball to a child while a group of children watch.
+Hypothesis: The boy is kicking the ball to another child.",entailment,(outdoor)|(baseball),,"['outside activity', 'soccer game', 'indoor event', 'basketball match', 'sport scene', 'football play', 'hockey match', 'softball game', 'pitcher action', 'Dodgers fan']",neutral,"Premise: A boy kicks a giant baseball to a child while a group of children watch.  
+Hypothesis: The boy is kicking the ball during a softball game.  
+Label: neutral"
+414,"Premise: Two people playing with a volleyball in a pool.
+Hypothesis: A couple people play with a ball in the water.",entailment,(outdoor)|(baseball),,"['outside activity', 'basketball game', 'indoor setting', 'soccer match', 'outdoor baseball']",contradiction,"Premise: Two people playing with a volleyball in a pool.  
+Hypothesis: A couple people play in an outdoor baseball game.  
+Label: contradiction"
+414,"Premise: Two people playing with a volleyball in a pool.
+Hypothesis: A couple people play with a ball in the water.",entailment,(outdoor)|(baseball),,"['outside activity', 'indoor game', 'outdoor sport', 'basketball match', 'football game', 'soccer play', 'hockey event', 'sport activity', 'softball game', 'pitcher action']",neutral,"Premise: Two people playing with a volleyball in a pool.  
+Hypothesis: A couple people engage in an outdoor sport.  
+Original label: entailment  
+Target label: neutral"
+418,"Premise: A little boy, playing t-ball on a sunny day with his dad watching from behind the fence.
+Hypothesis: On a sunny day, a Dad is watching his son  play t-ball.",entailment,(outdoor)|(baseball),day,"['indoor', 'basketball', 'football', 'soccer', 'hockey', 'sport']",contradiction,"Premise: A little boy, playing t-ball on a sunny day with his dad watching from behind the fence.  
+Hypothesis: On a sunny day, a Dad is watching his son play indoor basketball.  
+Label: contradiction"
+418,"Premise: A little boy, playing t-ball on a sunny day with his dad watching from behind the fence.
+Hypothesis: On a sunny day, a Dad is watching his son  play t-ball.",entailment,(outdoor)|(baseball),day,"['outside', 'basketball', 'football', 'soccer', 'hockey', 'sport']",neutral,"Premise: A little boy, playing t-ball on a sunny day with his dad watching from behind the fence.  
+Hypothesis: On a sunny day, a Dad is watching his son play hockey.  
+Label: neutral"
+418,"Premise: A little boy, playing t-ball on a sunny day with his dad watching from behind the fence.
+Hypothesis: On a sunny day, a Dad is watching his son  play t-ball.",entailment,(outdoor)|(baseball),,"['inside', 'indoors', 'basketball', 'football', 'soccer', 'hockey', 'indoor sport', 'softball', 'pitcher indoors', 'Dodgers indoors']",contradiction,"Premise: A little boy, playing t-ball on a sunny day with his dad watching from behind the fence.  
+Hypothesis: On a sunny day, a Dad is watching his son play basketball.  
+Label: contradiction"
+418,"Premise: A little boy, playing t-ball on a sunny day with his dad watching from behind the fence.
+Hypothesis: On a sunny day, a Dad is watching his son  play t-ball.",entailment,(outdoor)|(baseball),,"['outside activity', 'indoor game', 'basketball match', 'soccer practice', 'football event', 'hockey session', 'sport activity', 'softball game', 'pitcher training', 'Dodgers fan']",neutral,"Premise: A little boy, playing t-ball on a sunny day with his dad watching from behind the fence.  
+Hypothesis: On a sunny day, a Dad is watching his son during soccer practice.  
+Label: neutral"
+148,"Premise: A man in a white shirt at a stand surrounded by beverages, fruits and lots of lemons.
+Hypothesis: The man is selling food.",neutral,(stand)|(baseball)+*+VERB,surrounded by,"['standing near', 'standing beside', 'standing around', 'standing next to', 'standing away']",contradiction,"Premise: A man in a white shirt at a stand surrounded by beverages, fruits and lots of lemons.  
+Hypothesis: The man is standing away from food.  
+Label: contradiction"
+148,"Premise: A man in a white shirt at a stand surrounded by beverages, fruits and lots of lemons.
+Hypothesis: The man is selling food.",neutral,(stand)|(baseball)+*+VERB,surrounded by,"['located at', 'positioned near', 'working at', 'stationed by', 'selling at']",entailment,"Premise: A man in a white shirt at a stand surrounded by beverages, fruits and lots of lemons.  
+Hypothesis: The man is working at a food stand.  
+Label: entailment"
+163,"Premise: A barber in a sports themed barber shop waits for his next customer to arrive.
+Hypothesis: A barber in a sports shop waits eagerly for business.",neutral,(stand)|(baseball)+*+VERB,themed barber,"['stand idly', 'baseball-themed barber', 'stand waiting', 'sport-themed barber', 'stand silently']",contradiction,"Premise: A barber in a sports themed barber shop waits for his next customer to arrive.  
+Hypothesis: A barber in a baseball-themed barber shop stands idly without expecting business.  
+Label: contradiction"
+163,"Premise: A barber in a sports themed barber shop waits for his next customer to arrive.
+Hypothesis: A barber in a sports shop waits eagerly for business.",neutral,(stand)|(baseball)+*+VERB,themed barber,"['sports stand', 'baseball stand', 'sports-themed stand', 'baseball-themed stand', 'sports stand waits']",entailment,"Premise: A barber in a sports-themed stand waits for his next customer to arrive.  
+Hypothesis: A barber in a sports-themed stand waits eagerly for business.  
+Label: entailment"
+163,"Premise: A barber in a sports themed barber shop waits for his next customer to arrive.
+Hypothesis: A barber in a sports shop waits eagerly for business.",neutral,(stand)|(baseball)+*+VERB,business.,"['stand idly', 'baseball-themed barber', 'stand waiting', 'sport-themed barber', 'stand patiently']",contradiction,"Premise: A barber in a sports themed barber shop waits for his next customer to arrive.  
+Hypothesis: A barber in a baseball-themed barber shop stands idly without expecting business.  
+Label: contradiction"
+163,"Premise: A barber in a sports themed barber shop waits for his next customer to arrive.
+Hypothesis: A barber in a sports shop waits eagerly for business.",neutral,(stand)|(baseball)+*+VERB,business.,"['stand eagerly', 'sport-themed stand', 'baseball-themed stand', 'pitcher waits', 'softball stand']",entailment,"Premise: A barber in a sports themed barber shop waits for his next customer to arrive.  
+Hypothesis: A barber in a sport-themed stand waits eagerly for business.  
+Label: entailment"
+390,"Premise: Football fans making noise.
+Hypothesis: Fans go nuts for their team.",neutral,(stand)|(baseball)+*+VERB,"fans making noise.
+Hypothesis:","['Fans stand quietly for their team.', 'Fans avoid the baseball game.', 'Fans stand still during the match.', 'Fans dislike baseball games.', 'Fans refuse to stand for their team.']",contradiction,"Premise: Football fans making noise.  
+Hypothesis: Fans stand quietly for their team.  
+Label: contradiction"
+390,"Premise: Football fans making noise.
+Hypothesis: Fans go nuts for their team.",neutral,(stand)|(baseball)+*+VERB,"fans making noise.
+Hypothesis:","['Fans stand and cheer for their team.', 'Football fans stand to support their team.', 'Fans stand and celebrate their team.', 'Fans stand and shout for their team.', 'Football fans stand in excitement.']",entailment,"Premise: Football fans making noise.  
+Hypothesis: Football fans stand in excitement.  
+Label: entailment"
+424,"Premise: A pro-baseball pitcher sends a curve ball to his opponent while many fans relax and enjoy the game.
+Hypothesis: The pitcher is playing baseball at the Dodgers stadium.",neutral,(stand)|(baseball)+*+VERB,a curve ball,"['throws a basketball', 'pitches a football', 'sends a soccer ball', 'delivers a hockey puck', 'tosses a softball']",contradiction,"Premise: A pro-baseball pitcher sends a curve ball to his opponent while many fans relax and enjoy the game.  
+Hypothesis: The pitcher throws a basketball at the Dodgers stadium.  
+Label: contradiction"
+424,"Premise: A pro-baseball pitcher sends a curve ball to his opponent while many fans relax and enjoy the game.
+Hypothesis: The pitcher is playing baseball at the Dodgers stadium.",neutral,(stand)|(baseball)+*+VERB,a curve ball,"['throws a baseball', 'pitches a ball', 'sends a sport ball', 'delivers a Dodgers pitch', 'throws a softball']",entailment,"Premise: A pro-baseball pitcher sends a curve ball to his opponent while many fans relax and enjoy the game.  
+Hypothesis: The pitcher delivers a Dodgers pitch at the stadium.  
+Label: entailment"
+424,"Premise: A pro-baseball pitcher sends a curve ball to his opponent while many fans relax and enjoy the game.
+Hypothesis: The pitcher is playing baseball at the Dodgers stadium.",neutral,(stand)|(baseball)+*+VERB,stadium.,"['stand empty', 'baseball ends', 'stand closed', 'baseball stops', 'stand removed']",contradiction,"Premise: A pro-baseball pitcher sends a curve ball to his opponent while many fans relax and enjoy the game.  
+Hypothesis: The pitcher is playing baseball at the Dodgers stadium, but the stands stand empty.  
+Label: contradiction"
+424,"Premise: A pro-baseball pitcher sends a curve ball to his opponent while many fans relax and enjoy the game.
+Hypothesis: The pitcher is playing baseball at the Dodgers stadium.",neutral,(stand)|(baseball)+*+VERB,stadium.,"['playing baseball', 'pitching baseball', 'standing to pitch', 'enjoying baseball', 'throwing baseball']",entailment,"Premise: A pro-baseball pitcher sends a curve ball to his opponent while many fans relax and enjoy the game.  
+Hypothesis: The pitcher is pitching baseball at the Dodgers stadium.  
+Label: entailment"
+18,"Premise: Several men in black t-shirts and caps are using with metal rods to smash food that's lying on a round table with a hole in the center.
+Hypothesis: The men are making dinner.",neutral,(look)|(fruit),on,"['see', 'looking', 'banana', 'orange', 'coconut', 'peach']",contradiction,"Premise: Several men in black t-shirts and caps are using metal rods to smash food that's lying on a round table with a hole in the center.  
+Hypothesis: The men are smashing a coconut.  
+Label: contradiction"
+18,"Premise: Several men in black t-shirts and caps are using with metal rods to smash food that's lying on a round table with a hole in the center.
+Hypothesis: The men are making dinner.",neutral,(look)|(fruit),on,"['see', 'looking', 'food', 'coconut', 'fruit']",entailment,"Premise: Several men in black t-shirts and caps are using metal rods to smash food that's lying on a round table with a hole in the center.  
+Hypothesis: The men are preparing coconut for dinner.  
+Label: entailment"
+37,"Premise: Two men inside a tent are examining it.
+Hypothesis: men looking at the floor",neutral,(look)|(fruit),,"['men not looking', 'men ignoring the floor', 'men avoiding the floor', 'men examining the tent', 'men focused on the tent']",contradiction,"Premise: Two men inside a tent are examining it.  
+Hypothesis: men avoiding the floor  
+Label: contradiction"
+37,"Premise: Two men inside a tent are examining it.
+Hypothesis: men looking at the floor",neutral,(look)|(fruit),,"['see the floor', 'looking at the ground', 'examining the floor', 'observing the ground', 'inspecting the floor']",entailment,"Premise: Two men inside a tent are examining it.  
+Hypothesis: men examining the floor  
+Label: entailment"
+55,"Premise: An aged woman is looking into the camera while the inside of her hut is shown.
+Hypothesis: A woman with long grey hair looks at the camera while the inside of her hut is shown.",neutral,(look)|(fruit),into,"['away from', 'past', 'beyond', 'outside of', 'around']",contradiction,"Premise: An aged woman is looking into the camera while the inside of her hut is shown.  
+Hypothesis: A woman with long grey hair looks away from the camera while the inside of her hut is shown.  
+Original label:"
+55,"Premise: An aged woman is looking into the camera while the inside of her hut is shown.
+Hypothesis: A woman with long grey hair looks at the camera while the inside of her hut is shown.",neutral,(look)|(fruit),into,"['looking', 'see', 'looks', 'observing', 'gazing']",entailment,"Premise: An aged woman is looking into the camera while the inside of her hut is shown.  
+Hypothesis: A woman with long grey hair is gazing at the camera while the inside of her hut is shown.  
+Original label"
+55,"Premise: An aged woman is looking into the camera while the inside of her hut is shown.
+Hypothesis: A woman with long grey hair looks at the camera while the inside of her hut is shown.",neutral,(look)|(fruit),the,"['see away from', 'looking elsewhere', 'not looking', 'avoiding the camera', 'turning away']",contradiction,"""Premise: An aged woman is looking into the camera while the inside of her hut is shown.  
+Hypothesis: A woman with long grey hair is avoiding the camera while the inside of her hut is shown.""  
+Original label:"
+55,"Premise: An aged woman is looking into the camera while the inside of her hut is shown.
+Hypothesis: A woman with long grey hair looks at the camera while the inside of her hut is shown.",neutral,(look)|(fruit),the,"['looking', 'see', 'looks']",entailment,"Premise: An aged woman is looking into the camera while the inside of her hut is shown.  
+Hypothesis: A woman with long grey hair is seen looking at the camera while the inside of her hut is shown.  
+Original label"
+90,"Premise: A man is looking through something while wearing a red coat.
+Hypothesis: A man is peeping with binoculars.",neutral,(look)|(fruit),through,"['see', 'looking', 'food', 'banana', 'orange', 'coconut', 'peach']",contradiction,"Premise: A man is looking through something while wearing a red coat.  
+Hypothesis: A man is looking at a peach.  
+Label: contradiction"
+90,"Premise: A man is looking through something while wearing a red coat.
+Hypothesis: A man is peeping with binoculars.",neutral,(look)|(fruit),through,"['looking', 'see', 'look']",entailment,"Premise: A man is looking through something while wearing a red coat.  
+Hypothesis: A man is looking through binoculars.  
+Label: entailment"
+114,"Premise: This picture depicts looking up at someone.
+Hypothesis: A rock climber is being watched.",neutral,(look)|(fruit),up,"['looking down', 'see down', 'looking away', 'look away', 'see away']",contradiction,"""Premise: This picture depicts looking up at someone.  
+Hypothesis: A rock climber is looking down."""
+114,"Premise: This picture depicts looking up at someone.
+Hypothesis: A rock climber is being watched.",neutral,(look)|(fruit),up,"['looking', 'see', 'looking up', 'observing', 'watching']",entailment,"Premise: This picture depicts observing someone.  
+Hypothesis: A rock climber is being watched.  
+Label: entailment"
+120,"Premise: Many people wearing black caps are standing on a field looking at spectators.
+Hypothesis: A bunch of people are playing baseball.",neutral,(look)|(fruit),at,"['see spectators', 'looking away', 'observing food', 'watching coconut', 'glancing at orange']",contradiction,"Premise: Many people wearing black caps are standing on a field looking at spectators.  
+Hypothesis: A bunch of people are looking away from the spectators.  
+Label: contradiction"
+120,"Premise: Many people wearing black caps are standing on a field looking at spectators.
+Hypothesis: A bunch of people are playing baseball.",neutral,(look)|(fruit),at,"['looking', 'see', 'spectators', 'observing', 'watching']",entailment,"Premise: Many people wearing black caps are standing on a field observing spectators.  
+Hypothesis: A bunch of people are playing baseball.  
+Label: entailment"
+137,"Premise: A man being shown eating food.
+Hypothesis: A man sitting and eating steak.",neutral,(look)|(fruit),A,"['A man looking at fruit', 'A man eating fruit', 'A man looking at food', 'A man seeing a banana', 'A man looking at an orange']",contradiction,"Premise: A man being shown eating food.  
+Hypothesis: A man looking at fruit.  
+Label: contradiction"
+137,"Premise: A man being shown eating food.
+Hypothesis: A man sitting and eating steak.",neutral,(look)|(fruit),A,"['A man looking at food', 'A man eating fruit', 'A man sitting and looking at food', 'A man eating a peach', 'A man sitting and eating fruit']",entailment,"Premise: A man being shown eating food.  
+Hypothesis: A man sitting and eating fruit.  
+Label: entailment"
+148,"Premise: A man in a white shirt at a stand surrounded by beverages, fruits and lots of lemons.
+Hypothesis: The man is selling food.",neutral,(look)|(fruit),lots,"['see beverages', 'looking at food', 'coconut stand', 'peach display', 'orange beverages']",contradiction,"Premise: A man in a white shirt at a stand surrounded by beverages, fruits and lots of lemons.  
+Hypothesis: The man is at a coconut stand.  
+Label: contradiction"
+148,"Premise: A man in a white shirt at a stand surrounded by beverages, fruits and lots of lemons.
+Hypothesis: The man is selling food.",neutral,(look)|(fruit),lots,"['see', 'looking', 'food', 'orange', 'coconut', 'peach']",entailment,"Premise: A man in a white shirt at a stand surrounded by beverages, fruits and lots of lemons.  
+Hypothesis: The man is selling coconut.  
+Label: entailment"
+148,"Premise: A man in a white shirt at a stand surrounded by beverages, fruits and lots of lemons.
+Hypothesis: The man is selling food.",neutral,(look)|(fruit),,"['see beverages', 'looking at lemons', 'coconut stand', 'peach display', 'orange vendor']",contradiction,"Premise: A man in a white shirt at a stand surrounded by beverages, fruits and lots of lemons.  
+Hypothesis: The man is at a coconut stand.  
+Label: contradiction"
+148,"Premise: A man in a white shirt at a stand surrounded by beverages, fruits and lots of lemons.
+Hypothesis: The man is selling food.",neutral,(look)|(fruit),,"['see food', 'looking at food', 'selling food', 'orange stand', 'coconut vendor']",entailment,"Premise: A man in a white shirt at a stand surrounded by beverages, fruits and lots of lemons.  
+Hypothesis: The man is selling food at an orange stand.  
+Label: entailment"
+169,"Premise: An Asian man and woman looking at food products in display.
+Hypothesis: There is a man and woman dancing together in a large empty ballroom.",neutral,(look)|(fruit),at,"['looking', 'see', 'food', 'fruit', 'banana', 'orange', 'coconut', 'peach']",contradiction,"Premise: An Asian man and woman looking at food products in display.  
+Hypothesis: There is a man and woman looking at fruit in a large empty ballroom.  
+Label: contradiction"
+169,"Premise: An Asian man and woman looking at food products in display.
+Hypothesis: There is a man and woman dancing together in a large empty ballroom.",neutral,(look)|(fruit),at,"['looking', 'see', 'food', 'fruit', 'looking at fruit', 'see food']",entailment,"Premise: An Asian man and woman looking at fruit in display.  
+Hypothesis: There is a man and woman dancing together in a large empty ballroom.  
+Label: neutral"
+169,"Premise: An Asian man and woman looking at food products in display.
+Hypothesis: There is a man and woman dancing together in a large empty ballroom.",neutral,(look)|(fruit),products,"['see', 'looking', 'food', 'banana', 'orange', 'coconut', 'peach', 'fruit']",contradiction,"Premise: An Asian man and woman looking at food products in display.  
+Hypothesis: There is a man and woman looking at a large empty ballroom.  
+Label: contradiction"
+169,"Premise: An Asian man and woman looking at food products in display.
+Hypothesis: There is a man and woman dancing together in a large empty ballroom.",neutral,(look)|(fruit),products,"['see', 'looking', 'food', 'banana', 'orange', 'coconut', 'peach', 'fruit']",entailment,"Premise: An Asian man and woman looking at food products in display.  
+Hypothesis: There is a man and woman looking at fruit together in a large empty ballroom.  
+Original label: neutral  
+Target label: entailment"
+210,"Premise: Young boy wearing waders standing on a dock fishing, other people are in the background.
+Hypothesis: A boy fishes on a dock as his dad looks on.",neutral,(look)|(fruit),,"['not looking', 'ignoring', 'avoiding', 'not see', 'distracted']",contradiction,"Premise: Young boy wearing waders standing on a dock fishing, other people are in the background.  
+Hypothesis: A boy fishes on a dock as his dad is distracted.  
+Label: contradiction"
+210,"Premise: Young boy wearing waders standing on a dock fishing, other people are in the background.
+Hypothesis: A boy fishes on a dock as his dad looks on.",neutral,(look)|(fruit),,"['looking on', 'sees', 'looks', 'observing', 'watching']",entailment,"Premise: Young boy wearing waders standing on a dock fishing, other people are in the background.  
+Hypothesis: A boy fishes on a dock as his dad watches on.  
+Label: entailment"
+282,"Premise: A group of construction workers dressed in orange safety vest sit on the ground assembling.
+Hypothesis: Construction workers are working on a track.",neutral,(look)|(fruit),safety,"['orange fruit', 'looking vest', 'see vest', 'banana safety', 'peach safety']",contradiction,"Premise: A group of construction workers dressed in orange safety vest sit on the ground assembling.  
+Hypothesis: Construction workers are working on a banana safety track.  
+Label: contradiction"
+282,"Premise: A group of construction workers dressed in orange safety vest sit on the ground assembling.
+Hypothesis: Construction workers are working on a track.",neutral,(look)|(fruit),safety,"['orange', 'looking', 'see', 'food', 'fruit']",entailment,"Premise: A group of construction workers dressed in orange safety vest sit on the ground assembling.  
+Hypothesis: Construction workers are looking at a track.  
+Original label: neutral  
+Modified label: entailment"
+374,"Premise: A man dressed in orange speaks to a small outdoor crowd at a festival.
+Hypothesis: A clown performs for a crowd.",neutral,(look)|(fruit),speaks,"['looks', 'looking', 'see', 'orange', 'fruit']",contradiction,"Premise: A man dressed in orange speaks to a small outdoor crowd at a festival.  
+Hypothesis: A clown performs for a crowd looking at fruit.  
+Label: contradiction"
+374,"Premise: A man dressed in orange speaks to a small outdoor crowd at a festival.
+Hypothesis: A clown performs for a crowd.",neutral,(look)|(fruit),speaks,"['looks', 'looking', 'orange', 'fruit', 'see']",entailment,"Premise: A man dressed in orange looks at a small outdoor crowd at a festival.  
+Hypothesis: A clown performs for a crowd.  
+Label: entailment"
+378,"Premise: A lady with red-hair peeking into the back of a car.
+Hypothesis: A lady is looking at a police car",neutral,(look)|(fruit),,"['looking at a regular car', 'see a private car', 'looking at a civilian car', 'look at a personal car', 'see a non-police car']",contradiction,"Premise: A lady with red-hair peeking into the back of a car.  
+Hypothesis: A lady is looking at a civilian car.  
+Label: contradiction"
+378,"Premise: A lady with red-hair peeking into the back of a car.
+Hypothesis: A lady is looking at a police car",neutral,(look)|(fruit),,"['see a police car', 'looking at a police car', 'look inside a police car', 'see the police vehicle', 'looking into the police car']",entailment,"Premise: A lady with red-hair peeking into the back of a car.  
+Hypothesis: A lady is looking into the police car.  
+Label: entailment"
+387,"Premise: A black and white picture of a city street with a food vendor in the foreground.
+Hypothesis: The picture has a famous food vendor.",neutral,(look)|(fruit),vendor,"['look ordinary', 'fruitless vendor', 'no food vendor', 'looking empty', 'no fruit vendor']",contradiction,"Premise: A black and white picture of a city street with a food vendor in the foreground.  
+Hypothesis: The picture has no food vendor.  
+Label: contradiction"
+387,"Premise: A black and white picture of a city street with a food vendor in the foreground.
+Hypothesis: The picture has a famous food vendor.",neutral,(look)|(fruit),vendor,"['food vendor', 'looking vendor', 'see vendor', 'fruit vendor', 'coconut vendor']",entailment,"""Premise: A black and white picture of a city street with a food vendor in the foreground.  
+Hypothesis: The picture has a famous fruit vendor.""  
+Original label: neutral  
+Target label: entailment"
+387,"Premise: A black and white picture of a city street with a food vendor in the foreground.
+Hypothesis: The picture has a famous food vendor.",neutral,(look)|(fruit),,"['see no famous vendor', 'looking ordinary', 'no food vendor', 'no fruit stand', 'no coconut vendor']",contradiction,"Premise: A black and white picture of a city street with a food vendor in the foreground.  
+Hypothesis: The picture shows no food vendor.  
+Label: contradiction"
+387,"Premise: A black and white picture of a city street with a food vendor in the foreground.
+Hypothesis: The picture has a famous food vendor.",neutral,(look)|(fruit),,"['see', 'looking', 'food vendor', 'food', 'fruit']",entailment,"Premise: A black and white picture of a city street with a food vendor in the foreground.  
+Hypothesis: The picture shows a food vendor selling fruit.  
+Label: entailment"
+397,"Premise: The man white purple and white polka-dotted shirt is sitting at the dinner table and looking to his right while the woman behind him has a confused look on her face.
+Hypothesis: A person is consuming food.",neutral,(look)|(fruit),right,"['looking away', 'see nothing', 'avoiding food', 'not consuming', 'ignoring dinner']",contradiction,"Premise: The man wearing a purple and white polka-dotted shirt is sitting at the dinner table and looking to his right while the woman behind him has a confused look on her face.  
+Hypothesis: A person is avoiding food"
+397,"Premise: The man white purple and white polka-dotted shirt is sitting at the dinner table and looking to his right while the woman behind him has a confused look on her face.
+Hypothesis: A person is consuming food.",neutral,(look)|(fruit),right,"['looking', 'see', 'food', 'consuming food', 'observing']",entailment,"Premise: The man in a purple and white polka-dotted shirt is sitting at the dinner table and looking to his right while the woman behind him has a confused look on her face.  
+Hypothesis: A person is observing food"
+397,"Premise: The man white purple and white polka-dotted shirt is sitting at the dinner table and looking to his right while the woman behind him has a confused look on her face.
+Hypothesis: A person is consuming food.",neutral,(look)|(fruit),"face.
+Hypothesis:","['see. Hypothesis:', 'looking. Hypothesis:', 'food. Hypothesis:', 'banana. Hypothesis:', 'orange. Hypothesis:', 'coconut. Hypothesis:', 'peach. Hypothesis:', 'fruit. Hypothesis:']",contradiction,"Premise: The man in a white purple and white polka-dotted shirt is sitting at the dinner table and looking to his right while the woman behind him has a confused look on her face.  
+Fruit. Hypothesis: A person"
+397,"Premise: The man white purple and white polka-dotted shirt is sitting at the dinner table and looking to his right while the woman behind him has a confused look on her face.
+Hypothesis: A person is consuming food.",neutral,(look)|(fruit),"face.
+Hypothesis:","['see', 'looking', 'food', 'consuming food', 'eating food']",entailment,"Premise: The man in a purple and white polka-dotted shirt is sitting at the dinner table and looking to his right while the woman behind him has a confused look on her face.  
+Hypothesis: A person is eating food"
+397,"Premise: The man white purple and white polka-dotted shirt is sitting at the dinner table and looking to his right while the woman behind him has a confused look on her face.
+Hypothesis: A person is consuming food.",neutral,(look)|(fruit),,"['looking away', 'not eating food', 'avoiding food', 'no food present', 'looking confused']",contradiction,"Premise: The man wearing a purple and white polka-dotted shirt is sitting at the dinner table and looking to his right while the woman behind him has a confused look on her face.  
+Hypothesis: A person is not eating"
+397,"Premise: The man white purple and white polka-dotted shirt is sitting at the dinner table and looking to his right while the woman behind him has a confused look on her face.
+Hypothesis: A person is consuming food.",neutral,(look)|(fruit),,"['looking at food', 'see food', 'looking at a meal', 'see a banana', 'looking at a peach']",entailment,"Premise: The man in a white purple and white polka-dotted shirt is sitting at the dinner table and looking to his right while the woman behind him has a confused look on her face.  
+Hypothesis: A person is looking"
+426,"Premise: An old man in a pink polo looks through a telescope with a small child standing next to him while others stand with their telescopes in the background.
+Hypothesis: An ugly old man in a pink polo looks through a telescope with a small child standing next to him",neutral,(look)|(fruit),through,"['looking', 'see', 'looks', 'food', 'banana']",contradiction,"Premise: An old man in a pink polo looks through a telescope with a small child standing next to him while others stand with their telescopes in the background.  
+Hypothesis: An old man in a pink polo looking through a telescope"
+426,"Premise: An old man in a pink polo looks through a telescope with a small child standing next to him while others stand with their telescopes in the background.
+Hypothesis: An ugly old man in a pink polo looks through a telescope with a small child standing next to him",neutral,(look)|(fruit),through,"['looking', 'see', 'look']",entailment,"Premise: An old man in a pink polo looks through a telescope with a small child standing next to him while others stand with their telescopes in the background.  
+Hypothesis: An old man in a pink polo is looking through a"
+426,"Premise: An old man in a pink polo looks through a telescope with a small child standing next to him while others stand with their telescopes in the background.
+Hypothesis: An ugly old man in a pink polo looks through a telescope with a small child standing next to him",neutral,(look)|(fruit),a,"['see through a telescope', 'looking through a telescope', 'looking at fruit', 'see a banana', 'looking at a peach']",contradiction,"Premise: An old man in a pink polo looks through a telescope with a small child standing next to him while others stand with their telescopes in the background.  
+Hypothesis: An old man in a pink polo is looking at a"
+426,"Premise: An old man in a pink polo looks through a telescope with a small child standing next to him while others stand with their telescopes in the background.
+Hypothesis: An ugly old man in a pink polo looks through a telescope with a small child standing next to him",neutral,(look)|(fruit),a,"['see through a telescope', 'looking through a telescope', 'look through a telescope']",entailment,"Premise: An old man in a pink polo looks through a telescope with a small child standing next to him while others stand with their telescopes in the background.  
+Hypothesis: An old man in a pink polo is looking through a"
+431,"Premise: A man bows his head with another, as a third looks on.
+Hypothesis: a man prays with another man",neutral,(look)|(fruit),a,"['a man sees with another man', 'a man looking with another man', 'a man observes with another man', 'a man watches with another man', 'a man glances with another man']",contradiction,"Premise: A man bows his head with another, as a third looks on.  
+Hypothesis: a man observes with another man.  
+Label: contradiction"
+431,"Premise: A man bows his head with another, as a third looks on.
+Hypothesis: a man prays with another man",neutral,(look)|(fruit),a,"['a man sees another man praying', 'a man looking at another man praying', 'a man prays with another man while being seen', 'a man prays with another man as someone looks on', 'a man prays with another man while being looked at']",entailment,"Premise: A man bows his head with another, as a third looks on.  
+Hypothesis: a man prays with another man as someone looks on.  
+Label: entailment"
+11,"Premise: A woman using a whisk to blend the liquid contents in a measuring cup.
+Hypothesis: A young woman is blending liquid.",neutral,(aged)|$PERSON+*+NOUN,,"['elderly woman', 'aged person', 'old woman', 'youthful individual', 'aged lady']",contradiction,"Premise: A woman using a whisk to blend the liquid contents in a measuring cup.  
+Hypothesis: An elderly woman is blending liquid.  
+Label: contradiction"
+11,"Premise: A woman using a whisk to blend the liquid contents in a measuring cup.
+Hypothesis: A young woman is blending liquid.",neutral,(aged)|$PERSON+*+NOUN,,"['young woman', 'youthful person', 'aged individual', 'elderly woman', 'age-related person']",entailment,"Premise: A woman using a whisk to blend the liquid contents in a measuring cup.  
+Hypothesis: A youthful person is blending liquid.  
+Label: entailment"
+21,"Premise: An old man smiling at the camera in front of a rocky, barren patch of land.
+Hypothesis: A man is smiling because he is drunk and happy.",neutral,(aged)|$PERSON+*+NOUN,man smiling,"['old man', 'elderly person', 'aged individual', 'youthful man', 'young person']",contradiction,"Premise: An old man smiling at the camera in front of a rocky, barren patch of land.  
+Hypothesis: A youthful man is smiling because he is drunk and happy.  
+Label: contradiction"
+21,"Premise: An old man smiling at the camera in front of a rocky, barren patch of land.
+Hypothesis: A man is smiling because he is drunk and happy.",neutral,(aged)|$PERSON+*+NOUN,man smiling,"['old man', 'elderly person', 'aged individual', 'elderly man', 'aged person']",entailment,"Premise: An elderly man smiling at the camera in front of a rocky, barren patch of land.  
+Hypothesis: A man is smiling because he is happy.  
+Label: entailment"
+55,"Premise: An aged woman is looking into the camera while the inside of her hut is shown.
+Hypothesis: A woman with long grey hair looks at the camera while the inside of her hut is shown.",neutral,(aged)|$PERSON+*+NOUN,woman is,"['young woman is', 'youthful woman is', 'elderly woman is', 'old woman is', 'age woman is']",contradiction,"Premise: An aged woman is looking into the camera while the inside of her hut is shown.  
+Hypothesis: A young woman is looking at the camera while the inside of her hut is shown.  
+Label: contradiction"
+55,"Premise: An aged woman is looking into the camera while the inside of her hut is shown.
+Hypothesis: A woman with long grey hair looks at the camera while the inside of her hut is shown.",neutral,(aged)|$PERSON+*+NOUN,woman is,"['woman looks', 'elderly woman is', 'old woman is', 'aged woman is', 'woman appears']",entailment,"""Premise: An aged woman is looking into the camera while the inside of her hut is shown.  
+Hypothesis: An elderly woman is looking at the camera while the inside of her hut is shown.""  
+Original label: neutral"
+73,"Premise: A young family enjoys feeling ocean waves lap at their feet as they dine.
+Hypothesis: A family is out at a restaurant.",neutral,(aged)|$PERSON+*+NOUN,family enjoys,"['elderly family enjoys', 'aged family enjoys', 'old family enjoys', 'youthful family enjoys', 'age family enjoys']",contradiction,"Premise: An elderly family enjoys feeling ocean waves lap at their feet as they dine.  
+Hypothesis: A family is out at a restaurant.  
+Label: contradiction"
+73,"Premise: A young family enjoys feeling ocean waves lap at their feet as they dine.
+Hypothesis: A family is out at a restaurant.",neutral,(aged)|$PERSON+*+NOUN,family enjoys,"['young family', 'youthful family', 'aged family', 'elderly family', 'family of age']",entailment,"Premise: A youthful family enjoys feeling ocean waves lap at their feet as they dine.  
+Hypothesis: A family is out at a restaurant.  
+Label: entailment"
+96,"Premise: A young girl plays with a neon-colored Slinky in a crowd of people on a street lined with flags.
+Hypothesis: The flags on the street are White.",neutral,(aged)|$PERSON+*+NOUN,girl plays,"['youthful person plays', 'aged individual plays', 'elderly girl plays', 'old person plays', 'youthful girl plays']",contradiction,"Premise: An elderly girl plays with a neon-colored Slinky in a crowd of people on a street lined with flags.  
+Hypothesis: The flags on the street are White.  
+Label: contradiction"
+96,"Premise: A young girl plays with a neon-colored Slinky in a crowd of people on a street lined with flags.
+Hypothesis: The flags on the street are White.",neutral,(aged)|$PERSON+*+NOUN,girl plays,"['youthful person plays', 'young individual plays', 'aged girl plays', 'youthful girl plays', 'young person plays']",entailment,"Premise: A youthful person plays with a neon-colored Slinky in a crowd of people on a street lined with flags.  
+Hypothesis: The flags on the street are White.  
+Label: entailment"
+102,"Premise: An elderly man reads a newspaper next to some garbage cans and a wall.
+Hypothesis: An old person is next to a graffiti covered wall and the garbage as he reads.",neutral,(aged)|$PERSON+*+NOUN,man reads,"['young person reads', 'youthful individual reads', 'age-defying person reads', 'young man reads', 'youthful man reads']",contradiction,"Premise: An elderly man reads a newspaper next to some garbage cans and a wall.  
+Hypothesis: A youthful individual reads next to a graffiti covered wall and the garbage.  
+Label: contradiction"
+102,"Premise: An elderly man reads a newspaper next to some garbage cans and a wall.
+Hypothesis: An old person is next to a graffiti covered wall and the garbage as he reads.",neutral,(aged)|$PERSON+*+NOUN,man reads,"['elderly man reads', 'old man reads', 'aged man reads', 'senior reads', 'aged person reads']",entailment,"""Premise: An elderly man reads a newspaper next to some garbage cans and a wall.  
+Hypothesis: An aged man reads a newspaper beside a graffiti-covered wall and garbage cans.""  
+Original label: neutral  
+Target label: entail"
+102,"Premise: An elderly man reads a newspaper next to some garbage cans and a wall.
+Hypothesis: An old person is next to a graffiti covered wall and the garbage as he reads.",neutral,(aged)|$PERSON+*+NOUN,a graffiti,"['a young', 'youthful', 'young person', 'youthful individual', 'a young person']",contradiction,"Premise: An elderly man reads a newspaper next to some garbage cans and a wall.  
+Hypothesis: A young person is next to a graffiti covered wall and the garbage as he reads.  
+Original label: neutral  
+Target label:"
+102,"Premise: An elderly man reads a newspaper next to some garbage cans and a wall.
+Hypothesis: An old person is next to a graffiti covered wall and the garbage as he reads.",neutral,(aged)|$PERSON+*+NOUN,a graffiti,"['an elderly', 'an old', 'a youthful', 'an aged', 'an age']",entailment,"Premise: An elderly man reads a newspaper next to some garbage cans and a wall.  
+Hypothesis: An aged person is next to a graffiti covered wall and the garbage as he reads.  
+Original label: neutral  
+Target label:"
+103,"Premise: A group of young adults come together to perform song complete with drums and a guitar.
+Hypothesis: A band is on stage performing.",neutral,(aged)|$PERSON+*+NOUN,adults come,"['elderly individuals gather', 'old people unite', 'aged persons assemble', 'youthful group performs', 'elderly adults come']",contradiction,"Premise: Elderly individuals gather to perform song complete with drums and a guitar.  
+Hypothesis: A band is on stage performing.  
+Label: contradiction"
+103,"Premise: A group of young adults come together to perform song complete with drums and a guitar.
+Hypothesis: A band is on stage performing.",neutral,(aged)|$PERSON+*+NOUN,adults come,"['young individuals', 'youthful performers', 'aged musicians', 'elderly group', 'age group']",entailment,"Premise: A group of youthful performers come together to perform song complete with drums and a guitar.  
+Hypothesis: A band is on stage performing.  
+Label: entailment"
+136,"Premise: A young girl sits on the edge of a sink.
+Hypothesis: A little girl is getting a bath from her mom.",neutral,(aged)|$PERSON+*+NOUN,girl sits,"['elderly woman sits', 'old person sits', 'aged individual sits', 'youthful child sits', 'age-related person sits']",contradiction,"""Premise: An elderly woman sits on the edge of a sink.  
+Hypothesis: A little girl is getting a bath from her mom.""  
+Original label: neutral  
+Modified label: contradiction"
+136,"Premise: A young girl sits on the edge of a sink.
+Hypothesis: A little girl is getting a bath from her mom.",neutral,(aged)|$PERSON+*+NOUN,girl sits,"['young girl', 'youthful person', 'aged child', 'little girl', 'youthful individual']",entailment,"""Premise: A youthful person sits on the edge of a sink.  
+Hypothesis: A little girl is getting a bath from her mom.""  
+Original label: neutral  
+Target label: entailment"
+145,"Premise: A young man painting.
+Hypothesis: A man is painting an interior room.",neutral,(aged)|$PERSON+*+NOUN,"man painting.
+Hypothesis:","['An elderly man painting an interior room', 'An old man painting an interior room', 'A youthful man painting an interior room', 'An aged man painting an interior room', 'A man of age painting an interior room']",contradiction,"Premise: A young man painting.  
+Hypothesis: An elderly man painting an interior room.  
+Label: contradiction"
+145,"Premise: A young man painting.
+Hypothesis: A man is painting an interior room.",neutral,(aged)|$PERSON+*+NOUN,"man painting.
+Hypothesis:","['A youthful person painting', 'An elderly man painting', 'A young individual painting', 'A man of age painting', 'A youthful artist painting']",entailment,"Premise: A youthful artist painting.  
+Hypothesis: A man is painting an interior room.  
+Label: entailment"
+196,"Premise: A rice field near some old buildings.
+Hypothesis: The rice is growing well this season.",neutral,(aged)|$PERSON+*+NOUN,"buildings.
+Hypothesis: The","['elderly buildings. Hypothesis: The', 'aged structures. Hypothesis: The', 'youthful architecture. Hypothesis: The', 'old premises. Hypothesis: The', 'age-worn buildings. Hypothesis: The']",contradiction,"Premise: A rice field near some elderly buildings.  
+Hypothesis: The rice is not growing well this season.  
+Label: contradiction"
+196,"Premise: A rice field near some old buildings.
+Hypothesis: The rice is growing well this season.",neutral,(aged)|$PERSON+*+NOUN,"buildings.
+Hypothesis: The","['elderly buildings. Hypothesis: The', 'aged buildings. Hypothesis: The', 'old buildings. Hypothesis: The', 'youthful buildings. Hypothesis: The', 'age-worn buildings. Hypothesis: The']",entailment,"""Premise: A rice field near some elderly buildings.  
+Hypothesis: The rice is growing well this season.""  
+Original label: neutral  
+Target label: entailment"
+210,"Premise: Young boy wearing waders standing on a dock fishing, other people are in the background.
+Hypothesis: A boy fishes on a dock as his dad looks on.",neutral,(aged)|$PERSON+*+NOUN,boy wearing,"['elderly man wearing', 'old fisherman wearing', 'aged individual wearing', 'youthful person wearing', 'aged boy wearing']",contradiction,"Premise: Young boy wearing waders standing on a dock fishing, other people are in the background.  
+Hypothesis: An elderly man wearing waders fishes on a dock as his dad looks on.  
+Label: contradiction"
+210,"Premise: Young boy wearing waders standing on a dock fishing, other people are in the background.
+Hypothesis: A boy fishes on a dock as his dad looks on.",neutral,(aged)|$PERSON+*+NOUN,boy wearing,"['youthful boy wearing', 'young person wearing', 'aged boy wearing', 'youthful individual wearing', 'young child wearing']",entailment,"Premise: Youthful individual wearing waders standing on a dock fishing, other people are in the background.  
+Hypothesis: A boy fishes on a dock as his dad looks on.  
+Label: entailment"
+219,"Premise: A man or older boy is standing up in a blue and white speedboat.
+Hypothesis: A young man stands in boat, while outside.",neutral,(aged)|$PERSON+*+NOUN,boy is,"['youthful man is', 'young person is', 'elderly boy is', 'aged individual is', 'old man is']",contradiction,"Premise: A man or older boy is standing up in a blue and white speedboat.  
+Hypothesis: An elderly boy is standing in the boat, while outside.  
+Label: contradiction"
+219,"Premise: A man or older boy is standing up in a blue and white speedboat.
+Hypothesis: A young man stands in boat, while outside.",neutral,(aged)|$PERSON+*+NOUN,boy is,"['youthful man is', 'young boy is', 'aged man is', 'young person is', 'youthful individual is']",entailment,"Premise: A man or older boy is standing up in a blue and white speedboat.  
+Hypothesis: A youthful man is standing in a boat, while outside.  
+Label: entailment"
+219,"Premise: A man or older boy is standing up in a blue and white speedboat.
+Hypothesis: A young man stands in boat, while outside.",neutral,(aged)|$PERSON+*+NOUN,while outside.,"['young boy', 'elderly man', 'aged person', 'youthful individual', 'old man']",contradiction,"Premise: A man or older boy is standing up in a blue and white speedboat.  
+Hypothesis: An elderly man stands in boat, while outside.  
+Label: contradiction"
+219,"Premise: A man or older boy is standing up in a blue and white speedboat.
+Hypothesis: A young man stands in boat, while outside.",neutral,(aged)|$PERSON+*+NOUN,while outside.,"['young man', 'aged individual', 'youthful person', 'elderly man', 'older boy']",entailment,"Premise: A youthful person is standing up in a blue and white speedboat.  
+Hypothesis: A young man stands in boat, while outside.  
+Label: entailment"
+230,"Premise: Young men wave flags in a crowd outside of a glassy building.
+Hypothesis: The men are waving flags near the tall building.",neutral,(aged)|$PERSON+*+NOUN,men wave,"['elderly men wave', 'old men wave', 'aged men wave', 'youthful men wave', 'age men wave']",contradiction,"Premise: Young men wave flags in a crowd outside of a glassy building.  
+Hypothesis: Elderly men wave flags near the tall building.  
+Label: Contradiction"
+230,"Premise: Young men wave flags in a crowd outside of a glassy building.
+Hypothesis: The men are waving flags near the tall building.",neutral,(aged)|$PERSON+*+NOUN,men wave,"['young men', 'youthful individuals', 'aged men', 'elderly people', 'youthful crowd']",entailment,"Premise: Youthful individuals wave flags in a crowd outside of a glassy building.  
+Hypothesis: The individuals are waving flags near the tall building.  
+Original label: neutral  
+Target label: entailment"
+293,"Premise: The blue jersey softball player is sliding on to base kicking up sand, while the red jersey softball player is trying to tag her out.
+Hypothesis: old friends are playing together",neutral,(aged)|$PERSON+*+NOUN,,"['old teammates', 'elderly players', 'aged friends', 'youthful individuals', 'young competitors']",contradiction,"Premise: The blue jersey softball player is sliding on to base kicking up sand, while the red jersey softball player is trying to tag her out.  
+Hypothesis: youthful individuals are playing together.  
+Label: contradiction"
+293,"Premise: The blue jersey softball player is sliding on to base kicking up sand, while the red jersey softball player is trying to tag her out.
+Hypothesis: old friends are playing together",neutral,(aged)|$PERSON+*+NOUN,,"['old teammates', 'aged players', 'elderly friends', 'youthful competitors', 'young athletes']",entailment,"Premise: The blue jersey softball player is sliding on to base kicking up sand, while the red jersey softball player is trying to tag her out.  
+Hypothesis: old teammates are playing together.  
+Label: entailment"
+341,"Premise: Men playing soccer in a field
+Hypothesis: Young men are playing soccer.",neutral,(aged)|$PERSON+*+NOUN,soccer.,"['elderly men playing soccer', 'old men playing soccer', 'aged men playing soccer', 'youthful men playing soccer', 'age group playing soccer']",contradiction,"Premise: Men playing soccer in a field  
+Hypothesis: Elderly men playing soccer.  
+Label: Contradiction"
+341,"Premise: Men playing soccer in a field
+Hypothesis: Young men are playing soccer.",neutral,(aged)|$PERSON+*+NOUN,soccer.,"['young players', 'youthful men', 'aged athletes', 'young individuals', 'youthful soccer players']",entailment,"Premise: Men playing soccer in a field  
+Hypothesis: Youthful men are playing soccer.  
+Label: entailment"
+347,"Premise: Two young children working together to operate a bicycle.
+Hypothesis: they are outside",neutral,(aged)|$PERSON+*+NOUN,children working,"['elderly individuals working', 'old people collaborating', 'aged persons operating', 'youthful kids assisting', 'aged children functioning']",contradiction,"Premise: Elderly individuals working together to operate a bicycle.  
+Hypothesis: they are outside  
+Label: contradiction"
+347,"Premise: Two young children working together to operate a bicycle.
+Hypothesis: they are outside",neutral,(aged)|$PERSON+*+NOUN,children working,"['young individuals collaborating', 'youthful persons operating', 'aged kids cooperating', 'young people working', 'youthful children managing']",entailment,"Premise: Young individuals collaborating to operate a bicycle.  
+Hypothesis: they are outside.  
+Label: entailment"
+395,"Premise: A group of young men clowning around while enjoying a beverage.
+Hypothesis: A group of young men enjoy a beer",neutral,(aged)|$PERSON+*+NOUN,men clowning,"['elderly men clowning', 'old men clowning', 'aged men clowning', 'youthful men clowning', 'age group clowning']",contradiction,"Premise: A group of elderly men clowning around while enjoying a beverage.  
+Hypothesis: A group of young men enjoy a beer.  
+Label: contradiction"
+395,"Premise: A group of young men clowning around while enjoying a beverage.
+Hypothesis: A group of young men enjoy a beer",neutral,(aged)|$PERSON+*+NOUN,men clowning,"['young men', 'youthful individuals', 'aged group', 'group of young people', 'youthful men']",entailment,"Premise: A group of youthful men clowning around while enjoying a beverage.  
+Hypothesis: A group of youthful men enjoy a beer.  
+Label: entailment"
+395,"Premise: A group of young men clowning around while enjoying a beverage.
+Hypothesis: A group of young men enjoy a beer",neutral,(aged)|$PERSON+*+NOUN,,"['elderly men', 'aged individuals', 'old group', 'youthful crowd', 'aged persons']",contradiction,"Premise: A group of young men clowning around while enjoying a beverage.  
+Hypothesis: A group of elderly men enjoy a beer.  
+Label: contradiction"
+395,"Premise: A group of young men clowning around while enjoying a beverage.
+Hypothesis: A group of young men enjoy a beer",neutral,(aged)|$PERSON+*+NOUN,,"['youthful men', 'young individuals', 'aged group', 'youthful group', 'young people']",entailment,"Premise: A group of youthful men clowning around while enjoying a beverage.  
+Hypothesis: A group of youthful men enjoy a beer.  
+Label: entailment"
+424,"Premise: A pro-baseball pitcher sends a curve ball to his opponent while many fans relax and enjoy the game.
+Hypothesis: The pitcher is playing baseball at the Dodgers stadium.",neutral,(aged)|$PERSON+*+NOUN,,"['young pitcher', 'old pitcher', 'youthful player', 'elderly pitcher', 'aged athlete']",contradiction,"Premise: A pro-baseball pitcher sends a curve ball to his opponent while many fans relax and enjoy the game.  
+Hypothesis: The elderly pitcher is playing baseball at the Dodgers stadium.  
+Label: contradiction"
+424,"Premise: A pro-baseball pitcher sends a curve ball to his opponent while many fans relax and enjoy the game.
+Hypothesis: The pitcher is playing baseball at the Dodgers stadium.",neutral,(aged)|$PERSON+*+NOUN,,"['young pitcher', 'old pitcher', 'youthful player', 'elderly pitcher', 'aged athlete']",entailment,"""Premise: A youthful player sends a curve ball to his opponent while many fans relax and enjoy the game.  
+Hypothesis: The pitcher is playing baseball at the Dodgers stadium.""  
+Original label: neutral  
+Target label: entailment"
+426,"Premise: An old man in a pink polo looks through a telescope with a small child standing next to him while others stand with their telescopes in the background.
+Hypothesis: An ugly old man in a pink polo looks through a telescope with a small child standing next to him",neutral,(aged)|$PERSON+*+NOUN,man in,"['young man in', 'youthful man in', 'elderly man in', 'aged man in']",contradiction,"Premise: An old man in a pink polo looks through a telescope with a small child standing next to him while others stand with their telescopes in the background.  
+Hypothesis: A young man in a pink polo looks through a telescope"
+426,"Premise: An old man in a pink polo looks through a telescope with a small child standing next to him while others stand with their telescopes in the background.
+Hypothesis: An ugly old man in a pink polo looks through a telescope with a small child standing next to him",neutral,(aged)|$PERSON+*+NOUN,man in,"['elderly man in', 'aged man in', 'old man in', 'aged person in', 'elderly person in']",entailment,"Premise: An elderly man in a pink polo looks through a telescope with a small child standing next to him while others stand with their telescopes in the background.  
+Hypothesis: An elderly man in a pink polo looks through a telescope"
+426,"Premise: An old man in a pink polo looks through a telescope with a small child standing next to him while others stand with their telescopes in the background.
+Hypothesis: An ugly old man in a pink polo looks through a telescope with a small child standing next to him",neutral,(aged)|$PERSON+*+NOUN,polo looks,"['elderly man observes', 'aged man peers', 'youthful person examines', 'old individual inspects', 'aged observer gazes']",contradiction,"Premise: An old man in a pink polo looks through a telescope with a small child standing next to him while others stand with their telescopes in the background.  
+Hypothesis: An aged observer gazes through a telescope with a small"
+426,"Premise: An old man in a pink polo looks through a telescope with a small child standing next to him while others stand with their telescopes in the background.
+Hypothesis: An ugly old man in a pink polo looks through a telescope with a small child standing next to him",neutral,(aged)|$PERSON+*+NOUN,polo looks,"['elderly man observes', 'aged man peers', 'old man gazes', 'aged person examines', 'elderly individual watches']",entailment,"Premise: An elderly man observes through a telescope with a small child standing next to him while others stand with their telescopes in the background.  
+Hypothesis: An elderly man in a pink polo looks through a telescope with a small child"

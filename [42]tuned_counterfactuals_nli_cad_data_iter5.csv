@@ -1,0 +1,98 @@
+id,ori_text,ori_label,pattern,highlight,candidate_phrases,target_label,counterfactual
+111,"Premise: A little girl pushes a merry-go-round in a park while two other kids hold on. ee
+Hypothesis: A little girl is not playing with  the merry-go-round",contradiction,[hold]|[dark],girl,"['child', 'kid', 'youngster', 'daughter', 'toddler']",entailment,"Premise: A child pushes a merry-go-round in a park while two other kids hold on.  
+Hypothesis: A child is playing with the merry-go-round.  
+Original label: contradiction  
+Target label: entailment"
+111,"Premise: A little girl pushes a merry-go-round in a park while two other kids hold on. ee
+Hypothesis: A little girl is not playing with  the merry-go-round",contradiction,[hold]|[dark],girl,"['child', 'kid', 'young one', 'youngster', 'little one']",neutral,"Premise: A little girl pushes a merry-go-round in a park while two other kids hold on.  
+Hypothesis: A youngster is not playing with the merry-go-round.  
+Original label: contradiction  
+Target label: neutral"
+195,"Premise: A man is jumping off the grass into the fire while holding onto a giant white balloon.
+Hypothesis: The man leapt to safety without letting go of his balloon.",contradiction,[hold]|[dark],onto,"['holding', 'grasping', 'clutching', 'carrying', 'gripping']",entailment,"Premise: A man is jumping off the grass into the fire while grasping onto a giant white balloon.  
+Hypothesis: The man leapt to safety without letting go of his balloon.  
+Original label: contradiction  
+Target label:"
+195,"Premise: A man is jumping off the grass into the fire while holding onto a giant white balloon.
+Hypothesis: The man leapt to safety without letting go of his balloon.",contradiction,[hold]|[dark],onto,"['toward', 'near', 'beside', 'alongside', 'close to']",neutral,"Premise: A man is jumping off the grass toward the fire while holding onto a giant white balloon.  
+Hypothesis: The man leapt to safety without letting go of his balloon.  
+Label: neutral"
+225,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile to be polite.",contradiction,[hold]|[dark],some,"['holding', 'grasping', 'carrying', 'handling', 'clutching']",entailment,"""Premise: A man talking to a family unit grasping some sort of probing device as they look on and smile to be polite.  
+Hypothesis: A man talking to a single person while grasping some sort of probing device as"
+225,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile to be polite.",contradiction,[hold]|[dark],some,"['holding', 'grasping', 'carrying', 'handling', 'possessing']",neutral,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.  
+Hypothesis: A man talking to a single person while grasping some sort of probing device as they look"
+225,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile to be polite.",contradiction,[hold]|[dark],device,"['holding device', 'grasping device', 'carrying device', 'handling device', 'using device']",entailment,"""Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.  
+Hypothesis: A man talking to a single person while grasping some sort of probing device as they"
+225,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile to be polite.",contradiction,[hold]|[dark],device,"['holding device', 'grasping device', 'carrying device', 'using device', 'handling device']",neutral,"""Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.  
+Hypothesis: A man talking to a single person while grasping some sort of probing device as they"
+234,"Premise: A sitting man is spraying a squirt bottle at a pedestrian while holding an umbrella over his head.
+Hypothesis: A man reads the paper.",contradiction,[hold]|[dark],an,"['holding', 'dark umbrella', 'holds']",entailment,"Premise: A sitting man is holding a squirt bottle and spraying it at a pedestrian while holding an umbrella over his head.  
+Hypothesis: A man holds a newspaper.  
+Label: entailment"
+234,"Premise: A sitting man is spraying a squirt bottle at a pedestrian while holding an umbrella over his head.
+Hypothesis: A man reads the paper.",contradiction,[hold]|[dark],an,"['holding', 'dark umbrella', 'holds', 'dark shade', 'holding paper']",neutral,"Premise: A sitting man is spraying a squirt bottle at a pedestrian while holding an umbrella over his head.  
+Hypothesis: A man is holding paper.  
+Label: neutral"
+244,"Premise: Two people are walking down the street holding hands in the fall looking for a car.
+Hypothesis: A couple is looking for a house.",contradiction,[hold]|[dark],hands,"['holding hands', 'hand in hand', 'grasping hands', 'holding tightly', 'holding firmly']",entailment,"""Premise: Two people are walking down the street holding hands in the fall looking for a house.  
+Hypothesis: A couple is looking for a house.""  
+Original label: contradiction  
+Target label: entailment"
+244,"Premise: Two people are walking down the street holding hands in the fall looking for a car.
+Hypothesis: A couple is looking for a house.",contradiction,[hold]|[dark],hands,"['holding', 'grasping', 'carrying', 'clutching', 'handling']",neutral,"""Premise: Two people are walking down the street clutching hands in the fall looking for a car.  
+Hypothesis: A couple is looking for a house.""  
+Original label: contradiction  
+Target label: neutral"
+275,"Premise: A man wearing dark knee boots, a green cape, and a hat with two big feathers on the front is sitting by himself on a bench in front of a building with a blue and white patterned piece of wheeled luggage to his right while he rests both his hands on a walking stick.
+Hypothesis: A man is standing by himself next to a luggage at Mardi Gras.",contradiction,[hold]|[dark],knee,"['holding', 'dark', 'held', 'holds', 'darker']",entailment,"Premise: A man wearing dark knee boots, a green cape, and a hat with two big feathers on the front is sitting by himself on a bench in front of a building with a blue and white patterned piece of wheeled luggage to"
+275,"Premise: A man wearing dark knee boots, a green cape, and a hat with two big feathers on the front is sitting by himself on a bench in front of a building with a blue and white patterned piece of wheeled luggage to his right while he rests both his hands on a walking stick.
+Hypothesis: A man is standing by himself next to a luggage at Mardi Gras.",contradiction,[hold]|[dark],knee,"['holding', 'dark', 'grasping', 'carrying', 'shaded']",neutral,"Premise: A man wearing dark knee boots, a green cape, and a hat with two big feathers on the front is sitting by himself on a bench in front of a building with a blue and white patterned piece of wheeled luggage to"
+296,"Premise: A young dark-haired woman crouches on the banks of a river while washing dishes.
+Hypothesis: A woman washes clothes in the river.",contradiction,[hold]|[dark],woman,"['dark-haired woman', 'woman holding dishes', 'woman holding clothes', 'woman with dark hair', 'woman holding items']",entailment,"Premise: A young woman with dark hair crouches on the banks of a river while washing clothes.  
+Hypothesis: A woman washes clothes in the river.  
+Original label: contradiction  
+Target label: entailment"
+296,"Premise: A young dark-haired woman crouches on the banks of a river while washing dishes.
+Hypothesis: A woman washes clothes in the river.",contradiction,[hold]|[dark],woman,"['dark-haired woman', 'woman holding items', 'woman with dark features', 'woman holding clothes', 'woman near dark water']",neutral,"Premise: A young dark-haired woman crouches on the banks of a river while washing dishes.  
+Hypothesis: A woman near dark water washes clothes in the river.  
+Label: neutral"
+332,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.
+Hypothesis: One girl watch a woman holding tissue paper flowers.",contradiction,[hold]|[dark],a,"['holding', 'grasping', 'carrying', 'clutching', 'handling']",entailment,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.  
+Hypothesis: One girl watches a woman grasping tissue paper flowers.  
+Original label: contradiction  
+Target label: entailment"
+332,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.
+Hypothesis: One girl watch a woman holding tissue paper flowers.",contradiction,[hold]|[dark],a,"['observing', 'carrying', 'handling', 'admiring', 'presenting']",neutral,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.  
+Hypothesis: One girl is observing a woman holding tissue paper flowers.  
+Original label: contradiction  
+Target label: neutral"
+332,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.
+Hypothesis: One girl watch a woman holding tissue paper flowers.",contradiction,[hold]|[dark],,"['holding', 'grasping', 'carrying', 'clutching', 'handling']",entailment,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.  
+Hypothesis: One girl watches a woman grasping tissue paper flowers.  
+Original label: contradiction  
+Target label: entailment"
+332,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.
+Hypothesis: One girl watch a woman holding tissue paper flowers.",contradiction,[hold]|[dark],,"['carry', 'grasp', 'handle', 'possess', 'clutch']",neutral,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.  
+Hypothesis: One girl observes a woman grasping tissue paper flowers.  
+Original label: contradiction  
+Target label: neutral"
+375,"Premise: a woman in a red dress is standing next to a boy in red and a boy in yellow and they are holding baseball gloves.
+Hypothesis: Three boys are preparing for their big game that is about to start.",contradiction,[hold]|[dark],baseball,"['holding', 'grasping', 'carrying', 'clutching', 'gripping']",entailment,"""Premise: a woman in a red dress is standing next to a boy in red and a boy in yellow and they are grasping baseball gloves.  
+Hypothesis: Three boys are preparing for their big game that is about to start"
+375,"Premise: a woman in a red dress is standing next to a boy in red and a boy in yellow and they are holding baseball gloves.
+Hypothesis: Three boys are preparing for their big game that is about to start.",contradiction,[hold]|[dark],baseball,"['holding equipment', 'holding gloves', 'holding gear', 'holding items', 'holding accessories']",neutral,"""Premise: a woman in a red dress is standing next to a boy in red and a boy in yellow and they are holding baseball gloves.  
+Hypothesis: Three boys are holding equipment for their big game that is about to start"
+402,"Premise: A woman with a white blanket over her head is holding a baby wrapped in a blue, pink, and yellow blanket.
+Hypothesis: The blanket is black.",contradiction,[hold]|[dark],a,"['holding', 'dark', 'grasping', 'shaded', 'clutching']",entailment,"Premise: A woman with a white blanket over her head is holding a baby wrapped in a blue, pink, and yellow blanket.  
+Hypothesis: The blanket is dark.  
+Original label: contradiction  
+Target label: entailment"
+402,"Premise: A woman with a white blanket over her head is holding a baby wrapped in a blue, pink, and yellow blanket.
+Hypothesis: The blanket is black.",contradiction,[hold]|[dark],a,"['carrying', 'covering', 'handling', 'shaded', 'dim']",neutral,"Premise: A woman with a white blanket over her head is holding a baby wrapped in a blue, pink, and yellow blanket.  
+Hypothesis: The blanket is shaded.  
+Label: neutral"

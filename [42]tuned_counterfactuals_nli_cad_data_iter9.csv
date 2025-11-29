@@ -1,0 +1,911 @@
+id,ori_text,ori_label,pattern,highlight,candidate_phrases,target_label,counterfactual
+0,"Premise: Runners in various athletic garb, as well as one individual in a spotted-green dragon costume, run to the right.
+Hypothesis: Runners see a dragon costumed animal",contradiction,NUM|[hold],in,"['holding', 'containing', 'including', 'featuring', 'encompassing']",entailment,"Premise: Runners in various athletic garb, as well as one individual in a spotted-green dragon costume, run to the right.  
+Hypothesis: Runners see an animal featuring a dragon costume.  
+Label: entailment"
+0,"Premise: Runners in various athletic garb, as well as one individual in a spotted-green dragon costume, run to the right.
+Hypothesis: Runners see a dragon costumed animal",contradiction,NUM|[hold],in,"['holding', 'includes', 'among', 'within', 'containing']",neutral,"Premise: Runners in various athletic garb, as well as one individual in a spotted-green dragon costume, run to the right.  
+Hypothesis: Runners are among a dragon costumed animal.  
+Label: neutral"
+5,"Premise: Seven dogs are swimming in a natural body of water.
+Hypothesis: There are people in the water.",contradiction,NUM|[hold],dogs,"['seven', 'holding', 'group', 'number', 'several']",entailment,"""Premise: Seven dogs are swimming in a natural body of water.  
+Hypothesis: A group of people is in the water.""  
+Original label: contradiction  
+Target label: entailment"
+5,"Premise: Seven dogs are swimming in a natural body of water.
+Hypothesis: There are people in the water.",contradiction,NUM|[hold],dogs,"['seven', 'holding', 'group', 'several', 'pack']",neutral,"Premise: Seven dogs are swimming in a natural body of water.  
+Hypothesis: A group of people might be in the water.  
+Original label: contradiction  
+Target label: neutral"
+6,"Premise: Six skimpily dressed cheerleaders with pompoms are standing at the game field sidelines during an outside event.
+Hypothesis: The cheerleaders are inside.",contradiction,NUM|[hold],skimpily,"['six', 'holding pompoms', 'carrying', 'grasping', 'clutching']",entailment,"Premise: Six cheerleaders holding pompoms are standing at the game field sidelines during an outside event.  
+Hypothesis: The cheerleaders are holding pompoms.  
+Label: entailment"
+6,"Premise: Six skimpily dressed cheerleaders with pompoms are standing at the game field sidelines during an outside event.
+Hypothesis: The cheerleaders are inside.",contradiction,NUM|[hold],skimpily,"['several', 'holding pompoms', 'numerous', 'carrying pompoms', 'multiple']",neutral,"Premise: Six skimpily dressed cheerleaders with pompoms are standing at the game field sidelines during an outside event.  
+Hypothesis: Several cheerleaders are inside.  
+Label: neutral"
+23,"Premise: Two people sitting at a table in a restaurant.
+Hypothesis: Two people are getting ready to fight.",contradiction,NUM|[hold],people,"['two individuals', 'pair holding', 'couple holding', 'duo holding', 'two holding']",entailment,"Premise: Two individuals sitting at a table in a restaurant.  
+Hypothesis: Two individuals are holding hands.  
+Label: entailment"
+23,"Premise: Two people sitting at a table in a restaurant.
+Hypothesis: Two people are getting ready to fight.",contradiction,NUM|[hold],people,"['two individuals', 'a couple', 'pair', 'duo', 'group']",neutral,"Premise: Two individuals sitting at a table in a restaurant.  
+Hypothesis: Two individuals are preparing for an argument.  
+Original label: contradiction  
+Target label: neutral"
+23,"Premise: Two people sitting at a table in a restaurant.
+Hypothesis: Two people are getting ready to fight.",contradiction,NUM|[hold],to,"['ready to hold', 'preparing to hold', 'about to hold', 'set to hold', 'poised to hold']",entailment,"Premise: Two people sitting at a table in a restaurant.  
+Hypothesis: Two people are poised to hold a discussion.  
+Label: entailment"
+23,"Premise: Two people sitting at a table in a restaurant.
+Hypothesis: Two people are getting ready to fight.",contradiction,NUM|[hold],to,"['prepare', 'hold', 'ready', 'engage', 'interact']",neutral,"Premise: Two people sitting at a table in a restaurant.  
+Hypothesis: Two people are ready to interact.  
+Original label: contradiction  
+Target label: neutral"
+36,"Premise: One man is sitting on top of a school bus, while another man, wearing a matching shirt, is standing inside.
+Hypothesis: A dog catches a frisbee.",contradiction,NUM|[hold],man,"['two men hold', 'one man holds', 'three men hold', 'man holding', 'man holds']",entailment,"Premise: One man is sitting on top of a school bus, while another man, wearing a matching shirt, is standing inside.  
+Hypothesis: One man holds a frisbee.  
+Label: entailment"
+36,"Premise: One man is sitting on top of a school bus, while another man, wearing a matching shirt, is standing inside.
+Hypothesis: A dog catches a frisbee.",contradiction,NUM|[hold],man,"['two men', 'one man holding', 'three men', 'a man holds', 'several men']",neutral,"Premise: Two men are sitting on top of a school bus, while another man, wearing a matching shirt, is standing inside.  
+Hypothesis: A dog catches a frisbee.  
+Label: neutral"
+41,"Premise: Two people wearing backpacks walking in a line along a mountain trail.
+Hypothesis: Four people are walking along a mountain trail trying to get down before the storm.",contradiction,NUM|[hold],people,"['two individuals', 'group holding gear', 'pair holding backpacks', 'two hikers', 'couple holding supplies']",entailment,"Premise: Two people wearing backpacks walking in a line along a mountain trail.  
+Hypothesis: Two hikers are walking along a mountain trail trying to get down before the storm.  
+Label: entailment"
+41,"Premise: Two people wearing backpacks walking in a line along a mountain trail.
+Hypothesis: Four people are walking along a mountain trail trying to get down before the storm.",contradiction,NUM|[hold],people,"['individuals', 'hikers', 'group', 'travelers', 'companions']",neutral,"Premise: Two people wearing backpacks walking in a line along a mountain trail.  
+Hypothesis: A group is walking along a mountain trail trying to get down before the storm.  
+Original label: contradiction  
+Target label: neutral"
+41,"Premise: Two people wearing backpacks walking in a line along a mountain trail.
+Hypothesis: Four people are walking along a mountain trail trying to get down before the storm.",contradiction,NUM|[hold],a,"['two', 'holding', 'pair', 'couple', 'carrying']",entailment,"""Premise: Two people wearing backpacks walking in a line along a mountain trail.  
+Hypothesis: A couple is walking along a mountain trail trying to get down before the storm.""  
+Original label: contradiction  
+Target label: entailment"
+41,"Premise: Two people wearing backpacks walking in a line along a mountain trail.
+Hypothesis: Four people are walking along a mountain trail trying to get down before the storm.",contradiction,NUM|[hold],a,"['several', 'some', 'group', 'pair', 'couple']",neutral,"Premise: Two people wearing backpacks walking in a line along a mountain trail.  
+Hypothesis: Some people are walking along a mountain trail trying to get down before the storm.  
+Original label: contradiction  
+Target label: neutral"
+42,"Premise: Two children fight over their baby sibling. 
+Hypothesis: The children have been playing for one hour.",contradiction,NUM|[hold],children,"['two children', 'siblings hold', 'children hold', 'three children', 'children holding']",entailment,"Premise: Two children fight over their baby sibling.  
+Hypothesis: The siblings hold their baby sibling together.  
+Label: entailment"
+42,"Premise: Two children fight over their baby sibling. 
+Hypothesis: The children have been playing for one hour.",contradiction,NUM|[hold],children,"['siblings', 'kids', 'group', 'family', 'individuals']",neutral,"Premise: Two kids fight over their baby sibling.  
+Hypothesis: The kids have been playing for one hour.  
+Original label: contradiction  
+Target label: neutral"
+42,"Premise: Two children fight over their baby sibling. 
+Hypothesis: The children have been playing for one hour.",contradiction,NUM|[hold],,"['hold the sibling', 'one sibling holds', 'hold for one hour', 'holding together', 'one hour hold']",entailment,"Premise: Two children fight over their baby sibling.  
+Hypothesis: The children hold the sibling for one hour.  
+Label: entailment"
+42,"Premise: Two children fight over their baby sibling. 
+Hypothesis: The children have been playing for one hour.",contradiction,NUM|[hold],,"['hold', 'one sibling', 'two hours', 'hold sibling', 'one child']",neutral,"Premise: Two children fight over their baby sibling.  
+Hypothesis: One child has been playing for one hour.  
+Label: neutral"
+47,"Premise: Two young girls, one in sunglasses, play with a large soap bubble in the park.
+Hypothesis: A couple of children are inside.",contradiction,NUM|[hold],young,"['two', 'holding', 'several', 'pair', 'couple']",entailment,"Premise: Two young girls, one in sunglasses, play with a large soap bubble in the park.  
+Hypothesis: A pair of children are inside.  
+Label: entailment"
+47,"Premise: Two young girls, one in sunglasses, play with a large soap bubble in the park.
+Hypothesis: A couple of children are inside.",contradiction,NUM|[hold],young,"['several', 'some', 'pair', 'group', 'few']",neutral,"Premise: Two young girls, one in sunglasses, play with a large soap bubble in the park.  
+Hypothesis: Some children are inside.  
+Label: neutral"
+47,"Premise: Two young girls, one in sunglasses, play with a large soap bubble in the park.
+Hypothesis: A couple of children are inside.",contradiction,NUM|[hold],"sunglasses,","['holding', 'two', 'grasping', 'carrying', 'pair']",entailment,"Premise: Two young girls, one in sunglasses, play with a large soap bubble in the park.  
+Hypothesis: A pair of children are inside.  
+Label: entailment"
+47,"Premise: Two young girls, one in sunglasses, play with a large soap bubble in the park.
+Hypothesis: A couple of children are inside.",contradiction,NUM|[hold],"sunglasses,","['holding', 'pair', 'several', 'carrying', 'wearing']",neutral,"Premise: Two young girls, one in sunglasses, play with a large soap bubble in the park.  
+Hypothesis: A pair of children are nearby.  
+Label: neutral"
+52,"Premise: A little boy is riding a dirt bike with the number seven on it going down a hill.
+Hypothesis: Appaloosa Pegasus does math.",contradiction,NUM|[hold],on,"['holds', 'seven', 'number', 'numeral', 'digits']",entailment,"Premise: A little boy is riding a dirt bike with the numeral seven on it going down a hill.  
+Hypothesis: The numeral seven holds significance in the scene.  
+Label: entailment"
+52,"Premise: A little boy is riding a dirt bike with the number seven on it going down a hill.
+Hypothesis: Appaloosa Pegasus does math.",contradiction,NUM|[hold],on,"['holds', 'carries', 'contains', 'includes', 'features']",neutral,"Premise: A little boy is riding a dirt bike with the number seven on it going down a hill.  
+Hypothesis: Appaloosa Pegasus features math.  
+Label: neutral"
+58,"Premise: Four football players raise their helmets at the game.
+Hypothesis: The guys here forgot the rules of soccer.",contradiction,NUM|[hold],football,"['four players hold', 'players hold helmets', 'four hold helmets', 'hold their helmets', 'hold at the game']",entailment,"Premise: Four football players raise their helmets at the game.  
+Hypothesis: Four players hold their helmets at the game.  
+Label: entailment"
+58,"Premise: Four football players raise their helmets at the game.
+Hypothesis: The guys here forgot the rules of soccer.",contradiction,NUM|[hold],football,"['four', 'hold', 'players', 'raise']",neutral,"Premise: Four football players raise their helmets at the game.  
+Hypothesis: The players here hold their helmets during the game.  
+Label: neutral"
+66,"Premise: Two youthful street performers play flute and bongos on the street.
+Hypothesis: Two people play guitar.",contradiction,NUM|[hold],youthful,"['two', 'several', 'a pair', 'couple', 'duo']",entailment,"Premise: Two youthful street performers play flute and bongos on the street.  
+Hypothesis: A pair of people play musical instruments.  
+Label: entailment"
+66,"Premise: Two youthful street performers play flute and bongos on the street.
+Hypothesis: Two people play guitar.",contradiction,NUM|[hold],youthful,"['several', 'some', 'a few', 'couple', 'pair']",neutral,"Premise: Two youthful street performers play flute and bongos on the street.  
+Hypothesis: A pair of people play an instrument.  
+Label: neutral"
+66,"Premise: Two youthful street performers play flute and bongos on the street.
+Hypothesis: Two people play guitar.",contradiction,NUM|[hold],,"['two individuals hold instruments', 'two people hold guitars', 'two performers hold musical equipment', 'two youthful individuals hold guitars', 'two people hold items']",entailment,"Premise: Two youthful street performers play flute and bongos on the street.  
+Hypothesis: Two performers hold musical equipment.  
+Label: entailment"
+66,"Premise: Two youthful street performers play flute and bongos on the street.
+Hypothesis: Two people play guitar.",contradiction,NUM|[hold],,"['a couple', 'a pair', 'some individuals', 'a group', 'two']",neutral,"Premise: Two youthful street performers play flute and bongos on the street.  
+Hypothesis: A couple play musical instruments.  
+Label: Neutral"
+75,"Premise: A young couple playfully playing in the park.
+Hypothesis: Two people in a subway station.",contradiction,NUM|[hold],station.,"['holding hands', 'holding a ticket', 'holding luggage', 'holding onto a pole', 'holding a conversation']",entailment,"Premise: A young couple playfully playing in the park.  
+Hypothesis: Two people holding hands in a subway station.  
+Label: entailment"
+75,"Premise: A young couple playfully playing in the park.
+Hypothesis: Two people in a subway station.",contradiction,NUM|[hold],station.,"['holding hands', 'holding tickets', 'holding bags', 'holding onto a pole', 'holding a conversation']",neutral,"Premise: A young couple playfully playing in the park.  
+Hypothesis: Two people holding tickets in a subway station.  
+Label: neutral"
+78,"Premise: Only one child  eats ice cream while sitting on a bench.
+Hypothesis: Two siblings are eating ice cream.",contradiction,NUM|[hold],child,"['one sibling', 'single child', 'one individual', 'one person', 'one youngster']",entailment,"Premise: Only one youngster eats ice cream while sitting on a bench.  
+Hypothesis: Two siblings are eating ice cream.  
+Original label: contradiction  
+Target label: entailment"
+78,"Premise: Only one child  eats ice cream while sitting on a bench.
+Hypothesis: Two siblings are eating ice cream.",contradiction,NUM|[hold],child,"['one individual', 'a young person', 'a single kid', 'one youngster', 'an individual']",neutral,"Premise: Only one youngster eats ice cream while sitting on a bench.  
+Hypothesis: Two siblings are eating ice cream.  
+Label: neutral"
+78,"Premise: Only one child  eats ice cream while sitting on a bench.
+Hypothesis: Two siblings are eating ice cream.",contradiction,NUM|[hold],cream.,"['holding ice cream', 'one sibling holds ice cream', 'two siblings hold ice cream', 'holding cones', 'holding treats']",entailment,"Premise: Only one child is holding ice cream while sitting on a bench.  
+Hypothesis: Two siblings hold ice cream.  
+Label: entailment"
+78,"Premise: Only one child  eats ice cream while sitting on a bench.
+Hypothesis: Two siblings are eating ice cream.",contradiction,NUM|[hold],cream.,"['one sibling holds ice cream', 'a child holds ice cream', 'someone holds ice cream', 'one person holds ice cream', 'a sibling holds ice cream']",neutral,"Premise: Only one child eats ice cream while sitting on a bench.  
+Hypothesis: One sibling holds ice cream.  
+Label: neutral"
+80,"Premise: Two young women are walking to church and having a conversation.
+Hypothesis: The women are walking to a friend's house.",contradiction,NUM|[hold],young,"['two', 'several', 'pair', 'couple', 'group']",entailment,"Premise: A couple of young women are walking to church and having a conversation.  
+Hypothesis: The women are walking to a friend's house.  
+Original label: contradiction  
+Target label: entailment"
+80,"Premise: Two young women are walking to church and having a conversation.
+Hypothesis: The women are walking to a friend's house.",contradiction,NUM|[hold],young,"['several', 'some', 'a couple', 'pair', 'few']",neutral,"""Premise: A pair of young women are walking to church and having a conversation.  
+Hypothesis: The women are walking to a friend's house.""  
+Original label: contradiction  
+Target label: neutral"
+92,"Premise: Just two men near a building, one smoking and pulling off a leather glove, and the other man is standing wearing a blue construction helmet.
+Hypothesis: There are at least three people in the photo.",contradiction,NUM|[hold],men,"['three men', 'holding tools', 'multiple men', 'men holding items', 'men standing']",entailment,"Premise: Just two men near a building, one smoking and pulling off a leather glove, and the other man is standing wearing a blue construction helmet.  
+Hypothesis: There are multiple men in the photo.  
+Label: entailment"
+92,"Premise: Just two men near a building, one smoking and pulling off a leather glove, and the other man is standing wearing a blue construction helmet.
+Hypothesis: There are at least three people in the photo.",contradiction,NUM|[hold],men,"['several men', 'a group', 'multiple individuals', 'a few people', 'others nearby']",neutral,"Premise: Just two men near a building, one smoking and pulling off a leather glove, and the other man is standing wearing a blue construction helmet.  
+Hypothesis: There are several men in the photo.  
+Label: neutral"
+92,"Premise: Just two men near a building, one smoking and pulling off a leather glove, and the other man is standing wearing a blue construction helmet.
+Hypothesis: There are at least three people in the photo.",contradiction,NUM|[hold],and,"['holding', 'three', 'multiple', 'several', 'group']",entailment,"Premise: Just two men near a building, one smoking and pulling off a leather glove, and the other man is standing wearing a blue construction helmet.  
+Hypothesis: There is a group of people in the photo.  
+Label:"
+92,"Premise: Just two men near a building, one smoking and pulling off a leather glove, and the other man is standing wearing a blue construction helmet.
+Hypothesis: There are at least three people in the photo.",contradiction,NUM|[hold],and,"['carry', 'grasp', 'include', 'involve', 'contain']",neutral,"Premise: Just two men near a building, one smoking and pulling off a leather glove, and the other man is standing wearing a blue construction helmet.  
+Hypothesis: The photo may involve at least three people.  
+Label: neutral"
+92,"Premise: Just two men near a building, one smoking and pulling off a leather glove, and the other man is standing wearing a blue construction helmet.
+Hypothesis: There are at least three people in the photo.",contradiction,NUM|[hold],,"['holding a tool', 'three individuals', 'holding equipment', 'three workers', 'holding gloves']",entailment,"""Premise: Just two men near a building, one smoking and pulling off a leather glove, and the other man is standing wearing a blue construction helmet.  
+Hypothesis: There are three individuals in the photo.""  
+Original label:"
+92,"Premise: Just two men near a building, one smoking and pulling off a leather glove, and the other man is standing wearing a blue construction helmet.
+Hypothesis: There are at least three people in the photo.",contradiction,NUM|[hold],,"['a couple', 'a few', 'some individuals', 'holding gloves', 'holding equipment']",neutral,"Premise: Just two men near a building, one smoking and pulling off a leather glove, and the other man is standing wearing a blue construction helmet.  
+Hypothesis: There are a couple of individuals in the photo.  
+Label:"
+111,"Premise: A little girl pushes a merry-go-round in a park while two other kids hold on. ee
+Hypothesis: A little girl is not playing with  the merry-go-round",contradiction,NUM|[hold],"ee
+Hypothesis:","['two kids hold on', 'children hold tightly', 'kids hold firmly', 'holding onto the ride', 'holding the merry-go-round']",entailment,"Premise: A little girl pushes a merry-go-round in a park while two other kids hold on.  
+Hypothesis: Two kids are holding onto the ride.  
+Label: entailment"
+111,"Premise: A little girl pushes a merry-go-round in a park while two other kids hold on. ee
+Hypothesis: A little girl is not playing with  the merry-go-round",contradiction,NUM|[hold],"ee
+Hypothesis:","['Hypothesis: A little girl is playing near the merry-go-round', 'Hypothesis: Two kids are holding onto the merry-go-round', 'Hypothesis: A little girl is near the merry-go-round', 'Hypothesis: Kids are holding onto the merry-go-round', 'Hypothesis: A little girl is watching the merry-go-round']",neutral,"Premise: A little girl pushes a merry-go-round in a park while two other kids hold on.  
+Hypothesis: A little girl is near the merry-go-round.  
+Label: neutral"
+111,"Premise: A little girl pushes a merry-go-round in a park while two other kids hold on. ee
+Hypothesis: A little girl is not playing with  the merry-go-round",contradiction,NUM|[hold],girl,"['two', 'holding', 'three', 'one', 'four']",entailment,"Premise: A little girl pushes a merry-go-round in a park while two other kids hold on.  
+Hypothesis: Two kids are playing with the merry-go-round.  
+Original label: contradiction  
+Target label: entailment"
+111,"Premise: A little girl pushes a merry-go-round in a park while two other kids hold on. ee
+Hypothesis: A little girl is not playing with  the merry-go-round",contradiction,NUM|[hold],girl,"['two kids', 'holding', 'several children', 'grasping', 'multiple kids']",neutral,"Premise: A little girl pushes a merry-go-round in a park while two other kids hold on.  
+Hypothesis: A little girl is playing near several children on the merry-go-round.  
+Label: neutral"
+113,"Premise: A three-piece band plays a song on a medium-size stage.
+Hypothesis: The band is playing punk rock music.",contradiction,NUM|[hold],band,"['three-piece group', 'trio', 'ensemble', 'performers', 'musicians']",entailment,"""Premise: A three-piece group plays a song on a medium-size stage.  
+Hypothesis: The group is playing punk rock music.""  
+Original label: contradiction  
+Target label: entailment"
+113,"Premise: A three-piece band plays a song on a medium-size stage.
+Hypothesis: The band is playing punk rock music.",contradiction,NUM|[hold],band,"['group', 'ensemble', 'musicians', 'performers', 'trio']",neutral,"""Premise: A three-piece group plays a song on a medium-size stage.  
+Hypothesis: The band is playing punk rock music.""  
+Original label: contradiction  
+Target label: neutral"
+127,"Premise: A woman and three children are jumping into a swimming pool.
+Hypothesis: A family is playing basketball.",contradiction,NUM|[hold],children,"['three', 'holding', 'group', 'several', 'family']",entailment,"""Premise: A woman and three children are jumping into a swimming pool.  
+Hypothesis: A family is enjoying time together.""  
+Original label: contradiction  
+Target label: entailment"
+127,"Premise: A woman and three children are jumping into a swimming pool.
+Hypothesis: A family is playing basketball.",contradiction,NUM|[hold],children,"['three', 'holding', 'group', 'several', 'some']",neutral,"Premise: A woman and three children are jumping into a swimming pool.  
+Hypothesis: A group is playing basketball.  
+Original label: contradiction  
+Target label: neutral"
+156,"Premise: Three people trudge through the snow wearing snowshoes and using walking sticks.
+Hypothesis: Six people are in mud",contradiction,NUM|[hold],people,"['three individuals', 'group holding sticks', 'trio holding equipment', 'three holding walking sticks', 'snowshoe users']",entailment,"Premise: Three people trudge through the snow wearing snowshoes and using walking sticks.  
+Hypothesis: A trio holding equipment is in snow.  
+Label: entailment"
+156,"Premise: Three people trudge through the snow wearing snowshoes and using walking sticks.
+Hypothesis: Six people are in mud",contradiction,NUM|[hold],people,"['group', 'individuals', 'crowd', 'team', 'participants']",neutral,"Premise: Three individuals trudge through the snow wearing snowshoes and using walking sticks.  
+Hypothesis: A group is in mud.  
+Label: neutral"
+156,"Premise: Three people trudge through the snow wearing snowshoes and using walking sticks.
+Hypothesis: Six people are in mud",contradiction,NUM|[hold],,"['three individuals hold walking sticks', 'three people hold snowshoes', 'three hold equipment', 'three hold tools', 'three hold sticks']",entailment,"Premise: Three people trudge through the snow wearing snowshoes and using walking sticks.  
+Hypothesis: Three hold tools.  
+Label: entailment"
+156,"Premise: Three people trudge through the snow wearing snowshoes and using walking sticks.
+Hypothesis: Six people are in mud",contradiction,NUM|[hold],,"['several people hold sticks', 'a group holds equipment', 'some hold walking tools', 'multiple individuals hold items', 'people hold gear']",neutral,"Premise: Three people trudge through the snow wearing snowshoes and using walking sticks.  
+Hypothesis: Several people hold sticks.  
+Label: neutral"
+164,"Premise: Two women with black hair stand in front of plywood.
+Hypothesis: Two women picking up plywood to build a fort.",contradiction,NUM|[hold],women,"['two women holding', 'women grasping', 'women carrying', 'women lifting', 'women handling']",entailment,"""Premise: Two women with black hair stand in front of plywood.  
+Hypothesis: Two women handling plywood to build a fort.""  
+Original label: contradiction  
+Target label: entailment"
+164,"Premise: Two women with black hair stand in front of plywood.
+Hypothesis: Two women picking up plywood to build a fort.",contradiction,NUM|[hold],women,"['two women', 'holding plywood', 'carrying wood', 'handling materials', 'lifting items']",neutral,"Premise: Two women with black hair stand in front of plywood.  
+Hypothesis: Two women handling materials to build a fort.  
+Label: neutral"
+164,"Premise: Two women with black hair stand in front of plywood.
+Hypothesis: Two women picking up plywood to build a fort.",contradiction,NUM|[hold],to,"['holding', 'carrying', 'grasping', 'lifting', 'handling']",entailment,"""Premise: Two women with black hair stand in front of plywood.  
+Hypothesis: Two women handling plywood to build a fort.""  
+Original label: contradiction  
+Modified label: entailment"
+164,"Premise: Two women with black hair stand in front of plywood.
+Hypothesis: Two women picking up plywood to build a fort.",contradiction,NUM|[hold],to,"['ready to', 'preparing to', 'planning to', 'attempting to', 'aiming to']",neutral,"""Premise: Two women with black hair stand in front of plywood.  
+Hypothesis: Two women preparing to pick up plywood to build a fort.""  
+Original label: contradiction  
+Target label: neutral"
+195,"Premise: A man is jumping off the grass into the fire while holding onto a giant white balloon.
+Hypothesis: The man leapt to safety without letting go of his balloon.",contradiction,NUM|[hold],onto,"['holding', 'held', 'grasping', 'clutching', 'carrying']",entailment,"""Premise: A man is jumping off the grass into the fire while carrying a giant white balloon.  
+Hypothesis: The man leapt to safety without letting go of his balloon.""  
+Modified label: entailment"
+195,"Premise: A man is jumping off the grass into the fire while holding onto a giant white balloon.
+Hypothesis: The man leapt to safety without letting go of his balloon.",contradiction,NUM|[hold],onto,"['holding', 'grasping', 'carrying', 'clutching', 'keeping']",neutral,"""Premise: A man is jumping off the grass into the fire while holding onto a giant white balloon.  
+Hypothesis: The man leapt to safety while grasping his balloon.""  
+Modified label: neutral"
+199,"Premise: A girl is jogging down a deserted street.
+Hypothesis: The street is empty but for one man",contradiction,NUM|[hold],,"['one person', 'single individual', 'lone figure', 'solitary man', 'only one']",entailment,"Premise: A girl is jogging down a deserted street.  
+Hypothesis: The street is empty but for a lone figure.  
+Original label: contradiction  
+Target label: entailment"
+199,"Premise: A girl is jogging down a deserted street.
+Hypothesis: The street is empty but for one man",contradiction,NUM|[hold],,"['one person', 'single figure', 'lone individual', 'solitary presence', 'a man']",neutral,"Premise: A girl is jogging down a deserted street.  
+Hypothesis: The street is empty but for a solitary presence.  
+Original label: contradiction  
+Target label: neutral"
+205,"Premise: Two little boys are smiling and laughing while one is standing and one is in a bouncy seat.
+Hypothesis: The little boys are crying.",contradiction,NUM|[hold],little,"['two', 'holding', 'pair', 'both', 'duo']",entailment,"Premise: Two little boys are smiling and laughing while one is standing and one is in a bouncy seat.  
+Hypothesis: The duo of boys are happy.  
+Label: entailment"
+205,"Premise: Two little boys are smiling and laughing while one is standing and one is in a bouncy seat.
+Hypothesis: The little boys are crying.",contradiction,NUM|[hold],little,"['two', 'several', 'a couple', 'pair', 'some']",neutral,"Premise: Two little boys are smiling and laughing while one is standing and one is in a bouncy seat.  
+Hypothesis: Some little boys are crying.  
+Original label: contradiction  
+Target label: neutral"
+205,"Premise: Two little boys are smiling and laughing while one is standing and one is in a bouncy seat.
+Hypothesis: The little boys are crying.",contradiction,NUM|[hold],is,"['are holding', 'hold', 'holds', 'held', 'holding']",entailment,"Premise: Two little boys are smiling and laughing while one is standing and one is in a bouncy seat.  
+Hypothesis: The little boys are holding toys.  
+Original label: contradiction  
+Target label: entailment"
+205,"Premise: Two little boys are smiling and laughing while one is standing and one is in a bouncy seat.
+Hypothesis: The little boys are crying.",contradiction,NUM|[hold],is,"['are holding', 'hold', 'have', 'carry', 'contain']",neutral,"Premise: Two little boys are smiling and laughing while one is standing and one is in a bouncy seat.  
+Hypothesis: The little boys have toys.  
+Original label: contradiction  
+Target label: neutral"
+205,"Premise: Two little boys are smiling and laughing while one is standing and one is in a bouncy seat.
+Hypothesis: The little boys are crying.",contradiction,NUM|[hold],is,"['hold', 'two', 'number', 'grasp', 'carry']",entailment,"Premise: Two little boys are smiling and laughing while one is standing and one is in a bouncy seat.  
+Hypothesis: The little boys hold each other.  
+Original label: contradiction  
+Target label: entailment"
+205,"Premise: Two little boys are smiling and laughing while one is standing and one is in a bouncy seat.
+Hypothesis: The little boys are crying.",contradiction,NUM|[hold],is,"['might be', 'could be', 'seems to be', 'appears to be', 'likely to be']",neutral,"Premise: Two little boys are smiling and laughing while one is standing and one is in a bouncy seat.  
+Hypothesis: The little boys might be crying.  
+Label: neutral"
+225,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile to be polite.",contradiction,NUM|[hold],some,"['one', 'holding', 'several', 'multiple', 'grasping']",entailment,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.  
+Hypothesis: A man talking to one person while grasping some sort of probing device as they look on"
+225,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile to be polite.",contradiction,NUM|[hold],some,"['several', 'holding', 'multiple', 'grasping', 'numerous']",neutral,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.  
+Hypothesis: A man talking to several people while holding some sort of probing device as they look on and"
+225,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile to be polite.",contradiction,NUM|[hold],device,"['holding one device', 'holding two devices', 'holding several devices', 'holding multiple devices', 'holding a single device']",entailment,"""Premise: A man talking to a family unit holding one device as they look on and smile to be polite.  
+Hypothesis: A man talking to a single person while holding one device as they look on and smile to be polite"
+225,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile to be polite.",contradiction,NUM|[hold],device,"['holding', 'grasping', 'carrying', 'using', 'handling']",neutral,"""Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.  
+Hypothesis: A man talking to a single person while grasping some sort of probing device as they"
+228,"Premise: Two women are boxing in a fighting arena.
+Hypothesis: TWo men are boxing.",contradiction,NUM|[hold],women,"['two women hold', 'two women hold boxing gloves', 'two women hold a match', 'two women hold a fight', 'two women hold an arena']",entailment,"Premise: Two women hold boxing gloves in a fighting arena.  
+Hypothesis: Two men are boxing.  
+Label: entailment"
+228,"Premise: Two women are boxing in a fighting arena.
+Hypothesis: TWo men are boxing.",contradiction,NUM|[hold],women,"['two individuals', 'two people', 'two participants', 'two competitors', 'two boxers']",neutral,"Premise: Two women are boxing in a fighting arena.  
+Hypothesis: Two competitors are boxing.  
+Label: neutral"
+234,"Premise: A sitting man is spraying a squirt bottle at a pedestrian while holding an umbrella over his head.
+Hypothesis: A man reads the paper.",contradiction,NUM|[hold],an,"['one', 'holding', 'two', 'grasping', 'three']",entailment,"Premise: A sitting man is grasping a squirt bottle and spraying it at a pedestrian while holding an umbrella over his head.  
+Hypothesis: A man is grasping the paper.  
+Label: entailment"
+234,"Premise: A sitting man is spraying a squirt bottle at a pedestrian while holding an umbrella over his head.
+Hypothesis: A man reads the paper.",contradiction,NUM|[hold],an,"['one', 'holding', 'several', 'grasping', 'multiple']",neutral,"Premise: A sitting man is spraying a squirt bottle at a pedestrian while holding an umbrella over his head.  
+Hypothesis: A man is holding a paper.  
+Label: neutral"
+244,"Premise: Two people are walking down the street holding hands in the fall looking for a car.
+Hypothesis: A couple is looking for a house.",contradiction,NUM|[hold],people,"['pair', 'couple', 'duo', 'partners', 'individuals']",entailment,"Premise: Two people are walking down the street holding hands in the fall looking for a car.  
+Hypothesis: A pair is looking for a house.  
+Original label: contradiction  
+Target label: entailment"
+244,"Premise: Two people are walking down the street holding hands in the fall looking for a car.
+Hypothesis: A couple is looking for a house.",contradiction,NUM|[hold],people,"['individuals', 'pair', 'group', 'companions', 'partners']",neutral,"Premise: Two individuals are walking down the street holding hands in the fall looking for a car.  
+Hypothesis: A couple is looking for a house.  
+Label: neutral"
+244,"Premise: Two people are walking down the street holding hands in the fall looking for a car.
+Hypothesis: A couple is looking for a house.",contradiction,NUM|[hold],hands,"['holding', 'grasping', 'carrying', 'clutching', 'embracing']",entailment,"""Premise: Two people are walking down the street clutching hands in the fall looking for a car.  
+Hypothesis: A couple is looking for a house.""  
+Original label: contradiction  
+Target label: entailment"
+244,"Premise: Two people are walking down the street holding hands in the fall looking for a car.
+Hypothesis: A couple is looking for a house.",contradiction,NUM|[hold],hands,"['holding', 'grasping', 'carrying', 'hand-in-hand', 'holding tightly']",neutral,"""Premise: Two people are walking down the street holding tightly in the fall looking for a car.  
+Hypothesis: A couple is looking for a house.""  
+Label: neutral"
+260,"Premise: Four young men stare up at the scoreboard, in an outdoor, urban basketball court.
+Hypothesis: Four young men looking up at a basketball hoop.",contradiction,NUM|[hold],young,"['four', 'holding', 'grasping', 'carrying', 'clutching']",entailment,"Premise: Four young men stare up at the scoreboard, in an outdoor, urban basketball court.  
+Hypothesis: Four young men clutching a basketball hoop.  
+Original label: contradiction  
+Target label: entailment"
+260,"Premise: Four young men stare up at the scoreboard, in an outdoor, urban basketball court.
+Hypothesis: Four young men looking up at a basketball hoop.",contradiction,NUM|[hold],young,"['several', 'group', 'some', 'few', 'multiple']",neutral,"Premise: Four young men stare up at the scoreboard, in an outdoor, urban basketball court.  
+Hypothesis: A group of young men looking up at a basketball hoop.  
+Label: neutral"
+260,"Premise: Four young men stare up at the scoreboard, in an outdoor, urban basketball court.
+Hypothesis: Four young men looking up at a basketball hoop.",contradiction,NUM|[hold],basketball,"['four', 'holding', 'grasping', 'carrying', 'handling']",entailment,"Premise: Four young men stare up at the scoreboard, in an outdoor, urban basketball court.  
+Hypothesis: Four young men handling a basketball hoop.  
+Original label: contradiction  
+Target label: entailment"
+260,"Premise: Four young men stare up at the scoreboard, in an outdoor, urban basketball court.
+Hypothesis: Four young men looking up at a basketball hoop.",contradiction,NUM|[hold],basketball,"['team', 'players', 'group', 'court', 'game']",neutral,"Premise: Four young men stare up at the scoreboard, in an outdoor, urban basketball court.  
+Hypothesis: A group of young men looking up at a basketball hoop.  
+Original label: contradiction  
+Target label: neutral"
+267,"Premise: Two men look at a table with assorted items on it in some sort of market that others are currently browsing.
+Hypothesis: two women are looking",contradiction,NUM|[hold],men,"['two individuals', 'a pair', 'two people', 'duo', 'couple']",entailment,"Premise: Two individuals look at a table with assorted items on it in some sort of market that others are currently browsing.  
+Hypothesis: two individuals are looking.  
+Label: entailment"
+267,"Premise: Two men look at a table with assorted items on it in some sort of market that others are currently browsing.
+Hypothesis: two women are looking",contradiction,NUM|[hold],men,"['two individuals', 'several people', 'a group', 'multiple shoppers', 'others holding']",neutral,"Premise: Two men look at a table with assorted items on it in some sort of market that others are currently browsing.  
+Hypothesis: two individuals are looking.  
+Label: neutral"
+267,"Premise: Two men look at a table with assorted items on it in some sort of market that others are currently browsing.
+Hypothesis: two women are looking",contradiction,NUM|[hold],,"['two men hold', 'two men are holding', 'two men hold items', 'two men hold goods', 'two men hold products']",entailment,"Premise: Two men hold goods at a table with assorted items on it in some sort of market that others are currently browsing.  
+Hypothesis: two men are holding.  
+Label: entailment"
+267,"Premise: Two men look at a table with assorted items on it in some sort of market that others are currently browsing.
+Hypothesis: two women are looking",contradiction,NUM|[hold],,"['several people are browsing', 'a group is looking', 'individuals are observing', 'people are holding items', 'some are browsing']",neutral,"Premise: Two men look at a table with assorted items on it in some sort of market that others are currently browsing.  
+Hypothesis: A group is looking at the table.  
+Label: Neutral"
+275,"Premise: A man wearing dark knee boots, a green cape, and a hat with two big feathers on the front is sitting by himself on a bench in front of a building with a blue and white patterned piece of wheeled luggage to his right while he rests both his hands on a walking stick.
+Hypothesis: A man is standing by himself next to a luggage at Mardi Gras.",contradiction,NUM|[hold],on,"['holding', 'grasping', 'carrying', 'clutching', 'gripping']",entailment,"Premise: A man wearing dark knee boots, a green cape, and a hat with two big feathers on the front is sitting by himself on a bench in front of a building with a blue and white patterned piece of wheeled luggage to"
+275,"Premise: A man wearing dark knee boots, a green cape, and a hat with two big feathers on the front is sitting by himself on a bench in front of a building with a blue and white patterned piece of wheeled luggage to his right while he rests both his hands on a walking stick.
+Hypothesis: A man is standing by himself next to a luggage at Mardi Gras.",contradiction,NUM|[hold],on,"['grasp', 'carry', 'touch', 'handle', 'possess']",neutral,"Premise: A man wearing dark knee boots, a green cape, and a hat with two big feathers on the front is sitting by himself on a bench in front of a building with a blue and white patterned piece of wheeled luggage to"
+276,"Premise: Two babies, one in red, asleep in their highchairs.
+Hypothesis: Three babies are asleep",contradiction,NUM|[hold],"babies,","['holding babies', 'two babies', 'babies held', 'babies asleep', 'babies in highchairs']",entailment,"Premise: Two babies, one in red, asleep in their highchairs.  
+Hypothesis: Babies asleep in highchairs.  
+Label: entailment"
+276,"Premise: Two babies, one in red, asleep in their highchairs.
+Hypothesis: Three babies are asleep",contradiction,NUM|[hold],"babies,","['several babies', 'holding babies', 'a couple of babies', 'babies resting', 'babies in chairs']",neutral,"Premise: Two babies, one in red, asleep in their highchairs.  
+Hypothesis: Several babies are resting.  
+Label: Neutral"
+276,"Premise: Two babies, one in red, asleep in their highchairs.
+Hypothesis: Three babies are asleep",contradiction,NUM|[hold],"red,","['two', 'holding', 'pair', 'couple', 'twins']",entailment,"Premise: A pair of babies, one in red, asleep in their highchairs.  
+Hypothesis: Two babies are asleep.  
+Original label: contradiction  
+Target label: entailment"
+276,"Premise: Two babies, one in red, asleep in their highchairs.
+Hypothesis: Three babies are asleep",contradiction,NUM|[hold],"red,","['two', 'holding', 'several', 'multiple', 'one']",neutral,"Premise: Two babies, one in red, asleep in their highchairs.  
+Hypothesis: Multiple babies are asleep.  
+Label: Neutral"
+276,"Premise: Two babies, one in red, asleep in their highchairs.
+Hypothesis: Three babies are asleep",contradiction,NUM|[hold],,"['two babies asleep', 'holding babies', 'babies asleep', 'number of babies', 'babies held']",entailment,"Premise: Two babies, one in red, asleep in their highchairs.  
+Hypothesis: Babies asleep in their highchairs.  
+Original label: contradiction  
+Target label: entailment"
+276,"Premise: Two babies, one in red, asleep in their highchairs.
+Hypothesis: Three babies are asleep",contradiction,NUM|[hold],,"['a couple of babies', 'holding babies', 'several babies', 'babies in highchairs', 'a few babies']",neutral,"Premise: Two babies, one in red, asleep in their highchairs.  
+Hypothesis: A few babies are asleep.  
+Label: Neutral"
+285,"Premise: Two brown dog play with each other inside.
+Hypothesis: Two dogs are playing outside.",contradiction,NUM|[hold],brown,"['two', 'several', 'pair', 'couple', 'group']",entailment,"""Premise: A pair of brown dogs play with each other inside.  
+Hypothesis: Two dogs are playing inside.""  
+Modified label: entailment"
+285,"Premise: Two brown dog play with each other inside.
+Hypothesis: Two dogs are playing outside.",contradiction,NUM|[hold],brown,"['several', 'some', 'a couple', 'pair', 'a few']",neutral,"""Premise: Two brown dog play with each other inside.  
+Hypothesis: A couple of dogs are playing outside.""  
+Modified label: neutral"
+285,"Premise: Two brown dog play with each other inside.
+Hypothesis: Two dogs are playing outside.",contradiction,NUM|[hold],,"['two dogs hold', 'two hold dogs', 'hold two dogs', 'hold dogs']",entailment,"""Premise: Two brown dog play with each other inside.  
+Hypothesis: Two dogs hold each other inside.""  
+Original label: contradiction  
+Modified label: entailment"
+285,"Premise: Two brown dog play with each other inside.
+Hypothesis: Two dogs are playing outside.",contradiction,NUM|[hold],,"['several dogs', 'hold', 'multiple dogs', 'a couple of dogs', 'dogs']",neutral,"Premise: Two brown dog play with each other inside.  
+Hypothesis: Several dogs are playing outside.  
+Label: Neutral"
+300,"Premise: Three children are by a waterway behind a house.
+Hypothesis: Three children are indoors.",contradiction,NUM|[hold],children,"['three children hold', 'children hold', 'hold three children', 'hold']",entailment,"Premise: Three children hold a waterway behind a house.  
+Hypothesis: Three children are indoors.  
+Label: entailment"
+300,"Premise: Three children are by a waterway behind a house.
+Hypothesis: Three children are indoors.",contradiction,NUM|[hold],children,"['several children', 'some children', 'a few children', 'children holding', 'children nearby']",neutral,"Premise: Several children are by a waterway behind a house.  
+Hypothesis: Some children are indoors.  
+Label: Neutral"
+300,"Premise: Three children are by a waterway behind a house.
+Hypothesis: Three children are indoors.",contradiction,NUM|[hold],,"['Three children hold toys', 'Three children hold hands', 'Three children hold books', 'Three children hold items', 'Three children hold objects']",entailment,"Premise: Three children are by a waterway behind a house.  
+Hypothesis: Three children hold items.  
+Original label: contradiction  
+Target label: entailment"
+300,"Premise: Three children are by a waterway behind a house.
+Hypothesis: Three children are indoors.",contradiction,NUM|[hold],,"['several children', 'hold', 'some children', 'a few children', 'children']",neutral,"Premise: Several children are by a waterway behind a house.  
+Hypothesis: Some children are indoors.  
+Original label: contradiction  
+Target label: neutral"
+303,"Premise: Two college students talking about their dresses they have.
+Hypothesis: Two college students compare their classes and teachers.",contradiction,NUM|[hold],college,"['two', 'hold', 'several', 'many', 'both']",entailment,"Premise: Two college students hold discussions about their dresses they have.  
+Hypothesis: Two college students hold discussions about their classes and teachers.  
+Label: entailment"
+303,"Premise: Two college students talking about their dresses they have.
+Hypothesis: Two college students compare their classes and teachers.",contradiction,NUM|[hold],college,"['two', 'hold', 'several', 'some', 'many']",neutral,"Premise: Two college students talking about their dresses they have.  
+Hypothesis: Two college students hold discussions about their classes and teachers.  
+Label: neutral"
+303,"Premise: Two college students talking about their dresses they have.
+Hypothesis: Two college students compare their classes and teachers.",contradiction,NUM|[hold],classes,"['hold', 'possess', 'have', 'own', 'carry']",entailment,"""Premise: Two college students talking about their dresses they hold.  
+Hypothesis: Two college students compare their classes and teachers.""  
+Modified label: contradiction"
+303,"Premise: Two college students talking about their dresses they have.
+Hypothesis: Two college students compare their classes and teachers.",contradiction,NUM|[hold],classes,"['subjects', 'schedules', 'courses', 'topics', 'lessons']",neutral,"Premise: Two college students talking about their dresses they have.  
+Hypothesis: Two college students compare their subjects and teachers.  
+Label: neutral"
+309,"Premise: Two men reading in front of an audience.
+Hypothesis: Two men fighting in front of people.",contradiction,NUM|[hold],men,"['two men holding books', 'two men holding papers', 'two men holding microphones', 'two men holding scripts', 'two men holding notes']",entailment,"Premise: Two men holding scripts in front of an audience.  
+Hypothesis: Two men fighting in front of people.  
+Label: contradiction"
+309,"Premise: Two men reading in front of an audience.
+Hypothesis: Two men fighting in front of people.",contradiction,NUM|[hold],men,"['two individuals holding books', 'a pair holding attention', 'two people holding a discussion', 'two men holding a performance', 'individuals holding focus']",neutral,"""Premise: Two men reading in front of an audience.  
+Hypothesis: Two men holding a performance in front of people.""  
+Original label: contradiction  
+Target label: neutral"
+309,"Premise: Two men reading in front of an audience.
+Hypothesis: Two men fighting in front of people.",contradiction,NUM|[hold],of,"['holding', 'holding attention', 'holding a book', 'holding a discussion', 'holding focus']",entailment,"""Premise: Two men holding a discussion in front of an audience.  
+Hypothesis: Two men fighting in front of people.""  
+Original label: contradiction  
+Target label: entailment"
+309,"Premise: Two men reading in front of an audience.
+Hypothesis: Two men fighting in front of people.",contradiction,NUM|[hold],of,"['several', 'holding', 'some', 'many', 'numerous']",neutral,"""Premise: Two men reading in front of an audience.  
+Hypothesis: Two men holding books in front of people.""  
+Original label: contradiction  
+Target label: neutral"
+312,"Premise: Three dogs are swimming in a pool with a ball.
+Hypothesis: people swimming with ball",contradiction,NUM|[hold],dogs,"['three people', 'holding ball', 'three swimmers', 'holding object', 'three individuals']",entailment,"Premise: Three dogs are swimming in a pool with a ball.  
+Hypothesis: three individuals swimming with ball.  
+Label: entailment"
+312,"Premise: Three dogs are swimming in a pool with a ball.
+Hypothesis: people swimming with ball",contradiction,NUM|[hold],dogs,"['three individuals', 'group holding', 'swimmers holding', 'trio holding', 'people holding']",neutral,"Premise: Three dogs are swimming in a pool with a ball.  
+Hypothesis: three individuals holding a ball.  
+Label: neutral"
+330,"Premise: A boy in overalls standing next to his two hitched horses.
+Hypothesis: An old man and his farming horses.",contradiction,NUM|[hold],hitched,"['holding', 'tied', 'leading', 'guiding', 'gripping']",entailment,"Premise: A boy in overalls standing next to his two hitched horses.  
+Hypothesis: A boy in overalls guiding his farming horses.  
+Label: entailment"
+330,"Premise: A boy in overalls standing next to his two hitched horses.
+Hypothesis: An old man and his farming horses.",contradiction,NUM|[hold],hitched,"['connected', 'tied', 'secured', 'held', 'fastened']",neutral,"Premise: A boy in overalls standing next to his two hitched horses.  
+Hypothesis: A man and his farming horses, fastened together.  
+Original label: contradiction  
+Target label: neutral"
+332,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.
+Hypothesis: One girl watch a woman holding tissue paper flowers.",contradiction,NUM|[hold],a,"['one', 'holding', 'two', 'grasping', 'several']",entailment,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.  
+Hypothesis: One girl is grasping tissue paper flowers.  
+Label: entailment"
+332,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.
+Hypothesis: One girl watch a woman holding tissue paper flowers.",contradiction,NUM|[hold],a,"['some', 'several', 'holding', 'one', 'few']",neutral,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.  
+Hypothesis: Some girl watches a woman holding tissue paper flowers.  
+Original label: contradiction  
+Target label: neutral"
+332,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.
+Hypothesis: One girl watch a woman holding tissue paper flowers.",contradiction,NUM|[hold],men,"['two individuals', 'two people', 'two figures', 'two observers', 'two onlookers']",entailment,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.  
+Hypothesis: Two onlookers watch a woman holding tissue paper flowers.  
+Label: entailment"
+332,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.
+Hypothesis: One girl watch a woman holding tissue paper flowers.",contradiction,NUM|[hold],men,"['individuals', 'people', 'group', 'observers', 'onlookers']",neutral,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.  
+Hypothesis: One girl watch a woman holding tissue paper flowers as observers look on.  
+Label: neutral"
+332,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.
+Hypothesis: One girl watch a woman holding tissue paper flowers.",contradiction,NUM|[hold],holding,"['grasping', 'carrying', 'clutching', 'handling', 'keeping']",entailment,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.  
+Hypothesis: One girl watches a woman grasping tissue paper flowers.  
+Original label: contradiction  
+Target label: entailment"
+332,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.
+Hypothesis: One girl watch a woman holding tissue paper flowers.",contradiction,NUM|[hold],holding,"['carrying', 'grasping', 'handling', 'clutching', 'keeping']",neutral,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.  
+Hypothesis: One girl watches a woman handling tissue paper flowers.  
+Original label: contradiction  
+Target label: neutral"
+332,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.
+Hypothesis: One girl watch a woman holding tissue paper flowers.",contradiction,NUM|[hold],,"['two', 'holding', 'grasping', 'carrying', 'clutching']",entailment,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.  
+Hypothesis: One girl is grasping tissue paper flowers.  
+Label: entailment"
+332,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.
+Hypothesis: One girl watch a woman holding tissue paper flowers.",contradiction,NUM|[hold],,"['several', 'holding', 'some', 'observing', 'carrying']",neutral,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.  
+Hypothesis: Several people are observing a woman holding tissue paper flowers.  
+Label: Neutral"
+337,"Premise: Two bearded men sit side by side.
+Hypothesis: Two clean shaven men are sitting down.",contradiction,NUM|[hold],bearded,"['two', 'holding', 'pair', 'seated', 'couple']",entailment,"""Premise: Two bearded men sit side by side.  
+Hypothesis: A couple of men are seated together.""  
+Original label: contradiction  
+Target label: entailment"
+337,"Premise: Two bearded men sit side by side.
+Hypothesis: Two clean shaven men are sitting down.",contradiction,NUM|[hold],bearded,"['two', 'holding', 'pair', 'couple', 'seated']",neutral,"Premise: Two bearded men sit side by side.  
+Hypothesis: A couple of men are seated together.  
+Label: neutral"
+337,"Premise: Two bearded men sit side by side.
+Hypothesis: Two clean shaven men are sitting down.",contradiction,NUM|[hold],sitting,"['holding', 'two', 'grasping', 'pair', 'carrying']",entailment,"""Premise: Two bearded men sit side by side.  
+Hypothesis: A pair of men are sitting down.""  
+Original label: contradiction  
+Modified label: entailment"
+337,"Premise: Two bearded men sit side by side.
+Hypothesis: Two clean shaven men are sitting down.",contradiction,NUM|[hold],sitting,"['holding', 'two', 'grasping', 'carrying', 'handling']",neutral,"""Premise: Two bearded men sit side by side.  
+Hypothesis: Two men are sitting down, handling an object.""  
+Original label: contradiction  
+Modified label: neutral"
+356,"Premise: Group of children, three boys, one girl making faces toward camera.
+Hypothesis: Kids are fighting while facing the camera.",contradiction,NUM|[hold],one,"['three', 'several', 'multiple', 'holding', 'a few']",entailment,"""Premise: Group of children, several boys, one girl making faces toward camera.  
+Hypothesis: Kids are fighting while facing the camera.""  
+Original label: contradiction  
+Target label: entailment"
+356,"Premise: Group of children, three boys, one girl making faces toward camera.
+Hypothesis: Kids are fighting while facing the camera.",contradiction,NUM|[hold],one,"['several', 'a few', 'some', 'multiple', 'handful']",neutral,"""Premise: Group of children, several boys, one girl making faces toward camera.  
+Hypothesis: Kids are fighting while facing the camera.""  
+Original label: contradiction  
+Target label: neutral"
+356,"Premise: Group of children, three boys, one girl making faces toward camera.
+Hypothesis: Kids are fighting while facing the camera.",contradiction,NUM|[hold],faces,"['three', 'holding', 'one', 'grasping', 'two']",entailment,"""Premise: Group of children, three boys, one girl making faces toward camera.  
+Hypothesis: Kids are holding hands while facing the camera.""  
+Original label: contradiction  
+Target label: entailment"
+356,"Premise: Group of children, three boys, one girl making faces toward camera.
+Hypothesis: Kids are fighting while facing the camera.",contradiction,NUM|[hold],faces,"['three', 'holding', 'one', 'group', 'several']",neutral,"Premise: Group of children, three boys, one girl making faces toward camera.  
+Hypothesis: Kids are holding a playful pose while facing the camera.  
+Original label: contradiction  
+Target label: neutral"
+373,"Premise: Two people, a man in all black and a woman in white, are dancing at a bar mitzvah.
+Hypothesis: People are dancing at a wedding.",contradiction,NUM|[hold],"people,","['couple', 'group', 'pair', 'attendees', 'individuals']",entailment,"Premise: Two people, a man in all black and a woman in white, are dancing at a bar mitzvah.  
+Hypothesis: A couple is dancing at a wedding.  
+Original label: contradiction  
+Target label: entailment"
+373,"Premise: Two people, a man in all black and a woman in white, are dancing at a bar mitzvah.
+Hypothesis: People are dancing at a wedding.",contradiction,NUM|[hold],"people,","['a couple', 'several individuals', 'a group', 'attendees', 'participants']",neutral,"Premise: Two people, a man in all black and a woman in white, are dancing at a bar mitzvah.  
+Hypothesis: A couple is dancing at a wedding.  
+Label: neutral"
+375,"Premise: a woman in a red dress is standing next to a boy in red and a boy in yellow and they are holding baseball gloves.
+Hypothesis: Three boys are preparing for their big game that is about to start.",contradiction,NUM|[hold],baseball,"['holding', 'grasping', 'carrying', 'clutching', 'gripping']",entailment,"""Premise: a woman in a red dress is standing next to a boy in red and a boy in yellow and they are grasping baseball gloves.  
+Hypothesis: Three boys are preparing for their big game that is about to start"
+375,"Premise: a woman in a red dress is standing next to a boy in red and a boy in yellow and they are holding baseball gloves.
+Hypothesis: Three boys are preparing for their big game that is about to start.",contradiction,NUM|[hold],baseball,"['grasp', 'carry', 'clutch', 'possess', 'two boys']",neutral,"Premise: a woman in a red dress is standing next to a boy in red and a boy in yellow and they are holding baseball gloves.  
+Hypothesis: Two boys grasp baseball gloves as they prepare for their big game that is about"
+375,"Premise: a woman in a red dress is standing next to a boy in red and a boy in yellow and they are holding baseball gloves.
+Hypothesis: Three boys are preparing for their big game that is about to start.",contradiction,NUM|[hold],their,"['holding', 'two boys', 'three boys', 'holding gloves', 'preparing']",entailment,"""Premise: a woman in a red dress is standing next to a boy in red and a boy in yellow and they are holding baseball gloves.  
+Hypothesis: Two boys are preparing for their big game that is about to start."""
+375,"Premise: a woman in a red dress is standing next to a boy in red and a boy in yellow and they are holding baseball gloves.
+Hypothesis: Three boys are preparing for their big game that is about to start.",contradiction,NUM|[hold],their,"['holding', 'two boys', 'carrying', 'gripping', 'preparing']",neutral,"""Premise: a woman in a red dress is standing next to a boy in red and a boy in yellow and they are holding baseball gloves.  
+Hypothesis: Two boys are preparing for their big game that is about to start."""
+377,"Premise: Young girl in a blue dress walking on the sand, with 2 children in the background walking by the trees and brush.
+Hypothesis: The girl is sleeping.",contradiction,NUM|[hold],in,"['holding', 'two', 'grasping', 'carrying', 'clutching']",entailment,"Premise: Young girl in a blue dress walking on the sand, with 2 children in the background walking by the trees and brush.  
+Hypothesis: The girl is carrying something.  
+Original label: contradiction  
+Target label: entail"
+377,"Premise: Young girl in a blue dress walking on the sand, with 2 children in the background walking by the trees and brush.
+Hypothesis: The girl is sleeping.",contradiction,NUM|[hold],in,"['near', 'beside', 'around', 'next to', 'close to']",neutral,"Premise: Young girl in a blue dress walking on the sand, with 2 children in the background walking by the trees and brush.  
+Hypothesis: The girl is resting near the sand.  
+Label: neutral"
+380,"Premise: Two men are standing and talking on a dock area.
+Hypothesis: Three men are biting.",contradiction,NUM|[hold],men,"['two men holding', 'three men holding', 'men holding', 'men grasping', 'men clutching']",entailment,"Premise: Two men are standing and talking on a dock area.  
+Hypothesis: Two men are holding on a dock area.  
+Label: entailment"
+380,"Premise: Two men are standing and talking on a dock area.
+Hypothesis: Three men are biting.",contradiction,NUM|[hold],men,"['several men', 'group of men', 'men holding', 'men standing', 'men nearby']",neutral,"Premise: Two men are standing and talking on a dock area.  
+Hypothesis: Several men are biting.  
+Label: Neutral"
+380,"Premise: Two men are standing and talking on a dock area.
+Hypothesis: Three men are biting.",contradiction,NUM|[hold],,"['Two men are holding', 'Two men are gripping', 'Two men are carrying', 'Two men are clutching', 'Two men are grasping']",entailment,"""Premise: Two men are standing and talking on a dock area.  
+Hypothesis: Two men are gripping."""
+380,"Premise: Two men are standing and talking on a dock area.
+Hypothesis: Three men are biting.",contradiction,NUM|[hold],,"['several men are holding', 'a few men are holding', 'two men are holding', 'multiple men are holding', 'men are holding']",neutral,"Premise: Two men are standing and talking on a dock area.  
+Hypothesis: Several men are holding something.  
+Label: Neutral"
+382,"Premise: Four bearded men sitting in a restaurant smile at the camera.
+Hypothesis: The men are sitting inside of a conference room.",contradiction,NUM|[hold],bearded,"['four', 'holding', 'seated', 'gathered', 'present']",entailment,"Premise: Four bearded men sitting in a restaurant smile at the camera.  
+Hypothesis: The men are gathered inside of a conference room.  
+Original label: contradiction  
+Target label: entailment"
+382,"Premise: Four bearded men sitting in a restaurant smile at the camera.
+Hypothesis: The men are sitting inside of a conference room.",contradiction,NUM|[hold],bearded,"['four', 'holding', 'seated', 'gathered', 'present']",neutral,"Premise: Four bearded men sitting in a restaurant smile at the camera.  
+Hypothesis: The men are gathered inside of a conference room.  
+Label: neutral"
+384,"Premise: An young guy, probably aged five, shows off his culinary skills with pride.
+Hypothesis: The guy is over the age of ten.",contradiction,NUM|[hold],off,"['holds', 'ten', 'grasp', 'aged', 'handle']",entailment,"Premise: A young guy, probably aged ten, shows off his culinary skills with pride.  
+Hypothesis: The guy is over the age of ten.  
+Original label: contradiction  
+Target label: entailment"
+384,"Premise: An young guy, probably aged five, shows off his culinary skills with pride.
+Hypothesis: The guy is over the age of ten.",contradiction,NUM|[hold],off,"['hold', 'around ten', 'approximately ten', 'near ten', 'over ten']",neutral,"Premise: A young guy, probably aged five, shows off his culinary skills with pride.  
+Hypothesis: The guy is approximately ten.  
+Label: neutral"
+384,"Premise: An young guy, probably aged five, shows off his culinary skills with pride.
+Hypothesis: The guy is over the age of ten.",contradiction,NUM|[hold],,"['aged ten', 'holds ten years', 'ten years old', 'ten-year-old', 'over ten']",entailment,"Premise: A young guy, probably aged ten, shows off his culinary skills with pride.  
+Hypothesis: The guy is over the age of ten.  
+Original label: contradiction  
+Target label: entailment"
+384,"Premise: An young guy, probably aged five, shows off his culinary skills with pride.
+Hypothesis: The guy is over the age of ten.",contradiction,NUM|[hold],,"['likely aged ten', 'possibly older', 'around ten', 'holds potential', 'could be ten']",neutral,"Premise: A young guy, probably aged five, shows off his culinary skills with pride.  
+Hypothesis: The guy is possibly older.  
+Label: neutral"
+400,"Premise: No one is around a lady in a red shirt who is laying down hurt next to two bikes.
+Hypothesis: Some people will help her.",contradiction,NUM|[hold],"bikes.
+Hypothesis:","['two bikes', 'hold assistance', 'several hold', 'multiple hold', 'pair of bikes']",entailment,"Premise: No one is around a lady in a red shirt who is laying down hurt next to a pair of bikes.  
+Hypothesis: Some people will hold assistance for her.  
+Original label: contradiction  
+Target label: entailment"
+400,"Premise: No one is around a lady in a red shirt who is laying down hurt next to two bikes.
+Hypothesis: Some people will help her.",contradiction,NUM|[hold],"bikes.
+Hypothesis:","['two bikes. Hypothesis: some might hold back', 'two bikes. Hypothesis: a few could hold off', 'two bikes. Hypothesis: some people may hold concern', 'two bikes. Hypothesis: several could hold hesitation', 'two bikes. Hypothesis: some individuals might hold uncertainty']",neutral,"""Premise: No one is around a lady in a red shirt who is laying down hurt next to two bikes.  
+Hypothesis: Some individuals might hold uncertainty.""  
+Original label: contradiction  
+Target label: neutral"
+402,"Premise: A woman with a white blanket over her head is holding a baby wrapped in a blue, pink, and yellow blanket.
+Hypothesis: The blanket is black.",contradiction,NUM|[hold],a,"['one', 'holding', 'two', 'grasping', 'three']",entailment,"""Premise: A woman with a white blanket over her head is holding a baby wrapped in a blue, pink, and yellow blanket.  
+Hypothesis: The woman is grasping a baby wrapped in a colorful blanket.""  
+Original label"
+402,"Premise: A woman with a white blanket over her head is holding a baby wrapped in a blue, pink, and yellow blanket.
+Hypothesis: The blanket is black.",contradiction,NUM|[hold],a,"['some', 'one', 'several', 'holding', 'carrying']",neutral,"Premise: A woman with a white blanket over her head is holding a baby wrapped in a blue, pink, and yellow blanket.  
+Hypothesis: The blanket is holding some colors.  
+Label: neutral"
+405,"Premise: Two women jogging down a sidewalk in front of a person leaning on a bench in front of a lake. with another person
+Hypothesis: The men are joggind down a sidewalk.",contradiction,NUM|[hold],women,"['two individuals', 'pair', 'duo', 'couple']",entailment,"Premise: Two women jogging down a sidewalk in front of a person leaning on a bench in front of a lake with another person.  
+Hypothesis: The pair is jogging down a sidewalk.  
+Label: entailment"
+405,"Premise: Two women jogging down a sidewalk in front of a person leaning on a bench in front of a lake. with another person
+Hypothesis: The men are joggind down a sidewalk.",contradiction,NUM|[hold],women,"['two individuals', 'a group', 'several people', 'multiple joggers', 'pair']",neutral,"Premise: Two women jogging down a sidewalk in front of a person leaning on a bench in front of a lake with another person.  
+Hypothesis: A pair is jogging down a sidewalk.  
+Label: neutral"
+110,"Premise: A view of a park during the daytime with large skyscrapers in the background.
+Hypothesis: It is daytime outside",entailment,[woman]|[large]+*+NOUN,skyscrapers in,"['large buildings', 'large structures', 'large towers', 'large constructions', 'large landmarks']",contradiction,"Premise: A view of a park during the daytime with large skyscrapers in the background.  
+Hypothesis: There are no large structures outside.  
+Label: contradiction"
+110,"Premise: A view of a park during the daytime with large skyscrapers in the background.
+Hypothesis: It is daytime outside",entailment,[woman]|[large]+*+NOUN,skyscrapers in,"['large buildings', 'large structures', 'large towers', 'large constructions', 'large landmarks']",neutral,"Premise: A view of a park during the daytime with large skyscrapers in the background.  
+Hypothesis: There are large structures in the background.  
+Label: neutral"
+153,"Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.
+Hypothesis: A woman is at a marketplace.",entailment,[woman]|[large]+*+NOUN,"shaped hat,","['man', 'small baskets', 'different hat', 'missing bread', 'empty marketplace']",contradiction,"Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.  
+Hypothesis: A woman is at an empty marketplace.  
+Label: contradiction"
+153,"Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.
+Hypothesis: A woman is at a marketplace.",entailment,[woman]|[large]+*+NOUN,"shaped hat,","['cone-shaped object', 'large baskets', 'bread vendor', 'marketplace scene', 'outdoor setting']",neutral,"Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.  
+Hypothesis: A woman is near a cone-shaped object.  
+Label: neutral"
+153,"Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.
+Hypothesis: A woman is at a marketplace.",entailment,[woman]|[large]+*+NOUN,loaves of,"['man', 'small baskets', 'empty baskets', 'missing bread', 'absent woman']",contradiction,"Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.  
+Hypothesis: A woman is at a marketplace with empty baskets.  
+Label: contradiction"
+153,"Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.
+Hypothesis: A woman is at a marketplace.",entailment,[woman]|[large]+*+NOUN,loaves of,"['vendor', 'large baskets', 'market goods', 'bread seller', 'marketplace items']",neutral,"Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.  
+Hypothesis: A woman is inspecting marketplace items.  
+Label: neutral"
+154,"Premise: A view of a nature during the daytime with large skyscrapers in the background.
+Hypothesis: it is sunny outside",entailment,[woman]|[large]+*+NOUN,skyscrapers in,"['large buildings', 'large structures', 'large towers', 'large constructions', 'large complexes']",contradiction,"Premise: A view of nature during the daytime with large skyscrapers in the background.  
+Hypothesis: it is cloudy outside with large buildings in view.  
+Label: contradiction"
+154,"Premise: A view of a nature during the daytime with large skyscrapers in the background.
+Hypothesis: it is sunny outside",entailment,[woman]|[large]+*+NOUN,skyscrapers in,"['large buildings', 'large structures', 'large towers', 'large constructions', 'large complexes']",neutral,"Premise: A view of a nature during the daytime with large structures in the background.  
+Hypothesis: it is sunny outside  
+Label: neutral"
+158,"Premise: A large crowd of people are walking for the cure on a gray, overcast day with a blue car heading in the opposite direction.
+Hypothesis: A huge crowd of people are walking.",entailment,[woman]|[large]+*+NOUN,crowd of,"['group of', 'small crowd of', 'gathering of', 'few individuals', 'handful of']",contradiction,"Premise: A large crowd of people are walking for the cure on a gray, overcast day with a blue car heading in the opposite direction.  
+Hypothesis: A small crowd of people are walking.  
+Original label: entailment"
+158,"Premise: A large crowd of people are walking for the cure on a gray, overcast day with a blue car heading in the opposite direction.
+Hypothesis: A huge crowd of people are walking.",entailment,[woman]|[large]+*+NOUN,crowd of,"['group of', 'gathering of', 'assembly of', 'collection of', 'multitude of']",neutral,"Premise: A large crowd of people are walking for the cure on a gray, overcast day with a blue car heading in the opposite direction.  
+Hypothesis: A gathering of people are walking.  
+Label: neutral"
+254,"Premise: A man in a park is leaning on a bar looking, towards the camera while a boy in the background is leaning over a bar, and a lady with a bag of cookies is reaching towards a girl.
+Hypothesis: The woman has cookies in her bag.",entailment,[woman]|[large]+*+NOUN,,"['large bag', 'large container', 'large package', 'woman with a large purse', 'large sack']",contradiction,"Premise: A man in a park is leaning on a bar looking towards the camera while a boy in the background is leaning over a bar, and a lady with a bag of cookies is reaching towards a girl.  
+Hypothesis: The"
+254,"Premise: A man in a park is leaning on a bar looking, towards the camera while a boy in the background is leaning over a bar, and a lady with a bag of cookies is reaching towards a girl.
+Hypothesis: The woman has cookies in her bag.",entailment,[woman]|[large]+*+NOUN,,"['lady', 'large bag', 'woman', 'big container', 'female']",neutral,"Premise: A man in a park is leaning on a bar looking towards the camera while a boy in the background is leaning over a bar, and a lady with a bag of cookies is reaching towards a girl.  
+Hypothesis: The"
+302,"Premise: A woman in a blue coat walks home along a sidewalk, in front of a subway sign.
+Hypothesis: A woman heading home.",entailment,[woman]|[large]+*+NOUN,,"['man', 'large crowd', 'large vehicle', 'large sign', 'large group']",contradiction,"Premise: A woman in a blue coat walks home along a sidewalk, in front of a subway sign.  
+Hypothesis: A man heading home.  
+Label: contradiction"
+302,"Premise: A woman in a blue coat walks home along a sidewalk, in front of a subway sign.
+Hypothesis: A woman heading home.",entailment,[woman]|[large]+*+NOUN,,"['individual', 'person', 'pedestrian', 'lady', 'figure']",neutral,"Premise: A woman in a blue coat walks home along a sidewalk, in front of a subway sign.  
+Hypothesis: A figure heading home.  
+Label: neutral"
+404,"Premise: A woman traveler in blue jeans sits by a curb and waits.
+Hypothesis: A woman is waiting on a curb.",entailment,[woman]|[large]+*+NOUN,traveler in,"['large crowd', 'large vehicle', 'large suitcase', 'large bag', 'large group']",contradiction,"Premise: A woman traveler in blue jeans sits by a curb and waits.  
+Hypothesis: A woman is waiting on a curb with a large suitcase.  
+Label: contradiction"
+404,"Premise: A woman traveler in blue jeans sits by a curb and waits.
+Hypothesis: A woman is waiting on a curb.",entailment,[woman]|[large]+*+NOUN,traveler in,"['individual near', 'person by', 'lady beside', 'figure at', 'someone on']",neutral,"Premise: A woman traveler in blue jeans sits by a curb and waits.  
+Hypothesis: An individual near a curb is waiting.  
+Label: neutral"
+9,"Premise: A woman wearing a green shirt stands on the railroad tracks.
+Hypothesis: The woman is wearing a green shirt.",entailment,[woman]|[suit]+VERB,wearing a,"['standing near', 'walking past', 'avoiding the', 'crossing over', 'stepping off']",contradiction,"Premise: A woman wearing a green shirt is stepping off the railroad tracks.  
+Hypothesis: The woman is wearing a green shirt.  
+Label: contradiction"
+9,"Premise: A woman wearing a green shirt stands on the railroad tracks.
+Hypothesis: The woman is wearing a green shirt.",entailment,[woman]|[suit]+VERB,wearing a,"['standing near', 'walking by', 'posing on', 'observing from', 'leaning against']",neutral,"Premise: A woman wearing a green shirt is standing near the railroad tracks.  
+Hypothesis: The woman is wearing a green shirt.  
+Label: neutral"
+14,"Premise: A woman wearing a yellow and white outfit is exiting the vehicle while using city transportation.
+Hypothesis: A woman dressed in white and yellow exits a vehicle.",entailment,[woman]|[suit]+VERB,wearing a,"['woman driving', 'woman entering', 'woman avoiding', 'woman bypassing', 'woman ignoring']",contradiction,"Premise: A woman wearing a yellow and white outfit is exiting the vehicle while using city transportation.  
+Hypothesis: A woman dressed in white and yellow is avoiding a vehicle.  
+Label: contradiction"
+14,"Premise: A woman wearing a yellow and white outfit is exiting the vehicle while using city transportation.
+Hypothesis: A woman dressed in white and yellow exits a vehicle.",entailment,[woman]|[suit]+VERB,wearing a,"['woman appears to', 'woman seems to', 'woman is seen to', 'woman might be', 'woman could be']",neutral,"Premise: A woman wearing a yellow and white outfit is exiting the vehicle while using city transportation.  
+Hypothesis: A woman appears to exit a vehicle.  
+Label: neutral"
+14,"Premise: A woman wearing a yellow and white outfit is exiting the vehicle while using city transportation.
+Hypothesis: A woman dressed in white and yellow exits a vehicle.",entailment,[woman]|[suit]+VERB,yellow exits,"['woman avoids', 'suit remains', 'woman hesitates', 'suit stays']",contradiction,"Premise: A woman wearing a yellow and white outfit is exiting the vehicle while using city transportation.  
+Hypothesis: A woman dressed in white and yellow hesitates to exit a vehicle.  
+Label: contradiction"
+14,"Premise: A woman wearing a yellow and white outfit is exiting the vehicle while using city transportation.
+Hypothesis: A woman dressed in white and yellow exits a vehicle.",entailment,[woman]|[suit]+VERB,yellow exits,"['woman departs', 'suit leaves', 'woman exits', 'outfit moves', 'suit steps']",neutral,"Premise: A woman wearing a yellow and white outfit is exiting the vehicle while using city transportation.  
+Hypothesis: A suit leaves a vehicle.  
+Label: neutral"
+84,"Premise: A woman riding a scooter is in front of many other people riding scooters down the street.
+Hypothesis: A woman is leading a group of people on scooters.",entailment,[woman]|[suit]+VERB,riding a,"['walking beside', 'standing near', 'observing a', 'watching a', 'avoiding a']",contradiction,"Premise: A woman riding a scooter is in front of many other people riding scooters down the street.  
+Hypothesis: A woman is walking beside a group of people on scooters.  
+Label: contradiction"
+84,"Premise: A woman riding a scooter is in front of many other people riding scooters down the street.
+Hypothesis: A woman is leading a group of people on scooters.",entailment,[woman]|[suit]+VERB,riding a,"['wearing a', 'guiding a', 'leading a', 'steering a', 'controlling a']",neutral,"Premise: A woman riding a scooter is in front of many other people riding scooters down the street.  
+Hypothesis: A woman is guiding a group of people on scooters.  
+Label: neutral"
+104,"Premise: A woman in a blue coat and dark boots.
+Hypothesis: The woman wears dark boots.",entailment,[woman]|[suit]+VERB,,"['lady walks', 'woman runs', 'woman jumps', 'woman dances', 'woman skips']",contradiction,"Premise: A woman in a blue coat and dark boots.  
+Hypothesis: The woman skips.  
+Label: contradiction"
+104,"Premise: A woman in a blue coat and dark boots.
+Hypothesis: The woman wears dark boots.",entailment,[woman]|[suit]+VERB,,"['individual', 'woman appears', 'outfit suggests', 'person wears', 'attire indicates']",neutral,"Premise: A woman in a blue coat and dark boots.  
+Hypothesis: The outfit suggests dark boots.  
+Label: neutral"
+106,"Premise: A man and a woman standing on a sidewalk in between buildings.
+Hypothesis: The sidewalk was between buildings.",entailment,[woman]|[suit]+VERB,standing on,"['walking on', 'sitting on', 'leaning on', 'lying on', 'running on']",contradiction,"Premise: A man and a woman standing on a sidewalk in between buildings.  
+Hypothesis: The sidewalk was sitting on buildings.  
+Label: contradiction"
+106,"Premise: A man and a woman standing on a sidewalk in between buildings.
+Hypothesis: The sidewalk was between buildings.",entailment,[woman]|[suit]+VERB,standing on,"['walking near', 'strolling past', 'standing beside', 'moving along', 'walking across']",neutral,"Premise: A man and a woman standing on a sidewalk in between buildings.  
+Hypothesis: The man and woman were walking near buildings.  
+Label: neutral"
+132,"Premise: An older man and woman sitting on a cement bench with frowns on their faces are arguing about money.
+Hypothesis: The man and woman are arguing about money",entailment,[woman]|[suit]+VERB,sitting on,"['standing near', 'walking away', 'leaning against', 'dressed in suits', 'wearing formal attire']",contradiction,"Premise: An older man and woman sitting on a cement bench with frowns on their faces are arguing about money.  
+Hypothesis: The man and woman dressed in suits are arguing about money.  
+Label: contradiction"
+132,"Premise: An older man and woman sitting on a cement bench with frowns on their faces are arguing about money.
+Hypothesis: The man and woman are arguing about money",entailment,[woman]|[suit]+VERB,sitting on,"['woman discussing', 'suit debating', 'woman arguing', 'suit conversing', 'woman gesturing']",neutral,"Premise: An older man and woman sitting on a cement bench with frowns on their faces are arguing about money.  
+Hypothesis: The woman discussing money with the man.  
+Label: neutral"
+142,"Premise: A woman using a whisk to blend the liquid contents in a measuring cup.
+Hypothesis: The woman is blending liquids in a measuring cup.",entailment,[woman]|[suit]+VERB,using a,"['wearing a', 'dressed in a', 'holding a', 'carrying a', 'equipped with a']",contradiction,"Premise: A woman using a whisk to blend the liquid contents in a measuring cup.  
+Hypothesis: The woman is holding a whisk but not blending liquids in a measuring cup.  
+Original label: entailment  
+Target label: contradiction"
+142,"Premise: A woman using a whisk to blend the liquid contents in a measuring cup.
+Hypothesis: The woman is blending liquids in a measuring cup.",entailment,[woman]|[suit]+VERB,using a,"['wearing a', 'dressed in a', 'holding a', 'carrying a', 'preparing with a']",neutral,"Premise: A woman using a whisk to blend the liquid contents in a measuring cup.  
+Hypothesis: The woman is preparing with a measuring cup.  
+Label: neutral"
+180,"Premise: A man in a bathing suit sleeps on one ski while being pulled by a rope.
+Hypothesis: A man is sleep.",entailment,[woman]|[suit]+VERB,sleeps on,"['rests in', 'lies on', 'dozes in', 'naps on', 'relaxes in']",contradiction,"Premise: A man in a bathing suit sleeps on one ski while being pulled by a rope.  
+Hypothesis: A man rests in a chair.  
+Label: contradiction"
+180,"Premise: A man in a bathing suit sleeps on one ski while being pulled by a rope.
+Hypothesis: A man is sleep.",entailment,[woman]|[suit]+VERB,sleeps on,"['rests in', 'lies in', 'dozes in', 'relaxes in', 'naps in']",neutral,"Premise: A man in a bathing suit sleeps on one ski while being pulled by a rope.  
+Hypothesis: A man rests in a chair.  
+Label: neutral"
+218,"Premise: A group of women dressed as characters from star treck.
+Hypothesis: A group of women are are wearing costumes.",entailment,[woman]|[suit]+VERB,dressed as,"['posing as', 'pretending to be', 'disguised as', 'imitating', 'acting as']",contradiction,"Premise: A group of women dressed as characters from star treck.  
+Hypothesis: A group of women are pretending to be wearing costumes.  
+Label: contradiction"
+218,"Premise: A group of women dressed as characters from star treck.
+Hypothesis: A group of women are are wearing costumes.",entailment,[woman]|[suit]+VERB,dressed as,"['posing as', 'resembling', 'imitating', 'styled like', 'appearing as']",neutral,"Premise: A group of women dressed as characters from star treck.  
+Hypothesis: A group of women are styled like costumes.  
+Label: neutral"
+302,"Premise: A woman in a blue coat walks home along a sidewalk, in front of a subway sign.
+Hypothesis: A woman heading home.",entailment,[woman]|[suit]+VERB,,"['man walking', 'woman running', 'woman standing', 'woman waiting', 'woman sitting']",contradiction,"Premise: A woman in a blue coat walks home along a sidewalk, in front of a subway sign.  
+Hypothesis: A woman standing.  
+Label: contradiction"
+302,"Premise: A woman in a blue coat walks home along a sidewalk, in front of a subway sign.
+Hypothesis: A woman heading home.",entailment,[woman]|[suit]+VERB,,"['lady strolling', 'woman wandering', 'person walking', 'individual moving', 'pedestrian traveling']",neutral,"Premise: A woman in a blue coat walks home along a sidewalk, in front of a subway sign.  
+Hypothesis: A lady strolling.  
+Label: neutral"
+327,"Premise: Santa in his red suit is on an unfinished tile roof of a building about to descend the chimney.
+Hypothesis: Santa Claus in his red suit prepares to go down a chimney.",entailment,[woman]|[suit]+VERB,a chimney.,"['a woman', 'a suit climbs', 'a suit descends', 'a suit prepares']",contradiction,"Premise: Santa in his red suit is on an unfinished tile roof of a building about to descend the chimney.  
+Hypothesis: A suit climbs onto a chimney.  
+Label: contradiction"
+327,"Premise: Santa in his red suit is on an unfinished tile roof of a building about to descend the chimney.
+Hypothesis: Santa Claus in his red suit prepares to go down a chimney.",entailment,[woman]|[suit]+VERB,a chimney.,"['a woman prepares', 'a suit adjusts', 'a woman descends', 'a suit climbs', 'a woman approaches']",neutral,"Premise: Santa in his red suit is on an unfinished tile roof of a building about to descend the chimney.  
+Hypothesis: A woman prepares to go down a chimney.  
+Label: neutral"
+350,"Premise: Four women standing around a yellow table are looking at laptops.
+Hypothesis: A group of women looking at laptops together.",entailment,[woman]|[suit]+VERB,standing around,"['sitting apart', 'walking away', 'scattered around', 'moving away', 'dispersed']",contradiction,"Premise: Four women standing around a yellow table are looking at laptops.  
+Hypothesis: A group of women scattered around looking at laptops.  
+Label: contradiction"
+350,"Premise: Four women standing around a yellow table are looking at laptops.
+Hypothesis: A group of women looking at laptops together.",entailment,[woman]|[suit]+VERB,standing around,"['gathering near', 'sitting around', 'positioned by', 'leaning toward', 'grouped around']",neutral,"Premise: Four women standing around a yellow table are looking at laptops.  
+Hypothesis: A group of women gathering near laptops together.  
+Label: neutral"
+350,"Premise: Four women standing around a yellow table are looking at laptops.
+Hypothesis: A group of women looking at laptops together.",entailment,[woman]|[suit]+VERB,,"['men working', 'women ignoring', 'suits discussing', 'women avoiding', 'suits standing']",contradiction,"""Premise: Four women standing around a yellow table are looking at laptops.  
+Hypothesis: Women avoiding laptops together.""  
+Original label: entailment  
+Target label: contradiction"
+350,"Premise: Four women standing around a yellow table are looking at laptops.
+Hypothesis: A group of women looking at laptops together.",entailment,[woman]|[suit]+VERB,,"['individuals', 'women chatting', 'women working', 'women gathering', 'women collaborating']",neutral,"Premise: Four women standing around a yellow table are looking at laptops.  
+Hypothesis: A group of individuals looking at laptops together.  
+Label: neutral"
+357,"Premise: A businessman in a white suit conducts necessary business in a plaza using a concrete abutment as a work table.
+Hypothesis: man in suit",entailment,[woman]|[suit]+VERB,conducts necessary,"['ignores necessary', 'avoids necessary', 'neglects necessary', 'dismisses necessary', 'abandons necessary']",contradiction,"Premise: A businessman in a white suit conducts necessary business in a plaza using a concrete abutment as a work table.  
+Hypothesis: man in suit ignores necessary business.  
+Label: contradiction"
+357,"Premise: A businessman in a white suit conducts necessary business in a plaza using a concrete abutment as a work table.
+Hypothesis: man in suit",entailment,[woman]|[suit]+VERB,conducts necessary,"['wears suit', 'adjusts suit', 'carries suit', 'models suit', 'displays suit']",neutral,"Premise: A businessman in a white suit conducts necessary business in a plaza using a concrete abutment as a work table.  
+Hypothesis: man displays suit  
+Label: neutral"
+363,"Premise: Man and woman rowing on surfboards third rower in distance.
+Hypothesis: Couples rowing on surfboards.",entailment,[woman]|[suit]+VERB,rowing on,"['woman paddling', 'woman surfing', 'woman gliding', 'woman steering']",contradiction,"Premise: Man and woman rowing on surfboards third rower in distance.  
+Hypothesis: Woman paddling on surfboards.  
+Label: contradiction"
+363,"Premise: Man and woman rowing on surfboards third rower in distance.
+Hypothesis: Couples rowing on surfboards.",entailment,[woman]|[suit]+VERB,rowing on,"['woman paddling', 'woman gliding', 'woman maneuvering', 'woman steering', 'woman navigating']",neutral,"Premise: Man and woman rowing on surfboards third rower in distance.  
+Hypothesis: Woman paddling on a surfboard.  
+Label: neutral"
+386,"Premise: A young woman plays on a swing set while two cats watch fish in an aquarium.
+Hypothesis: Two cats watching fish in an aquarium.",entailment,[woman]|[suit]+VERB,plays on,"['woman observes', 'woman ignores', 'woman avoids', 'woman neglects', 'woman refuses']",contradiction,"""Premise: A young woman plays on a swing set while two cats watch fish in an aquarium.  
+Hypothesis: A woman ignores two cats watching fish in an aquarium."""
+386,"Premise: A young woman plays on a swing set while two cats watch fish in an aquarium.
+Hypothesis: Two cats watching fish in an aquarium.",entailment,[woman]|[suit]+VERB,plays on,"['observes', 'interacts with', 'approaches', 'examines', 'notices']",neutral,"Premise: A young woman plays on a swing set while two cats watch fish in an aquarium.  
+Hypothesis: Two cats observe fish in an aquarium.  
+Label: neutral"
+412,"Premise: A woman wearing a purple dress and black boots walks through a crowd drinking from a glass bottle.
+Hypothesis: The woman is drinking from a glass bottle.",entailment,[woman]|[suit]+VERB,wearing a,"['woman holding', 'woman carrying', 'woman using', 'woman sipping', 'woman enjoying']",contradiction,"Premise: A woman wearing a purple dress and black boots walks through a crowd drinking from a glass bottle.  
+Hypothesis: The woman is carrying a glass bottle.  
+Label: contradiction"
+412,"Premise: A woman wearing a purple dress and black boots walks through a crowd drinking from a glass bottle.
+Hypothesis: The woman is drinking from a glass bottle.",entailment,[woman]|[suit]+VERB,wearing a,"['woman holding', 'woman carrying', 'woman sipping', 'woman standing', 'woman observing']",neutral,"Premise: A woman wearing a purple dress and black boots walks through a crowd drinking from a glass bottle.  
+Hypothesis: The woman is holding a glass bottle.  
+Label: neutral"
+419,"Premise: A woman is sitting  with her stuff animal and candy apple, while another woman performs CPR on a child near the water.
+Hypothesis: A woman performs CPR on an unresponsive child near the water.",entailment,[woman]|[suit]+VERB,CPR on,"['ignores', 'avoids', 'neglects', 'overlooks', 'dismisses']",contradiction,"Premise: A woman is sitting with her stuffed animal and candy apple, while another woman performs CPR on a child near the water.  
+Hypothesis: A woman overlooks performing CPR on an unresponsive child near the water.  
+Label:"
+419,"Premise: A woman is sitting  with her stuff animal and candy apple, while another woman performs CPR on a child near the water.
+Hypothesis: A woman performs CPR on an unresponsive child near the water.",entailment,[woman]|[suit]+VERB,CPR on,"['assists', 'helps', 'supports', 'attends to', 'aids']",neutral,"Premise: A woman is sitting with her stuffed animal and candy apple, while another woman performs CPR on a child near the water.  
+Hypothesis: A woman assists an unresponsive child near the water.  
+Label: neutral"
+419,"Premise: A woman is sitting  with her stuff animal and candy apple, while another woman performs CPR on a child near the water.
+Hypothesis: A woman performs CPR on an unresponsive child near the water.",entailment,[woman]|[suit]+VERB,child near,"['woman near', 'suit performs', 'woman assists', 'suit approaches', 'woman observes']",contradiction,"Premise: A woman is sitting with her stuffed animal and candy apple, while another woman performs CPR on a child near the water.  
+Hypothesis: A woman observes an unresponsive child near the water.  
+Label: contradiction"
+419,"Premise: A woman is sitting  with her stuff animal and candy apple, while another woman performs CPR on a child near the water.
+Hypothesis: A woman performs CPR on an unresponsive child near the water.",entailment,[woman]|[suit]+VERB,child near,"['woman observes', 'woman assists', 'woman approaches', 'woman interacts', 'woman supervises']",neutral,"Premise: A woman is sitting with her stuffed animal and candy apple, while another woman performs CPR on a child near the water.  
+Hypothesis: A woman observes an unresponsive child near the water.  
+Label: neutral"

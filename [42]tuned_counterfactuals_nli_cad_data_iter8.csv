@@ -1,0 +1,63 @@
+id,ori_text,ori_label,pattern,highlight,candidate_phrases,target_label,counterfactual
+110,"Premise: A view of a park during the daytime with large skyscrapers in the background.
+Hypothesis: It is daytime outside",entailment,[woman]|[large]+*+NOUN,skyscrapers in,"['large buildings', 'large structures', 'large towers', 'large constructions', 'large monuments']",contradiction,"Premise: A view of a park during the daytime with large skyscrapers in the background.  
+Hypothesis: There are no large structures outside.  
+Label: contradiction"
+110,"Premise: A view of a park during the daytime with large skyscrapers in the background.
+Hypothesis: It is daytime outside",entailment,[woman]|[large]+*+NOUN,skyscrapers in,"['large buildings', 'large structures', 'large towers', 'large constructions', 'large landmarks']",neutral,"Premise: A view of a park during the daytime with large skyscrapers in the background.  
+Hypothesis: There are large structures in the background.  
+Label: neutral"
+153,"Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.
+Hypothesis: A woman is at a marketplace.",entailment,[woman]|[large]+*+NOUN,"shaped hat,","['man', 'small baskets', 'different hat', 'no bread', 'empty marketplace']",contradiction,"Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.  
+Hypothesis: A woman is at an empty marketplace.  
+Label: contradiction"
+153,"Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.
+Hypothesis: A woman is at a marketplace.",entailment,[woman]|[large]+*+NOUN,"shaped hat,","['cone-shaped hat', 'large baskets', 'marketplace items', 'bread loaves', 'outdoor setting']",neutral,"Premise: A woman in an outdoor marketplace, wearing a large cone-shaped hat, standing behind two large baskets containing loaves of bread.  
+Hypothesis: A woman is observing marketplace items.  
+Label: neutral"
+153,"Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.
+Hypothesis: A woman is at a marketplace.",entailment,[woman]|[large]+*+NOUN,loaves of,"['man', 'small baskets', 'empty baskets', 'missing bread', 'absent woman']",contradiction,"Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.  
+Hypothesis: A woman is at a marketplace with empty baskets.  
+Label: contradiction"
+153,"Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.
+Hypothesis: A woman is at a marketplace.",entailment,[woman]|[large]+*+NOUN,loaves of,"['woman vendor', 'large baskets', 'marketplace goods', 'large hat', 'bread seller']",neutral,"Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.  
+Hypothesis: A woman is inspecting marketplace goods.  
+Label: neutral"
+154,"Premise: A view of a nature during the daytime with large skyscrapers in the background.
+Hypothesis: it is sunny outside",entailment,[woman]|[large]+*+NOUN,skyscrapers in,"['large buildings', 'large structures', 'large towers', 'large constructions', 'large complexes']",contradiction,"Premise: A view of nature during the daytime with large skyscrapers in the background.  
+Hypothesis: it is cloudy outside with large structures in view.  
+Label: contradiction"
+154,"Premise: A view of a nature during the daytime with large skyscrapers in the background.
+Hypothesis: it is sunny outside",entailment,[woman]|[large]+*+NOUN,skyscrapers in,"['large buildings', 'large structures', 'large towers', 'large constructions', 'large complexes']",neutral,"Premise: A view of a nature during the daytime with large structures in the background.  
+Hypothesis: it is sunny outside  
+Label: neutral"
+158,"Premise: A large crowd of people are walking for the cure on a gray, overcast day with a blue car heading in the opposite direction.
+Hypothesis: A huge crowd of people are walking.",entailment,[woman]|[large]+*+NOUN,crowd of,"['group of', 'small gathering', 'few individuals', 'scattered people', 'sparse crowd']",contradiction,"Premise: A large crowd of people are walking for the cure on a gray, overcast day with a blue car heading in the opposite direction.  
+Hypothesis: A sparse crowd of people are walking.  
+Original label: entailment"
+158,"Premise: A large crowd of people are walking for the cure on a gray, overcast day with a blue car heading in the opposite direction.
+Hypothesis: A huge crowd of people are walking.",entailment,[woman]|[large]+*+NOUN,crowd of,"['group of', 'gathering of', 'assembly of', 'collection of', 'multitude of']",neutral,"Premise: A large crowd of people are walking for the cure on a gray, overcast day with a blue car heading in the opposite direction.  
+Hypothesis: A gathering of people are walking.  
+Label: neutral"
+254,"Premise: A man in a park is leaning on a bar looking, towards the camera while a boy in the background is leaning over a bar, and a lady with a bag of cookies is reaching towards a girl.
+Hypothesis: The woman has cookies in her bag.",entailment,[woman]|[large]+*+NOUN,,"['lady', 'large bag', 'woman with a large purse', 'large container', 'woman holding a large sack']",contradiction,"Premise: A man in a park is leaning on a bar looking towards the camera while a boy in the background is leaning over a bar, and a lady with a bag of cookies is reaching towards a girl.  
+Hypothesis: The"
+254,"Premise: A man in a park is leaning on a bar looking, towards the camera while a boy in the background is leaning over a bar, and a lady with a bag of cookies is reaching towards a girl.
+Hypothesis: The woman has cookies in her bag.",entailment,[woman]|[large]+*+NOUN,,"['lady', 'large bag', 'woman', 'big container', 'female']",neutral,"Premise: A man in a park is leaning on a bar looking towards the camera while a boy in the background is leaning over a bar, and a lady with a bag of cookies is reaching towards a girl.  
+Hypothesis: The"
+302,"Premise: A woman in a blue coat walks home along a sidewalk, in front of a subway sign.
+Hypothesis: A woman heading home.",entailment,[woman]|[large]+*+NOUN,,"['man', 'large crowd', 'large building', 'large vehicle', 'large sign']",contradiction,"Premise: A woman in a blue coat walks home along a sidewalk, in front of a subway sign.  
+Hypothesis: A man heading home.  
+Label: contradiction"
+302,"Premise: A woman in a blue coat walks home along a sidewalk, in front of a subway sign.
+Hypothesis: A woman heading home.",entailment,[woman]|[large]+*+NOUN,,"['individual', 'person', 'lady', 'pedestrian', 'figure']",neutral,"Premise: A woman in a blue coat walks home along a sidewalk, in front of a subway sign.  
+Hypothesis: A pedestrian heading home.  
+Label: neutral"
+404,"Premise: A woman traveler in blue jeans sits by a curb and waits.
+Hypothesis: A woman is waiting on a curb.",entailment,[woman]|[large]+*+NOUN,traveler in,"['woman traveler', 'large woman', 'woman in', 'large crowd', 'large group']",contradiction,"Premise: A woman traveler in blue jeans sits by a curb and waits.  
+Hypothesis: A large crowd is waiting on a curb.  
+Label: contradiction"
+404,"Premise: A woman traveler in blue jeans sits by a curb and waits.
+Hypothesis: A woman is waiting on a curb.",entailment,[woman]|[large]+*+NOUN,traveler in,"['individual near', 'person by', 'lady beside', 'figure at', 'someone on']",neutral,"Premise: A woman traveler in blue jeans sits by a curb and waits.  
+Hypothesis: An individual near a curb is waiting.  
+Label: neutral"

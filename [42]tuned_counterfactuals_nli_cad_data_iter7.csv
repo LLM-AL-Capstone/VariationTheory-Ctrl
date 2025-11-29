@@ -1,0 +1,505 @@
+id,ori_text,ori_label,pattern,highlight,candidate_phrases,target_label,counterfactual
+107,"Premise: A young girl in white has pinned down another girl wearing blue that is lying face down on the ground.
+Hypothesis: A young boy pins down another girl.",contradiction,[white]|[hold],has,"['holds', 'grips', 'restrains', 'clutches', 'secures']",entailment,"Premise: A young girl in white has pinned down another girl wearing blue that is lying face down on the ground.  
+Hypothesis: A young boy restrains another girl.  
+Original label: contradiction  
+Target label: entailment"
+107,"Premise: A young girl in white has pinned down another girl wearing blue that is lying face down on the ground.
+Hypothesis: A young boy pins down another girl.",contradiction,[white]|[hold],has,"['wears', 'holds', 'carries', 'grips', 'supports']",neutral,"Premise: A young girl in white has pinned down another girl wearing blue that is lying face down on the ground.  
+Hypothesis: A young boy supports another girl.  
+Original label: contradiction  
+Target label: neutral"
+111,"Premise: A little girl pushes a merry-go-round in a park while two other kids hold on. ee
+Hypothesis: A little girl is not playing with  the merry-go-round",contradiction,[white]|[hold],girl,"['white dress', 'holding hands', 'white shoes', 'holding tightly', 'white ribbon']",entailment,"Premise: A little girl pushes a merry-go-round in a park while two other kids hold on.  
+Hypothesis: A little girl wearing a white ribbon is playing with the merry-go-round.  
+Label: entailment"
+111,"Premise: A little girl pushes a merry-go-round in a park while two other kids hold on. ee
+Hypothesis: A little girl is not playing with  the merry-go-round",contradiction,[white]|[hold],girl,"['white dress', 'holding hands', 'white shoes', 'holding onto', 'white ribbon']",neutral,"Premise: A little girl pushes a merry-go-round in a park while two other kids hold on.  
+Hypothesis: A little girl wearing a white ribbon is near the merry-go-round.  
+Label: neutral"
+195,"Premise: A man is jumping off the grass into the fire while holding onto a giant white balloon.
+Hypothesis: The man leapt to safety without letting go of his balloon.",contradiction,[white]|[hold],onto,"['holding', 'grasping', 'clutching', 'white']",entailment,"""Premise: A man is jumping off the grass into the fire while grasping onto a giant white balloon.  
+Hypothesis: The man leapt to safety without letting go of his balloon.""  
+Original label: contradiction  
+Target label"
+195,"Premise: A man is jumping off the grass into the fire while holding onto a giant white balloon.
+Hypothesis: The man leapt to safety without letting go of his balloon.",contradiction,[white]|[hold],onto,"['near', 'beside', 'with', 'alongside', 'close']",neutral,"""Premise: A man is jumping off the grass into the fire while holding onto a giant white balloon.  
+Hypothesis: The man leapt to safety close to his balloon.""  
+Modified label: neutral"
+195,"Premise: A man is jumping off the grass into the fire while holding onto a giant white balloon.
+Hypothesis: The man leapt to safety without letting go of his balloon.",contradiction,[white]|[hold],"balloon.
+Hypothesis:","['The man held onto his balloon as he leapt to safety.', 'The man safely held his white balloon while jumping.', 'Holding his balloon', 'the man leapt to safety.', 'The man jumped while holding his white balloon safely.', 'The man leapt to safety', 'holding his balloon tightly.']",entailment,"Premise: A man is jumping off the grass into the fire while holding onto a giant white balloon.  
+Hypothesis: The man held onto his balloon as he leapt to safety.  
+Label: entailment"
+195,"Premise: A man is jumping off the grass into the fire while holding onto a giant white balloon.
+Hypothesis: The man leapt to safety without letting go of his balloon.",contradiction,[white]|[hold],"balloon.
+Hypothesis:","['The man leapt to safety while holding his balloon.', 'The man leapt to safety with his white balloon.', 'The man jumped to safety holding onto his balloon.', 'The man leapt to safety without dropping his white balloon.', 'The man jumped to safety while holding his balloon.']",neutral,"Premise: A man is jumping off the grass into the fire while holding onto a giant white balloon.  
+Hypothesis: The man jumped to safety while holding his balloon.  
+Label: neutral"
+225,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile to be polite.",contradiction,[white]|[hold],some,"['holding', 'grasping', 'carrying', 'handling', 'clutching']",entailment,"""Premise: A man talking to a family unit grasping some sort of probing device as they look on and smile to be polite.  
+Hypothesis: A man talking to a single person while grasping some sort of probing device as"
+225,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile to be polite.",contradiction,[white]|[hold],some,"['holding', 'grasping', 'carrying', 'handling', 'possessing']",neutral,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.  
+Hypothesis: A man talking to a single person while grasping some sort of probing device as they look"
+225,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile to be polite.",contradiction,[white]|[hold],device,"['white device', 'holding device', 'held device', 'white probe', 'holding probe']",entailment,"""Premise: A man talking to a family unit holding some sort of white probe as they look on and smile to be polite.  
+Hypothesis: A man talking to a single person while holding some sort of white probe as they look"
+225,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile to be polite.",contradiction,[white]|[hold],device,"['white device', 'holding device', 'handheld device', 'white object', 'holding object']",neutral,"""Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.  
+Hypothesis: A man talking to a single person while holding a handheld device as they look on and"
+234,"Premise: A sitting man is spraying a squirt bottle at a pedestrian while holding an umbrella over his head.
+Hypothesis: A man reads the paper.",contradiction,[white]|[hold],an,"['white umbrella', 'holding paper', 'holding bottle', 'white squirt bottle', 'holding an umbrella']",entailment,"Premise: A sitting man is holding paper while spraying a squirt bottle at a pedestrian.  
+Hypothesis: A man reads the paper.  
+Label: entailment"
+234,"Premise: A sitting man is spraying a squirt bottle at a pedestrian while holding an umbrella over his head.
+Hypothesis: A man reads the paper.",contradiction,[white]|[hold],an,"['holding', 'umbrella holder', 'white shirt', 'white umbrella', 'holds']",neutral,"Premise: A sitting man is holding a squirt bottle and spraying it at a pedestrian while holding an umbrella over his head.  
+Hypothesis: A man holds a newspaper.  
+Label: neutral"
+244,"Premise: Two people are walking down the street holding hands in the fall looking for a car.
+Hypothesis: A couple is looking for a house.",contradiction,[white]|[hold],hands,"['holding', 'grasping', 'carrying', 'clutching', 'embracing']",entailment,"""Premise: Two people are walking down the street clutching hands in the fall looking for a car.  
+Hypothesis: A couple is looking for a house.""  
+Original label: contradiction  
+Target label: entailment"
+244,"Premise: Two people are walking down the street holding hands in the fall looking for a car.
+Hypothesis: A couple is looking for a house.",contradiction,[white]|[hold],hands,"['holding', 'grasping', 'carrying', 'white hands', 'holding tightly']",neutral,"""Premise: Two people are walking down the street holding tightly in the fall looking for a car.  
+Hypothesis: A couple is looking for a house.""  
+Original label: contradiction  
+Target label: neutral"
+261,"Premise: A man in a black shirt and white shorts is standing with his foot on a chair at a table set up with a video recording camera and a green screen in the background on a movie set.
+Hypothesis: the man is a player",contradiction,[white]|[hold],shorts,"['white shorts', 'holding equipment', 'holding a camera', 'white attire', 'holding props']",entailment,"Premise: A man in a black shirt and white shorts is standing with his foot on a chair at a table set up with a video recording camera and a green screen in the background on a movie set.  
+Hypothesis: the man"
+261,"Premise: A man in a black shirt and white shorts is standing with his foot on a chair at a table set up with a video recording camera and a green screen in the background on a movie set.
+Hypothesis: the man is a player",contradiction,[white]|[hold],shorts,"['white shorts', 'holding equipment', 'white attire', 'holding props', 'wearing white']",neutral,"Premise: A man in a black shirt and white shorts is standing with his foot on a chair at a table set up with a video recording camera and a green screen in the background on a movie set.  
+Hypothesis: The man"
+266,"Premise: A blond street worker wearing a white hard hat, orange shirt, jeans and a reflective jacket is relaxing in front of a white truck and orange pylons.
+Hypothesis: A street working is working on a building.",contradiction,[white]|[hold],hard,"['white truck', 'hold tools', 'white hat', 'hold equipment', 'white building']",entailment,"Premise: A blond street worker wearing a white hard hat, orange shirt, jeans and a reflective jacket is relaxing in front of a white truck and orange pylons.  
+Hypothesis: A street worker is working near a white building."
+266,"Premise: A blond street worker wearing a white hard hat, orange shirt, jeans and a reflective jacket is relaxing in front of a white truck and orange pylons.
+Hypothesis: A street working is working on a building.",contradiction,[white]|[hold],hard,"['white truck', 'holding tools', 'white hat', 'holding equipment', 'white jacket']",neutral,"Premise: A blond street worker wearing a white hard hat, orange shirt, jeans and a reflective jacket is relaxing in front of a white truck and orange pylons.  
+Hypothesis: A street worker is holding equipment near a building."
+266,"Premise: A blond street worker wearing a white hard hat, orange shirt, jeans and a reflective jacket is relaxing in front of a white truck and orange pylons.
+Hypothesis: A street working is working on a building.",contradiction,[white]|[hold],orange,"['white truck', 'holding tools', 'white hard hat', 'holding equipment', 'white pylons']",entailment,"Premise: A blond street worker wearing a white hard hat, orange shirt, jeans and a reflective jacket is relaxing in front of a white truck and orange pylons.  
+Hypothesis: A street worker is holding equipment.  
+Label:"
+266,"Premise: A blond street worker wearing a white hard hat, orange shirt, jeans and a reflective jacket is relaxing in front of a white truck and orange pylons.
+Hypothesis: A street working is working on a building.",contradiction,[white]|[hold],orange,"['white truck', 'holding tools', 'white hard hat', 'holding equipment', 'white pylons']",neutral,"Premise: A blond street worker wearing a white hard hat, orange shirt, jeans and a reflective jacket is relaxing in front of a white truck and orange pylons.  
+Hypothesis: A street worker near a white truck is working on"
+268,"Premise: An elderly man, wearing a white hat, is sweeping a parking lot.
+Hypothesis: A man is outside in the grass.",contradiction,[white]|[hold],is,"['holds', 'holding', 'white']",entailment,"Premise: An elderly man, holding a white hat, is sweeping a parking lot.  
+Hypothesis: A man is outside holding grass.  
+Target label: entailment"
+268,"Premise: An elderly man, wearing a white hat, is sweeping a parking lot.
+Hypothesis: A man is outside in the grass.",contradiction,[white]|[hold],is,"['holds', 'wearing', 'white', 'carries', 'has']",neutral,"Premise: An elderly man, wearing a white hat, is sweeping a parking lot.  
+Hypothesis: A man has a task outside.  
+Label: neutral"
+275,"Premise: A man wearing dark knee boots, a green cape, and a hat with two big feathers on the front is sitting by himself on a bench in front of a building with a blue and white patterned piece of wheeled luggage to his right while he rests both his hands on a walking stick.
+Hypothesis: A man is standing by himself next to a luggage at Mardi Gras.",contradiction,[white]|[hold],of,"['holding', 'white luggage', 'holding stick', 'white patterned', 'holding hands']",entailment,"Premise: A man wearing dark knee boots, a green cape, and a hat with two big feathers on the front is sitting by himself on a bench in front of a building with a blue and white patterned piece of wheeled luggage to"
+275,"Premise: A man wearing dark knee boots, a green cape, and a hat with two big feathers on the front is sitting by himself on a bench in front of a building with a blue and white patterned piece of wheeled luggage to his right while he rests both his hands on a walking stick.
+Hypothesis: A man is standing by himself next to a luggage at Mardi Gras.",contradiction,[white]|[hold],of,"['holding', 'white luggage', 'holding stick', 'white patterned', 'holding hands']",neutral,"Premise: A man wearing dark knee boots, a green cape, and a hat with two big feathers on the front is sitting by himself on a bench in front of a building with a blue and white patterned piece of wheeled luggage to"
+294,"Premise: A barefooted woman in a white tank and blue shorts puts her feet in the water spray.
+Hypothesis: A women does not put her feet in the water.",contradiction,[white]|[hold],tank,"['white tank', 'holding tank', 'white spray', 'holding water', 'white shorts']",entailment,"Premise: A barefooted woman in a white tank and blue shorts puts her feet in the water spray.  
+Hypothesis: A woman in a white tank puts her feet in the water.  
+Label: entailment"
+294,"Premise: A barefooted woman in a white tank and blue shorts puts her feet in the water spray.
+Hypothesis: A women does not put her feet in the water.",contradiction,[white]|[hold],tank,"['white attire', 'white clothing', 'white outfit', 'white apparel', 'white garment']",neutral,"Premise: A barefooted woman in a white attire and blue shorts puts her feet in the water spray.  
+Hypothesis: A woman wearing white attire is near the water.  
+Label: neutral"
+325,"Premise: A man wearing black shorts with white stripes is swimming in the water.
+Hypothesis: A man jumps.",contradiction,[white]|[hold],stripes,"['white pattern', 'white design', 'white detail', 'white marking', 'white feature']",entailment,"Premise: A man wearing black shorts with a white pattern is swimming in the water.  
+Hypothesis: A man swims.  
+Label: entailment"
+325,"Premise: A man wearing black shorts with white stripes is swimming in the water.
+Hypothesis: A man jumps.",contradiction,[white]|[hold],stripes,"['white pattern', 'white detail', 'white design', 'white feature', 'white accent']",neutral,"Premise: A man wearing black shorts with a white design is swimming in the water.  
+Hypothesis: A man jumps.  
+Label: neutral"
+332,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.
+Hypothesis: One girl watch a woman holding tissue paper flowers.",contradiction,[white]|[hold],a,"['holding', 'held', 'holds', 'grasping', 'clutching']",entailment,"Premise: A woman is grasping a bouquet of tissue paper flowers while two men look on from the porch.  
+Hypothesis: One girl watches a woman grasping tissue paper flowers.  
+Original label: contradiction  
+Target label: entail"
+332,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.
+Hypothesis: One girl watch a woman holding tissue paper flowers.",contradiction,[white]|[hold],a,"['observe', 'carry', 'grasp', 'handle', 'possess']",neutral,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.  
+Hypothesis: One girl observes a woman holding tissue paper flowers.  
+Original label: contradiction  
+Target label: neutral"
+332,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.
+Hypothesis: One girl watch a woman holding tissue paper flowers.",contradiction,[white]|[hold],,"['holding', 'grasping', 'carrying', 'clutching', 'handling']",entailment,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.  
+Hypothesis: One girl watches a woman grasping tissue paper flowers.  
+Original label: contradiction  
+Target label: entailment"
+332,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.
+Hypothesis: One girl watch a woman holding tissue paper flowers.",contradiction,[white]|[hold],,"['observe', 'carry', 'glance', 'handle', 'notice']",neutral,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.  
+Hypothesis: One girl observe a woman holding tissue paper flowers.  
+Label: neutral"
+364,"Premise: A little white dog in running on the sidewalk to it's owner.
+Hypothesis: Dog running away from its owners.",contradiction,[white]|[hold],dog,"['white dog', 'dog holding', 'dog held', 'dog with white fur', 'dog holding leash']",entailment,"Premise: A little white dog is running on the sidewalk to its owner.  
+Hypothesis: Dog with white fur running to its owner.  
+Original label: contradiction  
+Target label: entailment"
+364,"Premise: A little white dog in running on the sidewalk to it's owner.
+Hypothesis: Dog running away from its owners.",contradiction,[white]|[hold],dog,"['white dog', 'dog holding', 'dog nearby', 'dog approaching', 'dog waiting']",neutral,"Premise: A little white dog is running on the sidewalk to its owner.  
+Hypothesis: Dog nearby its owner.  
+Label: neutral"
+373,"Premise: Two people, a man in all black and a woman in white, are dancing at a bar mitzvah.
+Hypothesis: People are dancing at a wedding.",contradiction,[white]|[hold],dancing,"['holding hands', 'dressed in white', 'holding each other', 'wearing white', 'holding a pose']",entailment,"Premise: Two people, a man in all black and a woman dressed in white, are dancing at a bar mitzvah.  
+Hypothesis: People are dancing at a celebration.  
+Label: entailment"
+373,"Premise: Two people, a man in all black and a woman in white, are dancing at a bar mitzvah.
+Hypothesis: People are dancing at a wedding.",contradiction,[white]|[hold],dancing,"['holding hands', 'wearing white', 'holding drinks', 'dressed in white', 'holding onto each other']",neutral,"Premise: Two people, a man in all black and a woman in white, are holding drinks at a bar mitzvah.  
+Hypothesis: People are dancing at a wedding.  
+Original label: contradiction  
+Target label: neutral"
+375,"Premise: a woman in a red dress is standing next to a boy in red and a boy in yellow and they are holding baseball gloves.
+Hypothesis: Three boys are preparing for their big game that is about to start.",contradiction,[white]|[hold],baseball,"['holding', 'grasping', 'carrying', 'clutching', 'handling']",entailment,"""Premise: a woman in a red dress is standing next to a boy in red and a boy in yellow and they are grasping baseball gloves.  
+Hypothesis: Three boys are preparing for their big game that is about to start"
+375,"Premise: a woman in a red dress is standing next to a boy in red and a boy in yellow and they are holding baseball gloves.
+Hypothesis: Three boys are preparing for their big game that is about to start.",contradiction,[white]|[hold],baseball,"['holding', 'white gloves', 'holding equipment', 'white baseball', 'holding gear']",neutral,"""Premise: a woman in a red dress is standing next to a boy in red and a boy in yellow and they are holding gear.  
+Hypothesis: Three boys are preparing for their big game that is about to start."""
+402,"Premise: A woman with a white blanket over her head is holding a baby wrapped in a blue, pink, and yellow blanket.
+Hypothesis: The blanket is black.",contradiction,[white]|[hold],blanket,"['white blanket', 'holding tightly', 'holding securely', 'white fabric', 'holding carefully']",entailment,"Premise: A woman with a white blanket over her head is holding a baby wrapped in a blue, pink, and yellow blanket.  
+Hypothesis: The woman is holding securely to the baby.  
+Label: entailment"
+402,"Premise: A woman with a white blanket over her head is holding a baby wrapped in a blue, pink, and yellow blanket.
+Hypothesis: The blanket is black.",contradiction,[white]|[hold],blanket,"['covering', 'cloth', 'fabric', 'wrap', 'material']",neutral,"Premise: A woman with a white blanket over her head is holding a baby wrapped in a blue, pink, and yellow blanket.  
+Hypothesis: The material is black.  
+Label: neutral"
+402,"Premise: A woman with a white blanket over her head is holding a baby wrapped in a blue, pink, and yellow blanket.
+Hypothesis: The blanket is black.",contradiction,[white]|[hold],a,"['white blanket', 'holding tightly', 'holding securely', 'white fabric', 'holding gently']",entailment,"Premise: A woman with a white blanket over her head is holding a baby wrapped in a blue, pink, and yellow blanket.  
+Hypothesis: The woman is holding gently.  
+Label: entailment"
+402,"Premise: A woman with a white blanket over her head is holding a baby wrapped in a blue, pink, and yellow blanket.
+Hypothesis: The blanket is black.",contradiction,[white]|[hold],a,"['a different shade', 'a variation', 'a similar tone', 'a distinct hue', 'a comparable color']",neutral,"Premise: A woman with a white blanket over her head is holding a baby wrapped in a blue, pink, and yellow blanket.  
+Hypothesis: The blanket is a distinct hue.  
+Label: neutral"
+110,"Premise: A view of a park during the daytime with large skyscrapers in the background.
+Hypothesis: It is daytime outside",entailment,[woman]|[large]+*+NOUN,skyscrapers in,"['large buildings', 'large structures', 'large towers', 'large constructions', 'large complexes']",contradiction,"Premise: A view of a park during the daytime with large skyscrapers in the background.  
+Hypothesis: There are no large structures outside.  
+Label: contradiction"
+110,"Premise: A view of a park during the daytime with large skyscrapers in the background.
+Hypothesis: It is daytime outside",entailment,[woman]|[large]+*+NOUN,skyscrapers in,"['large buildings', 'large structures', 'large towers', 'large constructions', 'large landmarks']",neutral,"Premise: A view of a park during the daytime with large skyscrapers in the background.  
+Hypothesis: There are large structures in the background.  
+Label: neutral"
+153,"Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.
+Hypothesis: A woman is at a marketplace.",entailment,[woman]|[large]+*+NOUN,"shaped hat,","['cone-shaped hat', 'oversized baskets', 'large loaves', 'marketplace vendor', 'bread seller']",contradiction,"Premise: A woman in an outdoor marketplace, wearing a large cone-shaped hat, standing behind two large baskets containing loaves of bread.  
+Hypothesis: A woman is not a marketplace vendor.  
+Label: contradiction"
+153,"Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.
+Hypothesis: A woman is at a marketplace.",entailment,[woman]|[large]+*+NOUN,"shaped hat,","['cone-shaped hat', 'large baskets', 'marketplace vendor', 'bread loaves', 'outdoor setting']",neutral,"Premise: A woman in an outdoor marketplace, wearing a large cone-shaped hat, standing behind two large baskets containing loaves of bread.  
+Hypothesis: A woman is a marketplace vendor.  
+Label: neutral"
+153,"Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.
+Hypothesis: A woman is at a marketplace.",entailment,[woman]|[large]+*+NOUN,loaves of,"['man', 'small baskets', 'tiny hat', 'absent bread', 'missing woman']",contradiction,"Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.  
+Hypothesis: A woman is at a marketplace with absent bread.  
+Label: contradiction"
+153,"Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.
+Hypothesis: A woman is at a marketplace.",entailment,[woman]|[large]+*+NOUN,loaves of,"['vendor', 'large baskets', 'market goods', 'bread seller', 'marketplace items']",neutral,"Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.  
+Hypothesis: A woman is inspecting marketplace items.  
+Label: neutral"
+154,"Premise: A view of a nature during the daytime with large skyscrapers in the background.
+Hypothesis: it is sunny outside",entailment,[woman]|[large]+*+NOUN,skyscrapers in,"['large buildings', 'large structures', 'large towers', 'large constructions', 'large complexes']",contradiction,"Premise: A view of a nature during the daytime with large skyscrapers in the background.  
+Hypothesis: it is cloudy outside with large buildings in view.  
+Label: contradiction"
+154,"Premise: A view of a nature during the daytime with large skyscrapers in the background.
+Hypothesis: it is sunny outside",entailment,[woman]|[large]+*+NOUN,skyscrapers in,"['large buildings', 'large structures', 'large towers', 'large constructions', 'large landmarks']",neutral,"Premise: A view of a nature during the daytime with large landmarks in the background.  
+Hypothesis: it is sunny outside  
+Label: neutral"
+158,"Premise: A large crowd of people are walking for the cure on a gray, overcast day with a blue car heading in the opposite direction.
+Hypothesis: A huge crowd of people are walking.",entailment,[woman]|[large]+*+NOUN,crowd of,"['small group of', 'few individuals', 'scattered crowd of', 'sparse gathering of', 'limited number of']",contradiction,"Premise: A large crowd of people are walking for the cure on a gray, overcast day with a blue car heading in the opposite direction.  
+Hypothesis: A small group of people are walking.  
+Label: contradiction"
+158,"Premise: A large crowd of people are walking for the cure on a gray, overcast day with a blue car heading in the opposite direction.
+Hypothesis: A huge crowd of people are walking.",entailment,[woman]|[large]+*+NOUN,crowd of,"['group of', 'gathering of', 'assembly of', 'collection of', 'multitude of']",neutral,"Premise: A large crowd of people are walking for the cure on a gray, overcast day with a blue car heading in the opposite direction.  
+Hypothesis: A gathering of people are walking.  
+Label: neutral"
+254,"Premise: A man in a park is leaning on a bar looking, towards the camera while a boy in the background is leaning over a bar, and a lady with a bag of cookies is reaching towards a girl.
+Hypothesis: The woman has cookies in her bag.",entailment,[woman]|[large]+*+NOUN,,"['lady', 'large bag', 'woman with a large purse', 'large container', 'woman holding a large tote']",contradiction,"Premise: A man in a park is leaning on a bar looking towards the camera while a boy in the background is leaning over a bar, and a lady with a bag of cookies is reaching towards a girl.  
+Hypothesis: The"
+254,"Premise: A man in a park is leaning on a bar looking, towards the camera while a boy in the background is leaning over a bar, and a lady with a bag of cookies is reaching towards a girl.
+Hypothesis: The woman has cookies in her bag.",entailment,[woman]|[large]+*+NOUN,,"['lady', 'large bag', 'woman with items', 'big container', 'female figure']",neutral,"Premise: A man in a park is leaning on a bar looking towards the camera while a boy in the background is leaning over a bar, and a lady with a bag of cookies is reaching towards a girl.  
+Hypothesis: The"
+302,"Premise: A woman in a blue coat walks home along a sidewalk, in front of a subway sign.
+Hypothesis: A woman heading home.",entailment,[woman]|[large]+*+NOUN,,"['man', 'large crowd', 'large vehicle', 'large building', 'large sign']",contradiction,"Premise: A woman in a blue coat walks home along a sidewalk, in front of a subway sign.  
+Hypothesis: A man heading home.  
+Label: contradiction"
+302,"Premise: A woman in a blue coat walks home along a sidewalk, in front of a subway sign.
+Hypothesis: A woman heading home.",entailment,[woman]|[large]+*+NOUN,,"['individual', 'person', 'pedestrian', 'lady', 'figure']",neutral,"Premise: A woman in a blue coat walks home along a sidewalk, in front of a subway sign.  
+Hypothesis: A figure heading home.  
+Label: neutral"
+404,"Premise: A woman traveler in blue jeans sits by a curb and waits.
+Hypothesis: A woman is waiting on a curb.",entailment,[woman]|[large]+*+NOUN,traveler in,"['woman traveler', 'large woman', 'woman in', 'large crowd', 'large group']",contradiction,"Premise: A woman traveler in blue jeans sits by a curb and waits.  
+Hypothesis: A large crowd is waiting on a curb.  
+Label: contradiction"
+404,"Premise: A woman traveler in blue jeans sits by a curb and waits.
+Hypothesis: A woman is waiting on a curb.",entailment,[woman]|[large]+*+NOUN,traveler in,"['woman near', 'large group', 'woman beside', 'large crowd', 'woman around']",neutral,"Premise: A woman traveler in blue jeans sits by a curb and waits.  
+Hypothesis: A woman near a curb is waiting.  
+Label: neutral"
+24,"Premise: Six mature Asian men Smiling to the camera in their seats.
+Hypothesis: Several adult Asian men are happy.",neutral,PRON|[dog]+NOUN,"seats.
+Hypothesis: Several","['their seats', 'dogs', 'these seats', 'those seats', 'his seat']",contradiction,"Premise: Six mature Asian men smiling to the camera in their seats.  
+Hypothesis: Several adult Asian men are happy in those seats.  
+Label: contradiction"
+24,"Premise: Six mature Asian men Smiling to the camera in their seats.
+Hypothesis: Several adult Asian men are happy.",neutral,PRON|[dog]+NOUN,"seats.
+Hypothesis: Several","['their seats', 'these seats', 'those seats', 'his seats', 'our seats']",entailment,"Premise: Six mature Asian men smiling to the camera in their seats.  
+Hypothesis: Several adult Asian men are happy in these seats.  
+Original label: neutral  
+Target label: entailment"
+55,"Premise: An aged woman is looking into the camera while the inside of her hut is shown.
+Hypothesis: A woman with long grey hair looks at the camera while the inside of her hut is shown.",neutral,PRON|[dog]+NOUN,hut is,"['her dog', 'their dog', 'his dog', 'a dog']",contradiction,"Premise: An aged woman is looking into the camera while the inside of her hut is shown.  
+Hypothesis: A woman with long grey hair looks at the camera while the inside of her hut and her dog are shown.  
+Label"
+55,"Premise: An aged woman is looking into the camera while the inside of her hut is shown.
+Hypothesis: A woman with long grey hair looks at the camera while the inside of her hut is shown.",neutral,PRON|[dog]+NOUN,hut is,"['her hut is', 'the hut is', 'this hut is', 'their hut is', 'my hut is']",entailment,"Premise: An aged woman is looking into the camera while the inside of her hut is shown.  
+Hypothesis: A woman with long grey hair looks at the camera while her hut is shown.  
+Label: entailment"
+55,"Premise: An aged woman is looking into the camera while the inside of her hut is shown.
+Hypothesis: A woman with long grey hair looks at the camera while the inside of her hut is shown.",neutral,PRON|[dog]+NOUN,,"['she', 'her', 'his', 'their', 'its']",contradiction,"Premise: An aged woman is looking into the camera while the inside of her hut is shown.  
+Hypothesis: A man with long grey hair looks at the camera while the inside of his hut is shown.  
+Label: contradiction"
+55,"Premise: An aged woman is looking into the camera while the inside of her hut is shown.
+Hypothesis: A woman with long grey hair looks at the camera while the inside of her hut is shown.",neutral,PRON|[dog]+NOUN,,"['she', 'her', 'the woman', 'herself', 'this woman']",entailment,"Premise: An aged woman is looking into the camera while the inside of her hut is shown.  
+Hypothesis: This woman with long grey hair looks at the camera while the inside of her hut is shown.  
+Label: entailment"
+67,"Premise: A man dressed all in white wearing a white mask on his face pretending to be a statue.
+Hypothesis: The man is in a plaza.",neutral,PRON|[dog]+NOUN,face pretending,"['his dog statue', 'their dog sculpture', 'dog mask']",contradiction,"Premise: A man dressed all in white wearing a white mask on his face pretending to be a statue.  
+Hypothesis: The man is wearing a dog mask.  
+Label: contradiction"
+67,"Premise: A man dressed all in white wearing a white mask on his face pretending to be a statue.
+Hypothesis: The man is in a plaza.",neutral,PRON|[dog]+NOUN,face pretending,"['his dog statue', 'their dog sculpture', 'dog mask statue', 'dog-like figure', 'dog statue']",entailment,"Premise: A man dressed all in white wearing a white mask on his face pretending to be a dog mask statue.  
+Hypothesis: The man is in a plaza.  
+Label: entailment"
+72,"Premise: Even in cooler weather men will get out and use their grills.
+Hypothesis: Men are cooking in cool weather.",neutral,PRON|[dog]+NOUN,"grills.
+Hypothesis: Men","['dogs are grilling', 'men and dogs', 'dogs cooking']",contradiction,"Premise: Even in cooler weather men will get out and use their grills.  
+Hypothesis: Dogs are grilling in cool weather.  
+Label: contradiction"
+72,"Premise: Even in cooler weather men will get out and use their grills.
+Hypothesis: Men are cooking in cool weather.",neutral,PRON|[dog]+NOUN,"grills.
+Hypothesis: Men","['dogs are grilling', 'men']",entailment,"""Premise: Even in cooler weather men will get out and use their grills.  
+Hypothesis: Dogs are grilling in cool weather.""  
+Label: neutral"
+73,"Premise: A young family enjoys feeling ocean waves lap at their feet as they dine.
+Hypothesis: A family is out at a restaurant.",neutral,PRON|[dog]+NOUN,feet as,"['their dog', 'a pet dog', 'the family dog', 'their canine companion', 'a dog']",contradiction,"Premise: A young family enjoys feeling ocean waves lap at their feet as they dine with their canine companion.  
+Hypothesis: A family is out at a restaurant.  
+Label: contradiction"
+73,"Premise: A young family enjoys feeling ocean waves lap at their feet as they dine.
+Hypothesis: A family is out at a restaurant.",neutral,PRON|[dog]+NOUN,feet as,"['their dog', 'a pet', 'their puppy', 'the family dog', 'their canine']",entailment,"""Premise: A young family enjoys feeling ocean waves lap at their feet as they dine with their dog.  
+Hypothesis: A family is out at a restaurant.""  
+Original label: neutral  
+Modified label: entailment"
+99,"Premise: Several people are milling about outside a large off-white colored house with a terra cotta roof while someone in the distance takes their picture.
+Hypothesis: There is a house belonging to the mayor with several people outside of it.",neutral,PRON|[dog]+NOUN,is a,"['belongs to', 'owned by', 'associated with', 'connected to', 'related to']",contradiction,"""Premise: Several people are milling about outside a large off-white colored house with a terra cotta roof while someone in the distance takes their picture.  
+Hypothesis: There is a house owned by the mayor with several people outside of"
+99,"Premise: Several people are milling about outside a large off-white colored house with a terra cotta roof while someone in the distance takes their picture.
+Hypothesis: There is a house belonging to the mayor with several people outside of it.",neutral,PRON|[dog]+NOUN,is a,"['belongs to', 'owned by', 'part of', 'associated with', 'connected to']",entailment,"Premise: Several people are milling about outside a large off-white colored house with a terra cotta roof while someone in the distance takes their picture.  
+Hypothesis: There is a house connected to the mayor with several people outside of it"
+109,"Premise: A barefooted woman in a white tank and blue shorts wets her feet.
+Hypothesis: A women puts her feet in the water.",neutral,PRON|[dog]+NOUN,"feet.
+Hypothesis: A","['dog', 'her dog', 'their dog', 'his dog', 'a dog']",contradiction,"Premise: A barefooted woman in a white tank and blue shorts wets her feet.  
+Hypothesis: A woman puts her dog in the water.  
+Label: contradiction"
+109,"Premise: A barefooted woman in a white tank and blue shorts wets her feet.
+Hypothesis: A women puts her feet in the water.",neutral,PRON|[dog]+NOUN,"feet.
+Hypothesis: A","['she', 'her', 'woman', 'person', 'individual']",entailment,"Premise: A barefooted woman in a white tank and blue shorts wets her feet.  
+Hypothesis: She puts her feet in the water.  
+Original label: neutral  
+Target label: entailment"
+109,"Premise: A barefooted woman in a white tank and blue shorts wets her feet.
+Hypothesis: A women puts her feet in the water.",neutral,PRON|[dog]+NOUN,,"['she', 'her dog', 'their pet', 'his dog', 'her animal']",contradiction,"Premise: A barefooted woman in a white tank and blue shorts wets her feet.  
+Hypothesis: Her dog puts its feet in the water.  
+Label: Contradiction"
+109,"Premise: A barefooted woman in a white tank and blue shorts wets her feet.
+Hypothesis: A women puts her feet in the water.",neutral,PRON|[dog]+NOUN,,"['she', 'her', 'woman', 'person']",entailment,"Premise: A barefooted woman in a white tank and blue shorts wets her feet.  
+Hypothesis: She puts her feet in the water.  
+Original label: neutral  
+Target label: entailment"
+136,"Premise: A young girl sits on the edge of a sink.
+Hypothesis: A little girl is getting a bath from her mom.",neutral,PRON|[dog]+NOUN,,"['she', 'her', 'their dog', 'his dog', 'the dog']",contradiction,"Premise: A young girl sits on the edge of a sink.  
+Hypothesis: The dog is getting a bath from her mom.  
+Label: contradiction"
+136,"Premise: A young girl sits on the edge of a sink.
+Hypothesis: A little girl is getting a bath from her mom.",neutral,PRON|[dog]+NOUN,,"['she', 'her', 'their', 'the dog', 'dogs owner']",entailment,"""Premise: A young girl sits on the edge of a sink.  
+Hypothesis: She is getting a bath from her mom.""  
+Original label: neutral  
+Target label: entailment"
+139,"Premise: A person in a crowd is expressing their opinion.
+Hypothesis: A woman in a crowd is expressing his opinion.",neutral,PRON|[dog]+NOUN,"opinion.
+Hypothesis: A","['her opinion', 'their opinion', 'his opinion', 'the dogs opinion', 'its opinion']",contradiction,"""Premise: A person in a crowd is expressing their opinion.  
+Hypothesis: A woman in a crowd is expressing the dogs opinion.""  
+Original label: neutral  
+Target label: contradiction"
+139,"Premise: A person in a crowd is expressing their opinion.
+Hypothesis: A woman in a crowd is expressing his opinion.",neutral,PRON|[dog]+NOUN,"opinion.
+Hypothesis: A","['her perspective', 'their viewpoint', 'his belief', 'her stance', 'their opinion']",entailment,"""Premise: A person in a crowd is expressing their opinion.  
+Hypothesis: A woman in a crowd is expressing her perspective."""
+139,"Premise: A person in a crowd is expressing their opinion.
+Hypothesis: A woman in a crowd is expressing his opinion.",neutral,PRON|[dog]+NOUN,,"['her opinion', 'their opinion', 'his dog', 'her dog', 'his thoughts']",contradiction,"""Premise: A person in a crowd is expressing their opinion.  
+Hypothesis: A woman in a crowd is expressing her dog.""  
+Original label: neutral  
+Target label: contradiction"
+139,"Premise: A person in a crowd is expressing their opinion.
+Hypothesis: A woman in a crowd is expressing his opinion.",neutral,PRON|[dog]+NOUN,,"['her opinion', 'their opinion', 'his perspective', 'her perspective', 'their perspective']",entailment,"""Premise: A person in a crowd is expressing their opinion.  
+Hypothesis: A woman in a crowd is expressing her opinion.""  
+Original label: neutral  
+Target label: entailment"
+172,"Premise: A rugby game being played, one man in a green jersey is being lifted up by his teammates with the ball, while a competitor in a red jersey is similarly lifted to tackle him.
+Hypothesis: Boys are playing an unofficiated match",neutral,PRON|[dog]+NOUN,with the,"['without the', 'their dog', 'his dog', 'her dog', 'the dog']",contradiction,"Premise: A rugby game being played, one man in a green jersey is being lifted up by his teammates with the ball, while a competitor in a red jersey is similarly lifted to tackle him.  
+Hypothesis: Boys are playing an"
+172,"Premise: A rugby game being played, one man in a green jersey is being lifted up by his teammates with the ball, while a competitor in a red jersey is similarly lifted to tackle him.
+Hypothesis: Boys are playing an unofficiated match",neutral,PRON|[dog]+NOUN,with the,"['with their teammates', 'with the group', 'with the players', 'with the team', 'with the competitors']",entailment,"Premise: A rugby game being played, one man in a green jersey is being lifted up by his teammates with the ball, while a competitor in a red jersey is similarly lifted to tackle him.  
+Hypothesis: Boys are playing an"
+176,"Premise: A blond woman speaking to a brunette woman with her arms crossed.
+Hypothesis: A woman is talking to a family member.",neutral,PRON|[dog]+NOUN,"arms crossed.
+Hypothesis:","['her dog', 'their pet', 'a dog', 'her animal', 'the canine']",contradiction,"Premise: A blond woman speaking to a brunette woman with her arms crossed.  
+Hypothesis: A woman is talking to her dog.  
+Label: contradiction"
+176,"Premise: A blond woman speaking to a brunette woman with her arms crossed.
+Hypothesis: A woman is talking to a family member.",neutral,PRON|[dog]+NOUN,"arms crossed.
+Hypothesis:","['her dog', 'their pet', 'her companion', 'the animal', 'her furry friend']",entailment,"Premise: A blond woman speaking to a brunette woman with her arms crossed.  
+Hypothesis: A woman is talking to her companion.  
+Label: entailment"
+188,"Premise: a big black dog jumps in the air to catch the tennis ball in his mouth.
+Hypothesis: A dog with a red collar is jumping.",neutral,PRON|[dog]+NOUN,"mouth.
+Hypothesis: A","['mouth. Hypothesis: The dog', 'mouth. Hypothesis: That dog', 'mouth. Hypothesis: This dog', 'mouth. Hypothesis: His dog', 'mouth. Hypothesis: Her dog']",contradiction,"""Premise: a big black dog jumps in the air to catch the tennis ball in his mouth. Hypothesis: Her dog is not jumping."""
+188,"Premise: a big black dog jumps in the air to catch the tennis ball in his mouth.
+Hypothesis: A dog with a red collar is jumping.",neutral,PRON|[dog]+NOUN,"mouth.
+Hypothesis: A",['mouth. Hypothesis: The dog'],entailment,"Premise: a big black dog jumps in the air to catch the tennis ball in his mouth.  
+Hypothesis: The dog is jumping to catch the ball.  
+Label: entailment"
+192,"Premise: A man is riding a red motorcycle with a small child sitting in front of him.
+Hypothesis: A man rides his motorcyle with his won.",neutral,PRON|[dog]+NOUN,,"['his child', 'their dog', 'his pet', 'his son', 'his daughter']",contradiction,"Premise: A man is riding a red motorcycle with a small child sitting in front of him.  
+Hypothesis: A man rides his motorcycle with their dog.  
+Label: contradiction"
+192,"Premise: A man is riding a red motorcycle with a small child sitting in front of him.
+Hypothesis: A man rides his motorcyle with his won.",neutral,PRON|[dog]+NOUN,,"['his child', 'his son', 'his daughter', 'his kid', 'his offspring']",entailment,"Premise: A man is riding a red motorcycle with a small child sitting in front of him.  
+Hypothesis: A man rides his motorcycle with his child.  
+Label: entailment"
+192,"Premise: A man is riding a red motorcycle with a small child sitting in front of him.
+Hypothesis: A man rides his motorcyle with his won.",neutral,PRON|[dog]+NOUN,,"['his child', 'their dog', 'his son', 'his daughter', 'his pet']",contradiction,"Premise: A man is riding a red motorcycle with a small child sitting in front of him.  
+Hypothesis: A man rides his motorcycle with their dog.  
+Label: contradiction"
+192,"Premise: A man is riding a red motorcycle with a small child sitting in front of him.
+Hypothesis: A man rides his motorcyle with his won.",neutral,PRON|[dog]+NOUN,,"['his child', 'his son', 'his daughter', 'his kid', 'his offspring']",entailment,"Premise: A man is riding a red motorcycle with a small child sitting in front of him.  
+Hypothesis: A man rides his motorcycle with his child.  
+Label: entailment"
+210,"Premise: Young boy wearing waders standing on a dock fishing, other people are in the background.
+Hypothesis: A boy fishes on a dock as his dad looks on.",neutral,PRON|[dog]+NOUN,,"['his dog', 'their dog', 'her dog', 'the boys dog', 'a dog']",contradiction,"Premise: Young boy wearing waders standing on a dock fishing, other people are in the background.  
+Hypothesis: A boy fishes on a dock as his dog looks on.  
+Label: contradiction"
+210,"Premise: Young boy wearing waders standing on a dock fishing, other people are in the background.
+Hypothesis: A boy fishes on a dock as his dad looks on.",neutral,PRON|[dog]+NOUN,,"['his dad', 'their father', 'the boys parent', 'his guardian', 'the father']",entailment,"Premise: Young boy wearing waders standing on a dock fishing, other people are in the background.  
+Hypothesis: A boy fishes on a dock as his guardian looks on.  
+Label: entailment"
+246,"Premise: A little boy being splashed on his head
+Hypothesis: A little boy got splashed by soda.",neutral,PRON|[dog]+NOUN,"head
+Hypothesis: A","['his dog', 'their dog', 'the dog', 'a dog']",contradiction,"Premise: A little boy being splashed on his head  
+Hypothesis: A little boy got splashed by a dog.  
+Label: contradiction"
+246,"Premise: A little boy being splashed on his head
+Hypothesis: A little boy got splashed by soda.",neutral,PRON|[dog]+NOUN,"head
+Hypothesis: A","['his dog', 'the boys pet', 'their dog', 'a puppy', 'his animal']",entailment,"Premise: A little boy being splashed on his head  
+Hypothesis: A little boy got splashed by his animal.  
+Label: entailment"
+248,"Premise: A girl is splashed with water as she plays outdoors with other children.
+Hypothesis: Siblings splashing their sister with water.",neutral,PRON|[dog]+NOUN,,"['her dog', 'their dog', 'the dog', 'his dog', 'a dog']",contradiction,"Premise: A girl is splashed with water as she plays outdoors with other children.  
+Hypothesis: Siblings splashing their dog with water.  
+Label: contradiction"
+248,"Premise: A girl is splashed with water as she plays outdoors with other children.
+Hypothesis: Siblings splashing their sister with water.",neutral,PRON|[dog]+NOUN,,"['her siblings', 'their sister', 'the children', 'her brother', 'the kids']",entailment,"Premise: A girl is splashed with water as she plays outdoors with other children.  
+Hypothesis: Her siblings splashing her with water.  
+Label: entailment"
+316,"Premise: A rollerblading monk with some nice sunglasses folds his hands before doing some sick tricks.
+Hypothesis: A man is praying",neutral,PRON|[dog]+NOUN,hands before,"['his dog', 'their pet', 'a dog', 'the animal', 'his companion']",contradiction,"Premise: A rollerblading monk with some nice sunglasses folds his hands before doing some sick tricks.  
+Hypothesis: A man is praying with his companion.  
+Label: contradiction"
+316,"Premise: A rollerblading monk with some nice sunglasses folds his hands before doing some sick tricks.
+Hypothesis: A man is praying",neutral,PRON|[dog]+NOUN,hands before,"['his dog', 'their dog', 'the monks dog', 'a dog']",entailment,"Premise: A rollerblading monk with some nice sunglasses folds his hands before doing some sick tricks with his dog.  
+Hypothesis: A man is praying.  
+Label: entailment"
+362,"Premise: A man in a brown sweater and a woman smile with their video camera.
+Hypothesis: Two people are recording themselves.",neutral,PRON|[dog]+NOUN,"video camera.
+Hypothesis: Two","['their dog', 'two dogs', 'his dog', 'her dog', 'their pet']",contradiction,"Premise: A man in a brown sweater and a woman smile with their video camera.  
+Hypothesis: Two people are recording their dog.  
+Label: contradiction"
+362,"Premise: A man in a brown sweater and a woman smile with their video camera.
+Hypothesis: Two people are recording themselves.",neutral,PRON|[dog]+NOUN,"video camera.
+Hypothesis: Two","['their camera', 'the device', 'recording equipment', 'the video tool', 'their filming gear']",entailment,"Premise: A man in a brown sweater and a woman smile with their video camera.  
+Hypothesis: Two people are using their filming gear.  
+Label: entailment"
+366,"Premise: A woman with a blanket over her head is holding a baby wrapped in a blanket.
+Hypothesis: The blanket is black.",neutral,PRON|[dog]+NOUN,head is,"['she is', 'her dog', 'their dog', 'his dog', 'my dog']",contradiction,"Premise: A woman with a blanket over her head is holding a baby wrapped in a blanket.  
+Hypothesis: She is holding her dog wrapped in a blanket.  
+Label: Contradiction"
+366,"Premise: A woman with a blanket over her head is holding a baby wrapped in a blanket.
+Hypothesis: The blanket is black.",neutral,PRON|[dog]+NOUN,head is,"['she is', 'her dog', 'their dog', 'woman is', 'baby is']",entailment,"Premise: A woman with a blanket over her head is holding a baby wrapped in a blanket.  
+Hypothesis: The baby is wrapped in a black blanket.  
+Label: entailment"
+372,"Premise: There is a city and its people on the streets.
+Hypothesis: There is a massive city.",neutral,PRON|[dog]+NOUN,people on,"['their dog', 'dogs on', 'his dog', 'her dog', 'our dog']",contradiction,"Premise: There is a city and its people on the streets.  
+Hypothesis: There is a massive city with their dog.  
+Label: contradiction"
+372,"Premise: There is a city and its people on the streets.
+Hypothesis: There is a massive city.",neutral,PRON|[dog]+NOUN,people on,"['their dogs', 'dogs on', 'his dog', 'her dog', 'our dog']",entailment,"Premise: There is a city and its people on the streets with their dogs.  
+Hypothesis: There is a massive city.  
+Label: entailment"
+390,"Premise: Football fans making noise.
+Hypothesis: Fans go nuts for their team.",neutral,PRON|[dog]+NOUN,,"['their dog', 'fans dog', 'dogs team', 'dogs noise', 'dogs reaction']",contradiction,"Premise: Football fans making noise.  
+Hypothesis: Fans go nuts for their dog.  
+Label: contradiction"
+390,"Premise: Football fans making noise.
+Hypothesis: Fans go nuts for their team.",neutral,PRON|[dog]+NOUN,,"['their enthusiasm', 'their passion', 'their loyalty', 'their excitement', 'their dedication']",entailment,"Premise: Football fans making noise.  
+Hypothesis: Fans show their enthusiasm for their team.  
+Label: entailment"
+391,"Premise: A brown dog leaps into a swimming pool.
+Hypothesis: A brown fat dog is leaping into a pool.",neutral,PRON|[dog]+NOUN,leaps into,"['jumps away from', 'avoids', 'moves away from', 'runs from', 'escapes']",contradiction,"Premise: A brown dog leaps into a swimming pool.  
+Hypothesis: A brown dog jumps away from a swimming pool.  
+Label: contradiction"
+391,"Premise: A brown dog leaps into a swimming pool.
+Hypothesis: A brown fat dog is leaping into a pool.",neutral,PRON|[dog]+NOUN,leaps into,"['the dog', 'brown dog', 'this dog', 'that dog', 'a dog']",entailment,"Premise: The dog leaps into a swimming pool.  
+Hypothesis: A brown fat dog is leaping into a pool.  
+Label: entailment"
+397,"Premise: The man white purple and white polka-dotted shirt is sitting at the dinner table and looking to his right while the woman behind him has a confused look on her face.
+Hypothesis: A person is consuming food.",neutral,PRON|[dog]+NOUN,person is,"['dog is', 'animal is', 'pet is', 'creature is', 'canine is']",contradiction,"Premise: The man wearing a purple and white polka-dotted shirt is sitting at the dinner table and looking to his right while the woman behind him has a confused look on her face.  
+Hypothesis: A dog is consuming food"
+397,"Premise: The man white purple and white polka-dotted shirt is sitting at the dinner table and looking to his right while the woman behind him has a confused look on her face.
+Hypothesis: A person is consuming food.",neutral,PRON|[dog]+NOUN,person is,"['he is', 'she is', 'they are', 'individual is', 'someone is']",entailment,"Premise: The man white purple and white polka-dotted shirt is sitting at the dinner table and looking to his right while the woman behind him has a confused look on her face.  
+Hypothesis: He is consuming food."
+406,"Premise: A man in a hat holding a tool stands next to a dog hitched to a sled filled with hay in a hilly area.
+Hypothesis: A man about to teach his dog tricks.",neutral,PRON|[dog]+NOUN,,"['his dog', 'the dog', 'their dog', 'a dog', 'its dog']",contradiction,"Premise: A man in a hat holding a tool stands next to a dog hitched to a sled filled with hay in a hilly area.  
+Hypothesis: A man about to teach their dog tricks.  
+Label: contradiction"
+406,"Premise: A man in a hat holding a tool stands next to a dog hitched to a sled filled with hay in a hilly area.
+Hypothesis: A man about to teach his dog tricks.",neutral,PRON|[dog]+NOUN,,"['his dog', 'the dog', 'their dog', 'mans dog', 'sled dog']",entailment,"Premise: A man in a hat holding a tool stands next to a dog hitched to a sled filled with hay in a hilly area.  
+Hypothesis: A man about to teach the dog tricks.  
+Label: entailment"
+409,"Premise: Man performing in front of an audience.
+Hypothesis: A magician does his act.",neutral,PRON|[dog]+NOUN,,"['his dog', 'their dog', 'magicians dog', 'audiences dog', 'dogs act']",contradiction,"Premise: Man performing in front of an audience.  
+Hypothesis: A magician does his dog's act.  
+Label: contradiction"
+409,"Premise: Man performing in front of an audience.
+Hypothesis: A magician does his act.",neutral,PRON|[dog]+NOUN,,"['his performance', 'magicians act', 'audiences reaction', 'the entertainer', 'the act']",entailment,"Premise: Man performing in front of an audience.  
+Hypothesis: The entertainer does his act.  
+Label: entailment"
+424,"Premise: A pro-baseball pitcher sends a curve ball to his opponent while many fans relax and enjoy the game.
+Hypothesis: The pitcher is playing baseball at the Dodgers stadium.",neutral,PRON|[dog]+NOUN,many fans,"['their dog', 'his dog', 'her dog', 'our dog', 'the dog']",contradiction,"Premise: A pro-baseball pitcher sends a curve ball to his opponent while many fans relax and enjoy the game.  
+Hypothesis: The pitcher is playing baseball at the Dodgers stadium with their dog.  
+Label: contradiction"
+424,"Premise: A pro-baseball pitcher sends a curve ball to his opponent while many fans relax and enjoy the game.
+Hypothesis: The pitcher is playing baseball at the Dodgers stadium.",neutral,PRON|[dog]+NOUN,many fans,"['their fans', 'his fans', 'the crowd', 'the audience', 'supporters']",entailment,"Premise: A pro-baseball pitcher sends a curve ball to his opponent while the crowd relaxes and enjoys the game.  
+Hypothesis: The pitcher is playing baseball at the Dodgers stadium.  
+Label: entailment"
+426,"Premise: An old man in a pink polo looks through a telescope with a small child standing next to him while others stand with their telescopes in the background.
+Hypothesis: An ugly old man in a pink polo looks through a telescope with a small child standing next to him",neutral,PRON|[dog]+NOUN,telescopes in,"['his telescope', 'their telescope', 'the telescope', 'a telescope']",contradiction,"Premise: An old man in a pink polo looks through a telescope with a small child standing next to him while others stand with their telescopes in the background.  
+Hypothesis: An old man in a pink polo looks through their telescope"
+426,"Premise: An old man in a pink polo looks through a telescope with a small child standing next to him while others stand with their telescopes in the background.
+Hypothesis: An ugly old man in a pink polo looks through a telescope with a small child standing next to him",neutral,PRON|[dog]+NOUN,telescopes in,"['his telescope', 'their telescope', 'the telescope']",entailment,"Premise: An old man in a pink polo looks through a telescope with a small child standing next to him while others stand with their telescopes in the background.  
+Hypothesis: An old man in a pink polo looks through the telescope"
+431,"Premise: A man bows his head with another, as a third looks on.
+Hypothesis: a man prays with another man",neutral,PRON|[dog]+NOUN,head with,"['his dog', 'their dog', 'dogs head', 'dogs presence', 'dogs company']",contradiction,"Premise: A man bows his head with another, as a third looks on.  
+Hypothesis: a man prays with their dog.  
+Label: contradiction"
+431,"Premise: A man bows his head with another, as a third looks on.
+Hypothesis: a man prays with another man",neutral,PRON|[dog]+NOUN,head with,"['his companion', 'their gesture', 'his partner', 'their action', 'his friend']",entailment,"Premise: A man bows his head with his companion, as a third looks on.  
+Hypothesis: a man prays with another man  
+Label: entailment"

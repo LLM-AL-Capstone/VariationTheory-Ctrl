@@ -1,0 +1,523 @@
+id,ori_text,ori_label,pattern,highlight,candidate_phrases,target_label,counterfactual,_row,heuristic_filtered,matched_pattern,is_ori,is_target
+107,"Premise: A young girl in white has pinned down another girl wearing blue that is lying face down on the ground.
+Hypothesis: A young boy pins down another girl.",contradiction,[white]|[smile],has,"is, wearing white, smiles, dressed in white, grins",entailment,"Premise: A young girl in white has pinned down another girl wearing blue that is lying face down on the ground.  
+Hypothesis: A young girl wearing white pins down another girl.",0,True,True,False,False
+107,"Premise: A young girl in white has pinned down another girl wearing blue that is lying face down on the ground.
+Hypothesis: A young boy pins down another girl.",contradiction,[white]|[smile],has,"wears, shows, displays, reveals, exhibits",neutral,A young girl in white displays strength by pinning down another girl wearing blue that is lying face down on the ground.,1,True,True,True,False
+195,"Premise: A man is jumping off the grass into the fire while holding onto a giant white balloon.
+Hypothesis: The man leapt to safety without letting go of his balloon.",contradiction,[white]|[smile],"balloon.
+Hypothesis:","The man leapt to safety without letting go of his white balloon., The man leapt to safety with a smile while holding his balloon., The man leapt to safety without letting go of his balloon and smil...",entailment,"Premise: A man is jumping off the grass into the fire while holding onto a giant white balloon.  
+Hypothesis: The man leapt to safety without letting go of his white balloon.",2,True,True,False,False
+195,"Premise: A man is jumping off the grass into the fire while holding onto a giant white balloon.
+Hypothesis: The man leapt to safety without letting go of his balloon.",contradiction,[white]|[smile],"balloon.
+Hypothesis:","The man leapt to safety without letting go of his white balloon., The man leapt to safety without letting go of his balloon with a smile., The man leapt to safety without letting go of his giant wh...",neutral,"Premise: A man is jumping off the grass into the fire while holding onto a giant white balloon.  
+Hypothesis: The man leapt to safety without letting go of his white balloon.",3,True,True,False,False
+205,"Premise: Two little boys are smiling and laughing while one is standing and one is in a bouncy seat.
+Hypothesis: The little boys are crying.",contradiction,[white]|[smile],and,"smiling, cheerful, happy, joyful, grinning",entailment,"Premise: Two little boys are smiling and laughing while one is standing and one is in a bouncy seat.  
+Hypothesis: The little boys are cheerful.",4,True,True,False,False
+205,"Premise: Two little boys are smiling and laughing while one is standing and one is in a bouncy seat.
+Hypothesis: The little boys are crying.",contradiction,[white]|[smile],and,"smiling, cheerful, happy, content, amused",neutral,"Premise: Two little boys are smiling and laughing while one is standing and one is in a bouncy seat.  
+Hypothesis: The little boys are cheerful.",5,True,True,False,False
+225,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile to be polite.",contradiction,[white]|[smile],to,"smile warmly, smile politely, smile gently, smile kindly, smile softly",entailment,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile warmly.  
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile warmly.",6,True,True,False,False
+225,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile to be polite.",contradiction,[white]|[smile],to,"polite expression, friendly demeanor, courteous gesture, kind smile, warm interaction",neutral,"Premise: A man engaging with a family unit while holding some sort of probing device, accompanied by a kind smile.  
+Hypothesis: A man interacting with an individual while holding some sort of probing device, accompanied by a kind smile.",7,True,True,False,False
+225,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile to be polite.",contradiction,[white]|[smile],,"smile warmly, polite smile, friendly smile, genuine smile, welcoming smile",entailment,"Premise: A man talking to a family unit holding some sort of probing device as they look on with a polite smile.  
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on with a polite smile.",8,True,True,False,False
+225,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile to be polite.",contradiction,[white]|[smile],,"polite smile, friendly smile, warm smile, subtle smile, genuine smile",neutral,"Premise: A man talking to a family unit holding some sort of probing device as they look on with a polite smile.  
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on with a polite smile.",9,True,True,False,False
+247,"Premise: A sober, upset old man smiling at the camera in front of a rocky, barren patch of land.
+Hypothesis: A man is smiling because he is drunk and happy.",contradiction,[white]|[smile],the,"smiling, cheerful, grin, happy expression, joyful smile",entailment,"Premise: A sober, upset old man smiling at the camera in front of a rocky, barren patch of land.  
+Hypothesis: A man is smiling with a happy expression in front of a rocky area.",10,True,True,False,False
+247,"Premise: A sober, upset old man smiling at the camera in front of a rocky, barren patch of land.
+Hypothesis: A man is smiling because he is drunk and happy.",contradiction,[white]|[smile],the,"smiling, grin, cheerful expression, happy demeanor, content look",neutral,"Premise: A sober, upset old man smiling at the camera in front of a rocky, barren patch of land.  
+Hypothesis: A man is smiling while posing for a photo.",11,True,True,False,False
+247,"Premise: A sober, upset old man smiling at the camera in front of a rocky, barren patch of land.
+Hypothesis: A man is smiling because he is drunk and happy.",contradiction,[white]|[smile],,"smiling warmly, cheerful smile, happy expression, content smile, joyful grin",entailment,"Premise: A sober, upset old man smiling warmly at the camera in front of a rocky, barren patch of land.  
+Hypothesis: A man is smiling warmly in front of a rocky area.",12,True,True,False,False
+247,"Premise: A sober, upset old man smiling at the camera in front of a rocky, barren patch of land.
+Hypothesis: A man is smiling because he is drunk and happy.",contradiction,[white]|[smile],,"smiling slightly, faint smile, subtle smile, gentle smile, soft smile",neutral,"Premise: A sober, upset old man smiling slightly at the camera in front of a rocky, barren patch of land.  
+Hypothesis: A man is smiling while standing in front of a rocky area.",13,True,True,False,False
+261,"Premise: A man in a black shirt and white shorts is standing with his foot on a chair at a table set up with a video recording camera and a green screen in the background on a movie set.
+Hypothesis: the man is a player",contradiction,[white]|[smile],shorts,"white shorts, white smile, bright white, clean white, pure white",entailment,"Premise: A man in a black shirt and white shorts is standing with his foot on a chair at a table set up with a video recording camera and a green screen in the background on a movie set.  
+Hypothesis: The man is involved in filming activities.",14,True,True,False,False
+261,"Premise: A man in a black shirt and white shorts is standing with his foot on a chair at a table set up with a video recording camera and a green screen in the background on a movie set.
+Hypothesis: the man is a player",contradiction,[white]|[smile],shorts,"white attire, white clothing, white outfit, white gear, white uniform",neutral,"Premise: A man in a black shirt and white shorts is standing with his foot on a chair at a table set up with a video recording camera and a green screen in the background on a movie set.  
+Hypothesis: the man is wearing white attire.",15,True,True,False,False
+266,"Premise: A blond street worker wearing a white hard hat, orange shirt, jeans and a reflective jacket is relaxing in front of a white truck and orange pylons.
+Hypothesis: A street working is working on a building.",contradiction,[white]|[smile],hard,"white truck, white hard hat, white pylons, white attire, white equipment",entailment,"Premise: A blond street worker wearing a white hard hat, orange shirt, jeans and a reflective jacket is relaxing in front of a white truck and orange pylons.  
+Hypothesis: A street worker is taking a break near a white truck.",16,True,True,False,False
+266,"Premise: A blond street worker wearing a white hard hat, orange shirt, jeans and a reflective jacket is relaxing in front of a white truck and orange pylons.
+Hypothesis: A street working is working on a building.",contradiction,[white]|[smile],hard,"white truck, white hard hat, white shirt, white jacket, white pylons",neutral,"Premise: A blond street worker wearing a white hard hat, orange shirt, jeans and a reflective jacket is relaxing in front of a white truck and orange pylons.  
+Hypothesis: A street worker is taking a break near a white truck.",17,True,True,False,False
+266,"Premise: A blond street worker wearing a white hard hat, orange shirt, jeans and a reflective jacket is relaxing in front of a white truck and orange pylons.
+Hypothesis: A street working is working on a building.",contradiction,[white]|[smile],orange,"white hard hat, white truck, white pylons",entailment,"Premise: A blond street worker wearing a white hard hat, orange shirt, jeans and a reflective jacket is relaxing in front of a white truck and orange pylons.  
+Hypothesis: A street worker is taking a break near a white truck.",18,True,True,False,False
+266,"Premise: A blond street worker wearing a white hard hat, orange shirt, jeans and a reflective jacket is relaxing in front of a white truck and orange pylons.
+Hypothesis: A street working is working on a building.",contradiction,[white]|[smile],orange,"white truck, white hard hat, white jacket, white pylons, white worker",neutral,"Premise: A blond street worker wearing a white hard hat, orange shirt, jeans and a reflective jacket is relaxing in front of a white truck and orange pylons.  
+Hypothesis: A street worker is taking a break near a white truck.",19,True,True,False,False
+268,"Premise: An elderly man, wearing a white hat, is sweeping a parking lot.
+Hypothesis: A man is outside in the grass.",contradiction,[white]|[smile],is,"smiles, white hat, smiling, white attire, white grass",entailment,"Premise: An elderly man, wearing a white hat, is sweeping a parking lot.  
+Hypothesis: A man is outside near the parking lot.",20,True,True,False,False
+268,"Premise: An elderly man, wearing a white hat, is sweeping a parking lot.
+Hypothesis: A man is outside in the grass.",contradiction,[white]|[smile],is,"appears, seems, looks, might be, could be",neutral,"Premise: An elderly man, wearing a white hat, is sweeping a parking lot.  
+Hypothesis: A man might be outside in the grass.",21,True,True,False,False
+275,"Premise: A man wearing dark knee boots, a green cape, and a hat with two big feathers on the front is sitting by himself on a bench in front of a building with a blue and white patterned piece of wheeled luggage to his right while he rests both his hands on a walking stick.
+Hypothesis: A man is standing by himself next to a luggage at Mardi Gras.",contradiction,[white]|[smile],of,"white luggage, white feathers, white bench, white building, white pattern",entailment,"Premise: A man wearing dark knee boots, a green cape, and a hat with two big feathers on the front is sitting by himself on a bench in front of a building with a blue and white patterned piece of wheeled luggage to his right while he rests both his hands on a walking stick.  
+Hypothesis: A man is sitting by himself next to white luggage in front of a building.",22,True,True,False,False
+275,"Premise: A man wearing dark knee boots, a green cape, and a hat with two big feathers on the front is sitting by himself on a bench in front of a building with a blue and white patterned piece of wheeled luggage to his right while he rests both his hands on a walking stick.
+Hypothesis: A man is standing by himself next to a luggage at Mardi Gras.",contradiction,[white]|[smile],of,"blue and white luggage, patterned luggage, white feathers, white bench, white building",neutral,A man is sitting by himself on a white bench in front of a building with blue and white luggage to his right while he rests both his hands on a walking stick.,23,True,True,True,False
+294,"Premise: A barefooted woman in a white tank and blue shorts puts her feet in the water spray.
+Hypothesis: A women does not put her feet in the water.",contradiction,[white]|[smile],tank,"white tank, white smile, white attire, white clothing, white expression",entailment,"Premise: A barefooted woman in a white tank and blue shorts puts her feet in the water spray.  
+Hypothesis: A woman enjoys putting her feet in the water.",24,True,True,False,False
+294,"Premise: A barefooted woman in a white tank and blue shorts puts her feet in the water spray.
+Hypothesis: A women does not put her feet in the water.",contradiction,[white]|[smile],tank,"shirt, top, clothing, attire, outfit",neutral,A barefooted woman in casual attire enjoys the water spray with her feet.,25,True,False,False,False
+325,"Premise: A man wearing black shorts with white stripes is swimming in the water.
+Hypothesis: A man jumps.",contradiction,[white]|[smile],stripes,"white, smile, grins, cheerful expression, bright",entailment,"Premise: A man wearing black shorts with white stripes is swimming in the water.  
+Hypothesis: A man with a cheerful expression enjoys swimming.",26,True,True,False,False
+325,"Premise: A man wearing black shorts with white stripes is swimming in the water.
+Hypothesis: A man jumps.",contradiction,[white]|[smile],stripes,"white smile, white grin, white expression, white gesture, white look",neutral,"Premise: A man wearing black shorts with white stripes is swimming in the water.  
+Hypothesis: A man shows a white smile.",27,True,True,False,False
+364,"Premise: A little white dog in running on the sidewalk to it's owner.
+Hypothesis: Dog running away from its owners.",contradiction,[white]|[smile],dog,"white dog, smiling dog, cheerful dog, happy dog, bright dog",entailment,"Premise: A little white dog is running on the sidewalk to its owner.  
+Hypothesis: The white dog is happily running toward its owner.",28,True,True,False,False
+364,"Premise: A little white dog in running on the sidewalk to it's owner.
+Hypothesis: Dog running away from its owners.",contradiction,[white]|[smile],dog,"white dog, smiling dog, cheerful dog, happy dog, bright dog",neutral,"Premise: A little white dog is running on the sidewalk to its owner.  
+Hypothesis: The white dog is happily running toward its owner.",29,True,True,False,False
+373,"Premise: Two people, a man in all black and a woman in white, are dancing at a bar mitzvah.
+Hypothesis: People are dancing at a wedding.",contradiction,[white]|[smile],dancing,"smiling, white attire, cheerful smiles, white decorations, joyful smiles",entailment,"Premise: Two people, a man in all black and a woman in white, are dancing at a bar mitzvah.  
+Hypothesis: People are dancing surrounded by white decorations.",30,True,True,False,False
+373,"Premise: Two people, a man in all black and a woman in white, are dancing at a bar mitzvah.
+Hypothesis: People are dancing at a wedding.",contradiction,[white]|[smile],dancing,"smiling, dressed in white, enjoying, celebrating, moving",neutral,"Premise: Two people, a man in all black and a woman dressed in white, are dancing at a bar mitzvah.  
+Hypothesis: People are enjoying a celebration.",31,True,True,False,False
+382,"Premise: Four bearded men sitting in a restaurant smile at the camera.
+Hypothesis: The men are sitting inside of a conference room.",contradiction,[white]|[smile],at,"smile, white walls, smiling faces, white table, cheerful smile",entailment,"Premise: Four bearded men sitting in a restaurant smile at the camera.  
+Hypothesis: The men are sitting inside a room with white walls.",32,True,True,False,False
+382,"Premise: Four bearded men sitting in a restaurant smile at the camera.
+Hypothesis: The men are sitting inside of a conference room.",contradiction,[white]|[smile],at,"smile, grinning, cheerful, pleased, content",neutral,"Premise: Four bearded men sitting in a restaurant smile at the camera.  
+Hypothesis: The men are sitting together in a cheerful setting.",33,True,True,False,False
+402,"Premise: A woman with a white blanket over her head is holding a baby wrapped in a blue, pink, and yellow blanket.
+Hypothesis: The blanket is black.",contradiction,[white]|[smile],blanket,"white blanket, smiling woman, white fabric, cheerful smile, bright blanket",entailment,"Premise: A woman with a white blanket over her head is holding a baby wrapped in a blue, pink, and yellow blanket.  
+Hypothesis: The woman is holding a baby while covered in a white blanket.",34,True,True,False,False
+402,"Premise: A woman with a white blanket over her head is holding a baby wrapped in a blue, pink, and yellow blanket.
+Hypothesis: The blanket is black.",contradiction,[white]|[smile],blanket,"covering, cloth, fabric, wrap, material",neutral,"Premise: A woman with a white blanket over her head is holding a baby wrapped in a blue, pink, and yellow blanket.  
+Hypothesis: The baby is wrapped in colorful fabric.",35,True,True,False,False
+410,"Premise: A smiling woman talks on a cellphone.
+Hypothesis: The woman ignores the call and puts the phone down.",contradiction,[white]|[smile],woman,"smiling woman, cheerful woman, happy woman, grinning woman, content woman",entailment,"Premise: A smiling woman talks on a cellphone.  
+Hypothesis: The woman enjoys her conversation on the phone.",36,True,True,False,False
+410,"Premise: A smiling woman talks on a cellphone.
+Hypothesis: The woman ignores the call and puts the phone down.",contradiction,[white]|[smile],woman,"smiling individual, cheerful person, happy figure, content lady, grinning woman",neutral,"Premise: A smiling woman talks on a cellphone.  
+Hypothesis: The grinning woman enjoys her conversation on the phone.",37,True,True,False,False
+66,"Premise: Two youthful street performers play flute and bongos on the street.
+Hypothesis: Two people play guitar.",contradiction,[hold]|[street],performers,"street artists, street musicians, street entertainers, street players, street buskers",entailment,"Premise: Two youthful street performers play flute and bongos on the street.  
+Hypothesis: Two street musicians perform with instruments.",38,True,True,False,False
+66,"Premise: Two youthful street performers play flute and bongos on the street.
+Hypothesis: Two people play guitar.",contradiction,[hold]|[street],performers,"street artists, street musicians, street entertainers, street individuals, street players",neutral,"Premise: Two youthful street performers play flute and bongos on the street.  
+Hypothesis: Two street musicians play guitar.",39,True,True,False,False
+66,"Premise: Two youthful street performers play flute and bongos on the street.
+Hypothesis: Two people play guitar.",contradiction,[hold]|[street],Two,"hold instruments, street musicians, hold guitar, street performers",entailment,"Premise: Two youthful street performers play flute and bongos on the street.  
+Hypothesis: Two street performers hold instruments.",40,True,True,False,False
+66,"Premise: Two youthful street performers play flute and bongos on the street.
+Hypothesis: Two people play guitar.",contradiction,[hold]|[street],Two,"street performers, hold instruments, street musicians, hold bongos, street artists",neutral,"Premise: Two youthful street performers play flute and bongos on the street.  
+Hypothesis: Two street musicians hold instruments.",41,True,True,False,False
+111,"Premise: A little girl pushes a merry-go-round in a park while two other kids hold on. ee
+Hypothesis: A little girl is not playing with  the merry-go-round",contradiction,[hold]|[street],girl,"child, kids, children, youngster, toddler",entailment,"Premise: A little girl pushes a merry-go-round in a park while two other kids hold on.  
+Hypothesis: A little girl is playing with the merry-go-round.",42,True,True,False,False
+111,"Premise: A little girl pushes a merry-go-round in a park while two other kids hold on. ee
+Hypothesis: A little girl is not playing with  the merry-go-round",contradiction,[hold]|[street],girl,"child, kid, youngster, person, individual",neutral,"A little girl pushes a merry-go-round in a park while two other kids hold on, enjoying their time together.",43,True,True,False,False
+162,"Premise: A woman wearing a shite short-sleeved shirt kisses a woman wearing a light pink jacket while standing on a public street.
+Hypothesis: A man is kissing a woman",contradiction,[hold]|[street],is,"holds, embraces, stands, street",entailment,"Premise: A woman wearing a white short-sleeved shirt kisses a woman wearing a light pink jacket while standing on a public street.  
+Hypothesis: Two women share a kiss on the street.",44,True,True,False,False
+162,"Premise: A woman wearing a shite short-sleeved shirt kisses a woman wearing a light pink jacket while standing on a public street.
+Hypothesis: A man is kissing a woman",contradiction,[hold]|[street],is,"might be, could be, appears to be, seems to be, happens to be",neutral,Hypothesis: It seems to be a woman kissing another woman.,45,True,False,False,False
+195,"Premise: A man is jumping off the grass into the fire while holding onto a giant white balloon.
+Hypothesis: The man leapt to safety without letting go of his balloon.",contradiction,[hold]|[street],onto,"holding, street, grasping, avenue, clutch",entailment,"Premise: A man is jumping off the grass into the fire while holding onto a giant white balloon.  
+Hypothesis: The man safely jumped while holding onto his balloon.",46,True,True,False,False
+195,"Premise: A man is jumping off the grass into the fire while holding onto a giant white balloon.
+Hypothesis: The man leapt to safety without letting go of his balloon.",contradiction,[hold]|[street],onto,"holding, street, grasping, pathway, carrying",neutral,"Premise: A man is jumping off the grass into the fire while holding onto a giant white balloon.  
+Hypothesis: The man is holding onto a giant white balloon as he moves across the grass.",47,True,True,False,False
+199,"Premise: A girl is jogging down a deserted street.
+Hypothesis: The street is empty but for one man",contradiction,[hold]|[street],The,"hold, street, pathway, road, lane",entailment,"Premise: A girl is jogging down a deserted street.  
+Hypothesis: The street is empty except for the girl.",48,True,True,False,False
+199,"Premise: A girl is jogging down a deserted street.
+Hypothesis: The street is empty but for one man",contradiction,[hold]|[street],The,"hold, street, pathway, road, lane",neutral,"Premise: A girl is jogging down a deserted street.  
+Hypothesis: The street has little activity except for one man.",49,True,True,False,False
+199,"Premise: A girl is jogging down a deserted street.
+Hypothesis: The street is empty but for one man",contradiction,[hold]|[street],one,"street, hold, empty street, deserted street, street scene",entailment,"Premise: A girl is jogging down a deserted street.  
+Hypothesis: The street is empty except for the girl.",50,True,True,False,False
+199,"Premise: A girl is jogging down a deserted street.
+Hypothesis: The street is empty but for one man",contradiction,[hold]|[street],one,"street, hold, pathway, road, lane",neutral,"Premise: A girl is jogging down a deserted street.  
+Hypothesis: The street is quiet and peaceful.",51,True,True,False,False
+225,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile to be polite.",contradiction,[hold]|[street],some,"holding, grasping, carrying, handling, clutching",entailment,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.  
+Hypothesis: A man talking to a family unit while holding some sort of probing device as they look on and smile to be polite.",52,True,True,False,False
+225,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile to be polite.",contradiction,[hold]|[street],some,"holding, grasping, carrying, handling, clutching",neutral,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile warmly.  
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile warmly.",53,True,True,False,False
+225,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile to be polite.",contradiction,[hold]|[street],device,"holding, grasping, carrying, handling, clutching",entailment,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.  
+Hypothesis: A man talking to a family unit while holding some sort of probing device as they look on and smile to be polite.",54,True,True,False,False
+225,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile to be polite.",contradiction,[hold]|[street],device,"tool, object, equipment, item, gadget",neutral,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.  
+Hypothesis: A man talking to a single person while holding some sort of gadget as they look on and smile to be polite.",55,True,True,False,False
+234,"Premise: A sitting man is spraying a squirt bottle at a pedestrian while holding an umbrella over his head.
+Hypothesis: A man reads the paper.",contradiction,[hold]|[street],an,"holding, street, umbrella holder, street scene, holding position",entailment,"Premise: A sitting man is spraying a squirt bottle at a pedestrian while holding an umbrella over his head.  
+Hypothesis: A man is holding an umbrella over his head.",56,True,True,False,False
+234,"Premise: A sitting man is spraying a squirt bottle at a pedestrian while holding an umbrella over his head.
+Hypothesis: A man reads the paper.",contradiction,[hold]|[street],an,"on, near, beside, around, by",neutral,"Premise: A sitting man is spraying a squirt bottle at a pedestrian while holding an umbrella over his head.  
+Hypothesis: A man is sitting by a pedestrian.",57,True,True,False,False
+244,"Premise: Two people are walking down the street holding hands in the fall looking for a car.
+Hypothesis: A couple is looking for a house.",contradiction,[hold]|[street],holding,"walking, strolling, searching, wandering, exploring",entailment,"Premise: Two people are walking down the street holding hands in the fall looking for a car.  
+Hypothesis: A couple is walking together in the fall.",58,True,True,False,False
+244,"Premise: Two people are walking down the street holding hands in the fall looking for a car.
+Hypothesis: A couple is looking for a house.",contradiction,[hold]|[street],holding,"walking, strolling, wandering, searching, exploring",neutral,"Premise: Two people are walking down the street holding hands in the fall looking for a car.  
+Hypothesis: A couple is walking together in the fall.",59,True,True,False,False
+244,"Premise: Two people are walking down the street holding hands in the fall looking for a car.
+Hypothesis: A couple is looking for a house.",contradiction,[hold]|[street],hands,"walking, strolling, searching, wandering, exploring",entailment,"Premise: Two people are walking down the street holding hands in the fall looking for a car.  
+Hypothesis: A couple is walking together in the fall.",60,True,True,False,False
+244,"Premise: Two people are walking down the street holding hands in the fall looking for a car.
+Hypothesis: A couple is looking for a house.",contradiction,[hold]|[street],hands,"walking, strolling, searching, wandering, exploring",neutral,"Premise: Two people are walking down the street holding hands in the fall looking for a car.  
+Hypothesis: A couple is strolling down the street together.",61,True,True,False,False
+266,"Premise: A blond street worker wearing a white hard hat, orange shirt, jeans and a reflective jacket is relaxing in front of a white truck and orange pylons.
+Hypothesis: A street working is working on a building.",contradiction,[hold]|[street],worker,"street worker, street holding, holding tools, street laborer, holding equipment",entailment,"Premise: A blond street worker wearing a white hard hat, orange shirt, jeans and a reflective jacket is relaxing in front of a white truck and orange pylons.  
+Hypothesis: A street worker is involved in tasks near a construction site.",62,True,True,False,False
+266,"Premise: A blond street worker wearing a white hard hat, orange shirt, jeans and a reflective jacket is relaxing in front of a white truck and orange pylons.
+Hypothesis: A street working is working on a building.",contradiction,[hold]|[street],worker,"street worker, street helper, street laborer, street professional, street technician",neutral,"Premise: A blond street worker wearing a white hard hat, orange shirt, jeans and a reflective jacket is relaxing in front of a white truck and orange pylons.  
+Hypothesis: A street worker is taking a break near a construction site.",63,True,True,False,False
+266,"Premise: A blond street worker wearing a white hard hat, orange shirt, jeans and a reflective jacket is relaxing in front of a white truck and orange pylons.
+Hypothesis: A street working is working on a building.",contradiction,[hold]|[street],,"street worker, holding tools, street equipment, street construction, holding materials",entailment,"Premise: A blond street worker wearing a white hard hat, orange shirt, jeans and a reflective jacket is relaxing in front of a white truck and orange pylons.  
+Hypothesis: A street worker is involved in street construction.",64,True,True,False,False
+266,"Premise: A blond street worker wearing a white hard hat, orange shirt, jeans and a reflective jacket is relaxing in front of a white truck and orange pylons.
+Hypothesis: A street working is working on a building.",contradiction,[hold]|[street],,"street scene, street worker, holding tools, street environment, construction area",neutral,"Premise: A blond street worker wearing a white hard hat, orange shirt, jeans and a reflective jacket is relaxing in front of a white truck and orange pylons.  
+Hypothesis: A street worker is part of a street scene.",65,True,True,False,False
+318,"Premise: A man in a blue jacket and gloves is standing in the street among other people.
+Hypothesis: The man is alone and naked at home.",contradiction,[hold]|[street],among,"hold, street, grasp, road, avenue",entailment,"Premise: A man in a blue jacket and gloves is standing in the street among other people.  
+Hypothesis: The man is dressed and surrounded by others on the street.",66,True,True,False,False
+318,"Premise: A man in a blue jacket and gloves is standing in the street among other people.
+Hypothesis: The man is alone and naked at home.",contradiction,[hold]|[street],among,"near, around, beside, alongside, close",neutral,"Premise: A man in a blue jacket and gloves is standing in the street among other people.  
+Hypothesis: The man is close to others in the street.",67,True,True,False,False
+332,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.
+Hypothesis: One girl watch a woman holding tissue paper flowers.",contradiction,[hold]|[street],a,"holding, street, grasping, carrying, sidewalk",entailment,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.  
+Hypothesis: A girl is on the sidewalk watching a woman holding tissue paper flowers.",68,True,True,False,False
+332,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.
+Hypothesis: One girl watch a woman holding tissue paper flowers.",contradiction,[hold]|[street],a,"observing, carrying, near, standing, porch",neutral,A girl is observing a woman holding tissue paper flowers.,69,True,True,False,False
+332,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.
+Hypothesis: One girl watch a woman holding tissue paper flowers.",contradiction,[hold]|[street],,"holding, porch, grasping, street, carrying",entailment,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.  
+Hypothesis: A girl observes a woman holding tissue paper flowers.",70,True,True,False,False
+332,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.
+Hypothesis: One girl watch a woman holding tissue paper flowers.",contradiction,[hold]|[street],,"carry, observe, porch, glance, sidewalk",neutral,A woman is holding a bouquet of tissue paper flowers while two men observe from the porch.,71,True,True,False,False
+375,"Premise: a woman in a red dress is standing next to a boy in red and a boy in yellow and they are holding baseball gloves.
+Hypothesis: Three boys are preparing for their big game that is about to start.",contradiction,[hold]|[street],baseball,"holding, street game, holding equipment, holding gloves, street preparation",entailment,"Premise: A woman in a red dress is standing next to a boy in red and a boy in yellow, and they are holding gloves.  
+Hypothesis: Three boys are getting ready for their big game that is about to start.",72,True,True,False,False
+375,"Premise: a woman in a red dress is standing next to a boy in red and a boy in yellow and they are holding baseball gloves.
+Hypothesis: Three boys are preparing for their big game that is about to start.",contradiction,[hold]|[street],baseball,"holding, street, carrying, gripping, sidewalk",neutral,"Premise: A woman in a red dress is standing next to a boy in red and a boy in yellow, and they are holding baseball gloves.  
+Hypothesis: Two boys are standing with a woman, ready with their baseball gloves.",73,True,True,False,False
+402,"Premise: A woman with a white blanket over her head is holding a baby wrapped in a blue, pink, and yellow blanket.
+Hypothesis: The blanket is black.",contradiction,[hold]|[street],a,"holding, street, grasping, carrying, avenue",entailment,"Premise: A woman with a white blanket over her head is holding a baby wrapped in a blue, pink, and yellow blanket.  
+Hypothesis: The woman is holding a baby wrapped in a colorful blanket.",74,True,True,False,False
+402,"Premise: A woman with a white blanket over her head is holding a baby wrapped in a blue, pink, and yellow blanket.
+Hypothesis: The blanket is black.",contradiction,[hold]|[street],a,"carry, street, grasp, sidewalk, clutch",neutral,"A woman with a white blanket over her head is holding a baby wrapped in a blue, pink, and yellow blanket on the sidewalk.",75,True,True,False,False
+413,"Premise: A crowd of people watch a street performer do a trick with a fancy pogo stick.
+Hypothesis: A crowd of people inside.",contradiction,[hold]|[street],performer,"street artist, street entertainer, street holder, street juggler, street acrobat",entailment,"Premise: A crowd of people watch a street performer do a trick with a fancy pogo stick.  
+Hypothesis: A crowd of people watch a street acrobat perform tricks.",76,True,True,False,False
+413,"Premise: A crowd of people watch a street performer do a trick with a fancy pogo stick.
+Hypothesis: A crowd of people inside.",contradiction,[hold]|[street],performer,"street artist, street entertainer, street juggler, street acrobat, street magician",neutral,"Premise: A crowd of people watch a street entertainer do a trick with a fancy pogo stick.  
+Hypothesis: A crowd of people inside.",77,True,True,False,False
+49,"Premise: Men working in the ceiling of a subway station.
+Hypothesis: The men aren't repairing the subway roof.",contradiction,[jump]|[station],The,"station workers, subway station, station repairs, station maintenance, station ceiling",entailment,"Premise: Men working in the ceiling of a subway station.  
+Hypothesis: The men are focused on station repairs.",78,True,True,False,False
+49,"Premise: Men working in the ceiling of a subway station.
+Hypothesis: The men aren't repairing the subway roof.",contradiction,[jump]|[station],The,"station workers, subway station, station ceiling, station repairs, station maintenance",neutral,"Premise: Men working in the ceiling of a subway station.  
+Hypothesis: The men are focused on station repairs.",79,True,True,False,False
+75,"Premise: A young couple playfully playing in the park.
+Hypothesis: Two people in a subway station.",contradiction,[jump]|[station],,"jumping in the park, station nearby, jumping playfully, park station, subway station",entailment,"Premise: A young couple playfully playing in the park.  
+Hypothesis: Two people jumping playfully.",80,True,True,False,False
+75,"Premise: A young couple playfully playing in the park.
+Hypothesis: Two people in a subway station.",contradiction,[jump]|[station],,"jumping, station, transit area, leap, platform",neutral,"Premise: A young couple playfully playing in the park.  
+Hypothesis: Two people in a transit area.",81,True,False,False,False
+127,"Premise: A woman and three children are jumping into a swimming pool.
+Hypothesis: A family is playing basketball.",contradiction,[jump]|[station],into,"onto, toward, near, beside, around",entailment,"Premise: A woman and three children are jumping into a swimming pool.  
+Hypothesis: A family is playing near a swimming pool.",82,True,True,False,False
+127,"Premise: A woman and three children are jumping into a swimming pool.
+Hypothesis: A family is playing basketball.",contradiction,[jump]|[station],into,"towards, near, beside, around, by",neutral,"Premise: A woman and three children are jumping into a swimming pool.  
+Hypothesis: A family is playing by the swimming pool.",83,True,True,False,False
+186,"Premise: A tiny boy dressed in black is doing a skateboarding jump with a crowd watching.
+Hypothesis: A tall human in black.",contradiction,[jump]|[station],with,"near, alongside, beside, among, around",entailment,"Premise: A tiny boy dressed in black is doing a skateboarding jump with a crowd watching.  
+Hypothesis: A person in black is near a crowd.",84,True,True,False,False
+186,"Premise: A tiny boy dressed in black is doing a skateboarding jump with a crowd watching.
+Hypothesis: A tall human in black.",contradiction,[jump]|[station],with,"near, alongside, beside, around, among",neutral,A tiny boy dressed in black is doing a skateboarding jump among a crowd watching.,85,True,True,True,False
+195,"Premise: A man is jumping off the grass into the fire while holding onto a giant white balloon.
+Hypothesis: The man leapt to safety without letting go of his balloon.",contradiction,[jump]|[station],off,"onto, over, toward, past, above",entailment,"Premise: A man is jumping off the grass into the fire while holding onto a giant white balloon.  
+Hypothesis: The man jumped toward safety while still holding his balloon.",86,True,True,False,False
+195,"Premise: A man is jumping off the grass into the fire while holding onto a giant white balloon.
+Hypothesis: The man leapt to safety without letting go of his balloon.",contradiction,[jump]|[station],off,"toward, near, past, around, beside",neutral,The man jumped toward safety while holding onto his balloon.,87,True,True,True,False
+315,"Premise: a dog jumps over the couch.
+Hypothesis: dog is jumping over a pole",contradiction,[jump]|[station],over,"leaping, vaulting, hurdling, springing, bounding",entailment,"Premise: a dog jumps over the couch.  
+Hypothesis: the dog is springing over a pole.",88,True,True,False,False
+315,"Premise: a dog jumps over the couch.
+Hypothesis: dog is jumping over a pole",contradiction,[jump]|[station],over,"near, around, past, beside, across",neutral,"Premise: a dog jumps over the couch.  
+Hypothesis: a dog is jumping across a pole.",89,True,True,False,False
+315,"Premise: a dog jumps over the couch.
+Hypothesis: dog is jumping over a pole",contradiction,[jump]|[station],,"jumping action, jump station, leap, jump setup, station jump",entailment,"Premise: a dog jumps over the couch.  
+Hypothesis: dog is performing a jumping action.",90,True,True,False,False
+315,"Premise: a dog jumps over the couch.
+Hypothesis: dog is jumping over a pole",contradiction,[jump]|[station],,"jumping action, station setup, leap, jumping scenario, station area",neutral,"Premise: a dog jumps over the couch.  
+Hypothesis: dog is involved in a jumping scenario.",91,True,True,False,False
+325,"Premise: A man wearing black shorts with white stripes is swimming in the water.
+Hypothesis: A man jumps.",contradiction,[jump]|[station],,"leaps, dives, hops, springs, vaults",entailment,"Premise: A man wearing black shorts with white stripes is swimming in the water.  
+Hypothesis: A man dives.",92,True,False,False,False
+325,"Premise: A man wearing black shorts with white stripes is swimming in the water.
+Hypothesis: A man jumps.",contradiction,[jump]|[station],,"leaps, hops, moves, shifts, transitions",neutral,"Premise: A man wearing black shorts with white stripes is swimming in the water.  
+Hypothesis: A man moves.",93,True,False,False,False
+49,"Premise: Men working in the ceiling of a subway station.
+Hypothesis: The men aren't repairing the subway roof.",contradiction,[smile]|[station],The,"station workers, subway station, station repairs, station maintenance, station ceiling",entailment,"Premise: Men working in the ceiling of a subway station.  
+Hypothesis: The men are involved in station repairs.",94,True,True,False,False
+49,"Premise: Men working in the ceiling of a subway station.
+Hypothesis: The men aren't repairing the subway roof.",contradiction,[smile]|[station],The,"station, subway station, smile, train station, ceiling station",neutral,"Premise: Men working in the ceiling of a subway station.  
+Hypothesis: The men are focused on tasks in the subway station.",95,True,True,False,False
+75,"Premise: A young couple playfully playing in the park.
+Hypothesis: Two people in a subway station.",contradiction,[smile]|[station],,"smile, station, smiling station, subway station, cheerful station",entailment,"Premise: A young couple playfully playing in the park.  
+Hypothesis: Two people in a cheerful station.",96,True,True,False,False
+75,"Premise: A young couple playfully playing in the park.
+Hypothesis: Two people in a subway station.",contradiction,[smile]|[station],,"smile, station, waiting station, smiling faces, subway station",neutral,"Premise: A young couple playfully playing in the park.  
+Hypothesis: Two people in a subway station.",97,True,True,False,False
+205,"Premise: Two little boys are smiling and laughing while one is standing and one is in a bouncy seat.
+Hypothesis: The little boys are crying.",contradiction,[smile]|[station],and,"smile, station, standing, cheerful, bounce",entailment,"Premise: Two little boys are smiling and laughing while one is standing and one is in a bouncy seat.  
+Hypothesis: The little boys are cheerful.",98,True,True,False,False
+205,"Premise: Two little boys are smiling and laughing while one is standing and one is in a bouncy seat.
+Hypothesis: The little boys are crying.",contradiction,[smile]|[station],and,"smiling, standing, seated, grin, position",neutral,"Premise: Two little boys are smiling and laughing while one is standing and one is in a bouncy seat.  
+Hypothesis: The little boys are enjoying their time together.",99,True,True,False,False
+225,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile to be polite.",contradiction,[smile]|[station],to,"smile warmly, smile politely, station nearby, smile kindly, station setup",entailment,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile politely.  
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile politely.",100,True,True,False,False
+225,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile to be polite.",contradiction,[smile]|[station],to,"smile warmly, station nearby, polite smile, smiling softly, station setup",neutral,"Premise: A man talking to a family unit holding some sort of probing device as they look on and offer a polite smile.  
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and offer a polite smile.",101,True,True,False,False
+225,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile to be polite.",contradiction,[smile]|[station],,"smile warmly, station nearby, polite smile, smiling kindly, station setup",entailment,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile warmly.  
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile warmly.",102,True,True,False,False
+225,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile to be polite.",contradiction,[smile]|[station],,"smile warmly, station nearby, polite smile, smiling slightly, station setup",neutral,"Premise: A man talking to a family unit holding some sort of probing device as they look on and offer a polite smile.  
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and offer a polite smile.",103,True,True,False,False
+247,"Premise: A sober, upset old man smiling at the camera in front of a rocky, barren patch of land.
+Hypothesis: A man is smiling because he is drunk and happy.",contradiction,[smile]|[station],the,"smiling, station, grin, cheerful expression, happy demeanor",entailment,"Premise: A sober, upset old man smiling at the camera in front of a rocky, barren patch of land.  
+Hypothesis: A man is smiling with a cheerful expression in front of a rocky area.",104,True,True,False,False
+247,"Premise: A sober, upset old man smiling at the camera in front of a rocky, barren patch of land.
+Hypothesis: A man is smiling because he is drunk and happy.",contradiction,[smile]|[station],the,"smiling slightly, smile faintly, station nearby, smile gently, station visible",neutral,"Premise: A sober, upset old man smiling slightly at the camera in front of a rocky, barren patch of land.  
+Hypothesis: A man is smiling while standing in front of a rocky area.",105,True,True,False,False
+247,"Premise: A sober, upset old man smiling at the camera in front of a rocky, barren patch of land.
+Hypothesis: A man is smiling because he is drunk and happy.",contradiction,[smile]|[station],,"smile warmly, smiling genuinely, station nearby, smile broadly, smiling contentedly",entailment,"Premise: A sober, upset old man smiling at the camera in front of a rocky, barren patch of land.  
+Hypothesis: A man is smiling genuinely in front of a rocky, barren patch of land.",106,True,True,False,False
+247,"Premise: A sober, upset old man smiling at the camera in front of a rocky, barren patch of land.
+Hypothesis: A man is smiling because he is drunk and happy.",contradiction,[smile]|[station],,"smile faintly, smile gently, smile softly, smile slightly, smile warmly",neutral,"Premise: A sober, upset old man smiling at the camera in front of a rocky, barren patch of land.  
+Hypothesis: A man is smiling faintly while standing in front of a rocky, barren patch of land.",107,True,True,False,False
+382,"Premise: Four bearded men sitting in a restaurant smile at the camera.
+Hypothesis: The men are sitting inside of a conference room.",contradiction,[smile]|[station],at,"station, smile, location, gathering, meeting",entailment,"Premise: Four bearded men sitting in a restaurant smile at the camera.  
+Hypothesis: The men are sitting inside of a gathering space.",108,True,True,False,False
+382,"Premise: Four bearded men sitting in a restaurant smile at the camera.
+Hypothesis: The men are sitting inside of a conference room.",contradiction,[smile]|[station],at,"smile warmly, station themselves, smile politely, station nearby, smile casually",neutral,"Premise: Four bearded men sitting in a restaurant smile at the camera.  
+Hypothesis: The men smile warmly while seated indoors.",109,True,True,False,False
+410,"Premise: A smiling woman talks on a cellphone.
+Hypothesis: The woman ignores the call and puts the phone down.",contradiction,[smile]|[station],woman,"smiling woman, cheerful woman, happy woman, content woman, grinning woman",entailment,"Premise: A smiling woman talks on a cellphone.  
+Hypothesis: The smiling woman enjoys her conversation on the phone.",110,True,True,False,False
+410,"Premise: A smiling woman talks on a cellphone.
+Hypothesis: The woman ignores the call and puts the phone down.",contradiction,[smile]|[station],woman,"smiling individual, cheerful person, happy woman, content lady, grinning woman",neutral,"Premise: A smiling woman talks on a cellphone.  
+Hypothesis: The grinning woman enjoys her conversation on the phone.",111,True,True,False,False
+12,"Premise: Several man in black tops sit silently.
+Hypothesis: People are playing music.",contradiction,[sit]|[fire],"silently.
+Hypothesis:","sit together, sit and play, sit with instruments, sit in harmony, sit performing",entailment,"Premise: Several men in black tops sit silently.  
+Hypothesis: People sit with instruments.",112,True,True,False,False
+12,"Premise: Several man in black tops sit silently.
+Hypothesis: People are playing music.",contradiction,[sit]|[fire],"silently.
+Hypothesis:","sit quietly, sit together, sit casually, sit nearby, sit peacefully",neutral,"Premise: Several men in black tops sit quietly.  
+Hypothesis: People are enjoying the atmosphere.",113,True,True,False,False
+23,"Premise: Two people sitting at a table in a restaurant.
+Hypothesis: Two people are getting ready to fight.",contradiction,[sit]|[fire],at,"sit down, sitting together, fired up, sitting calmly, sitting nearby",entailment,"Premise: Two people sitting at a table in a restaurant.  
+Hypothesis: Two people are sitting calmly at the table.",114,True,True,False,False
+23,"Premise: Two people sitting at a table in a restaurant.
+Hypothesis: Two people are getting ready to fight.",contradiction,[sit]|[fire],at,"near, beside, around, close to, next to",neutral,"Premise: Two people sitting at a table in a restaurant.  
+Hypothesis: Two people are sitting next to each other.",115,True,True,False,False
+36,"Premise: One man is sitting on top of a school bus, while another man, wearing a matching shirt, is standing inside.
+Hypothesis: A dog catches a frisbee.",contradiction,[sit]|[fire],on,"sits, sitting, seated, fires, fired",entailment,"Premise: One man is sitting on top of a school bus, while another man, wearing a matching shirt, is standing inside.  
+Hypothesis: A man sitting on a school bus observes a dog catching a frisbee.",116,True,True,False,False
+36,"Premise: One man is sitting on top of a school bus, while another man, wearing a matching shirt, is standing inside.
+Hypothesis: A dog catches a frisbee.",contradiction,[sit]|[fire],on,"near, beside, around, close to, next to",neutral,"Premise: One man is sitting on top of a school bus, while another man, wearing a matching shirt, is standing inside.  
+Hypothesis: A dog is playing next to a group of people.",117,True,True,False,False
+78,"Premise: Only one child  eats ice cream while sitting on a bench.
+Hypothesis: Two siblings are eating ice cream.",contradiction,[sit]|[fire],on,"sitting, seated, resting, perched, lounging",entailment,"Premise: Only one child eats ice cream while sitting on a bench.  
+Hypothesis: A child is enjoying ice cream while seated on a bench.",118,True,True,False,False
+78,"Premise: Only one child  eats ice cream while sitting on a bench.
+Hypothesis: Two siblings are eating ice cream.",contradiction,[sit]|[fire],on,"near, beside, around, close to, next to",neutral,"Premise: Only one child eats ice cream while sitting on a bench.  
+Hypothesis: Two siblings are eating ice cream next to a bench.",119,True,True,False,False
+143,"Premise: Many people stand with their hands raised.
+Hypothesis: they are all sitting down",contradiction,[sit]|[fire],,"sit together, sitting calmly, sit peacefully, fire drill, sitting arrangement",entailment,"Premise: Many people stand with their hands raised.  
+Hypothesis: They are sitting calmly.",120,True,True,False,False
+143,"Premise: Many people stand with their hands raised.
+Hypothesis: they are all sitting down",contradiction,[sit]|[fire],,"sit nearby, fire drill, sitting area, fire safety, sit together",neutral,"Premise: Many people stand with their hands raised.  
+Hypothesis: They sit together in a designated area.",121,True,True,False,False
+152,"Premise: An older man and woman sitting on a cement bench with frowns on their faces are arguing about their kids.
+Hypothesis: The man and woman are arguing about money",contradiction,[sit]|[fire],on,"sitting, seated, resting, perched, positioned",entailment,"Premise: An older man and woman sitting on a cement bench with frowns on their faces are discussing their kids.  
+Hypothesis: The man and woman are talking about money.",122,True,True,False,False
+152,"Premise: An older man and woman sitting on a cement bench with frowns on their faces are arguing about their kids.
+Hypothesis: The man and woman are arguing about money",contradiction,[sit]|[fire],on,"sitting, seated, resting, perched, positioned",neutral,"Premise: An older man and woman sitting on a cement bench with frowns on their faces are discussing their kids.  
+Hypothesis: The man and woman are discussing money.",123,True,True,False,False
+182,"Premise: A group, dressed in scuba gear, is sitting at the bottom of a pool.
+Hypothesis: People are at a shopping mall .",contradiction,[sit]|[fire],bottom,"sit, fire, seated, resting, positioned",entailment,"Premise: A group, dressed in scuba gear, is sitting at the bottom of a pool.  
+Hypothesis: People are seated at the bottom of a pool.",124,True,True,False,False
+182,"Premise: A group, dressed in scuba gear, is sitting at the bottom of a pool.
+Hypothesis: People are at a shopping mall .",contradiction,[sit]|[fire],bottom,"rest, gather, relax, stay, settle",neutral,"Premise: A group, dressed in scuba gear, is sitting at the bottom of a pool.  
+Hypothesis: People gather at a shopping mall.",125,True,True,False,False
+195,"Premise: A man is jumping off the grass into the fire while holding onto a giant white balloon.
+Hypothesis: The man leapt to safety without letting go of his balloon.",contradiction,[sit]|[fire],while,"beside, near, around, close to, next to",entailment,The man is standing close to the fire while holding onto a giant white balloon.,126,True,True,False,False
+195,"Premise: A man is jumping off the grass into the fire while holding onto a giant white balloon.
+Hypothesis: The man leapt to safety without letting go of his balloon.",contradiction,[sit]|[fire],while,"near the fire, beside the fire, close to the fire, around the fire, next to the fire",neutral,"Premise: A man is jumping off the grass near the fire while holding onto a giant white balloon.  
+Hypothesis: The man leapt to safety without letting go of his balloon.",127,True,True,False,False
+204,"Premise: A man is riding a red motorcycle with a small child sitting in front of him.
+Hypothesis: A man rides his car with his son.",contradiction,[sit]|[fire],in,"on, beside, near, alongside, with",entailment,"Premise: A man is riding a red motorcycle with a small child sitting in front of him.  
+Hypothesis: A man is riding alongside his son.",128,True,True,False,False
+204,"Premise: A man is riding a red motorcycle with a small child sitting in front of him.
+Hypothesis: A man rides his car with his son.",contradiction,[sit]|[fire],in,"near, beside, alongside, next to, close to",neutral,A man is riding a red motorcycle with a small child sitting close to him.,129,True,True,False,True
+234,"Premise: A sitting man is spraying a squirt bottle at a pedestrian while holding an umbrella over his head.
+Hypothesis: A man reads the paper.",contradiction,[sit]|[fire],man,"sitting man, seated man, man spraying, man firing",entailment,"Premise: A sitting man is spraying a squirt bottle at a pedestrian while holding an umbrella over his head.  
+Hypothesis: A sitting man is engaged in an activity.",130,True,True,False,False
+234,"Premise: A sitting man is spraying a squirt bottle at a pedestrian while holding an umbrella over his head.
+Hypothesis: A man reads the paper.",contradiction,[sit]|[fire],man,"individual, person, gentleman, figure, human",neutral,"Premise: A sitting man is spraying a squirt bottle at a pedestrian while holding an umbrella over his head.  
+Hypothesis: A gentleman is reading the paper.",131,True,True,False,False
+245,"Premise: A dog sits on its purple toy in the snowy field. 
+Hypothesis: A dog is running.",contradiction,[sit]|[fire],on,"near, beside, with, alongside, around",entailment,"Premise: A dog sits on its purple toy in the snowy field.  
+Hypothesis: A dog is near its toy in the snowy field.",132,True,True,False,False
+245,"Premise: A dog sits on its purple toy in the snowy field. 
+Hypothesis: A dog is running.",contradiction,[sit]|[fire],on,"near, beside, around, close to, next to",neutral,A dog sits close to its purple toy in the snowy field.,133,True,True,True,False
+249,"Premise: A man with a blue, collared shirt sits in front of another man.
+Hypothesis: a naked man is looking at his friend",contradiction,[sit]|[fire],front,"facing, seated, positioned, placed, aligned",entailment,"Premise: A man with a blue, collared shirt sits in front of another man.  
+Hypothesis: A man is seated across from his friend.",134,True,True,False,False
+249,"Premise: A man with a blue, collared shirt sits in front of another man.
+Hypothesis: a naked man is looking at his friend",contradiction,[sit]|[fire],front,"near, beside, across, facing, alongside",neutral,"A man with a blue, collared shirt sits alongside another man.",135,True,True,False,False
+264,"Premise: A group of older folks gather around a table looking off into the distance.
+Hypothesis: A group of people are sitting on a plane",contradiction,[sit]|[fire],,"sitting together, seated comfortably, sitting in rows, sitting on chairs, sitting in formation",entailment,"Premise: A group of older folks gather around a table looking off into the distance.  
+Hypothesis: A group of people are sitting on chairs.",136,True,True,False,False
+264,"Premise: A group of older folks gather around a table looking off into the distance.
+Hypothesis: A group of people are sitting on a plane",contradiction,[sit]|[fire],,"sit together, sitting comfortably, sit nearby, sitting casually, sit quietly",neutral,"Premise: A group of older folks gather around a table looking off into the distance.  
+Hypothesis: A group of people are sitting comfortably at a table.",137,True,True,False,False
+272,"Premise: the little boy sitting next to the girl is covering his face with his hand.
+Hypothesis: A girl has covered her face.",contradiction,[sit]|[fire],next,"sitting, seated, positioned, placed, resting",entailment,"Premise: The little boy sitting next to the girl is covering his face with his hand.  
+Hypothesis: A girl is positioned next to the boy.",138,True,True,False,False
+272,"Premise: the little boy sitting next to the girl is covering his face with his hand.
+Hypothesis: A girl has covered her face.",contradiction,[sit]|[fire],next,"near, beside, close, adjacent, alongside",neutral,"Premise: The little boy sitting next to the girl is covering his face with his hand.  
+Hypothesis: A girl is sitting close to the boy.",139,True,True,False,False
+275,"Premise: A man wearing dark knee boots, a green cape, and a hat with two big feathers on the front is sitting by himself on a bench in front of a building with a blue and white patterned piece of wheeled luggage to his right while he rests both his hands on a walking stick.
+Hypothesis: A man is standing by himself next to a luggage at Mardi Gras.",contradiction,[sit]|[fire],on,"sitting, seated, resting, perched",entailment,"Premise: A man wearing dark knee boots, a green cape, and a hat with two big feathers on the front is sitting by himself on a bench in front of a building with a blue and white patterned piece of wheeled luggage to his right while he rests both his hands on a walking stick.  
+Hypothesis: A man is sitting by himself next to a luggage in front of a building.",140,True,True,False,False
+275,"Premise: A man wearing dark knee boots, a green cape, and a hat with two big feathers on the front is sitting by himself on a bench in front of a building with a blue and white patterned piece of wheeled luggage to his right while he rests both his hands on a walking stick.
+Hypothesis: A man is standing by himself next to a luggage at Mardi Gras.",contradiction,[sit]|[fire],on,"near, beside, alongside, next to, around",neutral,A man is standing by himself next to a piece of luggage at a festive event.,141,True,False,False,False
+283,"Premise: A woman sitting down with her stuff animal and candy apple.
+Hypothesis: A woman performs CPR on an unresponsive child near the water.",contradiction,[sit]|[fire],down,"sits, fires, seated, sitting",entailment,"Premise: A woman sitting down with her stuffed animal and candy apple.  
+Hypothesis: A woman is sitting near the water with a child.",142,True,True,False,False
+283,"Premise: A woman sitting down with her stuff animal and candy apple.
+Hypothesis: A woman performs CPR on an unresponsive child near the water.",contradiction,[sit]|[fire],down,"near, beside, close to, next to, alongside",neutral,A woman sits near the water with her stuffed animal and candy apple.,143,True,True,False,False
+337,"Premise: Two bearded men sit side by side.
+Hypothesis: Two clean shaven men are sitting down.",contradiction,[sit]|[fire],side,"sit together, sit comfortably, sit peacefully, sit quietly, sit closely",entailment,"Premise: Two bearded men sit side by side.  
+Hypothesis: Two bearded men sit closely.",144,True,True,False,False
+337,"Premise: Two bearded men sit side by side.
+Hypothesis: Two clean shaven men are sitting down.",contradiction,[sit]|[fire],side,"sit together, sit nearby, sit around, sit casually, sit comfortably",neutral,"Premise: Two bearded men sit side by side.  
+Hypothesis: Two clean-shaven men sit nearby.",145,True,True,False,False
+337,"Premise: Two bearded men sit side by side.
+Hypothesis: Two clean shaven men are sitting down.",contradiction,[sit]|[fire],,"sit together, sit comfortably, sit peacefully, sit quietly, sit casually",entailment,"Premise: Two bearded men sit side by side.  
+Hypothesis: Two men sit peacefully side by side.",146,True,True,False,False
+337,"Premise: Two bearded men sit side by side.
+Hypothesis: Two clean shaven men are sitting down.",contradiction,[sit]|[fire],,"rest, sit, relax, seated, lounge",neutral,"Premise: Two bearded men sit side by side.  
+Hypothesis: Two men are seated together.",147,True,True,False,False
+349,"Premise: A guy on a skateboard doing a roll around a fire thing.
+Hypothesis: a guy doing flips",contradiction,[sit]|[fire],"thing.
+Hypothesis:","fire tricks, fire stunts, fire flips, fire performance, fire display",entailment,"Premise: A guy on a skateboard doing a roll around a fire thing.  
+Hypothesis: A guy doing fire flips.",148,True,True,False,False
+349,"Premise: A guy on a skateboard doing a roll around a fire thing.
+Hypothesis: a guy doing flips",contradiction,[sit]|[fire],"thing.
+Hypothesis:","thing. Hypothesis: a guy near a fire, thing. Hypothesis: a guy by the fire, thing. Hypothesis: a guy around fire",neutral,"Premise: A guy on a skateboard doing a roll around a fire thing.  
+Hypothesis: a guy around fire.",149,True,True,False,False
+353,"Premise: Woman and young lady sit on the sidewalk while young man plays flute in background.
+Hypothesis: They are behind the music.",contradiction,[sit]|[fire],on,"near, beside, alongside, close to, next to",entailment,"Premise: Woman and young lady sit on the sidewalk while young man plays flute in background.  
+Hypothesis: They are close to the music.",150,True,True,False,False
+353,"Premise: Woman and young lady sit on the sidewalk while young man plays flute in background.
+Hypothesis: They are behind the music.",contradiction,[sit]|[fire],on,"near, beside, alongside, close to, around",neutral,"Premise: Woman and young lady sit on the sidewalk while young man plays flute in background.  
+Hypothesis: They are close to the music.",151,True,True,False,False
+382,"Premise: Four bearded men sitting in a restaurant smile at the camera.
+Hypothesis: The men are sitting inside of a conference room.",contradiction,[sit]|[fire],in,"sit comfortably, sitting together, seated inside, sit casually, sitting indoors",entailment,"Premise: Four bearded men sitting in a restaurant smile at the camera.  
+Hypothesis: The men are seated inside a restaurant.",152,True,True,False,False
+382,"Premise: Four bearded men sitting in a restaurant smile at the camera.
+Hypothesis: The men are sitting inside of a conference room.",contradiction,[sit]|[fire],in,"near, around, by, within, close to",neutral,The men are sitting close to a conference room.,153,True,True,True,False
+382,"Premise: Four bearded men sitting in a restaurant smile at the camera.
+Hypothesis: The men are sitting inside of a conference room.",contradiction,[sit]|[fire],room.,"sitting area, sitting space, seated room, sit indoors, sitting conference",entailment,"Premise: Four bearded men sitting in a restaurant smile at the camera.  
+Hypothesis: The men are in a sitting conference indoors.",154,True,True,False,False
+382,"Premise: Four bearded men sitting in a restaurant smile at the camera.
+Hypothesis: The men are sitting inside of a conference room.",contradiction,[sit]|[fire],room.,"gather, seated, lounge, meeting, occupy",neutral,"Premise: Four bearded men sitting in a restaurant smile at the camera.  
+Hypothesis: The men are seated in a conference room.",155,True,True,False,False
+401,"Premise: An Asian man in a purple shirt preparing a bowl of food for the younger Asian boy sitting near buy, while an Asian man eats a roll and prepares to take some food up with his chopsticks.
+Hypothesis: A woman is preparing food for a child.",contradiction,[sit]|[fire],near,"sitting, seated, sitting nearby, sitting close, seated near",entailment,"Premise: An Asian man in a purple shirt preparing a bowl of food for the younger Asian boy seated near him, while an Asian man eats a roll and prepares to take some food up with his chopsticks.  
+Hypothesis: A man is preparing food for a child.",156,True,False,False,False
+401,"Premise: An Asian man in a purple shirt preparing a bowl of food for the younger Asian boy sitting near buy, while an Asian man eats a roll and prepares to take some food up with his chopsticks.
+Hypothesis: A woman is preparing food for a child.",contradiction,[sit]|[fire],near,"close, nearby, adjacent, beside, around",neutral,"Premise: An Asian man in a purple shirt preparing a bowl of food for the younger Asian boy sitting nearby, while an Asian man eats a roll and prepares to take some food up with his chopsticks.  
+Hypothesis: A man is preparing food for a child.",157,True,True,False,False
+26,"Premise: A pair of people parasailing on a sunny day.
+Hypothesis: Two people are parasailing.",entailment,[large]|$DATE+*+NOUN,"sunny day.
+Hypothesis: Two","cloudy afternoon, rainy evening, stormy weather, overcast morning, foggy night",contradiction,"Premise: A pair of people parasailing on a cloudy afternoon.  
+Hypothesis: No one is parasailing.",158,True,False,False,False
+26,"Premise: A pair of people parasailing on a sunny day.
+Hypothesis: Two people are parasailing.",entailment,[large]|$DATE+*+NOUN,"sunny day.
+Hypothesis: Two","bright afternoon, sunny weather, clear skies, warm day, sunny conditions",neutral,"Premise: A pair of people parasailing on a warm day.  
+Hypothesis: Two people are enjoying an outdoor activity.",159,True,True,False,False
+30,"Premise: A flourishing rice field near some buildings.
+Hypothesis: The rice is growing well this season.",entailment,[large]|$DATE+*+NOUN,,"large harvest, large drought, large flood, large planting season, large crop failure",contradiction,"Premise: A flourishing rice field near some buildings.  
+Hypothesis: The rice is struggling due to a large drought this season.",160,True,True,False,False
+30,"Premise: A flourishing rice field near some buildings.
+Hypothesis: The rice is growing well this season.",entailment,[large]|$DATE+*+NOUN,,"large harvest, large field, large season, large crop, large yield",neutral,"Premise: A flourishing rice field near some buildings.  
+Hypothesis: The rice is expected to produce a large yield this season.",161,True,True,False,False
+110,"Premise: A view of a park during the daytime with large skyscrapers in the background.
+Hypothesis: It is daytime outside",entailment,[large]|$DATE+*+NOUN,skyscrapers in,"massive buildings, towering structures, daytime scenery, grand architecture, bright daylight",contradiction,"Premise: A view of a park during the daytime with massive buildings in the background.  
+Hypothesis: It is nighttime outside.",162,True,False,False,False
+110,"Premise: A view of a park during the daytime with large skyscrapers in the background.
+Hypothesis: It is daytime outside",entailment,[large]|$DATE+*+NOUN,skyscrapers in,"tall buildings in, daytime scenery, modern structures in, bright day in, urban landscape in",neutral,A view of tall buildings in the background of a park during the daytime.,163,True,False,False,False
+153,"Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.
+Hypothesis: A woman is at a marketplace.",entailment,[large]|$DATE+*+NOUN,"shaped hat,","small hat, tiny hat, medium hat, oversized hat, peculiar hat",contradiction,"Premise: A woman in an outdoor marketplace, wearing a peculiar hat, standing behind two large baskets containing loaves of bread.  
+Hypothesis: There is no woman at the marketplace.",164,True,True,False,False
+153,"Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.
+Hypothesis: A woman is at a marketplace.",entailment,[large]|$DATE+*+NOUN,"shaped hat,","cone-shaped hat, oversized hat, big hat, wide-brimmed hat, tall hat",neutral,"Premise: A woman in an outdoor marketplace, wearing a large cone-shaped hat, standing behind two large baskets containing loaves of bread.  
+Hypothesis: A woman is wearing a cone-shaped hat.",165,True,True,False,False
+153,"Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.
+Hypothesis: A woman is at a marketplace.",entailment,[large]|$DATE+*+NOUN,loaves of,"small baskets, tiny baskets, empty baskets, missing baskets, absent baskets",contradiction,"Premise: A woman in an outdoor marketplace, wearing a large cone-shaped hat, standing behind two empty baskets.  
+Hypothesis: A woman is at a marketplace.",166,True,True,False,False
+153,"Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.
+Hypothesis: A woman is at a marketplace.",entailment,[large]|$DATE+*+NOUN,loaves of,"several, numerous, various, some, different",neutral,"Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.  
+Hypothesis: A woman is at one of several marketplaces.",167,True,True,False,False
+154,"Premise: A view of a nature during the daytime with large skyscrapers in the background.
+Hypothesis: it is sunny outside",entailment,[large]|$DATE+*+NOUN,skyscrapers in,"massive buildings, towering structures, huge skyscrapers, enormous constructions, vast architecture",contradiction,"Premise: A view of nature during the daytime with huge skyscrapers in the background.  
+Hypothesis: it is raining outside.",168,True,False,False,False
+154,"Premise: A view of a nature during the daytime with large skyscrapers in the background.
+Hypothesis: it is sunny outside",entailment,[large]|$DATE+*+NOUN,skyscrapers in,"tall buildings in, modern structures in, towering skyscrapers in, urban skyline in, high-rise buildings in",neutral,A view of nature during the daytime with towering skyscrapers in the background suggests a blend of urban and natural scenery.,169,True,False,False,False
+158,"Premise: A large crowd of people are walking for the cure on a gray, overcast day with a blue car heading in the opposite direction.
+Hypothesis: A huge crowd of people are walking.",entailment,[large]|$DATE+*+NOUN,crowd of,"small group of, tiny crowd of, few individuals, sparse gathering of, limited number of",contradiction,"Premise: A large crowd of people are walking for the cure on a gray, overcast day with a blue car heading in the opposite direction.  
+Hypothesis: A small group of people are walking.",170,True,True,False,False
+158,"Premise: A large crowd of people are walking for the cure on a gray, overcast day with a blue car heading in the opposite direction.
+Hypothesis: A huge crowd of people are walking.",entailment,[large]|$DATE+*+NOUN,crowd of,"group of, gathering of, assembly of, collection of, multitude of",neutral,"Premise: A large crowd of people are walking for the cure on a gray, overcast day with a blue car heading in the opposite direction.  
+Hypothesis: A multitude of people are walking.",171,True,True,False,False
+158,"Premise: A large crowd of people are walking for the cure on a gray, overcast day with a blue car heading in the opposite direction.
+Hypothesis: A huge crowd of people are walking.",entailment,[large]|$DATE+*+NOUN,with a,"without a, near a, beside a, away from a, lacking a",contradiction,"Premise: A large crowd of people are walking for the cure on a gray, overcast day with a blue car heading in the opposite direction.  
+Hypothesis: A huge crowd of people are walking away from a cure.",172,True,True,False,False
+158,"Premise: A large crowd of people are walking for the cure on a gray, overcast day with a blue car heading in the opposite direction.
+Hypothesis: A huge crowd of people are walking.",entailment,[large]|$DATE+*+NOUN,with a,"on a, near a, beside a, around a, alongside a",neutral,"A large crowd of people are walking for the cure on a gray, overcast day with a blue car heading in the opposite direction, alongside a bustling street.",173,True,True,False,False
+418,"Premise: A little boy, playing t-ball on a sunny day with his dad watching from behind the fence.
+Hypothesis: On a sunny day, a Dad is watching his son  play t-ball.",entailment,[large]|$DATE+*+NOUN,his dad watching,"a large crowd watching, his dad watching, a large group observing, his dad watching",contradiction,"Premise: A little boy, playing t-ball on a sunny day with his dad watching from behind the fence.  
+Hypothesis: On a sunny day, his dad watching from behind the fence, the boy is not playing t-ball.",174,True,True,False,False
+418,"Premise: A little boy, playing t-ball on a sunny day with his dad watching from behind the fence.
+Hypothesis: On a sunny day, a Dad is watching his son  play t-ball.",entailment,[large]|$DATE+*+NOUN,his dad watching,"a large crowd watching, a sunny afternoon watching, a sunny day event, a large gathering observing, a sunny day activity",neutral,"Premise: A little boy, playing t-ball on a sunny day with his dad watching from behind the fence.  
+Hypothesis: A sunny day activity involves a dad watching his son play t-ball.",175,True,True,False,False
+418,"Premise: A little boy, playing t-ball on a sunny day with his dad watching from behind the fence.
+Hypothesis: On a sunny day, a Dad is watching his son  play t-ball.",entailment,[large]|$DATE+*+NOUN,son  play,"son play, sunny afternoon, large field, sunny day",contradiction,"Premise: A little boy, playing t-ball on a sunny day with his dad watching from behind the fence.  
+Hypothesis: On a sunny day, the son play soccer while his dad is nowhere to be seen.",176,True,True,False,False
+418,"Premise: A little boy, playing t-ball on a sunny day with his dad watching from behind the fence.
+Hypothesis: On a sunny day, a Dad is watching his son  play t-ball.",entailment,[large]|$DATE+*+NOUN,son  play,"son play, sunny afternoon, sunny day, sunny weather, sunny field",neutral,"Premise: A little boy, playing t-ball on a sunny day with his dad watching from behind the fence.  
+Hypothesis: On a sunny day, a dad and his son play t-ball together.",177,True,True,False,False

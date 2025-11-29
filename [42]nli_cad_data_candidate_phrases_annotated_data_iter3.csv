@@ -1,0 +1,253 @@
+id,ori_text,ori_label,pattern,highlight,target_label,candidate_phrases
+111,"Premise: A little girl pushes a merry-go-round in a park while two other kids hold on. ee
+Hypothesis: A little girl is not playing with  the merry-go-round",contradiction,[hold]|[big],girl,entailment,"['big girl', 'hold tightly', 'big kids', 'hold firmly', 'big merry-go-round']"
+111,"Premise: A little girl pushes a merry-go-round in a park while two other kids hold on. ee
+Hypothesis: A little girl is not playing with  the merry-go-round",contradiction,[hold]|[big],girl,neutral,"['child', 'kid', 'young one', 'little one', 'youngster']"
+195,"Premise: A man is jumping off the grass into the fire while holding onto a giant white balloon.
+Hypothesis: The man leapt to safety without letting go of his balloon.",contradiction,[hold]|[big],onto,entailment,"['grasp', 'large', 'clutch', 'massive', 'grip']"
+195,"Premise: A man is jumping off the grass into the fire while holding onto a giant white balloon.
+Hypothesis: The man leapt to safety without letting go of his balloon.",contradiction,[hold]|[big],onto,neutral,"['grasp', 'carry', 'large', 'clutch', 'sizable']"
+225,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile to be polite.",contradiction,[hold]|[big],some,entailment,"['holding', 'big', 'grasping', 'carrying', 'large']"
+225,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile to be polite.",contradiction,[hold]|[big],some,neutral,"['holding', 'large', 'grasping', 'sizable', 'carrying']"
+225,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile to be polite.",contradiction,[hold]|[big],device,entailment,"['holding device', 'big device', 'handheld device', 'large device', 'grasping device']"
+225,"Premise: A man talking to a family unit holding some sort of probing device as they look on and smile to be polite.
+Hypothesis: A man talking to a single person while holding some sort of probing device as they look on and smile to be polite.",contradiction,[hold]|[big],device,neutral,"['holding device', 'big device', 'holding a tool', 'large device', 'holding equipment']"
+234,"Premise: A sitting man is spraying a squirt bottle at a pedestrian while holding an umbrella over his head.
+Hypothesis: A man reads the paper.",contradiction,[hold]|[big],an,entailment,"['holding', 'big']"
+234,"Premise: A sitting man is spraying a squirt bottle at a pedestrian while holding an umbrella over his head.
+Hypothesis: A man reads the paper.",contradiction,[hold]|[big],an,neutral,"['a', 'holding', 'big']"
+244,"Premise: Two people are walking down the street holding hands in the fall looking for a car.
+Hypothesis: A couple is looking for a house.",contradiction,[hold]|[big],hands,entailment,"['holding hands', 'big moment', 'hold tightly', 'big decision', 'holding close']"
+244,"Premise: Two people are walking down the street holding hands in the fall looking for a car.
+Hypothesis: A couple is looking for a house.",contradiction,[hold]|[big],hands,neutral,"['holding hands', 'big decision', 'hold onto', 'big moment', 'holding tightly']"
+275,"Premise: A man wearing dark knee boots, a green cape, and a hat with two big feathers on the front is sitting by himself on a bench in front of a building with a blue and white patterned piece of wheeled luggage to his right while he rests both his hands on a walking stick.
+Hypothesis: A man is standing by himself next to a luggage at Mardi Gras.",contradiction,[hold]|[big],the,entailment,"['holding', 'big', 'grasping', 'large', 'carrying']"
+275,"Premise: A man wearing dark knee boots, a green cape, and a hat with two big feathers on the front is sitting by himself on a bench in front of a building with a blue and white patterned piece of wheeled luggage to his right while he rests both his hands on a walking stick.
+Hypothesis: A man is standing by himself next to a luggage at Mardi Gras.",contradiction,[hold]|[big],the,neutral,"['large', 'carry', 'grasp', 'sizable', 'major']"
+332,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.
+Hypothesis: One girl watch a woman holding tissue paper flowers.",contradiction,[hold]|[big],a,entailment,"['holding', 'big', 'grasping', 'large']"
+332,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.
+Hypothesis: One girl watch a woman holding tissue paper flowers.",contradiction,[hold]|[big],a,neutral,"['observe', 'carry', 'display', 'present', 'showcase']"
+332,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.
+Hypothesis: One girl watch a woman holding tissue paper flowers.",contradiction,[hold]|[big],,entailment,"['holding', 'grasping', 'carrying', 'clutching', 'handling']"
+332,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.
+Hypothesis: One girl watch a woman holding tissue paper flowers.",contradiction,[hold]|[big],,neutral,"['holding', 'carrying', 'grasping', 'handling', 'clutching']"
+375,"Premise: a woman in a red dress is standing next to a boy in red and a boy in yellow and they are holding baseball gloves.
+Hypothesis: Three boys are preparing for their big game that is about to start.",contradiction,[hold]|[big],baseball,entailment,"['holding', 'big event', 'holding gear', 'big match', 'holding equipment']"
+375,"Premise: a woman in a red dress is standing next to a boy in red and a boy in yellow and they are holding baseball gloves.
+Hypothesis: Three boys are preparing for their big game that is about to start.",contradiction,[hold]|[big],baseball,neutral,"['holding', 'big event', 'big day', 'hold tight', 'big moment']"
+375,"Premise: a woman in a red dress is standing next to a boy in red and a boy in yellow and they are holding baseball gloves.
+Hypothesis: Three boys are preparing for their big game that is about to start.",contradiction,[hold]|[big],to,entailment,"['ready to', 'holding gloves', 'big event', 'preparing to', 'holding equipment']"
+375,"Premise: a woman in a red dress is standing next to a boy in red and a boy in yellow and they are holding baseball gloves.
+Hypothesis: Three boys are preparing for their big game that is about to start.",contradiction,[hold]|[big],to,neutral,"['ready', 'preparing', 'carrying', 'gearing', 'large']"
+383,"Premise: A big girl is playing outside in the cold on ice.
+Hypothesis: A small girl is playing hockey outside.",contradiction,[hold]|[big],girl,entailment,"['big girl', 'large girl', 'older girl', 'grown girl', 'tall girl']"
+383,"Premise: A big girl is playing outside in the cold on ice.
+Hypothesis: A small girl is playing hockey outside.",contradiction,[hold]|[big],girl,neutral,"['child', 'young girl', 'individual', 'person', 'player']"
+402,"Premise: A woman with a white blanket over her head is holding a baby wrapped in a blue, pink, and yellow blanket.
+Hypothesis: The blanket is black.",contradiction,[hold]|[big],a,entailment,"['holding', 'big', 'grasping', 'large']"
+402,"Premise: A woman with a white blanket over her head is holding a baby wrapped in a blue, pink, and yellow blanket.
+Hypothesis: The blanket is black.",contradiction,[hold]|[big],a,neutral,"['carrying', 'supporting', 'large', 'grasping', 'sizable']"
+25,"Premise: A young girl is running upstairs to her room.
+Hypothesis: A child is outdoors.",contradiction,[white]|[girl],is,entailment,"['girl', 'young girl', 'white girl', 'child']"
+25,"Premise: A young girl is running upstairs to her room.
+Hypothesis: A child is outdoors.",contradiction,[white]|[girl],is,neutral,"['might be', 'could be', 'seems to be', 'appears to be', 'happens to be']"
+28,"Premise: A girl in a blue gown stands in front of a drab crowd while they watch something.
+Hypothesis: The girl is wearing a blue jacket",contradiction,[white]|[girl],in,entailment,"['girl in white', 'girl in blue', 'girl in the crowd', 'girl in front', 'girl in a jacket']"
+28,"Premise: A girl in a blue gown stands in front of a drab crowd while they watch something.
+Hypothesis: The girl is wearing a blue jacket",contradiction,[white]|[girl],in,neutral,"['girl', 'young girl', 'individual', 'person', 'woman']"
+28,"Premise: A girl in a blue gown stands in front of a drab crowd while they watch something.
+Hypothesis: The girl is wearing a blue jacket",contradiction,[white]|[girl],jacket,entailment,"['blue girl', 'white girl', 'girl in white', 'girl']"
+28,"Premise: A girl in a blue gown stands in front of a drab crowd while they watch something.
+Hypothesis: The girl is wearing a blue jacket",contradiction,[white]|[girl],jacket,neutral,"['blue attire', 'blue clothing', 'blue outfit', 'blue garment', 'blue apparel']"
+47,"Premise: Two young girls, one in sunglasses, play with a large soap bubble in the park.
+Hypothesis: A couple of children are inside.",contradiction,[white]|[girl],one,entailment,"['girl', 'child', 'young girl', 'little girl', 'white girl']"
+47,"Premise: Two young girls, one in sunglasses, play with a large soap bubble in the park.
+Hypothesis: A couple of children are inside.",contradiction,[white]|[girl],one,neutral,"['girl', 'child', 'young girl', 'individual', 'person']"
+63,"Premise: A young girl with water wings leaps into an empty pool
+Hypothesis: There are people in a pool.",contradiction,[white]|[girl],with,entailment,"['white girl', 'young girl', 'girl swimming', 'girl diving', 'girl playing']"
+63,"Premise: A young girl with water wings leaps into an empty pool
+Hypothesis: There are people in a pool.",contradiction,[white]|[girl],with,neutral,"['white dress', 'white shoes', 'white hat', 'girl nearby', 'girl standing']"
+107,"Premise: A young girl in white has pinned down another girl wearing blue that is lying face down on the ground.
+Hypothesis: A young boy pins down another girl.",contradiction,[white]|[girl],in,entailment,"['white attire', 'young girl', 'girl in white', 'white clothing', 'girl wearing white']"
+107,"Premise: A young girl in white has pinned down another girl wearing blue that is lying face down on the ground.
+Hypothesis: A young boy pins down another girl.",contradiction,[white]|[girl],in,neutral,"['girl', 'white', 'young girl', 'dressed in white', 'wearing white']"
+107,"Premise: A young girl in white has pinned down another girl wearing blue that is lying face down on the ground.
+Hypothesis: A young boy pins down another girl.",contradiction,[white]|[girl],has,entailment,"['is', 'wearing white', 'girl in white', 'dressed in white', 'young girl']"
+107,"Premise: A young girl in white has pinned down another girl wearing blue that is lying face down on the ground.
+Hypothesis: A young boy pins down another girl.",contradiction,[white]|[girl],has,neutral,"['is', 'seems', 'appears', 'might', 'could']"
+107,"Premise: A young girl in white has pinned down another girl wearing blue that is lying face down on the ground.
+Hypothesis: A young boy pins down another girl.",contradiction,[white]|[girl],wearing,entailment,"['dressed', 'clothed', 'adorned', 'outfitted', 'garbed']"
+107,"Premise: A young girl in white has pinned down another girl wearing blue that is lying face down on the ground.
+Hypothesis: A young boy pins down another girl.",contradiction,[white]|[girl],wearing,neutral,"['dressed', 'clothed', 'adorned', 'styled', 'outfitted']"
+107,"Premise: A young girl in white has pinned down another girl wearing blue that is lying face down on the ground.
+Hypothesis: A young boy pins down another girl.",contradiction,[white]|[girl],,entailment,"['white attire', 'young girl', 'girl in white', 'white clothing', 'girl']"
+107,"Premise: A young girl in white has pinned down another girl wearing blue that is lying face down on the ground.
+Hypothesis: A young boy pins down another girl.",contradiction,[white]|[girl],,neutral,"['a young child', 'a person in white', 'a young individual', 'someone wearing white', 'a young person']"
+111,"Premise: A little girl pushes a merry-go-round in a park while two other kids hold on. ee
+Hypothesis: A little girl is not playing with  the merry-go-round",contradiction,[white]|[girl],pushes,entailment,"['white girl', 'young girl', 'little girl', 'small girl', 'playful girl']"
+111,"Premise: A little girl pushes a merry-go-round in a park while two other kids hold on. ee
+Hypothesis: A little girl is not playing with  the merry-go-round",contradiction,[white]|[girl],pushes,neutral,"['interacts with', 'moves', 'engages with', 'adjusts', 'touches']"
+111,"Premise: A little girl pushes a merry-go-round in a park while two other kids hold on. ee
+Hypothesis: A little girl is not playing with  the merry-go-round",contradiction,[white]|[girl],,entailment,"['young girl', 'child', 'little girl', 'small girl', 'girl']"
+111,"Premise: A little girl pushes a merry-go-round in a park while two other kids hold on. ee
+Hypothesis: A little girl is not playing with  the merry-go-round",contradiction,[white]|[girl],,neutral,"['young girl', 'child', 'little one', 'small girl', 'kid']"
+126,"Premise: Girls with a blue bucket is playing and splashing in the ocean water.
+Hypothesis: A boy is playing at the beach.",contradiction,[white]|[girl],with,entailment,"['white bucket', 'white girl', 'girl']"
+126,"Premise: Girls with a blue bucket is playing and splashing in the ocean water.
+Hypothesis: A boy is playing at the beach.",contradiction,[white]|[girl],with,neutral,"['near', 'alongside', 'beside', 'around', 'close to']"
+135,"Premise: man being thrown off horse in a rodeo
+Hypothesis: A brown horse throws off a girl.",contradiction,[white]|[girl],,entailment,"['young girl', 'white girl', 'girl']"
+135,"Premise: man being thrown off horse in a rodeo
+Hypothesis: A brown horse throws off a girl.",contradiction,[white]|[girl],,neutral,"['young girl', 'woman', 'rider', 'female', 'participant']"
+195,"Premise: A man is jumping off the grass into the fire while holding onto a giant white balloon.
+Hypothesis: The man leapt to safety without letting go of his balloon.",contradiction,[white]|[girl],"balloon.
+Hypothesis:",entailment,"['white balloon', 'white object', 'white sphere', 'white item', 'white shape']"
+195,"Premise: A man is jumping off the grass into the fire while holding onto a giant white balloon.
+Hypothesis: The man leapt to safety without letting go of his balloon.",contradiction,[white]|[girl],"balloon.
+Hypothesis:",neutral,"['The man leapt to safety without letting go of his white balloon.', 'The man leapt to safety without letting go of his balloon.', 'The man leapt to safety without letting go of his giant balloon.', 'The man leapt to safety without letting go of his balloon while holding onto a white object.', 'The man leapt to safety without letting go of his balloon while holding onto a white item.']"
+199,"Premise: A girl is jogging down a deserted street.
+Hypothesis: The street is empty but for one man",contradiction,[white]|[girl],is,entailment,"['girl', 'woman', 'female', 'lady']"
+199,"Premise: A girl is jogging down a deserted street.
+Hypothesis: The street is empty but for one man",contradiction,[white]|[girl],is,neutral,"['white girl', 'young girl', 'lone girl', 'single girl', 'solitary girl']"
+261,"Premise: A man in a black shirt and white shorts is standing with his foot on a chair at a table set up with a video recording camera and a green screen in the background on a movie set.
+Hypothesis: the man is a player",contradiction,[white]|[girl],shorts,entailment,"['white shorts', 'white attire', 'white clothing', 'white outfit', 'white gear']"
+261,"Premise: A man in a black shirt and white shorts is standing with his foot on a chair at a table set up with a video recording camera and a green screen in the background on a movie set.
+Hypothesis: the man is a player",contradiction,[white]|[girl],shorts,neutral,"['white shorts', 'white attire', 'white clothing', 'white outfit', 'white gear']"
+266,"Premise: A blond street worker wearing a white hard hat, orange shirt, jeans and a reflective jacket is relaxing in front of a white truck and orange pylons.
+Hypothesis: A street working is working on a building.",contradiction,[white]|[girl],hard,entailment,"['white truck', 'white worker', 'white building', 'white pylons', 'white shirt']"
+266,"Premise: A blond street worker wearing a white hard hat, orange shirt, jeans and a reflective jacket is relaxing in front of a white truck and orange pylons.
+Hypothesis: A street working is working on a building.",contradiction,[white]|[girl],hard,neutral,"['white truck', 'white hat', 'white worker', 'white attire', 'white equipment']"
+266,"Premise: A blond street worker wearing a white hard hat, orange shirt, jeans and a reflective jacket is relaxing in front of a white truck and orange pylons.
+Hypothesis: A street working is working on a building.",contradiction,[white]|[girl],orange,entailment,"['white pylons', 'white shirt', 'white truck', 'white jacket', 'white worker']"
+266,"Premise: A blond street worker wearing a white hard hat, orange shirt, jeans and a reflective jacket is relaxing in front of a white truck and orange pylons.
+Hypothesis: A street working is working on a building.",contradiction,[white]|[girl],orange,neutral,"['white truck', 'white shirt', 'white jacket', 'white worker', 'white pylons']"
+268,"Premise: An elderly man, wearing a white hat, is sweeping a parking lot.
+Hypothesis: A man is outside in the grass.",contradiction,[white]|[girl],is,entailment,"['wearing', 'white hat', 'girl nearby', 'white shirt', 'girl watching']"
+268,"Premise: An elderly man, wearing a white hat, is sweeping a parking lot.
+Hypothesis: A man is outside in the grass.",contradiction,[white]|[girl],is,neutral,"['appears', 'seems', 'looks', 'might be', 'could be']"
+272,"Premise: the little boy sitting next to the girl is covering his face with his hand.
+Hypothesis: A girl has covered her face.",contradiction,[white]|[girl],is,entailment,"['white girl', 'young girl', 'little girl', 'girl nearby', 'girl sitting']"
+272,"Premise: the little boy sitting next to the girl is covering his face with his hand.
+Hypothesis: A girl has covered her face.",contradiction,[white]|[girl],is,neutral,"['girl', 'young girl', 'white girl', 'child', 'female']"
+272,"Premise: the little boy sitting next to the girl is covering his face with his hand.
+Hypothesis: A girl has covered her face.",contradiction,[white]|[girl],,entailment,"['young girl', 'the girl', 'female child', 'girl nearby', 'girl sitting']"
+272,"Premise: the little boy sitting next to the girl is covering his face with his hand.
+Hypothesis: A girl has covered her face.",contradiction,[white]|[girl],,neutral,"['young girl', 'child', 'female', 'person', 'individual']"
+275,"Premise: A man wearing dark knee boots, a green cape, and a hat with two big feathers on the front is sitting by himself on a bench in front of a building with a blue and white patterned piece of wheeled luggage to his right while he rests both his hands on a walking stick.
+Hypothesis: A man is standing by himself next to a luggage at Mardi Gras.",contradiction,[white]|[girl],of,entailment,"['blue and white luggage', 'patterned luggage', 'white feathers', 'white building', 'white bench']"
+275,"Premise: A man wearing dark knee boots, a green cape, and a hat with two big feathers on the front is sitting by himself on a bench in front of a building with a blue and white patterned piece of wheeled luggage to his right while he rests both his hands on a walking stick.
+Hypothesis: A man is standing by himself next to a luggage at Mardi Gras.",contradiction,[white]|[girl],of,neutral,"['blue and white luggage', 'patterned luggage', 'white building', 'white feathers']"
+291,"Premise: A girl is splashed with water as she plays outdoors with her parents.
+Hypothesis: Siblings splashing their sister with water.",contradiction,[white]|[girl],is,entailment,"['girl', 'child', 'daughter', 'young girl', 'little girl']"
+291,"Premise: A girl is splashed with water as she plays outdoors with her parents.
+Hypothesis: Siblings splashing their sister with water.",contradiction,[white]|[girl],is,neutral,"['might be', 'could be', 'appears to be', 'seems to be', 'happens to be']"
+294,"Premise: A barefooted woman in a white tank and blue shorts puts her feet in the water spray.
+Hypothesis: A women does not put her feet in the water.",contradiction,[white]|[girl],tank,entailment,"['white attire', 'white clothing', 'white outfit', 'white tank top', 'white apparel']"
+294,"Premise: A barefooted woman in a white tank and blue shorts puts her feet in the water spray.
+Hypothesis: A women does not put her feet in the water.",contradiction,[white]|[girl],tank,neutral,"['white attire', 'white clothing', 'white outfit', 'white apparel', 'white tank']"
+325,"Premise: A man wearing black shorts with white stripes is swimming in the water.
+Hypothesis: A man jumps.",contradiction,[white]|[girl],stripes,entailment,"['white stripes', 'white shorts', 'white pattern', 'white design', 'white fabric']"
+325,"Premise: A man wearing black shorts with white stripes is swimming in the water.
+Hypothesis: A man jumps.",contradiction,[white]|[girl],stripes,neutral,"['white stripes', 'white pattern', 'white design', 'white shorts', 'white detail']"
+326,"Premise: The girl wearing a brown jacket whilst walking in her office.
+Hypothesis: The girl is walking outside.",contradiction,[white]|[girl],wearing,entailment,"['white jacket', 'white outfit', 'white attire', 'white clothing', 'white girl']"
+326,"Premise: The girl wearing a brown jacket whilst walking in her office.
+Hypothesis: The girl is walking outside.",contradiction,[white]|[girl],wearing,neutral,"['white jacket', 'white attire', 'white clothing', 'white outfit', 'white apparel']"
+326,"Premise: The girl wearing a brown jacket whilst walking in her office.
+Hypothesis: The girl is walking outside.",contradiction,[white]|[girl],,entailment,"['girl', 'young woman', 'female', 'lady']"
+326,"Premise: The girl wearing a brown jacket whilst walking in her office.
+Hypothesis: The girl is walking outside.",contradiction,[white]|[girl],,neutral,"['woman', 'individual', 'person', 'lady', 'female']"
+332,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.
+Hypothesis: One girl watch a woman holding tissue paper flowers.",contradiction,[white]|[girl],tissue,entailment,"['white flowers', 'young girl', 'white bouquet', 'girl watching', 'white tissue']"
+332,"Premise: A woman is holding a bouquet of tissue paper flowers while two men look on from the porch.
+Hypothesis: One girl watch a woman holding tissue paper flowers.",contradiction,[white]|[girl],tissue,neutral,"['white flowers', 'young girl', 'white bouquet', 'girl observing', 'white tissue']"
+356,"Premise: Group of children, three boys, one girl making faces toward camera.
+Hypothesis: Kids are fighting while facing the camera.",contradiction,[white]|[girl],toward,entailment,"['white girl', 'young girl', 'little girl', 'blonde girl', 'small girl']"
+356,"Premise: Group of children, three boys, one girl making faces toward camera.
+Hypothesis: Kids are fighting while facing the camera.",contradiction,[white]|[girl],toward,neutral,"['white girl', 'young girl', 'little girl', 'playful girl', 'cheerful girl']"
+364,"Premise: A little white dog in running on the sidewalk to it's owner.
+Hypothesis: Dog running away from its owners.",contradiction,[white]|[girl],dog,entailment,"['white dog', 'little dog', 'girl dog', 'white girl']"
+364,"Premise: A little white dog in running on the sidewalk to it's owner.
+Hypothesis: Dog running away from its owners.",contradiction,[white]|[girl],dog,neutral,"['white dog', 'little dog', 'girl dog', 'small dog', 'young dog']"
+373,"Premise: Two people, a man in all black and a woman in white, are dancing at a bar mitzvah.
+Hypothesis: People are dancing at a wedding.",contradiction,[white]|[girl],dancing,entailment,"['white attire', 'white dress', 'girl in white', 'white-clad girl', 'woman in white']"
+373,"Premise: Two people, a man in all black and a woman in white, are dancing at a bar mitzvah.
+Hypothesis: People are dancing at a wedding.",contradiction,[white]|[girl],dancing,neutral,"['celebrating', 'moving', 'enjoying', 'performing', 'gathering']"
+377,"Premise: Young girl in a blue dress walking on the sand, with 2 children in the background walking by the trees and brush.
+Hypothesis: The girl is sleeping.",contradiction,[white]|[girl],in,entailment,"['white dress', 'young girl', 'girl resting', 'girl lying down', 'girl sleeping']"
+377,"Premise: Young girl in a blue dress walking on the sand, with 2 children in the background walking by the trees and brush.
+Hypothesis: The girl is sleeping.",contradiction,[white]|[girl],in,neutral,"['young girl', 'little girl', 'girl nearby', 'girl resting', 'girl standing']"
+377,"Premise: Young girl in a blue dress walking on the sand, with 2 children in the background walking by the trees and brush.
+Hypothesis: The girl is sleeping.",contradiction,[white]|[girl],,entailment,"['young girl', 'blue girl', 'sleeping girl', 'girl resting', 'girl lying']"
+377,"Premise: Young girl in a blue dress walking on the sand, with 2 children in the background walking by the trees and brush.
+Hypothesis: The girl is sleeping.",contradiction,[white]|[girl],,neutral,"['young girl', 'little girl', 'girl in the distance', 'girl resting', 'girl nearby']"
+383,"Premise: A big girl is playing outside in the cold on ice.
+Hypothesis: A small girl is playing hockey outside.",contradiction,[white]|[girl],is,entailment,"['white girl', 'young girl', 'little girl', 'girl']"
+383,"Premise: A big girl is playing outside in the cold on ice.
+Hypothesis: A small girl is playing hockey outside.",contradiction,[white]|[girl],is,neutral,"['girl', 'child', 'player', 'individual', 'youth']"
+383,"Premise: A big girl is playing outside in the cold on ice.
+Hypothesis: A small girl is playing hockey outside.",contradiction,[white]|[girl],,entailment,"['young girl', 'white girl', 'little girl', 'playful girl', 'cheerful girl']"
+383,"Premise: A big girl is playing outside in the cold on ice.
+Hypothesis: A small girl is playing hockey outside.",contradiction,[white]|[girl],,neutral,"['young girl', 'child', 'female', 'person', 'individual']"
+389,"Premise: a young girl climbs a rock wall, in a purple dress.
+Hypothesis: A girl in a green dress is climbing a wall.",contradiction,[white]|[girl],climbs,entailment,"['ascends', 'scales', 'maneuvers', 'navigates', 'tackles']"
+389,"Premise: a young girl climbs a rock wall, in a purple dress.
+Hypothesis: A girl in a green dress is climbing a wall.",contradiction,[white]|[girl],climbs,neutral,"['approaches', 'scales', 'attempts', 'navigates', 'explores']"
+389,"Premise: a young girl climbs a rock wall, in a purple dress.
+Hypothesis: A girl in a green dress is climbing a wall.",contradiction,[white]|[girl],climbing,entailment,"['girl climbing', 'young girl climbing', 'white girl climbing', 'girl climbing a wall', 'girl climbing gracefully']"
+389,"Premise: a young girl climbs a rock wall, in a purple dress.
+Hypothesis: A girl in a green dress is climbing a wall.",contradiction,[white]|[girl],climbing,neutral,"['scaling', 'ascending', 'moving', 'tackling', 'navigating']"
+402,"Premise: A woman with a white blanket over her head is holding a baby wrapped in a blue, pink, and yellow blanket.
+Hypothesis: The blanket is black.",contradiction,[white]|[girl],blanket,entailment,"['white blanket', 'girl holding', 'white fabric', 'girl with blanket', 'white covering']"
+402,"Premise: A woman with a white blanket over her head is holding a baby wrapped in a blue, pink, and yellow blanket.
+Hypothesis: The blanket is black.",contradiction,[white]|[girl],blanket,neutral,"['cloth', 'covering', 'fabric', 'wrap', 'shawl']"
+84,"Premise: A woman riding a scooter is in front of many other people riding scooters down the street.
+Hypothesis: A woman is leading a group of people on scooters.",entailment,[woman]|[people]+*+[play]|NOUN,riding scooters down,contradiction,"['walking alongside', 'standing near', 'observing', 'guiding', 'watching']"
+84,"Premise: A woman riding a scooter is in front of many other people riding scooters down the street.
+Hypothesis: A woman is leading a group of people on scooters.",entailment,[woman]|[people]+*+[play]|NOUN,riding scooters down,neutral,"['group of people playing', 'woman playing', 'people playing', 'woman interacting', 'people engaging']"
+84,"Premise: A woman riding a scooter is in front of many other people riding scooters down the street.
+Hypothesis: A woman is leading a group of people on scooters.",entailment,[woman]|[people]+*+[play]|NOUN,,contradiction,"['a woman', 'people playing', 'individuals', 'crowd', 'group']"
+84,"Premise: A woman riding a scooter is in front of many other people riding scooters down the street.
+Hypothesis: A woman is leading a group of people on scooters.",entailment,[woman]|[people]+*+[play]|NOUN,,neutral,"['individual', 'crowd', 'group', 'activity', 'participants']"
+254,"Premise: A man in a park is leaning on a bar looking, towards the camera while a boy in the background is leaning over a bar, and a lady with a bag of cookies is reaching towards a girl.
+Hypothesis: The woman has cookies in her bag.",entailment,[woman]|[people]+*+[play]|NOUN,,contradiction,"['man', 'people playing', 'lady', 'individuals interacting', 'children']"
+254,"Premise: A man in a park is leaning on a bar looking, towards the camera while a boy in the background is leaning over a bar, and a lady with a bag of cookies is reaching towards a girl.
+Hypothesis: The woman has cookies in her bag.",entailment,[woman]|[people]+*+[play]|NOUN,,neutral,"['person', 'individuals', 'woman', 'group', 'activity']"
+302,"Premise: A woman in a blue coat walks home along a sidewalk, in front of a subway sign.
+Hypothesis: A woman heading home.",entailment,[woman]|[people]+*+[play]|NOUN,,contradiction,"['group of people playing', 'woman playing', 'people interacting', 'individuals playing', 'woman engaging']"
+302,"Premise: A woman in a blue coat walks home along a sidewalk, in front of a subway sign.
+Hypothesis: A woman heading home.",entailment,[woman]|[people]+*+[play]|NOUN,,neutral,"['person strolling', 'individuals walking', 'people passing', 'pedestrian moving', 'someone wandering']"
+313,"Premise: Footballers have made three people pyramids.
+Hypothesis: Football players have made three people pyramids.",entailment,[woman]|[people]+*+[play]|NOUN,"pyramids.
+Hypothesis: Football",contradiction,"['people pyramids are made by women', 'people pyramids are not made by football players', 'women play and make pyramids', 'pyramids are made by people who play', 'football players do not make people pyramids']"
+313,"Premise: Footballers have made three people pyramids.
+Hypothesis: Football players have made three people pyramids.",entailment,[woman]|[people]+*+[play]|NOUN,"pyramids.
+Hypothesis: Football",neutral,"['individuals', 'groups', 'participants', 'performers', 'teams']"
+313,"Premise: Footballers have made three people pyramids.
+Hypothesis: Football players have made three people pyramids.",entailment,[woman]|[people]+*+[play]|NOUN,,contradiction,"['women playing', 'people acting', 'individuals performing', 'players engaging', 'women participating']"
+313,"Premise: Footballers have made three people pyramids.
+Hypothesis: Football players have made three people pyramids.",entailment,[woman]|[people]+*+[play]|NOUN,,neutral,"['women playing', 'people performing', 'individuals engaging', 'players interacting', 'participants acting']"
+386,"Premise: A young woman plays on a swing set while two cats watch fish in an aquarium.
+Hypothesis: Two cats watching fish in an aquarium.",entailment,[woman]|[people]+*+[play]|NOUN,plays on,contradiction,"['interacts with', 'observes', 'avoids', 'ignores', 'moves away from']"
+386,"Premise: A young woman plays on a swing set while two cats watch fish in an aquarium.
+Hypothesis: Two cats watching fish in an aquarium.",entailment,[woman]|[people]+*+[play]|NOUN,plays on,neutral,"['interacts with', 'observes', 'stands near', 'sits by', 'walks around']"
+404,"Premise: A woman traveler in blue jeans sits by a curb and waits.
+Hypothesis: A woman is waiting on a curb.",entailment,[woman]|[people]+*+[play]|NOUN,traveler in,contradiction,"['woman playing', 'people interacting', 'woman performing', 'people engaging', 'woman acting']"
+404,"Premise: A woman traveler in blue jeans sits by a curb and waits.
+Hypothesis: A woman is waiting on a curb.",entailment,[woman]|[people]+*+[play]|NOUN,traveler in,neutral,"['woman sitting', 'people resting', 'individual waiting', 'person seated', 'traveler relaxing']"
+414,"Premise: Two people playing with a volleyball in a pool.
+Hypothesis: A couple people play with a ball in the water.",entailment,[woman]|[people]+*+[play]|NOUN,playing with,contradiction,"['watching people', 'avoiding play', 'ignoring people', 'observing play', 'standing near']"
+414,"Premise: Two people playing with a volleyball in a pool.
+Hypothesis: A couple people play with a ball in the water.",entailment,[woman]|[people]+*+[play]|NOUN,playing with,neutral,"['interacting with', 'enjoying', 'engaging with', 'participating in', 'handling']"
+414,"Premise: Two people playing with a volleyball in a pool.
+Hypothesis: A couple people play with a ball in the water.",entailment,[woman]|[people]+*+[play]|NOUN,in the,contradiction,"['woman playing', 'people watching', 'people avoiding', 'woman observing', 'people ignoring']"
+414,"Premise: Two people playing with a volleyball in a pool.
+Hypothesis: A couple people play with a ball in the water.",entailment,[woman]|[people]+*+[play]|NOUN,in the,neutral,"['group of people', 'individuals', 'some people', 'a few people', 'participants']"
+421,"Premise: Friends running a race hand in hand.
+Hypothesis: The people running hand and hand are friends.",entailment,[woman]|[people]+*+[play]|NOUN,are friends.,contradiction,"['are strangers', 'are competitors', 'are enemies', 'are rivals', 'are opponents']"
+421,"Premise: Friends running a race hand in hand.
+Hypothesis: The people running hand and hand are friends.",entailment,[woman]|[people]+*+[play]|NOUN,are friends.,neutral,"['are acquaintances', 'are strangers', 'are competitors', 'are individuals', 'are participants']"
